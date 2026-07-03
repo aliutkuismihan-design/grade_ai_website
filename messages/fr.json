@@ -1,0 +1,149 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "security": "Sécurité",
+    "how": "Comment ça marche",
+    "levels": "Niveaux",
+    "pricing": "Tarifs",
+    "download": "Télécharger",
+    "cta": "Commencer gratuitement"
+  },
+  "hero": {
+    "badge": "Correction d'examens par IA",
+    "title": "Corrigez plus intelligemment",
+    "subtitle": "Numérisez les copies manuscrites, corrigez-les selon votre barème en quelques secondes et rendez des retours détaillés — grâce à l'IA.",
+    "cta": "Commencer gratuitement",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "windows": "Windows",
+    "downloadOn": "Télécharger sur",
+    "getItOn": "Disponible sur",
+    "getFor": "Obtenir pour",
+    "scanQr": "Scannez pour télécharger",
+    "levelLabel": "Niveau scolaire"
+  },
+  "features": {
+    "title": "Tout pour corriger plus vite",
+    "subtitle": "Conçu pour les enseignants qui préfèrent enseigner que corriger.",
+    "unique": "Exclusif à GradeAI",
+    "aiCurriculum": {
+      "title": "Correction selon le programme",
+      "desc": "Vérifie les réponses selon les référentiels officiels, pas seulement un corrigé."
+    },
+    "ocr": {
+      "title": "OCR manuscrit (HTR)",
+      "desc": "Lit les symboles mathématiques, schémas et écriture cursive en 4 langues."
+    },
+    "languages": {
+      "title": "4 langues",
+      "desc": "Retours de l'IA en anglais, français, turc ou espagnol."
+    },
+    "analytics": {
+      "title": "Analyses instantanées",
+      "desc": "Question la plus difficile, distribution des notes et détail par question."
+    },
+    "pdf": {
+      "title": "Export PDF annoté",
+      "desc": "Annotations de l'IA sur la copie : cercles rouges, coches vertes, commentaires."
+    },
+    "offline": {
+      "title": "Mode hors ligne",
+      "desc": "Numérisez sans Internet ; les notes se synchronisent à la reconnexion."
+    },
+    "collab": {
+      "title": "Correction collaborative",
+      "desc": "Plusieurs enseignants/assistants corrigent un examen avec contrôle de cohérence."
+    },
+    "confidence": {
+      "title": "Score de confiance",
+      "desc": "Signale les notes peu sûres à revoir — 95 %+ sur les prédictions sûres."
+    },
+    "gamification": {
+      "title": "Gamification",
+      "desc": "Suivi des progrès, badges de série et courbes d'amélioration."
+    }
+  },
+  "security": {
+    "title": "Sécurité et confidentialité dès la conception",
+    "subtitle": "Les données de vos élèves restent les vôtres. Point.",
+    "soon": "Prévu",
+    "gdpr": { "title": "Conforme au RGPD", "desc": "Conçu pour respecter la protection des données de l'UE." },
+    "encryption": { "title": "Chiffrement de bout en bout", "desc": "Données chiffrées en transit et au repos." },
+    "noSell": { "title": "Aucune vente de données", "desc": "Nous ne vendons ni ne partageons jamais les données des élèves." },
+    "soc2": { "title": "SOC 2 Type II", "desc": "Certification de sécurité indépendante — en cours." },
+    "ownership": { "title": "Vos données vous appartiennent", "desc": "Les enseignants gardent la pleine propriété et peuvent exporter ou supprimer à tout moment." },
+    "privacyAi": { "title": "IA respectueuse de la vie privée", "desc": "Vos copies sont traitées, jamais stockées durablement." }
+  },
+  "how": {
+    "title": "De la copie à la note en quatre étapes",
+    "subtitle": "Aucune configuration compliquée. Visez, photographiez, corrigez.",
+    "step1": { "title": "Numériser", "desc": "Photographiez la copie avec votre téléphone." },
+    "step2": { "title": "Importer", "desc": "Ajoutez votre corrigé et votre barème." },
+    "step3": { "title": "L'IA corrige", "desc": "Higgs Field AI note chaque question." },
+    "step4": { "title": "Télécharger", "desc": "Exportez le PDF corrigé et les analyses." }
+  },
+  "demo": {
+    "title": "Voyez la correction en direct",
+    "subtitle": "Importez une copie et regardez l'IA travailler — sans inscription.",
+    "dropHint": "Glissez-déposez une copie d'examen",
+    "browse": "ou cliquez pour parcourir",
+    "sampleAlt": "Exemple de copie d'élève",
+    "grade": "Corriger avec l'IA",
+    "again": "Corriger une autre",
+    "processing": "Analyse de l'écriture…",
+    "resultTitle": "Corrigé",
+    "scoreLabel": "Note",
+    "feedback": "Bon raisonnement en Q2. Revoyez la conversion d'unités en Q3.",
+    "cta": "Essayez gratuitement — sans carte bancaire",
+    "q1": "Q1 · Définitions",
+    "q2": "Q2 · Résolution de problème",
+    "q3": "Q3 · Conversion d'unités"
+  },
+  "levels": {
+    "title": "Adapté à chaque niveau",
+    "subtitle": "Des premières écritures à la notation scientifique universitaire.",
+    "learnMore": "En savoir plus",
+    "complexity": "Complexité",
+    "exampleLabel": "Exemple de barème",
+    "l1": { "name": "Primaire", "native": "İlkokul", "age": "6–10 ans", "desc": "Reconnaissance d'écriture de base et questions imagées.", "example": "Note complète pour la bonne image et un mot lisible." },
+    "l2": { "name": "Collège", "native": "Ortaokul", "age": "11–14 ans", "desc": "Barèmes par matière avec système de points partiels.", "example": "2/3 — bonne méthode, petite erreur de calcul." },
+    "l3": { "name": "Lycée", "native": "Lise", "age": "15–18 ans", "desc": "Correction de dissertations, alignement au programme et détection de plagiat.", "example": "Thèse claire ; preuves citées ; une alerte d'originalité." },
+    "l4": { "name": "Université", "native": "Üniversite", "age": "18 ans +", "desc": "Notation scientifique, problèmes à plusieurs parties et collaboration.", "example": "Preuve (b) valide ; points en moins pour un cas limite manquant." }
+  },
+  "pricing": {
+    "title": "Des tarifs simples pour chaque classe",
+    "subtitle": "Commencez gratuitement. Passez au niveau supérieur quand vous voulez.",
+    "perMonth": "/enseignant/mois",
+    "mostPopular": "Le plus populaire",
+    "cta": "Commencer",
+    "contactCta": "Contacter les ventes",
+    "free": { "name": "Gratuit", "price": "0 $", "features": ["10 copies / mois", "OCR de base", "1 langue", "Pas d'analyses", "Avec publicités"] },
+    "pro": { "name": "Pro", "price": "9,99 $", "features": ["Copies illimitées", "HTR avancé", "4 langues", "Analyses complètes", "Sans publicité"] },
+    "school": { "name": "École", "price": "Sur devis", "features": ["Illimité + API", "Modèle personnalisé", "4 langues + nouvelles", "Tableau de bord admin", "Marque blanche"] }
+  },
+  "languages": {
+    "title": "Corrigez dans votre langue",
+    "subtitle": "Prise en charge complète de quatre langues — et d'autres à venir."
+  },
+  "download": {
+    "title": "Prêt à retrouver vos soirées ?",
+    "subtitle": "Téléchargez GradeAI et corrigez votre prochaine pile en minutes.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "windows": "Windows"
+  },
+  "footer": {
+    "tagline": "Correction d'examens par IA pour enseignants.",
+    "product": "Produit",
+    "company": "Entreprise",
+    "features": "Fonctionnalités",
+    "how": "Comment ça marche",
+    "download": "Télécharger",
+    "security": "Sécurité",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "certifications": "RGPD · SOC 2 (prévu) · Chiffré de bout en bout",
+    "rights": "Tous droits réservés."
+  }
+}

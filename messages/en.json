@@ -1,0 +1,149 @@
+{
+  "nav": {
+    "features": "Features",
+    "security": "Security",
+    "how": "How it works",
+    "levels": "Grade Levels",
+    "pricing": "Pricing",
+    "download": "Download",
+    "cta": "Start Grading Free"
+  },
+  "hero": {
+    "badge": "AI-powered exam grading",
+    "title": "Grade Smarter, Not Harder",
+    "subtitle": "Scan handwritten exams, grade them against your curriculum rubric in seconds, and hand back detailed feedback — powered by AI.",
+    "cta": "Start Grading Free",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "windows": "Windows",
+    "downloadOn": "Download on",
+    "getItOn": "Get it on",
+    "getFor": "Get for",
+    "scanQr": "Scan to download",
+    "levelLabel": "Grade level"
+  },
+  "features": {
+    "title": "Everything you need to grade faster",
+    "subtitle": "Built for teachers who'd rather teach than grade.",
+    "unique": "Unique to GradeAI",
+    "aiCurriculum": {
+      "title": "AI Curriculum Grading",
+      "desc": "Checks answers against official curriculum standards — not just a model answer."
+    },
+    "ocr": {
+      "title": "Handwriting OCR (HTR)",
+      "desc": "Reads math symbols, diagrams, and cursive across 4 languages."
+    },
+    "languages": {
+      "title": "4-Language Support",
+      "desc": "AI feedback in English, French, Turkish, or Spanish."
+    },
+    "analytics": {
+      "title": "Instant Analytics",
+      "desc": "Hardest question, score distribution, and question-level breakdown."
+    },
+    "pdf": {
+      "title": "Marked PDF Export",
+      "desc": "AI annotations on the paper: red circles, green checks, comment bubbles."
+    },
+    "offline": {
+      "title": "Offline Mode",
+      "desc": "Scan without internet; grades auto-sync when you reconnect."
+    },
+    "collab": {
+      "title": "Multi-Grader Collaboration",
+      "desc": "Multiple teachers/TAs grade one exam with consistency checks."
+    },
+    "confidence": {
+      "title": "Confidence Scoring",
+      "desc": "Flags low-confidence grades for review — 95%+ on high-confidence predictions."
+    },
+    "gamification": {
+      "title": "Gamification",
+      "desc": "Student progress tracking, streak badges, and improvement charts."
+    }
+  },
+  "security": {
+    "title": "Security & privacy, by design",
+    "subtitle": "Your students' data stays yours. Full stop.",
+    "soon": "Planned",
+    "gdpr": { "title": "GDPR Compliant", "desc": "Built to meet EU data-protection requirements." },
+    "encryption": { "title": "End-to-End Encryption", "desc": "Data encrypted in transit and at rest." },
+    "noSell": { "title": "No Student Data Sold", "desc": "We never sell or share student data. Ever." },
+    "soc2": { "title": "SOC 2 Type II", "desc": "Independent security certification — in progress." },
+    "ownership": { "title": "You Own Your Data", "desc": "Teachers keep full ownership and can export or delete anytime." },
+    "privacyAi": { "title": "Privacy-First AI", "desc": "Your exam data is processed, never stored permanently." }
+  },
+  "how": {
+    "title": "From paper to grade in four steps",
+    "subtitle": "No setup headaches. Just point, shoot, and grade.",
+    "step1": { "title": "Scan", "desc": "Photograph the exam paper with your phone." },
+    "step2": { "title": "Upload", "desc": "Add your answer key and rubric." },
+    "step3": { "title": "AI Grades", "desc": "Higgs Field AI scores every question." },
+    "step4": { "title": "Download", "desc": "Export the graded PDF and analytics." }
+  },
+  "demo": {
+    "title": "See it grade in real time",
+    "subtitle": "Upload a paper and watch the AI work — no signup needed.",
+    "dropHint": "Drag & drop an exam paper",
+    "browse": "or click to browse",
+    "sampleAlt": "Sample student exam paper",
+    "grade": "Grade with AI",
+    "again": "Grade another",
+    "processing": "Analyzing handwriting…",
+    "resultTitle": "Graded",
+    "scoreLabel": "Score",
+    "feedback": "Strong reasoning on Q2. Review the unit conversion in Q3.",
+    "cta": "Try it free — no credit card",
+    "q1": "Q1 · Definitions",
+    "q2": "Q2 · Problem solving",
+    "q3": "Q3 · Unit conversion"
+  },
+  "levels": {
+    "title": "Tuned for every grade level",
+    "subtitle": "From first handwriting to university STEM notation.",
+    "learnMore": "Learn more",
+    "complexity": "Complexity",
+    "exampleLabel": "Example rubric",
+    "l1": { "name": "Elementary", "native": "İlkokul", "age": "Ages 6–10", "desc": "Basic handwriting recognition and picture-based questions.", "example": "Full credit for the correct picture and a legible word." },
+    "l2": { "name": "Middle School", "native": "Ortaokul", "age": "Ages 11–14", "desc": "Subject rubrics with a partial-credit system.", "example": "2/3 — correct method, minor arithmetic slip." },
+    "l3": { "name": "High School", "native": "Lise", "age": "Ages 15–18", "desc": "Essay grading, curriculum alignment, and plagiarism checks.", "example": "Thesis clear; evidence cited; one originality flag." },
+    "l4": { "name": "University", "native": "Üniversite", "age": "Ages 18+", "desc": "STEM notation, multi-part problems, and TA collaboration.", "example": "Part (b) proof valid; deduct for missing edge case." }
+  },
+  "pricing": {
+    "title": "Simple pricing for every classroom",
+    "subtitle": "Start free. Upgrade when you're ready.",
+    "perMonth": "/teacher/mo",
+    "mostPopular": "Most popular",
+    "cta": "Get started",
+    "contactCta": "Contact sales",
+    "free": { "name": "Free", "price": "$0", "features": ["10 papers / month", "Basic OCR", "1 language", "No analytics", "Ads supported"] },
+    "pro": { "name": "Pro", "price": "$9.99", "features": ["Unlimited papers", "Advanced HTR", "4 languages", "Full analytics", "No ads"] },
+    "school": { "name": "School", "price": "Custom", "features": ["Unlimited + API", "Custom model training", "4 languages + new", "Admin dashboard", "White-label"] }
+  },
+  "languages": {
+    "title": "Grade in your language",
+    "subtitle": "Full support for four languages — with more on the way."
+  },
+  "download": {
+    "title": "Ready to reclaim your evenings?",
+    "subtitle": "Download GradeAI and grade your next stack in minutes.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "windows": "Windows"
+  },
+  "footer": {
+    "tagline": "AI exam grading for teachers.",
+    "product": "Product",
+    "company": "Company",
+    "features": "Features",
+    "how": "How it works",
+    "download": "Download",
+    "security": "Security",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "certifications": "GDPR · SOC 2 (planned) · End-to-end encrypted",
+    "rights": "All rights reserved."
+  }
+}

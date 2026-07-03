@@ -1,0 +1,149 @@
+{
+  "nav": {
+    "features": "Özellikler",
+    "security": "Güvenlik",
+    "how": "Nasıl çalışır",
+    "levels": "Seviyeler",
+    "pricing": "Fiyatlar",
+    "download": "İndir",
+    "cta": "Ücretsiz Başla"
+  },
+  "hero": {
+    "badge": "Yapay zekâ destekli sınav notlandırma",
+    "title": "Daha Akıllı Notlandırın",
+    "subtitle": "El yazısı sınavları tarayın, kılavuzunuza göre saniyeler içinde notlandırın ve ayrıntılı geri bildirim verin — yapay zekâ ile.",
+    "cta": "Ücretsiz Başla",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "windows": "Windows",
+    "downloadOn": "İndir",
+    "getItOn": "İndir",
+    "getFor": "İndir",
+    "scanQr": "İndirmek için tarayın",
+    "levelLabel": "Sınıf seviyesi"
+  },
+  "features": {
+    "title": "Daha hızlı notlandırmak için her şey",
+    "subtitle": "Notlandırmak yerine öğretmeyi tercih eden öğretmenler için.",
+    "unique": "GradeAI'ye özel",
+    "aiCurriculum": {
+      "title": "Müfredat Bazlı Notlandırma",
+      "desc": "Cevapları yalnızca örnek yanıta göre değil, resmi müfredat standartlarına göre kontrol eder."
+    },
+    "ocr": {
+      "title": "El Yazısı OCR (HTR)",
+      "desc": "Matematik sembollerini, şekilleri ve el yazısını 4 dilde okur."
+    },
+    "languages": {
+      "title": "4 Dil Desteği",
+      "desc": "İngilizce, Fransızca, Türkçe veya İspanyolca yapay zekâ geri bildirimi."
+    },
+    "analytics": {
+      "title": "Anında Analiz",
+      "desc": "En zor soru, puan dağılımı ve soru bazında ayrıntı."
+    },
+    "pdf": {
+      "title": "İşaretli PDF Dışa Aktarma",
+      "desc": "Kâğıt üzerinde yapay zekâ işaretleri: kırmızı daireler, yeşil onaylar, yorum balonları."
+    },
+    "offline": {
+      "title": "Çevrimdışı Mod",
+      "desc": "İnternetsiz tarayın; bağlanınca notlar otomatik eşitlenir."
+    },
+    "collab": {
+      "title": "Çoklu Değerlendirici İşbirliği",
+      "desc": "Birden çok öğretmen/asistan tutarlılık kontrolüyle aynı sınavı notlandırır."
+    },
+    "confidence": {
+      "title": "Güven Skoru",
+      "desc": "Düşük güvenli notları incelemeye işaretler — yüksek güvenli tahminlerde %95+."
+    },
+    "gamification": {
+      "title": "Oyunlaştırma",
+      "desc": "Öğrenci ilerleme takibi, seri rozetleri ve gelişim grafikleri."
+    }
+  },
+  "security": {
+    "title": "Tasarımdan gelen güvenlik ve gizlilik",
+    "subtitle": "Öğrencilerinizin verileri sizin kalır. Nokta.",
+    "soon": "Planlanıyor",
+    "gdpr": { "title": "GDPR Uyumlu", "desc": "AB veri koruma gerekliliklerini karşılayacak şekilde tasarlandı." },
+    "encryption": { "title": "Uçtan Uca Şifreleme", "desc": "Veriler aktarımda ve depolamada şifrelenir." },
+    "noSell": { "title": "Öğrenci Verisi Satılmaz", "desc": "Öğrenci verilerini asla satmayız veya paylaşmayız." },
+    "soc2": { "title": "SOC 2 Type II", "desc": "Bağımsız güvenlik sertifikası — sürüyor." },
+    "ownership": { "title": "Verinizin Sahibi Sizsiniz", "desc": "Öğretmenler tam sahipliği korur, istediğinde dışa aktarabilir veya silebilir." },
+    "privacyAi": { "title": "Gizlilik Öncelikli Yapay Zekâ", "desc": "Sınav verileriniz işlenir, kalıcı olarak asla saklanmaz." }
+  },
+  "how": {
+    "title": "Kâğıttan nota dört adımda",
+    "subtitle": "Kurulum derdi yok. Sadece çek ve notlandır.",
+    "step1": { "title": "Tara", "desc": "Sınav kâğıdını telefonunuzla fotoğraflayın." },
+    "step2": { "title": "Yükle", "desc": "Cevap anahtarınızı ve kılavuzunuzu ekleyin." },
+    "step3": { "title": "Yapay Zekâ Notlar", "desc": "Higgs Field AI her soruyu puanlar." },
+    "step4": { "title": "İndir", "desc": "Notlu PDF'i ve analizleri dışa aktarın." }
+  },
+  "demo": {
+    "title": "Gerçek zamanlı notlandırmayı görün",
+    "subtitle": "Bir kâğıt yükleyin ve yapay zekâyı izleyin — kayıt gerekmez.",
+    "dropHint": "Sınav kâğıdını sürükleyip bırakın",
+    "browse": "veya tıklayıp seçin",
+    "sampleAlt": "Örnek öğrenci sınav kâğıdı",
+    "grade": "Yapay Zekâ ile Notla",
+    "again": "Başka birini notla",
+    "processing": "El yazısı analiz ediliyor…",
+    "resultTitle": "Notlandı",
+    "scoreLabel": "Puan",
+    "feedback": "Q2'de güçlü akıl yürütme. Q3'teki birim dönüşümünü gözden geçirin.",
+    "cta": "Ücretsiz deneyin — kredi kartı yok",
+    "q1": "Q1 · Tanımlar",
+    "q2": "Q2 · Problem çözme",
+    "q3": "Q3 · Birim dönüşümü"
+  },
+  "levels": {
+    "title": "Her sınıf seviyesine uyarlı",
+    "subtitle": "İlk el yazısından üniversite fen notasyonuna kadar.",
+    "learnMore": "Daha fazla",
+    "complexity": "Karmaşıklık",
+    "exampleLabel": "Örnek kılavuz",
+    "l1": { "name": "İlkokul", "native": "İlkokul", "age": "6–10 yaş", "desc": "Temel el yazısı tanıma ve resim tabanlı sorular.", "example": "Doğru resim ve okunaklı bir kelime için tam puan." },
+    "l2": { "name": "Ortaokul", "native": "Ortaokul", "age": "11–14 yaş", "desc": "Kısmi puan sistemli ders kılavuzları.", "example": "2/3 — doğru yöntem, küçük işlem hatası." },
+    "l3": { "name": "Lise", "native": "Lise", "age": "15–18 yaş", "desc": "Kompozisyon notlama, müfredat uyumu ve intihal kontrolü.", "example": "Tez net; kanıt belirtilmiş; bir özgünlük işareti." },
+    "l4": { "name": "Üniversite", "native": "Üniversite", "age": "18+ yaş", "desc": "Fen notasyonu, çok parçalı problemler ve asistan işbirliği.", "example": "(b) şıkkının ispatı geçerli; eksik uç durum için puan kırılır." }
+  },
+  "pricing": {
+    "title": "Her sınıf için basit fiyatlandırma",
+    "subtitle": "Ücretsiz başlayın. Hazır olduğunuzda yükseltin.",
+    "perMonth": "/öğretmen/ay",
+    "mostPopular": "En popüler",
+    "cta": "Başla",
+    "contactCta": "Satışa ulaşın",
+    "free": { "name": "Ücretsiz", "price": "$0", "features": ["Ayda 10 kâğıt", "Temel OCR", "1 dil", "Analiz yok", "Reklam destekli"] },
+    "pro": { "name": "Pro", "price": "$9.99", "features": ["Sınırsız kâğıt", "Gelişmiş HTR", "4 dil", "Tam analiz", "Reklamsız"] },
+    "school": { "name": "Okul", "price": "Özel", "features": ["Sınırsız + API", "Özel model eğitimi", "4 dil + yenileri", "Yönetici paneli", "Beyaz etiket"] }
+  },
+  "languages": {
+    "title": "Kendi dilinizde notlandırın",
+    "subtitle": "Dört dil için tam destek — daha fazlası yolda."
+  },
+  "download": {
+    "title": "Akşamlarınızı geri almaya hazır mısınız?",
+    "subtitle": "GradeAI'yi indirin ve bir sonraki desteyi dakikalar içinde notlandırın.",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "windows": "Windows"
+  },
+  "footer": {
+    "tagline": "Öğretmenler için yapay zekâ sınav notlandırma.",
+    "product": "Ürün",
+    "company": "Şirket",
+    "features": "Özellikler",
+    "how": "Nasıl çalışır",
+    "download": "İndir",
+    "security": "Güvenlik",
+    "pricing": "Fiyatlar",
+    "contact": "İletişim",
+    "privacy": "Gizlilik Politikası",
+    "certifications": "GDPR · SOC 2 (planlanıyor) · Uçtan uca şifreli",
+    "rights": "Tüm hakları saklıdır."
+  }
+}
