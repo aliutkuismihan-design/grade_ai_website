@@ -145,6 +145,20 @@ body {
   }
 }
 
+/* ---------- Mobile performance ---------- */
+@media (max-width: 767px) {
+  .aurora-mesh {
+    animation-duration: 40s; /* slower = less CPU */
+    background-size: 150% 150%;
+  }
+  .scan-beam {
+    animation-duration: 5s;
+  }
+  .particle {
+    display: none;
+  }
+}
+
 /* ---------- Utility: reduced motion ---------- */
 @media (prefers-reduced-motion: reduce) {
   .aurora-mesh,

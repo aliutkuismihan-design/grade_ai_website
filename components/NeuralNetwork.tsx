@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 interface Node {
   x: number;
@@ -17,6 +17,16 @@ interface Node {
  */
 export default function NeuralNetwork({ className = '' }: { className?: string }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  // Disable on mobile / touch devices — canvas is too heavy for phones
+  const [isMobile, setIsMobile] = useState(false);
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768 || 'ontouchstart' in window);
+    check();
+    window.addEventListener('resize', check);
+    return () => window.removeEventListener('resize', check);
+  }, []);
+  if (isMobile) return null;
 
   useEffect(() => {
     const canvas = canvasRef.current;

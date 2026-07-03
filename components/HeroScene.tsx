@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { FileText, Sparkles, ChevronDown } from 'lucide-react';
@@ -20,13 +20,23 @@ export default function HeroScene() {
   const tLevels = useTranslations('levels');
   const tHero = useTranslations('hero');
   const [level, setLevel] = useState(3);
+  const [isMobile, setIsMobile] = useState(false);
   const badge = BADGES[level];
 
-  const papers = [
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768);
+    check();
+    window.addEventListener('resize', check);
+    return () => window.removeEventListener('resize', check);
+  }, []);
+
+  // Mobile: 1 paper only, desktop: 3
+  const allPapers = [
     { rotX: 14, rotY: -18, x: -70, y: 10, delay: 0 },
     { rotX: 10, rotY: -10, x: 0, y: -20, delay: 0.4 },
     { rotX: 8, rotY: 6, x: 70, y: 24, delay: 0.8 },
   ];
+  const papers = isMobile ? [allPapers[1]] : allPapers;
 
   return (
     <div className="relative mx-auto h-[460px] w-full max-w-md" style={{ perspective: '1200px' }}>
@@ -59,7 +69,8 @@ export default function HeroScene() {
           </motion.div>
         ))}
 
-        {Array.from({ length: 10 }).map((_, i) => (
+        {/* Particles hidden on mobile */}
+        {!isMobile && Array.from({ length: 10 }).map((_, i) => (
           <span
             key={i}
             className="particle absolute bottom-24 h-1.5 w-1.5 rounded-full bg-aurora-accent"
