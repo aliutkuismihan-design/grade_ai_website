@@ -20,14 +20,6 @@ export default function Navbar() {
     { href: '#pricing', label: t('pricing') },
     { href: '#download', label: t('download') },
   ];
-    { href: '#features', label: t('features') },
-    { href: '/curriculum', label: t('curriculum'), route: true },
-    { href: '#security', label: t('security') },
-    { href: '#how', label: t('how') },
-    { href: '#levels', label: t('levels') },
-    { href: '#pricing', label: t('pricing') },
-    { href: '#download', label: t('download') },
-  ];
 
   function renderLink(l: (typeof links)[number], onClick?: () => void, className?: string) {
     if (l.route) {
