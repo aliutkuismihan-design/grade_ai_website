@@ -1,156 +1,2704 @@
 {
   "examSystem": "YKS",
   "locale": "tr",
+  "description": "Yükseköğretim Kurumları Sınavı (YKS) müfredatı: TYT, AYT (Sayısal, Eşit Ağırlık, Sözel) ve YDT (Dil) gruplarını kapsar.",
   "subjects": [
     {
       "id": "math-tyt",
       "name": "Matematik (TYT)",
       "icon": "calculator",
-      "description": "Temel düzey matematik konuları",
+      "examGroup": "TYT",
+      "description": "Temel Yeterlilik Testi (TYT) kapsamında 9. ve 10. sınıf matematik konularını içerir.",
       "topics": [
-        { "title": "Sayı Basamakları", "summary": "Bir sayının basamak değerleri ve çözümlenmesi; ardışık ve çift/tek sayılarla kurulan denklemler." },
-        { "title": "Bölme ve Bölünebilme", "summary": "Kalanlı bölme, bölünebilme kuralları (2, 3, 4, 5, 9, 11) ve EBOB–EKOK ilişkileri." },
-        { "title": "Rasyonel Sayılar", "summary": "Kesirlerde dört işlem, sıralama ve ondalık gösterim dönüşümleri." },
-        { "title": "Üslü ve Köklü İfadeler", "summary": "Üs kuralları, köklü ifadelerde sadeleştirme ve paydayı rasyonelleştirme." },
-        { "title": "Oran ve Orantı", "summary": "Doğru ve ters orantı, orantı özellikleri ve karışım problemleri." },
-        { "title": "Problemler", "summary": "Yaş, işçi–havuz, yüzde, kâr–zarar ve hareket problemlerinin kurulumu." },
-        { "title": "Kümeler ve Mantık", "summary": "Küme işlemleri, Venn şemaları ve önerme–bileşik önerme doğruluk değerleri." }
+        {
+          "title": "Sayı Basamakları",
+          "summary": "Bir doğal sayının basamak değerleri, çözümleme ve sayı sistemleri; ardışık sayılar, çift/tek sayı kavramlarıyla denklem kurma teknikleri. ÖSYM, bu konuyu genellikle basamak değeri toplamları ve rakam yer değiştirme problemleriyle sınar. Matematiksel düşünme ve problem çözme becerisinin temelini oluşturur.",
+          "resources": [
+            {
+              "name": "MEB Matematik Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Sayı Sistemleri",
+              "url": "https://tr.khanacademy.org/math",
+              "type": "video"
+            },
+            {
+              "name": "Bilgenc - TYT Matematik Konuları",
+              "url": "https://www.bilgenc.com",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 4
+        },
+        {
+          "title": "Bölme ve Bölünebilme",
+          "summary": "Kalanlı bölme işlemi, bölünebilme kuralları (2, 3, 4, 5, 9, 11), EBOB–EKOK kavramları ve asal çarpanlara ayırma yöntemleri. ÖSYM bu konudan sıklıkla EBOB-EKOK ile ilgili problem tipi sorular sorar. Sayı teorisi temellerini oluşturan bu konu, diğer matematik konularının altyapısıdır.",
+          "resources": [
+            {
+              "name": "ÖSYM YKS Kılavuzu",
+              "url": "https://www.osym.gov.tr/TR,6552/yks-sinav-uygulamasi.html",
+              "type": "official"
+            },
+            {
+              "name": "MEB ÖDSGM Materyaller",
+              "url": "https://odsgm.meb.gov.tr/",
+              "type": "pdf"
+            },
+            {
+              "name": "Khan Academy - Bölünebilme Kuralları",
+              "url": "https://tr.khanacademy.org/math",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Rasyonel Sayılar",
+          "summary": "Kesirlerde dört işlem, sıralama, ondalık gösterim dönüşümleri, rasyonel sayıların sayı doğrusunda gösterimi ve karşılaştırılması. TYT'de basit ama dikkat hatasına açık sorular gelir. Günlük hayatta sıkça kullanılan kesir işlemlerinin matematiksel temelini oluşturur.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Matematik Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Ders Videoları",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            }
+          ],
+          "difficulty": 1,
+          "hours": 3
+        },
+        {
+          "title": "Üslü ve Köklü İfadeler",
+          "summary": "Üs kuralları (çarpma, bölme, üssün üssü), köklü ifadelerde sadeleştirme, paydayı rasyonelleştirme ve üslü-köklü ifadelerin karşılaştırılması. TYT matematiğin temel taşlarından biridir; işlem hatası yapılmaması gerekir. ÖSYM bu konudan her yıl 1-2 soru sorar.",
+          "resources": [
+            {
+              "name": "ÖSYM YKS Konu Dağılımı",
+              "url": "https://www.osym.gov.tr/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Üslü İfadeler",
+              "url": "https://tr.khanacademy.org/math/algebra/exponent-equations",
+              "type": "video"
+            },
+            {
+              "name": "Bilgenc - TYT Matematik Konuları",
+              "url": "https://www.bilgenc.com",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Oran ve Orantı",
+          "summary": "Doğru ve ters orantı, orantı özellikleri, karışım problemleri, harita ölçeği ve yüzde hesaplamaları. Günlük hayattan problem kurarak çözme yeteneğini ölçer; ÖSYM genellikle karışım ve işçi-havuz tipi problemler sorar. Mantıksal çıkarım ve denklem kurma becerisini geliştirir.",
+          "resources": [
+            {
+              "name": "MEB Müfredat",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Oran Orantı",
+              "url": "https://tr.khanacademy.org/math/pre-algebra/rates-and-ratios",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 4
+        },
+        {
+          "title": "Problemler",
+          "summary": "Yaş, işçi-havuz, yüzde-kâr-zarar, hareket, sayı ve kesir problemlerinin kurulumu ve çözüm yöntemleri. TYT'nin en kapsamlı konusudur; ÖSYM her yıl 4-5 soru sorar. Denklem kurma ve mantıksal çıkarım yeteneğini ölçer. Farklı problem türlerinde sistematik çözüm stratejileri geliştirmek esastır.",
+          "resources": [
+            {
+              "name": "ÖSYM YKS Sınav Uygulaması",
+              "url": "https://www.osym.gov.tr/TR,6552/yks-sinav-uygulamasi.html",
+              "type": "official"
+            },
+            {
+              "name": "MEB ÖDSGM Konu Kazanımları",
+              "url": "https://odsgm.meb.gov.tr/",
+              "type": "pdf"
+            },
+            {
+              "name": "Superprof - YKS Soru Dağılımı",
+              "url": "https://www.superprof.com.tr/blog/yks-tyt-ayt-konular-ve-soru-dagilimi/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 12
+        },
+        {
+          "title": "Kümeler ve Mantık",
+          "summary": "Küme işlemleri (birleşim, kesişim, fark, tümleme), Venn şemaları ile problem çözme, önerme ve bileşik önermelerin doğruluk değerleri, koşullu ve iki yönlü koşullu önermeler. TYT'de 1-2 soru gelir. Mantıksal düşünme ve soyut akıl yürütme yeteneğini geliştirir.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Matematik",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA TV Ders Videoları",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 4
+        }
       ]
     },
     {
       "id": "math-ayt",
       "name": "Matematik (AYT)",
       "icon": "calculator",
-      "description": "İleri düzey matematik konuları",
+      "examGroup": "AYT-Sayısal",
+      "description": "Alan Yeterlilik Testi (AYT) kapsamında 11. ve 12. sınıf ileri düzey matematik konularını içerir.",
       "topics": [
-        { "title": "Fonksiyonlar", "summary": "Tanım–değer kümesi, bileşke ve ters fonksiyon, tek–çift fonksiyonlar." },
-        { "title": "Polinomlar", "summary": "Polinomlarda işlemler, bölme, kalan ve çarpanlara ayırma." },
-        { "title": "Limit ve Süreklilik", "summary": "Bir noktada limit, soldan–sağdan limit ve süreklilik koşulları." },
-        { "title": "Türev", "summary": "Fonksiyonun anlık değişim oranı, temel türev kuralları, zincir kuralı ve ekstremum." },
-        { "title": "İntegral", "summary": "Belirsiz–belirli integral, alan hesabı ve temel integral kuralları." },
-        { "title": "Trigonometri", "summary": "Birim çember, trigonometrik oranlar, toplam–fark ve dönüşüm formülleri." },
-        { "title": "Logaritma", "summary": "Logaritmanın tanımı, özellikleri ve logaritmik denklemler." }
+        {
+          "title": "Fonksiyonlar",
+          "summary": "Tanım ve değer kümesi, fonksiyon türleri (birebir, örten, içine), bileşke ve ters fonksiyon, tek-çift fonksiyonlar, dönüşümler ve grafik çizimi. AYT matematiğin en temel konusudur; limit, türev, integralin altyapısını oluşturur. ÖSYM her yıl 2-3 soru sorar.",
+          "resources": [
+            {
+              "name": "ÖSYM YKS AYT Kılavuzu",
+              "url": "https://www.osym.gov.tr/TR,6552/yks-sinav-uygulamasi.html",
+              "type": "official"
+            },
+            {
+              "name": "MEB 11. Sınıf Matematik Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Fonksiyonlar",
+              "url": "https://tr.khanacademy.org/math/algebra/functions",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 10
+        },
+        {
+          "title": "Polinomlar",
+          "summary": "Polinom kavramı, derece, polinomlarda dört işlem, bölme (Horner yöntemi), kalan teoremi, çarpanlara ayırma ve rasyonel katsayılı polinomlar. AYT'de genellikle 1-2 soru gelir; kalan teoremi ve çarpanlara ayırma ağırlıklıdır. Cebirin temel yapı taşlarından biridir.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Polinomlar",
+              "url": "https://tr.khanacademy.org/math/algebra/polynomials",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Limit ve Süreklilik",
+          "summary": "Bir noktada limit, soldan-sağdan limit, sonsuz limit, belirsizlikler (0/0, ∞/∞, 0·∞), özel limitler ve süreklilik koşulları. AYT matematiğin en önemli konularından biridir; ÖSYM her yıl 2-3 soru sorar. Türevin altyapısını oluşturur; limit kuramı analizin temelidir.",
+          "resources": [
+            {
+              "name": "ÖSYM YKS Soru Dağılımı",
+              "url": "https://www.osym.gov.tr/",
+              "type": "official"
+            },
+            {
+              "name": "MEB 12. Sınıf Matematik Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Limit",
+              "url": "https://tr.khanacademy.org/math/calculus-1/limits-and-continuity-calc",
+              "type": "video"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 12
+        },
+        {
+          "title": "Türev",
+          "summary": "Fonksiyonun anlık değişim oranı, temel türev kuralları (kuvvet, çarpım, bölüm, zincir kuralı), trigonometrik, logaritmik ve üstel fonksiyonların türevi, ekstremum noktaları, dönüm noktaları ve grafik çizimi. AYT'de 3-4 soru gelir; uygulamalı sorular ağırlıklıdır. Fizik ve mühendislik uygulamalarının matematiksel temelidir.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Türev",
+              "url": "https://tr.khanacademy.org/math/calculus-1/derivatives-calc",
+              "type": "video"
+            },
+            {
+              "name": "Bilgenc - AYT Matematik",
+              "url": "https://www.bilgenc.com",
+              "type": "article"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 15
+        },
+        {
+          "title": "İntegral",
+          "summary": "Belirsiz integral (temel kural ve değişken değişimi), belirli integral, integral ile alan hesabı (eğri altında kalan alan, iki eğri arasındaki alan), hacim hesabı ve uygulamalı integral. AYT'de 2-3 soru gelir; alan hesabı soruları en yaygın tipidir. Geometri ve fizik uygulamalarında temel rol oynar.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Matematik",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - İntegral",
+              "url": "https://tr.khanacademy.org/math/calculus-1/integrals-calc",
+              "type": "video"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 15
+        },
+        {
+          "title": "Trigonometri",
+          "summary": "Birim çember, trigonometrik oranlar, trigonometrik fonksiyonların grafikleri, toplam-fark formülleri, yarım açı ve iki kat açı formülleri, dönüşüm formülleri, trigonometrik denklemler ve eşitsizlikler. AYT'de 1-2 soru gelir; birim çember ve formüller bilinmelidir. Geometri ve fizik arasındaki köprü konudur.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Trigonometri",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Trigonometri",
+              "url": "https://tr.khanacademy.org/math/trigonometry",
+              "type": "video"
+            },
+            {
+              "name": "Kazanabilirsin - 11. Sınıf Matematik",
+              "url": "https://kazanabilirsin.com/11-sinif-matematik-konulari-ve-mufredati/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 12
+        },
+        {
+          "title": "Logaritma",
+          "summary": "Logaritmanın tanımı, logaritma özellikleri (çarpma, bölme, üs alma), logaritmik fonksiyonların grafiği, logaritmik denklemler ve eşitsizlikler, değişken tabanlı logaritma ve logaritma uygulamaları. AYT'de 1-2 soru gelir; özellikle denklem çözümü ağırlıklıdır. Üstel büyüme modellerinin temel matematiksel aracıdır.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Logaritma",
+              "url": "https://tr.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 10
+        }
+      ]
+    },
+    {
+      "id": "geometry-tyt",
+      "name": "Geometri (TYT)",
+      "icon": "shapes",
+      "examGroup": "TYT",
+      "description": "TYT kapsamında 9. ve 10. sınıf geometri konularını içerir. TYT Matematik testinde yaklaşık 10 geometri sorusu gelir.",
+      "topics": [
+        {
+          "title": "Doğruda ve Üçgende Açılar",
+          "summary": "Doğru üzerinde komşu, tümler, bütünler ve dış açılar; üçgenin iç ve dış açıları toplamı, dış açılar toplamı ve açı kenar bağıntıları. TYT geometrinin başlangıç konusudur; ÖSYM her yıl 1-2 soru sorar. Temel açı kavramlarının sağlam bilinmesi gerekir.",
+          "resources": [
+            {
+              "name": "ÖSYM YKS Geometri Soru Dağılımı",
+              "url": "https://www.osym.gov.tr/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - TYT Geometri Konuları",
+              "url": "https://www.bilgenc.com/tyt-geometri-konulari/",
+              "type": "article"
+            },
+            {
+              "name": "MEB 9. Sınıf Geometri Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Üçgende Eşlik ve Benzerlik",
+          "summary": "Üçgende eşlik şartları (KKK, KAK, AKK, AKA), benzerlik şartları (AAA, KAK, KKK), benzerlik oranı, benzerlikte yükseklik, kenarortay ve alan bağıntıları. TYT'de sıklıkla 1-2 soru gelir; benzerlik oranı kullanılarak bilinmeyen kenar ve alan bulma soruları yaygındır.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Geometri",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "İlerlet - TYT-AYT Geometri Konuları",
+              "url": "https://ilerlet.com/tyt-ayt-geometri-konulari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        },
+        {
+          "title": "Üçgende Açıortay ve Kenarortay",
+          "summary": "Açıortay teoremi, iç ve dış açıortay, kenarortay teoremi, kenarortayın uzunluğu, ağırlık merkezi ve özellikleri. Açıortay teoremi ÖSYM tarafından sıkça sorulur; özellikle açıortay uzunluğu ve açıortayların kesişim noktası (içteğet merkez) ile ilgili sorular önemlidir.",
+          "resources": [
+            {
+              "name": "MEB ÖDSGM Geometri Kazanımları",
+              "url": "https://odsgm.meb.gov.tr/",
+              "type": "pdf"
+            },
+            {
+              "name": "Bilgenc - TYT Geometri Konuları",
+              "url": "https://www.bilgenc.com/tyt-geometri-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Üçgende Alan ve Özel Üçgenler",
+          "summary": "Üçgende alan formülleri (temel·yükseklik/2, iki kenar ve sinüs, üç kenar-Öklid), dik üçgen, ikizkenar üçgen, eşkenar üçgen özellikleri, 30-60-90 ve 45-45-90 üçgenleri. ÖSYM her yıl 1-2 soru sorar; alan hesaplama ve özel üçgen özellikleri birleştirilir.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Geometri",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Etap Yayınları - YKS Geometri",
+              "url": "https://www.etapyayinlari.com/2025-yks-geometri-konulari-ve-soru-dagilimlari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Çokgenler ve Dörtgenler",
+          "summary": "Çokgenlerin iç ve dış açıları toplamı, köşegen sayısı, paralelkenar, dikdörtgen, kare, eşkenar dörtgen, deltoid ve yamuk özellikleri; dörtgenlerde alan hesabı ve köşegen bağıntıları. TYT'de 1-2 soru gelir; dörtgen özellikleri ve alan hesabı bir arada sorulur.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Geometri Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - TYT Geometri Konu Takip Çizelgesi",
+              "url": "https://www.bilgenc.com/tyt-geometri-konulari/",
+              "type": "pdf"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 7
+        },
+        {
+          "title": "Çember ve Daire",
+          "summary": "Çemberin temel elemanları, çemberde açılar (merkez, çevre, iç, dış), teğet-çember bağıntıları, teğet dörtgen, kirişte güç noktası, çemberin çevresi ve dairenin alanı, daire dilimi ve çember parçası. TYT'de 1-2 soru gelir; çemberde açılar ve teğet bağıntıları önemlidir.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Geometri",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Çember ve Daire",
+              "url": "https://tr.khanacademy.org/math/geometry/circles",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Analitik Geometri (Temel)",
+          "summary": "Koordinat düzlemi, noktanın analitiği (iki nokta arası uzaklık, orta nokta), doğrunun analitiği (eğim, doğru denklemi, paralel ve dik doğrular). TYT'de 1 soru gelir; ÖSYM 2020-2021 yıllarında ağırlık vermiş, son yıllarda azalmıştır. Doğru denklemi ve uzaklık formülü bilinmelidir.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Geometri",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - TYT Geometri Soru Dağılımı",
+              "url": "https://www.bilgenc.com/tyt-geometri-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Katı Cisimler",
+          "summary": "Dikdörtgenler prizması, küp, silindir, piramit, koni ve kürenin hacim ve alan hesapları; dik kesitler ve açınımlar. TYT'nin en istikrarlı geometri konusudur; ÖSYM her yıl 2 soru sorar. Hacim ve yüzey alanı formülleri mutlaka ezberlenmelidir.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Geometri",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Katı Cisimler",
+              "url": "https://tr.khanacademy.org/math/geometry/solid-geometry",
+              "type": "video"
+            },
+            {
+              "name": "Superprof - YKS Soru Dağılımı",
+              "url": "https://www.superprof.com.tr/blog/yks-tyt-ayt-konular-ve-soru-dagilimi/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "id": "geometry-ayt",
+      "name": "Geometri (AYT)",
+      "icon": "shapes",
+      "examGroup": "AYT-Sayısal",
+      "description": "AYT kapsamında ileri düzey geometri konularını içerir. AYT geometri testinde 9-11 soru gelir.",
+      "topics": [
+        {
+          "title": "Üçgenler (İleri)",
+          "summary": "Doğruda ve üçgende açılar, özel üçgenler, açı kenar bağıntıları, açıortay ve kenarortay, üçgende alan ve benzerlik. AYT geometrinin temelini oluşturur; ÖSYM bu konulardan 1-2 soru sorar. Benzerlik ve alan bağıntıları birleştirilmiş sorular yaygındır.",
+          "resources": [
+            {
+              "name": "ÖSYM AYT Geometri Konu Dağılımı",
+              "url": "https://www.osym.gov.tr/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Geometri Konuları",
+              "url": "https://www.bilgenc.com/ayt-geometri-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Çokgenler ve Özel Dörtgenler",
+          "summary": "Çokgenler ve düzgün çokgenler, paralelkenar, deltoid, eşkenar dörtgen, kare, dikdörtgen, yamuk özellikleri; dörtgenlerde ileri alan hesapları ve köşegen bağıntıları. AYT'de 1-2 soru gelir; dörtgen özellikleri ve alan hesabı bir arada sorulur.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Geometri",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Geometri",
+              "url": "https://www.bilgenc.com/ayt-geometri-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Çember ve Daire (İleri)",
+          "summary": "Çemberin temel elemanları, çemberde açılar, çemberde teğet, kirişlerde güç noktası, çemberin dış ve iç noktaları, çemberde uzunluk ve alan hesapları. AYT'de 2-3 soru gelir; teğet-çember bağıntıları ve kirişte güç noktası sık sorulur.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Geometri Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Etap Yayınları - AYT Geometri",
+              "url": "https://www.etapyayinlari.com/2025-yks-geometri-konulari-ve-soru-dagilimlari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Noktanın Analitik İncelenmesi",
+          "summary": "Analitik düzlemde nokta, iki nokta arasındaki uzaklık, bir doğru parçasını belli bir oranda bölen noktanın koordinatları, ağırlık merkezi koordinatları, üçgende kenarortay ve yükseklik doğrularının analitiği. AYT'de 1-2 soru gelir; özellikle bölme noktası formülü sık kullanılır.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Geometri",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Analitik Geometri",
+              "url": "https://tr.khanacademy.org/math/geometry/analytic-geometry",
+              "type": "video"
+            },
+            {
+              "name": "Bilgenc - AYT Geometri Soru Dağılımı",
+              "url": "https://www.bilgenc.com/ayt-geometri-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Doğrunun Analitik İncelenmesi",
+          "summary": "Doğrunun eğimi, doğru denklemleri (iki noktası bilinen, bir noktası ve eğimi bilinen), doğrular arası açı, paralel ve dik doğrular, doğru kümeleri, doğrunun analitik incelenmesi uygulamaları. AYT'nin en önemli geometri konularından biridir; her yıl 1-3 soru gelir.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Geometri",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Doğrunun Analitiği",
+              "url": "https://tr.khanacademy.org/math/geometry/analytic-geometry",
+              "type": "video"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 10
+        },
+        {
+          "title": "Dönüşüm Geometrisi",
+          "summary": "Analitik düzlemde temel dönüşümler (öteleme, simetri, döndürme, homoteti), dönüşümlerde uzunluk ve alan korunumu, dönüşümlerin bileşkesi. AYT'de 1 soru gelir; simetri ve öteleme soruları daha sık görülür. Geometrik şekillerin koordinat düzleminde dönüşümü incelenir.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Geometri",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Geometri",
+              "url": "https://www.bilgenc.com/ayt-geometri-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Katı Cisimler (İleri)",
+          "summary": "Dik prizmalar, dik piramitler, koni, silindir, küre ve küre parçalarının hacim ve alan hesapları; açınımlar, dik kesitler ve katı cisimlerin analitik incelenmesi. AYT'de 1 soru gelir; hacim ve alan formülleri bilinmelidir. ÖSYM genellikle basit hacim hesaplama soruları sorar.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Geometri",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Uzay Geometri",
+              "url": "https://tr.khanacademy.org/math/geometry/solid-geometry",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Çemberin Analitiği",
+          "summary": "Çemberin standart denklemi, merkezi ve yarıçapı bilinen çemberin denklemi, çemberin analitik incelenmesi, çember ile doğrunun durumu (teğet, kesişen, dış), iki çemberin durumu. AYT geometrinin en zor konusudur; ÖSYM her yıl 1-2 soru sorar. Analitik geometri bilgisi yoğun kullanılır.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Geometri",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Çemberin Analitiği",
+              "url": "https://tr.khanacademy.org/math/geometry/analytic-geometry",
+              "type": "video"
+            },
+            {
+              "name": "Bilgenc - AYT Geometri Konuları",
+              "url": "https://www.bilgenc.com/ayt-geometri-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 5,
+          "hours": 10
+        }
       ]
     },
     {
       "id": "physics",
       "name": "Fizik",
       "icon": "atom",
-      "description": "Fizik konuları (TYT–AYT)",
+      "examGroup": "TYT-AYT",
+      "description": "Fizik konuları TYT ve AYT kapsamında 9-10-11-12. sınıf konularını içerir. TYT'de 7 soru, AYT'de 13 soru gelir.",
       "topics": [
-        { "title": "Kuvvet ve Hareket", "summary": "Newton yasaları, ivme, sürtünme ve serbest cisim diyagramları." },
-        { "title": "Enerji ve İş", "summary": "İş–enerji teoremi, kinetik ve potansiyel enerji, enerjinin korunumu." },
-        { "title": "Elektrik ve Manyetizma", "summary": "Elektrik yükü, akım, Ohm yasası ve manyetik alanın etkileri." },
-        { "title": "Dalgalar ve Optik", "summary": "Dalga özellikleri, ışığın yansıma–kırılması ve mercekler." },
-        { "title": "Isı ve Sıcaklık", "summary": "Isı alışverişi, hâl değişimi ve genleşme." },
-        { "title": "Basınç ve Kaldırma", "summary": "Katı–sıvı–gaz basıncı ve Arşimet ilkesi." }
+        {
+          "title": "Kuvvet ve Hareket",
+          "summary": "Newton yasaları, ivme, sürtünme kuvveti, serbest cisim diyagramları, eğik düzlemde hareket, bileşke kuvvet ve parçalanma. TYT fizikte 2-3 soru gelir; ÖSYM günlük hayat bağlantılı ve hikâyeleştirme tekniği kullanarak sorar. Mekanik temellerinin sağlam bilinmesi gerekir.",
+          "resources": [
+            {
+              "name": "MEB 9-10. Sınıf Fizik Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "ÖSYM YKS Fizik Soru Dağılımı",
+              "url": "https://www.osym.gov.tr/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Fizik",
+              "url": "https://tr.khanacademy.org/science/physics",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 10
+        },
+        {
+          "title": "Enerji ve İş",
+          "summary": "İş-enerji teoremi, kinetik enerji, potansiyel enerji (yerçekimi ve elastik), enerjinin korunumu, sürtünme ve enerji kayıpları, güç kavramı. TYT ve AYT'de 1-2 soru gelir; enerji dönüşümleri ve korunumuyla ilgili problemler yaygındır.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Fizik",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Enerji",
+              "url": "https://tr.khanacademy.org/science/physics/work-and-energy",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Elektrik ve Manyetizma",
+          "summary": "Elektrik yükü, Coulomb yasası, elektrik alan ve potansiyel, Ohm yasası, devre analizi (seri-paralel dirençler), manyetik alan ve akım etkisi, elektromanyetik indüksiyon. TYT'de 1-2 soru, AYT'de 2-3 soru gelir; devre analizi ve elektrik alan soruları ağırlıklıdır.",
+          "resources": [
+            {
+              "name": "MEB 11-12. Sınıf Fizik",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Elektrik",
+              "url": "https://tr.khanacademy.org/science/physics/electricity",
+              "type": "video"
+            },
+            {
+              "name": "TED Atakent YKS Değerlendirme",
+              "url": "https://www.tedatakent.k12.tr/wp-content/uploads/2021/07/2021-YKS-DEGERLENDIRME.pdf",
+              "type": "pdf"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 12
+        },
+        {
+          "title": "Dalgalar ve Optik",
+          "summary": "Dalga özellikleri (hız, dalga boyu, frekans), ışığın yansıma ve kırılması, aynalar ve mercekler, renk ve ışık spektrumu, genel görelilik temelleri. TYT'de 1-2 soru gelir; mercekler ve yansıma-kırılma problemleri yaygındır.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Fizik",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Optik",
+              "url": "https://tr.khanacademy.org/science/physics/light-waves",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Isı ve Sıcaklık",
+          "summary": "Isı alışverişi, ısı kapasitesi, hâl değişimi (erime, buharlaşma, donma), genleşme (katı, sıvı, gaz), termodinamiğin temel yasaları. TYT'de 1 soru gelir; genellikle basit ısı hesaplama ve hâl değişimi soruları sorulur.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Fizik",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Isı",
+              "url": "https://tr.khanacademy.org/science/physics/thermodynamics",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        },
+        {
+          "title": "Basınç ve Kaldırma Kuvveti",
+          "summary": "Katı, sıvı ve gaz basıncı, Pascal prensibi, Arşimet ilkesi (kaldırma kuvveti), yüzen cisimler, atmosfer basıncı ve uygulamaları. TYT'de 1 soru gelir; Arşimet ilkesi ve basınç hesaplamaları sık sorulur.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Fizik",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Sıvı Mekaniği",
+              "url": "https://tr.khanacademy.org/science/physics/fluids",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        }
       ]
     },
     {
       "id": "chemistry",
       "name": "Kimya",
       "icon": "flask",
-      "description": "Kimya konuları (TYT–AYT)",
+      "examGroup": "TYT-AYT",
+      "description": "Kimya konuları TYT ve AYT kapsamında 9-10-11-12. sınıf konularını içerir. TYT'de 7 soru, AYT'de 13 soru gelir.",
       "topics": [
-        { "title": "Atom ve Periyodik Sistem", "summary": "Atomun yapısı, elektron dizilimi ve periyodik özellikler." },
-        { "title": "Kimyasal Türler Arası Etkileşim", "summary": "İyonik, kovalent bağlar ve moleküller arası kuvvetler." },
-        { "title": "Maddenin Halleri", "summary": "Katı, sıvı, gaz özellikleri ve gaz yasaları." },
-        { "title": "Asitler, Bazlar ve Tuzlar", "summary": "pH kavramı, nötrleşme ve tuz oluşumu." },
-        { "title": "Kimyasal Tepkimeler", "summary": "Tepkime denkleştirme, mol kavramı ve stokiyometri." },
-        { "title": "Karışımlar", "summary": "Homojen–heterojen karışımlar ve ayırma yöntemleri." }
+        {
+          "title": "Atom ve Periyodik Sistem",
+          "summary": "Atomun yapısı (proton, nötron, elektron), elektron dizilimi ( orbital), periyodik özellikler (iyonlaşma enerjisi, elektronegatiflik, atom yarıçapı), periyodik sistem ve element özellikleri. TYT'de 1-2 soru, AYT'de 2 soru gelir; periyodik özellikler karşılaştırma soruları yaygındır.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Kimya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Atom",
+              "url": "https://tr.khanacademy.org/science/chemistry/atomic-structure",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 8
+        },
+        {
+          "title": "Kimyasal Türler Arası Etkileşim",
+          "summary": "İyonik, kovalent ve metalik bağlar, moleküller arası kuvvetler (van der Waals, hidrojen bağı), Lewis yapıları, bağ uzunluğu ve enerjisi. TYT ve AYT'de 1-2 soru gelir; bağ türü belirleme ve moleküler geometri soruları sık görülür.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Kimya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Kimyasal Bağlar",
+              "url": "https://tr.khanacademy.org/science/chemistry/chemical-bonds",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Maddenin Halleri",
+          "summary": "Katı, sıvı, gaz özellikleri, gaz yasaları (Boyle, Charles, Avogadro), ideal gaz denklemi, çözelti konsantrasyonu, kolloidler. TYT'de 1-2 soru, AYT'de 2-3 soru gelir; ideal gaz denklemi ve çözelti hesaplamaları ağırlıklıdır.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Kimya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Gazlar",
+              "url": "https://tr.khanacademy.org/science/chemistry/gases-and-kinetic-molecular-theory",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Asitler, Bazlar ve Tuzlar",
+          "summary": "pH ve pOH kavramları, asit-baz tanımları (Arrhenius, Brønsted-Lowry, Lewis), nötrleşme tepkimeleri, tuz oluşumu, tampon çözeltiler, asit-baz indikatörleri. TYT ve AYT'de 1-2 soru gelir; pH hesaplama ve nötrleşme soruları yaygındır.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Kimya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Asit-Baz",
+              "url": "https://tr.khanacademy.org/science/chemistry/acids-and-bases",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Kimyasal Tepkimeler",
+          "summary": "Tepkime denkleştirme, mol kavramı, stokiyometri, sınırlandıran reaktif, verim hesabı, kimyasal denge (Le Chatelier prensibi), denge sabiti. AYT'de 2-3 soru gelir; stokiyometri ve denge sabiti hesaplamaları önemlidir.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Kimya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Stokiyometri",
+              "url": "https://tr.khanacademy.org/science/chemistry/stoichiometry",
+              "type": "video"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 10
+        },
+        {
+          "title": "Karışımlar",
+          "summary": "Homojen ve heterojen karışımlar, ayırma yöntemleri (damıtma, kristallendirme, kromatografi), çözeltiler, kolloidler, süspansiyonlar. TYT'de 1 soru gelir; genellikle ayırma yöntemi ve karışım türü belirleme soruları sorulur.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Kimya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Karışımlar",
+              "url": "https://tr.khanacademy.org/science/chemistry/mixtures-and-solutions",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        }
       ]
     },
     {
       "id": "biology",
       "name": "Biyoloji",
       "icon": "dna",
-      "description": "Biyoloji konuları (TYT–AYT)",
+      "examGroup": "TYT-AYT",
+      "description": "Biyoloji konuları TYT ve AYT kapsamında 9-10-11-12. sınıf konularını içerir. TYT'de 6 soru, AYT'de 13 soru gelir.",
       "topics": [
-        { "title": "Hücre", "summary": "Hücre organelleri, prokaryot–ökaryot farkları ve zardan madde geçişi." },
-        { "title": "Canlıların Sınıflandırılması", "summary": "Âlemler ve canlıların ortak özellikleri." },
-        { "title": "Kalıtım", "summary": "Mendel yasaları, çaprazlama ve kan grupları." },
-        { "title": "Ekosistem", "summary": "Besin zinciri, madde döngüleri ve enerji akışı." },
-        { "title": "Sistemler", "summary": "Sindirim, dolaşım, solunum ve boşaltım sistemlerinin işleyişi." },
-        { "title": "Fotosentez ve Solunum", "summary": "Fotosentez ve hücresel solunumun temel aşamaları." }
+        {
+          "title": "Hücre",
+          "summary": "Hücre organelleri (çekirdek, ribozom, mitokondri, kloroplast, vb.), prokaryot-ökaryot farkları, zardan madde geçişi (difüzyon, ozmoz, aktif taşıma), hücre bölünmeleri (mitoz, mayoz). TYT ve AYT'de 2-3 soru gelir; organel fonksiyonları ve hücre bölünmesi ağırlıklıdır.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Biyoloji",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Hücre",
+              "url": "https://tr.khanacademy.org/science/biology/cells",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 10
+        },
+        {
+          "title": "Canlıların Sınıflandırılması",
+          "summary": "Canlıların ortak özellikleri, canlı âlemleri (Monera, Protista, Fungi, Plantae, Animalia), taksonomi ve sınıflandırma sistemleri, virüsler. TYT'de 1 soru gelir; genellikle âlem özellikleri ve sınıflandırma hakkında temel sorular sorulur.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Biyoloji",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Sınıflandırma",
+              "url": "https://tr.khanacademy.org/science/biology/heredity-and-evolution",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Kalıtım",
+          "summary": "Mendel yasaları (ayrılma ve serbest kombinasyon), çaprazlama ve kan grupları, DNA yapısı ve replikasyon, RNA türleri ve protein sentezi, mutasyon ve genetik çeşitlilik. AYT'de 2-3 soru gelir; çaprazlama ve protein sentezi soruları yaygındır.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Biyoloji",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Kalıtım",
+              "url": "https://tr.khanacademy.org/science/biology/classical-genetics",
+              "type": "video"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 12
+        },
+        {
+          "title": "Ekosistem",
+          "summary": "Besin zinciri ve ağları, madde döngüleri (su, karbon, azot), enerji akışı, populasyon ve topluluk dinamikleri, ekosistem dengesi ve insan etkisi. TYT ve AYT'de 1-2 soru gelir; enerji akışı ve madde döngüleri ağırlıklıdır.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Biyoloji",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Ekosistem",
+              "url": "https://tr.khanacademy.org/science/biology/ecology",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        },
+        {
+          "title": "Sistemler",
+          "summary": "Sindirim, dolaşım, solunum, boşaltım, duyu, sinir ve endokrin sistemlerinin yapısı ve işleyişi. TYT ve AYT'de 2-3 soru gelir; sistem işleyişi ve hormon fonksiyonları karışık soru biçimlerinde sorulur.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Biyoloji",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Vücut Sistemleri",
+              "url": "https://tr.khanacademy.org/science/biology/human-biology",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 10
+        },
+        {
+          "title": "Fotosentez ve Solunum",
+          "summary": "Fotosentez (ışık ve karanlık faz reaksiyonları, klorofil ve ışık enerjisi), hücresel solunum (glikoliz, Krebs döngüsü, elektron transport zinciri), fermantasyon. AYT'de 2-3 soru gelir; fotosentez reaksiyonları ve solunum aşamaları detaylı bilinmelidir.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Biyoloji",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Fotosentez",
+              "url": "https://tr.khanacademy.org/science/biology/photosynthesis",
+              "type": "video"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 10
+        }
       ]
     },
     {
       "id": "turkish",
       "name": "Türkçe",
       "icon": "book",
-      "description": "Dil ve anlam bilgisi",
+      "examGroup": "TYT",
+      "description": "Dil ve anlam bilgisi; TYT'de 40 sorudan oluşur. Paragraf, anlam bilgisi ve dil bilgisi ağırlıklıdır.",
       "topics": [
-        { "title": "Sözcükte Anlam", "summary": "Gerçek, mecaz ve terim anlam; deyim ve atasözleri." },
-        { "title": "Cümlede Anlam", "summary": "Neden–sonuç, amaç–sonuç ve koşul ilişkileri." },
-        { "title": "Paragraf", "summary": "Ana düşünce, yardımcı düşünce ve paragraf yapısı." },
-        { "title": "Ses Bilgisi", "summary": "Ünlü–ünsüz uyumları ve ses olayları." },
-        { "title": "Yazım ve Noktalama", "summary": "Yazım kuralları ve noktalama işaretlerinin kullanımı." },
-        { "title": "Cümlenin Ögeleri", "summary": "Özne, yüklem, nesne ve tümleçlerin belirlenmesi." }
+        {
+          "title": "Sözcükte Anlam",
+          "summary": "Gerçek, mecaz, yan ve terim anlam; deyim, atasözü ve ikilemeler; sözcüklerin anlam ilişkileri (eş anlamlı, zıt anlamlı, cins-kelime). TYT Türkçe'de 4-5 soru gelir; mecaz anlam ve deyim/atasözü soruları ağırlıklıdır.",
+          "resources": [
+            {
+              "name": "MEB Türkçe Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Türkçe Dersleri",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            },
+            {
+              "name": "Superprof - TYT Türkçe Soru Dağılımı",
+              "url": "https://www.superprof.com.tr/blog/yks-tyt-ayt-konular-ve-soru-dagilimi/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        },
+        {
+          "title": "Cümlede Anlam",
+          "summary": "Cümle türleri (olumlu-olumsuz, soru, exclamative), neden-sonuç, amaç-sonuç, koşul, karşılaştırma ve zaman ilişkileri; cümle vurgusu ve tonlaması. TYT'de 3-4 soru gelir; bağlamdan anlam çıkarma ve cümle ilişkisi soruları yaygındır.",
+          "resources": [
+            {
+              "name": "MEB 9-10. Sınıf Türkçe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Türkçe Videoları",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Paragraf",
+          "summary": "Ana düşünce, yardımcı düşünce, paragraf yapısı (giriş-gelişme-sonuç), paragraf türleri (öyküleyici, betimleyici, tartışmacı, açıklayıcı), çıkarım ve yorum yapma. TYT'nin en ağırlıklı konusudur; 15-20 soru gelir. Hızlı ve doğru okuma kritiktir.",
+          "resources": [
+            {
+              "name": "MEB Türkçe Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "ÖSYM TYT Türkçe Çıkmış Sorular",
+              "url": "https://www.osym.gov.tr/",
+              "type": "official"
+            },
+            {
+              "name": "Derskonum - Türkçe Paragraf",
+              "url": "https://www.derskonum.com",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 15
+        },
+        {
+          "title": "Ses Bilgisi",
+          "summary": "Ünlü-ünsüz uyumları, büyük-ince ünlü uyumu, ses olayları (yumuşama, sertleşme, düşme, türeme, ünlü düşmesi), hece yapısı, sözcük türleri ve ses özellikleri. TYT'de 1-2 soru gelir; ünlü uyumu ve ses olayları ağırlıklıdır.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Türkçe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Türkçe Dersleri",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 4
+        },
+        {
+          "title": "Yazım ve Noktalama",
+          "summary": "Yazım kuralları (büyük harf, küçük harf, birleşik ve ayrı yazım), noktalama işaretlerinin kullanımı (virgül, noktalı virgül, iki nokta, ünlem, soru işareti, vb.). TYT'de 1-2 soru gelir; genellikle birleşik-ayrı yazım ve noktalama işareti kullanımı sorulur.",
+          "resources": [
+            {
+              "name": "MEB Türkçe Yazım Kılavuzu",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "TDK Yazım Kılavuzu",
+              "url": "https://sozluk.gov.tr/",
+              "type": "official"
+            }
+          ],
+          "difficulty": 1,
+          "hours": 3
+        },
+        {
+          "title": "Cümlenin Ögeleri",
+          "summary": "Özne, yüklem, nesne (belirtisiz, belirtili), dolaylı tümleç (yer, zaman, durum, yön, araç-görev), zarf tümlecinin türleri ve cümle ögelerinin belirlenmesi. TYT'de 2-3 soru gelir; özne-yüklem ve tümleç belirleme soruları yaygındır.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Türkçe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Türkçe Videoları",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "id": "literature-ayt",
+      "name": "Edebiyat (AYT)",
+      "icon": "book-open",
+      "examGroup": "AYT-Eşit Ağırlık/Sözel",
+      "description": "AYT Türk Dili ve Edebiyatı testinde 24 soru gelir. Anlam bilgisi, şiir bilgisi, edebi sanatlar ve dönem edebiyatları kapsanır.",
+      "topics": [
+        {
+          "title": "Anlam Bilgisi (Sözcükte Anlam)",
+          "summary": "Gerçek, mecaz, yan ve terim anlam; deyim, atasözü ve ikileme; sözcüklerin anlam ilişkileri (eş anlamlı, zıt anlamlı, cins-kelime). AYT edebiyatta 1-2 soru gelir; mecaz anlam ve deyim/atasözü soruları ağırlıklıdır. Türkçenin zengin söz varlığını kavrama becerisini ölçer.",
+          "resources": [
+            {
+              "name": "MEB Edebiyat Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Edebiyat Konuları",
+              "url": "https://www.bilgenc.com/ayt-edebiyat-konulari/",
+              "type": "article"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Edebiyat",
+              "url": "https://www.ozeldersalani.com/ayt-edebiyat-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        },
+        {
+          "title": "Cümlede ve Paragrafta Anlam",
+          "summary": "Cümle türleri, neden-sonuç, amaç-sonuç, koşul, karşılaştırma ve zaman ilişkileri; paragraf yapısı, ana düşünce, çıkarım ve yorum. AYT edebiyatta 1-2 soru gelir; bağlamdan anlam çıkarma ve paragraf soruları yaygındır. Analitik okuma ve metin çözümleme becerisi gerektirir.",
+          "resources": [
+            {
+              "name": "MEB Türkçe ve Edebiyat Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Edebiyat",
+              "url": "https://www.ozeldersalani.com/ayt-edebiyat-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        },
+        {
+          "title": "Şiir Bilgisi",
+          "summary": "Şiir türleri, nazım biçimleri (gazel, kaside, rubai, manzum hikaye), nazım ölçüleri (aruz, hece), uyak türleri (düz, çapraz, sarma), redif ve kafiye. AYT edebiyatta 2-3 soru gelir; nazım ölçüsü ve uyak türü belirleme soruları ağırlıklıdır. Şiir sanatının teknik yapı taşlarını öğretir.",
+          "resources": [
+            {
+              "name": "MEB 10-11. Sınıf Edebiyat",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Edebiyat Soru Dağılımı",
+              "url": "https://www.bilgenc.com/ayt-edebiyat-konulari/",
+              "type": "article"
+            },
+            {
+              "name": "Kocumbe - AYT Edebiyat Konu Dağılımı",
+              "url": "https://www.kocumbe.com/konu-dagilimlari/ayt/edebiyat",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 10
+        },
+        {
+          "title": "Söz Sanatları (Edebi Sanatlar)",
+          "summary": "Tesbih, istiare, teşbih-i beliğ, kinaye, mecaz-ı mürsel, husn-i ta'lil, tezat, intak, tevriye, iham ve maraz. AYT edebiyatta 1-2 soru gelir; özellikle tesbih, istiare ve kinaye soruları sık görülür. Edebî metinlerin zenginlik katmanlarını çözme becerisi kazandırır.",
+          "resources": [
+            {
+              "name": "MEB Edebiyat Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Edebiyat",
+              "url": "https://www.ozeldersalani.com/ayt-edebiyat-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Metinlerin Sınıflandırılması",
+          "summary": "Edebi türler (şiir, hikaye, roman, tiyatro, deneme, makale), anlatım türleri (betimleme, öyküleme, tartışma, açıklama), metin türleri ve özellikleri. AYT edebiyatta 1-2 soru gelir; metin türü ve anlatım özelliği belirleme soruları yaygındır. Edebî okuryazarlık temelini oluşturur.",
+          "resources": [
+            {
+              "name": "MEB 9-10. Sınıf Edebiyat",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Derskonum - 9. Sınıf Edebiyat Müfredatı",
+              "url": "https://www.derskonum.com/2024/08/9.sinif-edebiyat-mufredat-meb-2024-2025.html",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        },
+        {
+          "title": "İslamiyet Öncesi ve Geçiş Dönemi Türk Edebiyatı",
+          "summary": "Göktürk, Uygur ve Karahanlı edebiyatı; Divanü Lügati't-Türk, Kutadgu Bilig; Maniheist ve Budist edebiyat etkileri. AYT edebiyatta 1 soru gelir; genellikle temel eser ve yazar bilgisi sorulur. Türk edebiyatının ilk dönemlerini tanıma fırsatı verir.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Edebiyat",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Edebiyat Soru Dağılımı",
+              "url": "https://www.bilgenc.com/ayt-edebiyat-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Halk Edebiyatı",
+          "summary": "Halk edebiyatı nazım türleri (koşma, mani, türkü, deyiş), halk hikayeleri (Köroğlu, Kerem ile Aslı, Ferhat ile Şirin), masal, fabl, destan türleri. AYT edebiyatta 1-2 soru gelir; nazım türü özellikleri ve halk hikayeleri ağırlıklıdır. Türk kültürünün sözlü geleneğini temsil eder.",
+          "resources": [
+            {
+              "name": "MEB 9-10. Sınıf Edebiyat",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Edebiyat",
+              "url": "https://www.ozeldersalani.com/ayt-edebiyat-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        },
+        {
+          "title": "Divan Edebiyatı",
+          "summary": "Divan edebiyatı nazım türleri (gazel, kaside, mesnevi, rubai), divan şairi özellikleri, Fuzuli, Baki, Nedim, Şeyh Gâlib gibi önemli şairler ve eserleri. AYT edebiyatın en ağırlıklı konusudur; 4-5 soru gelir. Şiir teknikleri ve dönem özellikleri bilinmelidir.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Edebiyat",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Edebiyat Soru Dağılımı",
+              "url": "https://www.bilgenc.com/ayt-edebiyat-konulari/",
+              "type": "article"
+            },
+            {
+              "name": "Kocumbe - AYT Edebiyat",
+              "url": "https://www.kocumbe.com/konu-dagilimlari/ayt/edebiyat",
+              "type": "article"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 12
+        },
+        {
+          "title": "Tanzimat Edebiyatı",
+          "summary": "Tanzimat dönemi özellikleri, şiir (Şinasi, Namık Kemal, Abdülhak Hâmit), roman (Recaizade Mahmut Ekrem, Ahmet Mithat Efendi), tiyatro ve öykü. AYT edebiyatta 1 soru gelir; dönem özellikleri ve eserler ağırlıklıdır. Batılılaşma sürecinin edebiyata yansımalarını inceler.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Edebiyat",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Edebiyat",
+              "url": "https://www.ozeldersalani.com/ayt-edebiyat-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Servet-i Fünun ve Fecr-i Ati Edebiyatı",
+          "summary": "Servet-i Fünun edebiyatı özellikleri (Tevfik Fikret, Cenap Şahabettin, Halit Ziya Uşaklıgil), Fecr-i Ati edebiyatı (Cenap Şahabettin, Yakup Kadri Karaosmanoğlu). AYT edebiyatta 1-2 soru gelir; sanat için sanat anlayışı ve eserler bilinmelidir. Modern Türk edebiyatının doğuşunu temsil eder.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Edebiyat",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Edebiyat Soru Dağılımı",
+              "url": "https://www.bilgenc.com/ayt-edebiyat-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        },
+        {
+          "title": "Milli Edebiyat",
+          "summary": "Milli edebiyat özellikleri, Mehmet Akif Ersoy, Yahya Kemal Beyatlı, Ömer Seyfettin; halk şiiri etkisi ve ulusal temalar. AYT edebiyatta 1 soru gelir; Mehmet Akif ve Ömer Seyfettin eserleri ağırlıklıdır. Türk edebiyatının millileşme dönemini temsil eder.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Edebiyat",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Kocumbe - AYT Edebiyat Konu Dağılımı",
+              "url": "https://www.kocumbe.com/konu-dagilimlari/ayt/edebiyat",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Cumhuriyet Dönemi Türk Edebiyatı",
+          "summary": "Cumhuriyet dönemi şairleri (Nazım Hikmet, Necip Fazıl Kısakürek, Orhan Veli Kanık), romancıları (Yaşar Kemal, Orhan Pamuk, Ahmet Hamdi Tanpınar), hikaye ve deneme yazarları. AYT edebiyatın en ağırlıklı ikinci konusudur; 3-5 soru gelir. Modern Türk edebiyatının zirve isimleri ve eserleri bilinmelidir.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Edebiyat",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Edebiyat Soru Dağılımı",
+              "url": "https://www.bilgenc.com/ayt-edebiyat-konulari/",
+              "type": "article"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Edebiyat",
+              "url": "https://www.ozeldersalani.com/ayt-edebiyat-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 12
+        },
+        {
+          "title": "Geleneksel Türk Tiyatrosu",
+          "summary": "Geleneksel Türk tiyatrosu türleri (orta oyunu, Karagöz, Hacivat, meddah), temsil ve özellikleri. AYT edebiyatta 1 soru gelir; tür özellikleri ve temsil unsurları sorulur. Türk halk kültürünün sahne sanatlarını tanıma fırsatı verir.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Edebiyat",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Edebiyat",
+              "url": "https://www.ozeldersalani.com/ayt-edebiyat-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Batı Edebiyat Akımları",
+          "summary": "Romantizm, realizm, naturalizm, sembolizm, ekspresyonizm, sürrealizm, futurizm, dadaizm ve varoluşçuluk akımları; temsilcileri ve özellikleri. AYT edebiyatta 1 soru gelir; akım özellikleri ve temsilcileri bilinmelidir. Edebiyatın evrensel gelişim çizgisini kavratır.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Edebiyat",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Edebiyat Soru Dağılımı",
+              "url": "https://www.bilgenc.com/ayt-edebiyat-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 8
+        }
       ]
     },
     {
       "id": "history",
       "name": "Tarih",
       "icon": "landmark",
-      "description": "Tarih konuları",
+      "examGroup": "TYT",
+      "description": "TYT tarih kapsamında 9. ve 10. sınıf tarih konularını içerir. TYT Sosyal Bilimler testinde 5 soru gelir.",
       "topics": [
-        { "title": "İlk Uygarlıklar", "summary": "Mezopotamya, Anadolu ve İlk Çağ uygarlıkları." },
-        { "title": "İslam Tarihi", "summary": "İslamiyet'in doğuşu ve ilk İslam devletleri." },
-        { "title": "Türk–İslam Devletleri", "summary": "Karahanlı, Gazneli ve Selçuklu dönemleri." },
-        { "title": "Osmanlı Kuruluş ve Yükselme", "summary": "Beylikten devlete geçiş ve fetih politikaları." },
-        { "title": "İnkılap Tarihi", "summary": "Kurtuluş Savaşı ve Atatürk ilke ve inkılapları." }
+        {
+          "title": "İlk Uygarlıklar",
+          "summary": "Mezopotamya, Mısır, Anadolu (Hitit, Frig, Lidya, Urartu) ve İlk Çağ uygarlıkları; çivi yazısı, takvim, hukuk ve din sistemleri. TYT tarihte 1-2 soru gelir; Anadolu uygarlıkları ve Mezopotamya bilgisi ağırlıklıdır. İnsanlık tarihinin temelini oluşturan dönemleri kapsar.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Dünya Tarihi",
+              "url": "https://tr.khanacademy.org/humanities/world-history",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "İslam Tarihi",
+          "summary": "İslamiyet'in doğuşu ve yayılışı, Hz. Muhammed ve dört halife dönemi, Emevi ve Abbasi devletleri, İslam medeniyetinin bilim ve sanat katkıları. TYT tarihte 1-2 soru gelir; İslamiyet'in doğuşu ve yayılışı ağırlıklıdır. Ortadoğu ve dünya tarihinin dönüm noktasını oluşturur.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Tarih Dersleri",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Türk-İslam Devletleri",
+          "summary": "Karahanlı, Gazneli, Büyük Selçuklu ve Anadolu Selçuklu devletleri; Türklerin İslamiyet'i kabulü, Alparslan, Malazgirt Meydan Muharebesi, Anadolu'nun Türkleşmesi. TYT tarihte 1-2 soru gelir; Malazgirt ve Anadolu Selçuklu ağırlıklıdır. Türk tarihinin İslam dönemi temellerini oluşturur.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Türk Tarihi",
+              "url": "https://tr.khanacademy.org/humanities",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Osmanlı Kuruluş ve Yükselme Dönemi",
+          "summary": "Osmanlı Beyliği'nin kuruluşu, devletleşme süreci, fetih politikaları (Rumeli, Anadolu), İstanbul'un fethi, Yavuz Sultan Selim ve Kanuni dönemleri, klasik dönem Osmanlı. TYT tarihte 1-2 soru gelir; kuruluş ve İstanbul fethi ağırlıklıdır. Türkiye tarihinin temel taşlarını oluşturur.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Superprof - TYT Tarih Soru Dağılımı",
+              "url": "https://www.superprof.com.tr/blog/yks-tyt-ayt-konular-ve-soru-dagilimi/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "İnkılap Tarihi",
+          "summary": "Kurtuluş Savaşı (Mondros, Amasya, Erzurum, Sivas, Büyük Millet Meclisi, İnönü, Sakarya, Başkomutan Meydan Muharebesi), Atatürk ilke ve inkılapları (cumhuriyet, laiklik, hukuk, eğitim, ekonomi, dil, tarih inkılapları). TYT tarihte 1-2 soru gelir; Kurtuluş Savaşı ve inkılaplar ağırlıklıdır. Türkiye Cumhuriyeti'nin doğuşunu ve temel değerlerini anlatır.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "ÖSYM YKS Tarih Soru Dağılımı",
+              "url": "https://www.osym.gov.tr/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Tarih Dersleri",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "id": "history-ayt",
+      "name": "Tarih-2 (AYT)",
+      "icon": "landmark",
+      "examGroup": "AYT-Eşit Ağırlık/Sözel",
+      "description": "AYT Sosyal Bilimler-2 testinde 11 tarih sorusu gelir. 11. ve 12. sınıf tarih konularını kapsar.",
+      "topics": [
+        {
+          "title": "İstanbul'un Fethi ve Sonuçları",
+          "summary": "İstanbul'un fethi (1453), fethin askeri, siyasi, ekonomik ve kültürel sonuçları, Konstantinopolis'den İstanbul'a dönüşüm, cihan devleti olma yolunda ilk adım. AYT tarih-2'de 1-2 soru gelir; fethin nedenleri ve sonuçları ağırlıklıdır. Osmanlı tarihinin dönüm noktasını temsil eder.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Kocumbe - AYT Tarih-2 Konu Dağılımı",
+              "url": "https://www.kocumbe.com/konu-dagilimlari/ayt/tarih-2",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Türk İslam Dünyasında Birliği Sağlama Çabaları",
+          "summary": "Osmanlı döneminde İslam dünyasındaki birlik çabaları, İttihad-ı İslam politikası, Halifelik meselesi, Panislamizm ve batılı emperyalizm karşıtı hareketler. AYT tarih-2'de 1 soru gelir; genellikle temel kavram ve olaylar sorulur. Osmanlı diplomasisinin İslam eksenini inceler.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Tarih",
+              "url": "https://www.ozeldersalani.com/ayt-tarih-konulari-ve-ayt-tarih-soru-dagilimi",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Osmanlı'da Saray ve Şehir Kültürü",
+          "summary": "Topkapı Sarayı, Divan-ı Hümayun, saray teşkilatı, Enderun, şehir yapılanması (İstanbul, Edirne, Bursa), medrese, cami, külliye, cariye, gulam sistemi. AYT tarih-2'de 1 soru gelir; saray teşkilatı ve şehir kültürü ağırlıklıdır. Osmanlı medeniyetinin kültürel ve idari yapısını anlatır.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Kocumbe - AYT Tarih-2",
+              "url": "https://www.kocumbe.com/konu-dagilimlari/ayt/tarih-2",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Osmanlı Devleti'nde Millet Sistemi ve Çiftlik Sistemi",
+          "summary": "Millet sistemi (din temelli özerklik), Rum patrikhanesi, Yahudi ve Ermeni cemaatleri, çiftlik sistemi (tımar, zeamet, has), toprak mülkiyeti ve üretim ilişkileri. AYT tarih-2'de 1 soru gelir; millet sistemi ve toprak düzeni ağırlıklıdır. Osmanlı'nın idari ve ekonomik temellerini inceler.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Tarih",
+              "url": "https://www.ozeldersalani.com/ayt-tarih-konulari-ve-ayt-tarih-soru-dagilimi",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Avrupa'da Değişim Çağı ve İhtilaller Çağı",
+          "summary": "Rönesans, Reform, Coğrafi Keşifler, mutlakiyetçilik, Aydınlanma Çağı, Fransız İhtilali, Sanayi Devrimi. AYT tarih-2'de 1-2 soru gelir; Rönesans, Reform ve Fransız İhtilali ağırlıklıdır. Modern dünyanın şekillendiği temel dönüşümleri kapsar.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Kocumbe - AYT Tarih-2",
+              "url": "https://www.kocumbe.com/konu-dagilimlari/ayt/tarih-2",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Osmanlı Devleti'nde Modern Orduya Geçiş",
+          "summary": "Nizam-ı Cedid, Yeniçeri ocağının lağvı, modern ordunun kuruluşu (Asakir-i Mansure-i Muhammediye), askeri reformlar. AYT tarih-2'de 1 soru gelir; Nizam-ı Cedid ve Yeniçeri lağvı ağırlıklıdır. Osmanlı'nın modernleşme çabalarının askeri boyutunu inceler.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Tarih",
+              "url": "https://www.ozeldersalani.com/ayt-tarih-konulari-ve-ayt-tarih-soru-dagilimi",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Osmanlı Devleti'ne Yönelik Tehditler",
+          "summary": "Karlofça Antlaşması, 18. yüzyıl Osmanlı gerileme nedenleri, Ayınalıkavak Senedi, Küçük Kaynarca Antlaşması, bağımsızlık hareketleri, dış borçlar ve mali kriz. AYT tarih-2'de 1 soru gelir; genellikle antlaşmalar ve gerileme nedenleri sorulur. Osmanlı'nın çöküş sürecinin başlangıcını anlatır.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Kocumbe - AYT Tarih-2",
+              "url": "https://www.kocumbe.com/konu-dagilimlari/ayt/tarih-2",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Osmanlı Devleti'nde Demokratikleşme Hareketleri",
+          "summary": "Tanzimat Fermanı, Islahat Fermanı, meşrutiyet, Kanun-ı Esasi, İttihat ve Terakki, II. Meşrutiyet. AYT tarih-2'de 1 soru gelir; Tanzimat ve meşrutiyet ağırlıklıdır. Osmanlı'dan Cumhuriyet'e geçişin siyasi ve hukuki arka planını inceler.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Tarih",
+              "url": "https://www.ozeldersalani.com/ayt-tarih-konulari-ve-ayt-tarih-soru-dagilimi",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Mustafa Kemal'in Lider Olarak Yetişmesi",
+          "summary": "Mustafa Kemal'in eğitimi, askeri kariyeri, Trablusgarp ve Balkan Savaşları'ndaki rolü, I. Dünya Savaşı, Mondros Mütarekesi ve Amasya Genelgesi. AYT tarih-2'de 1-2 soru gelir; Mustafa Kemal'in askeri ve siyasi gelişimi ağırlıklıdır. Türkiye Cumhuriyeti'nin kurucusunun biyografik temellerini oluşturur.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Kocumbe - AYT Tarih-2",
+              "url": "https://www.kocumbe.com/konu-dagilimlari/ayt/tarih-2",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "I. Dünya Savaşı ve Sonuçları",
+          "summary": "I. Dünya Savaşı'nın nedenleri, Osmanlı'nın savaşa girişi, cepheler (Çanakkale, Kutü'l-Amare, Irak, Suriye), Mondros Mütarekesi, Sevr Antlaşması, savaşın sonuçları. AYT tarih-2'de 1-2 soru gelir; Çanakkale ve Mondros ağırlıklıdır. Modern Ortadoğu ve Türkiye'nin doğuşuna zemin hazırlayan dönemi kapsar.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Tarih",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Tarih",
+              "url": "https://www.ozeldersalani.com/ayt-tarih-konulari-ve-ayt-tarih-soru-dagilimi",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        }
       ]
     },
     {
       "id": "geography",
       "name": "Coğrafya",
       "icon": "globe",
-      "description": "Coğrafya konuları",
+      "examGroup": "TYT",
+      "description": "TYT coğrafya kapsamında 9. ve 10. sınıf coğrafya konularını içerir. TYT Sosyal Bilimler testinde 5 soru gelir.",
       "topics": [
-        { "title": "Harita Bilgisi", "summary": "Ölçek, izohips ve koordinat sistemi." },
-        { "title": "İklim", "summary": "İklim elemanları ve Türkiye'nin iklim tipleri." },
-        { "title": "Yer Şekilleri", "summary": "İç ve dış kuvvetlerin oluşturduğu yer şekilleri." },
-        { "title": "Nüfus ve Yerleşme", "summary": "Nüfus dağılışı, göçler ve yerleşme türleri." },
-        { "title": "Ekonomik Faaliyetler", "summary": "Tarım, sanayi ve ulaşımın coğrafi dağılışı." }
+        {
+          "title": "Harita Bilgisi",
+          "summary": "Ölçek, izohips, eğim, koordinat sistemi (enlem-boylam), harita türleri, yön, uzaklık ve alan hesabı, harita projeksiyonları. TYT coğrafyada 1-2 soru gelir; ölçek ve eğim hesaplama soruları ağırlıklıdır. Coğrafyanın temel araç ve yöntemlerini öğretir.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Harita",
+              "url": "https://tr.khanacademy.org/math/geometry",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "İklim",
+          "summary": "İklim elemanları (sıcaklık, basınç, rüzgâr, nem, yağış), iklim tipleri (tropikal, çöl, akdeniz, karasal, okyanusal, kutup), iklim grafikleri, Türkiye'nin iklim tipleri. TYT coğrafyada 1-2 soru gelir; iklim türleri ve Türkiye iklimi ağırlıklıdır. İnsan yaşamını doğrudan etkileyen temel coğrafi kavramdır.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - İklim",
+              "url": "https://tr.khanacademy.org/science/earth-science",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        },
+        {
+          "title": "Yer Şekilleri",
+          "summary": "İç ve dış kuvvetler (tektonik, volkanik, deprem, erozyon, akarsu, rüzgâr, buzul), Dağ, ova, platö, delti, volkanik koniler, kıyı şekilleri, Türkiye'deki yer şekilleri. TYT coğrafyada 1-2 soru gelir; iç-dış kuvvetler ve Türkiye yer şekilleri ağırlıklıdır. Yeryüzünün şekillenmesini açıklayan temel kavramları kapsar.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "ÜniversiteGO - 10. Sınıf Coğrafya",
+              "url": "https://www.universitego.com/10-sinif-cografya-konulari/",
+              "type": "article"
+            },
+            {
+              "name": "Khan Academy - Yer Şekilleri",
+              "url": "https://tr.khanacademy.org/science/earth-science",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        },
+        {
+          "title": "Nüfus ve Yerleşme",
+          "summary": "Nüfus dağılışı, nüfus piramitleri, göç türleri (iç, dış, gönüllü, zorunlu), yerleşme türleri (kırsal, kentsel), şehirleşme, Türkiye'nin nüfus ve yerleşme özellikleri. TYT coğrafyada 1-2 soru gelir; göçler ve nüfus piramitleri ağırlıklıdır. İnsan coğrafyasının temel konusudur.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Superprof - TYT Coğrafya",
+              "url": "https://www.superprof.com.tr/blog/yks-tyt-ayt-konular-ve-soru-dagilimi/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Ekonomik Faaliyetler",
+          "summary": "Tarım (bitki ve hayvancılık), sanayi (demir-çelik, petrokimya, tekstil), madencilik (kömür, bor, petrol), ulaşım (demiryolu, karayolu, denizyolu, havayolu), ticaret ve turizm. Türkiye ve dünyada ekonomik faaliyetlerin coğrafi dağılışı. TYT coğrafyada 1-2 soru gelir; tarım ve sanayi ağırlıklıdır. Ekonomik coğrafyanın temel konusudur.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "ÜniversiteGO - 10. Sınıf Coğrafya",
+              "url": "https://www.universitego.com/10-sinif-cografya-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        }
+      ]
+    },
+    {
+      "id": "geography-ayt",
+      "name": "Coğrafya-2 (AYT)",
+      "icon": "globe",
+      "examGroup": "AYT-Eşit Ağırlık/Sözel",
+      "description": "AYT Sosyal Bilimler-2 testinde 11 coğrafya sorusu gelir. 11. ve 12. sınıf coğrafya konularını kapsar.",
+      "topics": [
+        {
+          "title": "Ekosistem Özellikleri ve İşleyişi",
+          "summary": "Ekosistem bileşenleri (biyotik, abiyotik), besin zinciri ve ağı, trofik düzeyler, enerji akışı, madde döngüleri (karbon, azot, su), ekolojik denge. AYT coğrafya-2'de 1-2 soru gelir; besin zinciri ve enerji akışı ağırlıklıdır. Çevre biliminin temel kavramlarıdır.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Coğrafya-2 Konuları",
+              "url": "https://www.bilgenc.com/ayt-cografya-2-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Ekstrem Doğa Olayları",
+          "summary": "Doğal afet türleri (deprem, volkan, sel, heyelan, çığ, fırtına, kuraklık), afetlerin nedenleri, dağılışı ve önlemleri, Türkiye'deki afet riskleri. AYT coğrafya-2'de 1 soru gelir; afet türleri ve önlemleri ağırlıklıdır. Doğal risk yönetimi ve afet bilincinin temelini oluşturur.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Kunduz - AYT Coğrafya Soru Dağılımı",
+              "url": "https://kunduz.com/tr/blog/ayt-cografya-konulari-ayt-cografya-soru-dagilimi-275396/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Küresel İklim Değişikliği",
+          "summary": "İklim değişikliği nedenleri (sera gazları, fosil yakıtlar), etkileri (deniz seviyesi yükselmesi, buzul erimesi, kuraklık), Kyoto ve Paris İklim Anlaşmaları, sürdürülebilir kalkınma. AYT coğrafya-2'de 1-2 soru gelir; etkiler ve önlemler ağırlıklıdır. Günümüzün en kritik çevre sorununu inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Coğrafya-2",
+              "url": "https://www.bilgenc.com/ayt-cografya-2-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Nüfus Politikaları ve Projeksiyonları",
+          "summary": "Dünya nüfusunun tarihsel gelişimi, nüfus artış hızı, demografik geçiş modeli, nüfus politikaları (Çin, Hindistan, Türkiye), nüfus projeksiyonları ve yaşlanma sorunu. AYT coğrafya-2'de 1 soru gelir; demografik geçiş ve yaşlanma ağırlıklıdır. İnsan kaynakları planlamasının temel verileridir.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Coğrafya-2",
+              "url": "https://www.bilgenc.com/ayt-cografya-2-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Şehirler ve Kırsal Yerleşmeler",
+          "summary": "Şehirleşme süreci, şehir tipleri (dünya, mega, sanayi, turizm şehirleri), kentsel dönüşüm, kırsal yerleşme türleri, tarımsal yerleşme modelleri, kırsal-kentli göç. AYT coğrafya-2'de 1 soru gelir; şehir tipleri ve kırsal yerleşme ağırlıklıdır. Beşeri coğrafyanın temel konusudur.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Coğrafya-2",
+              "url": "https://www.bilgenc.com/ayt-cografya-2-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Dünyada Doğal Kaynak ve Ekonomi",
+          "summary": "Doğal kaynak türleri (yenilenebilir, yenilenemez), enerji kaynakları (petrol, doğal gaz, kömür, nükleer, hidroelektrik, güneş, rüzgâr), kaynakların dünya dağılışı, OPEC, küresel enerji politikaları. AYT coğrafya-2'de 1-2 soru gelir; enerji kaynakları ve dağılışı ağırlıklıdır. Küresel ekonominin temel parametreleridir.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Kunduz - AYT Coğrafya",
+              "url": "https://kunduz.com/tr/blog/ayt-cografya-konulari-ayt-cografya-soru-dagilimi-275396/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Türkiye'de Tarım, Sanayi, Maden ve Enerji",
+          "summary": "Türkiye'de tarım ürünleri (buğday, çay, fındık, üzüm, pamuk), hayvancılık, sanayi bölgeleri (Marmara, Ege, Karadeniz), madenler (bor, krom, kömür, petrol), enerji kaynakları ve barajlar. AYT coğrafya-2'de 1-2 soru gelir; tarım ve enerji ağırlıklıdır. Türkiye ekonomisinin sektörel yapısını inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Coğrafya-2",
+              "url": "https://www.bilgenc.com/ayt-cografya-2-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Ekonomi, Şehirleşme ve Göç",
+          "summary": "Ekonomik faaliyetlerin küresel dağılışı, göç nedenleri ve sonuçları (ekonomik, siyasi, çevresel), mülteci krizi, brain drain, şehirleşme ve göç ilişkisi. AYT coğrafya-2'de 1 soru gelir; göç nedenleri ve sonuçları ağırlıklıdır. Küresel insan hareketlerinin coğrafi boyutunu inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Coğrafya-2",
+              "url": "https://www.bilgenc.com/ayt-cografya-2-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "İşlevsel Bölge ve Kalkınma Projeleri",
+          "summary": "Bölge kavramı, işlevsel bölgeler (Marmara, Karadeniz, Ege, Akdeniz, İç Anadolu, Doğu Anadolu, Güneydoğu Anadolu), GAP, DAP, DOKAP, ZBK, KOP gibi kalkınma projeleri. AYT coğrafya-2'de 1 soru gelir; kalkınma projeleri ve bölgelerin özellikleri ağırlıklıdır. Türkiye'nin bölgesel kalkınma stratejilerini inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Coğrafya-2",
+              "url": "https://www.bilgenc.com/ayt-cografya-2-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Küreselleşen Dünya ve Uluslararası Örgütler",
+          "summary": "Küreselleşme kavramı ve boyutları (ekonomik, kültürel, siyasi), uluslararası örgütler (BM, NATO, AB, OECD, IMF, Dünya Bankası, ILO), Türkiye'nin üyelikleri. AYT coğrafya-2'de 1-2 soru gelir; örgütler ve küreselleşme etkileri ağırlıklıdır. Çağdaş uluslararası sistemin yapı taşlarını inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Coğrafya-2",
+              "url": "https://www.bilgenc.com/ayt-cografya-2-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Çevre Sorunları ve Geri Dönüşüm",
+          "summary": "Küresel ve yerel çevre sorunları (hava kirliliği, su kirliliği, toprak erozyonu, orman tahribatı, biyolojik çeşitlilik kaybı), atık yönetimi, geri dönüşüm, sürdürülebilir kalkınma. AYT coğrafya-2'de 1-2 soru gelir; çevre sorunları ve önlemler ağırlıklıdır. Çevre bilincinin temelini oluşturur.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Coğrafya",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Coğrafya-2",
+              "url": "https://www.bilgenc.com/ayt-cografya-2-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        }
       ]
     },
     {
       "id": "philosophy",
       "name": "Felsefe",
       "icon": "brain",
-      "description": "Felsefe konuları",
+      "examGroup": "TYT",
+      "description": "Felsefe konuları TYT Sosyal Bilimler testinde 5 soru ile değerlendirilir. Temel felsefi kavramlar ve düşünürler kapsanır.",
       "topics": [
-        { "title": "Felsefeye Giriş", "summary": "Felsefenin konusu, alanı ve diğer bilgi türleriyle ilişkisi." },
-        { "title": "Bilgi Felsefesi", "summary": "Doğruluk, gerçeklik ve bilginin kaynağı tartışmaları." },
-        { "title": "Bilim Felsefesi", "summary": "Bilimsel yöntem ve bilime yaklaşımlar." },
-        { "title": "Ahlak Felsefesi", "summary": "İyi, kötü ve özgürlük kavramları." },
-        { "title": "Sanat ve Din Felsefesi", "summary": "Güzellik anlayışı ve din felsefesinin temel soruları." }
+        {
+          "title": "Felsefeye Giriş",
+          "summary": "Felsefenin konusu, alanı, diğer bilgi türleriyle (bilim, din, sanat) ilişkisi; felsefi düşünme ve akıl yürütme, felsefe tarihi öncesi (Mitoloji) ve felsefenin doğuşu (Antik Yunan). TYT felsefede 1 soru gelir; felsefe tanımı ve bilim-sanat ilişkisi ağırlıklıdır. Düşüncenin sistematik hale gelişinin temelini oluşturur.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Felsefe Dersleri",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            },
+            {
+              "name": "ÖSYM YKS Felsefe Soru Dağılımı",
+              "url": "https://www.osym.gov.tr/",
+              "type": "official"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Bilgi Felsefesi",
+          "summary": "Doğruluk, gerçeklik ve bilginin kaynağı tartışmaları; rasyonalizm (Descartes, Kant), ampirizm (Locke, Hume), şüphecilik, felsefi akımlar ve bilgi teorileri. TYT felsefede 1 soru gelir; bilgi kaynağı ve doğruluk tartışmaları ağırlıklıdır. İnsan bilgisinin sınırlarını ve kaynaklarını sorgular.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Felsefe",
+              "url": "https://tr.khanacademy.org/humanities/philosophy",
+              "type": "video"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Felsefe",
+              "url": "https://www.ozeldersalani.com/ayt-felsefe-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Bilim Felsefesi",
+          "summary": "Bilimsel yöntem (gözlem, hipotez, deney, kanun, teori), bilimsel devrim (Kuhn), paradigma, bilim ve doğrulama, pozitivizm, popperci yanlışlanabilirlik. TYT felsefede 1 soru gelir; bilimsel yöntem ve bilim felsefesi temel kavramları ağırlıklıdır. Bilimsel düşünmenin felsefi arka planını inceler.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Felsefe",
+              "url": "https://www.ozeldersalani.com/ayt-felsefe-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Ahlak Felsefesi",
+          "summary": "İyi, kötü, doğru, yanlış kavramları; özgürlük ve sorumluluk, determinizm ve özgür irade, mutlulak, erdem, faydacılık (Bentham, Mill), deontolojik etik (Kant), aretaik etik (Aristoteles). TYT felsefede 1 soru gelir; ahlak kavramları ve etik kuramlar ağırlıklıdır. İnsan davranışlarının felsefi temellerini sorgular.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Etik",
+              "url": "https://tr.khanacademy.org/humanities/philosophy",
+              "type": "video"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Felsefe",
+              "url": "https://www.ozeldersalani.com/ayt-felsefe-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Sanat ve Din Felsefesi",
+          "summary": "Güzellik anlayışı, estetik değer, sanat eserinin doğası (mimesis, ifade, form), sanat ve toplum, din felsefesinin temel soruları (Tanrı'nın varlığı, kötülük problemi, inanç ve akıl). TYT felsefede 1 soru gelir; sanat-din ilişkisi ve estetik kavramlar ağırlıklıdır. İnsanlığın en derin duygusal ve manevi arayışlarını inceler.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Felsefe",
+              "url": "https://www.ozeldersalani.com/ayt-felsefe-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "id": "philosophy-ayt",
+      "name": "Felsefe-2 (AYT)",
+      "icon": "brain",
+      "examGroup": "AYT-Sözel",
+      "description": "AYT Sosyal Bilimler-2 testinde felsefe grubu 12 soru gelir (Felsefe, Psikoloji, Sosyoloji, Mantık). Felsefe-2 ağırlıklı 6 soru içerir.",
+      "topics": [
+        {
+          "title": "Felsefenin Konusu",
+          "summary": "Felsefenin ne olduğu, bilim ve sanatla farkı, felsefi düşüncenin özellikleri, tarihsel doğuşu; Sokrates'in yöntemi (mayetik), maieutik, bilgisizlik bilgisi, Platon ve Aristoteles'in felsefi yaklaşımları. AYT felsefe'de 1-2 soru gelir; Sokrates ve Platon ağırlıklıdır. Batı felsefesinin doğuşunu ve temel karakterini inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Felsefe",
+              "url": "https://www.ozeldersalani.com/ayt-felsefe-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Bilgi Felsefesi",
+          "summary": "Bilginin kaynağı, doğruluğu ve sınırları; rasyonalizm (Descartes, Kant), ampirizm (Locke, Hume, Berkeley), şüphecilik, Gadamer hermeneutik, Sofistler. AYT felsefe'de 1-2 soru gelir; Kant ve Gadamer soruları yaygındır. İnsan bilgisinin epistemolojik temellerini derinlemesine inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Felsefe",
+              "url": "https://www.ozeldersalani.com/ayt-felsefe-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 8
+        },
+        {
+          "title": "Varlık Felsefesi",
+          "summary": "Varlığın doğası, madde-form öğretisi (Aristoteles), varoluşçuluk (Kierkegaard, Sartre, Heidegger), ontoloji, Nicolai Hartmann'ın yeni ontolojisi. AYT felsefe'nin en sık sorulan konusudur; 1-2 soru gelir. Aristoteles, Kierkegaard ve Hartmann soruları yaygındır. Varlık sorunsalının en derin düzeyde incelenmesidir.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Felsefe",
+              "url": "https://www.ozeldersalani.com/ayt-felsefe-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            },
+            {
+              "name": "Kocumbe - AYT Felsefe Konu Dağılımı",
+              "url": "https://www.kocumbe.com/konu-dagilimlari/ayt/felsefe",
+              "type": "article"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 8
+        },
+        {
+          "title": "Ahlak Felsefesi",
+          "summary": "İyi, kötü, özgür irade, sorumluluk, mutlulak; Aristoteles'in eudaimonia anlayışı, Nietzsche'nin güç istenci, Nurettin Topçu'nun isyan ahlakı, determinizm ve özgür irade tartışmaları. AYT felsefe'de 1-2 soru gelir; Aristoteles, Nietzsche ve Topçu soruları yaygındır. İnsan eylemlerinin etik değerini derinlemesine sorgular.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Felsefe",
+              "url": "https://www.ozeldersalani.com/ayt-felsefe-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 8
+        },
+        {
+          "title": "Sanat Felsefesi",
+          "summary": "Güzellik, estetik değer, sanat eserinin doğası, biriciklik, yapay zeka ve sanat, Eiffel Kulesi üzerinden güzellik-beğeni tartışması. AYT felsefe'de 1 soru gelir; güncel meselelerle bağlantılı sorular artmaktadır. Estetik deneyimin felsefi temellerini ve güncel tartışmaları inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Felsefe",
+              "url": "https://www.ozeldersalani.com/ayt-felsefe-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Din Felsefesi",
+          "summary": "Tanrı, inanç ve akıl ilişkisi, teodise (kötülük problemi), İbn Sina ve Gazali arasındaki evren yaratılışı tartışması, Kierkegaard'ın iman anlayışı, dini deneyim. AYT felsefe'de 1 soru gelir; İbn Sina-Gazali ve Kierkegaard soruları artmaktadır. İnancın akılla ilişkisini felsefi düzeyde sorgular.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Felsefe",
+              "url": "https://www.ozeldersalani.com/ayt-felsefe-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 7
+        },
+        {
+          "title": "Bilim Felsefesi",
+          "summary": "Bilimsel yöntem, bilginin doğrulanması, paradigma değişimleri (Kuhn), Platon-Aristoteles otoritesinden modern bilime geçiş, Orta Çağ'dan modern bilime dönüşüm. AYT felsefe'de 1 soru gelir; bilim tarihi ve bilim felsefesi birleşik sorular yaygındır. Bilimsel bilginin gelişimini felsefi perspektiften inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Felsefe",
+              "url": "https://www.ozeldersalani.com/ayt-felsefe-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 4,
+          "hours": 7
+        },
+        {
+          "title": "Siyaset Felsefesi",
+          "summary": "Devlet, adalet, egemenlik, toplum sözleşmesi (Hobbes, Locke, Rousseau), hükümet biçimleri, doğal haklar ve özgürlük, liberalizm ve muhafazakârlık. AYT felsefe'de (ek felsefe grubunda) 1 soru gelir; egemenlik ve devletin meşruiyeti soruları yaygındır. Siyasal düzenin felsefi temellerini inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Felsefe",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Özel Ders Alanı - AYT Felsefe",
+              "url": "https://www.ozeldersalani.com/ayt-felsefe-konulari-ve-soru-dagilimlari",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        }
       ]
     },
     {
       "id": "religion",
       "name": "Din Kültürü",
       "icon": "book-marked",
-      "description": "Din kültürü ve ahlak bilgisi",
+      "examGroup": "TYT",
+      "description": "Din kültürü ve ahlak bilgisi; TYT Sosyal Bilimler testinde 5 soru gelir.",
       "topics": [
-        { "title": "İnanç", "summary": "İman esasları ve tevhit anlayışı." },
-        { "title": "İbadet", "summary": "Temel ibadetler ve amaçları." },
-        { "title": "Ahlak", "summary": "Ahlaki değerler ve erdemler." },
-        { "title": "Din ve Hayat", "summary": "Dinin bireysel ve toplumsal yaşamdaki yeri." },
-        { "title": "İslam Düşüncesi", "summary": "İslam düşüncesinde yorumlar ve oluşumlar." }
+        {
+          "title": "İnanç",
+          "summary": "İman esasları (Allah, melekler, kitaplar, peygamberler, ahiret, kadere iman), tevhit anlayışı (uluhiyet, rububiyet, esmaül hüsna), İslam'da inanç temelleri. TYT din kültüründe 1-2 soru gelir; iman esasları ve tevhit ağırlıklıdır. İslam inancının temel direklerini sistematik olarak inceler.",
+          "resources": [
+            {
+              "name": "MEB 9. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Din Kültürü Dersleri",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            },
+            {
+              "name": "ÖSYM YKS Din Kültürü Soru Dağılımı",
+              "url": "https://www.osym.gov.tr/",
+              "type": "official"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "İbadet",
+          "summary": "İslam'ın şartları (namaz, oruç, hac, zekât, kelime-i şahadet), ibadetin anlamı ve önemi, ibadetlerin bireysel ve toplumsal faydaları, ibadet ve ahlak ilişkisi. TYT din kültüründe 1-2 soru gelir; ibadet şartları ve anlamı ağırlıklıdır. İslam'ın pratik boyutunu ve ibadet bilincini inceler.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Din Kültürü Videoları",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Ahlak",
+          "summary": "Ahlaki değerler (doğruluk, dürüstlük, adalet, merhamet, sabır, tevazu), erdemler ve erdem ahlakı, kötü ahlak (kibir, haset, yalan, hırsızlık), ahlak ve din ilişkisi. TYT din kültüründe 1 soru gelir; ahlaki değerler ve erdemler ağırlıklıdır. İnsan davranışlarının ahlaki boyutunu ve İslam ahlakını inceler.",
+          "resources": [
+            {
+              "name": "MEB 10. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Din Kültürü Videoları",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 4
+        },
+        {
+          "title": "Din ve Hayat",
+          "summary": "Dinin bireysel yaşamdaki yeri (manevi huzur, sabır, şükür, tevekkül), dinin toplumsal yaşamdaki yeri (adalet, yardımlaşma, hoşgörü, barış), din ve bilim, din ve sanat, din ve hukuk. TYT din kültüründe 1 soru gelir; din ve toplumsal yaşam ağırlıklıdır. Dinin insan hayatının farklı alanlarıyla ilişkisini inceler.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Din Kültürü Videoları",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 4
+        },
+        {
+          "title": "İslam Düşüncesi",
+          "summary": "İslam düşüncesinde yorumlar ve oluşumlar (kelam, fıkıh, tasavvuf, felsefe), İslam düşünürleri (İmam-ı Azam, İmam Malik, İmam Şafii, İmam Ahmed, İmam Gazali, İbn Sina, İbn Rüşd), İslam düşüncesinde ilmihal, tefsir, hadis. TYT din kültüründe 1 soru gelir; İslam düşünürleri ve disiplinler ağırlıklıdır. İslam medeniyetinin entelektüel mirasını inceler.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "EBA Din Kültürü Videoları",
+              "url": "https://eba.gov.tr/",
+              "type": "video"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        }
+      ]
+    },
+    {
+      "id": "religion-ayt",
+      "name": "Din Kültürü-2 (AYT)",
+      "icon": "book-marked",
+      "examGroup": "AYT-Sözel",
+      "description": "AYT Sosyal Bilimler-2 testinde 6 din kültürü sorusu gelir. 11. ve 12. sınıf din kültürü konularını kapsar.",
+      "topics": [
+        {
+          "title": "Gönül Coğrafyamız",
+          "summary": "Anadolu'nun İslamlaşma süreci, Ahiler, tekke ve zaviyeler, Anadolu'da İslam kültürünün oluşumu, Türk-İslam medeniyeti. AYT din kültürü-2'de 1 soru gelir; Anadolu'nun İslamlaşması ve Türk-İslam sentezi ağırlıklıdır. Anadolu coğrafyasının manevi dönüşümünü inceler.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Din Kültürü Konuları",
+              "url": "https://www.bilgenc.com/ayt-din-kulturu-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "İslam ve İbadet",
+          "summary": "İbadetin anlamı ve çeşitleri (farz, vacip, sünnet, nafile), namazın hükümleri ve anlamı, orucun hükümleri ve anlamı, hac ve umrenin hükümleri, zekât ve sadaka. AYT din kültürü-2'de 1 soru gelir; ibadet hükümleri ve anlamı ağırlıklıdır. İslam'ın ibadet sistemini detaylı inceler.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Din Kültürü",
+              "url": "https://www.bilgenc.com/ayt-din-kulturu-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Allah İnsan İlişkisi",
+          "summary": "Allah'ın sıfatları (celal, cemal, sıfat-ı salbiye, sıfat-ı müsebbehe), kulun Allah'a yaklaşma yolları (dua, tevbe, şükür, sabır), Allah sevgisi ve korkusu, kulluk bilinci. AYT din kültürü-2'de 1 soru gelir; Allah sıfatları ve kul-Allah ilişkisi ağırlıklıdır. Teolojinin temel konusunu inceler.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Din Kültürü",
+              "url": "https://www.bilgenc.com/ayt-din-kulturu-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Hz. Muhammed ve Gençlik",
+          "summary": "Hz. Muhammed'in hayatı (doğumu, gençliği, ticaret hayatı, evliliği, peygamberlik görevi), gençlik örnekleri (Ali, Zeyd, Osman, Fatıma), gençlik dönemi öğütleri. AYT din kültürü-2'de 1 soru gelir; Hz. Muhammed'in hayatı ve gençlik örnekleri ağırlıklıdır. Peygamber modelini ve gençlik dönemi üzerinden İslam ahlakını inceler.",
+          "resources": [
+            {
+              "name": "MEB 11. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Din Kültürü",
+              "url": "https://www.bilgenc.com/ayt-din-kulturu-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 5
+        },
+        {
+          "title": "Din ve Hayat",
+          "summary": "Dinin toplumsal işlevleri (ahlak, hukuk, eğitim, sanat), din ve barış, din ve hoşgörü, din ve bilim ilişkisi, İslam ve bilim (İslam düşünürlerinin bilim katkıları). AYT din kültürü-2'de 1 soru gelir; din ve bilim, İslam bilim tarihi ağırlıklıdır. Modern dünyada dinin işlevlerini ve İslam bilim mirasını inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Din Kültürü",
+              "url": "https://www.bilgenc.com/ayt-din-kulturu-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Ahlaki Tutum ve Davranışlar",
+          "summary": "Ahlaki davranışların temelleri (niyet, samimiyet, ihlas), günlük hayatta ahlaki tutumlar (dürüstlük, sadakat, vefa, hoşgörü), ahlaki olgunluk ve karakter gelişimi. AYT din kültürü-2'de 1 soru gelir; ahlaki tutumlar ve davranışlar ağırlıklıdır. İslam ahlakının pratik uygulamalarını inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Din Kültürü",
+              "url": "https://www.bilgenc.com/ayt-din-kulturu-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 4
+        },
+        {
+          "title": "İslam Düşüncesinde Yorumlar",
+          "summary": "İtikadi yorumlar (Eş'ariyye, Maturidiyye, Şiîlik), siyasi yorumlar (Sünnet, Şiîlik, Haricilik), fıkhi yorumlar (Hanefi, Şafii, Maliki, Hanbeli mezhepleri), tasavvufi yorumlar (Bektaşilik, Mevlevilik, Nakşibendilik). AYT din kültürü-2'de 1 soru gelir; mezhepler ve tasavvuf ekolleri ağırlıklıdır. İslam düşünce tarihinin çeşitliliğini inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Din Kültürü",
+              "url": "https://www.bilgenc.com/ayt-din-kulturu-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        },
+        {
+          "title": "Kur'an ve Hz. Muhammed",
+          "summary": "Kur'an'ın bazı kavramları (iman, ibadet, ahlak, adalet, merhamet, sabır), Kur'an'a göre Hz. Muhammed (ümmi peygamber, örnek ahlak, tebliğ görevi), Kur'an ve günlük hayat. AYT din kültürü-2'de 1 soru gelir; Kur'an kavramları ve Hz. Muhammed örnekliği ağırlıklıdır. Kur'an-ı Kerim'in temel mesajlarını ve peygamber modelini inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Din Kültürü",
+              "url": "https://www.bilgenc.com/ayt-din-kulturu-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "İnançla İlgili Meseleler",
+          "summary": "İman ve küfür, inanç özgürlüğü, mürtecitlik, dinsizlik, ateizm, deizm, agnostisizm, din değiştirme, İslam'da teşvik ve özendirme. AYT din kültürü-2'de 1 soru gelir; inançla ilgili güncel meseleler ağırlıklıdır. Günümüzdeki inanç sorunlarını İslam perspektifinden inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Din Kültürü",
+              "url": "https://www.bilgenc.com/ayt-din-kulturu-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 5
+        },
+        {
+          "title": "Dünya Dinleri",
+          "summary": "Yahudilik (Tevrat, Talmud, sinagog), Hristiyanlık (İncil, kilise, mezhepler), Hint dinleri (Hinduizm, Budizm, Jainizm, Sihizm), Çin dinleri (Konfüçyüsçülük, Taoizm). AYT din kültürü-2'de 1 soru gelir; dinlerin temel özellikleri ve kutsal kitapları ağırlıklıdır. Dünya dinlerini karşılaştırmalı olarak inceler.",
+          "resources": [
+            {
+              "name": "MEB 12. Sınıf Din Kültürü",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Bilgenc - AYT Din Kültürü",
+              "url": "https://www.bilgenc.com/ayt-din-kulturu-konulari/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 6
+        }
       ]
     },
     {
       "id": "english",
       "name": "İngilizce",
       "icon": "languages",
-      "description": "Yabancı dil (İngilizce)",
+      "examGroup": "TYT-YDT",
+      "description": "Yabancı dil (İngilizce); TYT'de 5 soru, YDT'de 80 soru gelir. YDT, Dil alanı öğrencileri için zorunlu, diğer alanlar için ek puan sağlayan bir testtir.",
       "topics": [
-        { "title": "Tenses", "summary": "Geniş, şimdiki, geçmiş ve gelecek zamanların kullanımı." },
-        { "title": "Vocabulary", "summary": "Sık kullanılan sözcükler ve eş–zıt anlamlılar." },
-        { "title": "Reading", "summary": "Paragraf anlama ve çıkarım yapma." },
-        { "title": "Grammar in Context", "summary": "Bağlaçlar, edatlar ve cümle yapısı." },
-        { "title": "Dialogue Completion", "summary": "Diyalogda uygun yanıtı seçme." }
+        {
+          "title": "Tenses (Zamanlar)",
+          "summary": "Geniş zaman (Simple Present), şimdiki zaman (Present Continuous), geçmiş zaman (Simple Past), geçmişte devam eden (Past Continuous), şimdiki zamanda bitmiş (Present Perfect), geçmişte bitmiş (Past Perfect), gelecek zaman (Future tenses: will, going to, present continuous). TYT'de 1-2 soru, YDT'de 8-10 soru gelir. Her zamanın kullanım alanı ve sinyal kelimeleri bilinmelidir.",
+          "resources": [
+            {
+              "name": "MEB İngilizce Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - İngilizce Gramer",
+              "url": "https://tr.khanacademy.org/humanities/grammar",
+              "type": "video"
+            },
+            {
+              "name": "ÖSYM YDT Kılavuzu",
+              "url": "https://www.osym.gov.tr/TR,6552/yks-sinav-uygulamasi.html",
+              "type": "official"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 8
+        },
+        {
+          "title": "Vocabulary (Kelime Bilgisi)",
+          "summary": "Sık kullanılan sözcükler, eş anlamlılar (synonyms), zıt anlamlılar (antonyms), kelime türleri (fiil, isim, sıfat, zarf), kelime oluşturma (suffix/prefix), phrasal verbs, collocations, idioms. TYT'de 1 soru, YDT'de 15-20 soru gelir. Geniş kelime haznesi ve bağlamdan anlam çıkarma yeteneği kritiktir.",
+          "resources": [
+            {
+              "name": "MEB İngilizce Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - Kelime Bilgisi",
+              "url": "https://tr.khanacademy.org/humanities/grammar",
+              "type": "video"
+            },
+            {
+              "name": "Oxford Learner's Dictionaries",
+              "url": "https://www.oxfordlearnersdictionaries.com/",
+              "type": "official"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 15
+        },
+        {
+          "title": "Reading (Paragraf Okuma)",
+          "summary": "Paragraf anlama (main idea, supporting details, inference), metin türleri (narrative, descriptive, argumentative, expository), metin yapısı (topic sentence, concluding sentence), bağlam ipuçları. TYT'de 1-2 soru, YDT'de 15-20 soru gelir. Hızlı okuma, ana fikir bulma ve çıkarım yapma becerisi en önemli yetkinliktir.",
+          "resources": [
+            {
+              "name": "MEB İngilizce Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "British Council - Reading",
+              "url": "https://learnenglish.britishcouncil.org/",
+              "type": "article"
+            },
+            {
+              "name": "ÖSYM YDT Çıkmış Sorular",
+              "url": "https://www.osym.gov.tr/",
+              "type": "official"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 12
+        },
+        {
+          "title": "Grammar in Context (Bağlamda Gramer)",
+          "summary": "Bağlaçlar (and, but, or, because, although, however, therefore, moreover, in addition, whereas), edatlar (in, on, at, by, with, for, of, to), cümle yapısı (subject, verb, object, complement), sıfat cümlecikleri (relative clauses), zarf cümlecikleri (adverbial clauses), isim cümlecikleri (noun clauses). TYT'de 1 soru, YDT'de 10-12 soru gelir. Cümle yapısı ve bağlaç kullanımı ağırlıklıdır.",
+          "resources": [
+            {
+              "name": "MEB İngilizce Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "Khan Academy - İngilizce Gramer",
+              "url": "https://tr.khanacademy.org/humanities/grammar",
+              "type": "video"
+            },
+            {
+              "name": "Cambridge Dictionary - Grammar",
+              "url": "https://dictionary.cambridge.org/grammar/british-grammar/",
+              "type": "article"
+            }
+          ],
+          "difficulty": 3,
+          "hours": 10
+        },
+        {
+          "title": "Dialogue Completion (Diyalog Tamamlama)",
+          "summary": "Diyalogda uygun yanıtı seçme, sosyal dil (greeting, requesting, apologizing, inviting, suggesting), cümle tamamlama, mantıksal akış ve tutarlılık. TYT'de 1 soru, YDT'de 8-10 soru gelir. Günlük iletişim dilinin pratik kullanımını ölçer. Sosyal etkileşim dilinin incelikleri bilinmelidir.",
+          "resources": [
+            {
+              "name": "MEB İngilizce Müfredatı",
+              "url": "https://www.meb.gov.tr/mufredat/",
+              "type": "official"
+            },
+            {
+              "name": "British Council - Speaking",
+              "url": "https://learnenglish.britishcouncil.org/",
+              "type": "article"
+            },
+            {
+              "name": "ÖSYM YDT Kılavuzu",
+              "url": "https://www.osym.gov.tr/TR,6552/yks-sinav-uygulamasi.html",
+              "type": "official"
+            }
+          ],
+          "difficulty": 2,
+          "hours": 6
+        }
       ]
     }
   ]

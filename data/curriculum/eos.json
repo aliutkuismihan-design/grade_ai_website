@@ -1,98 +1,377 @@
 {
-  "examSystem": "MEB (EÖS)",
+  "examSystem": "MEB (EÖS/LGS)",
   "locale": "tr",
+  "updated": "2026-07-04",
   "subjects": [
     {
       "id": "matematik",
       "name": "Matematik",
       "icon": "calculator",
-      "description": "Ortaokul matematik konuları",
+      "description": "Ortaokul matematik konuları: Sayılar, cebir, geometri, ölçme, olasılık ve istatistik.",
+      "difficulty": 4,
+      "hours": 5,
       "topics": [
-        { "title": "Çarpanlar ve Katlar", "summary": "Asal çarpanlar, EBOB ve EKOK hesapları." },
-        { "title": "Tam Sayılar", "summary": "Tam sayılarla dört işlem ve sıralama." },
-        { "title": "Cebirsel İfadeler", "summary": "Değişken, terim ve özdeşlikler." },
-        { "title": "Oran–Orantı", "summary": "Doğru ve ters orantı problemleri." },
-        { "title": "Geometrik Cisimler", "summary": "Prizma, silindir ve alan–hacim hesapları." },
-        { "title": "Veri Analizi", "summary": "Ortalama, tablo ve grafik yorumu." }
+        { "title": "Çarpanlar ve Katlar", "summary": "Asal çarpanlar, EBOB ve EKOK hesapları; doğal sayıların çarpanlarına ayrılması ve ortak bölenlerin bulunması." },
+        { "title": "Tam Sayılar", "summary": "Tam sayılarla dört işlem, sıralama ve mutlak değer; negatif ve pozitif tam sayıların karşılaştırılması." },
+        { "title": "Cebirsel İfadeler", "summary": "Değişken, terim, katsayı ve özdeşlikler; cebirsel ifadelerin çarpımı ve çarpanlara ayrılması." },
+        { "title": "Oran–Orantı", "summary": "Doğru ve ters orantı problemleri; yüzde, kâr–zarar ve faiz hesaplamaları." },
+        { "title": "Geometrik Cisimler", "summary": "Prizma, silindir, konu ve alan–hacim hesapları; üçgenler, dörtgenler ve çokgenlerin özellikleri." },
+        { "title": "Veri Analizi", "summary": "Ortalama, medyan, mod, tablo ve grafik yorumu; sütun, çizgi ve daire grafikleri." }
+      ],
+      "resources": [
+        { "name": "MEB Matematik Dersi Öğretim Programı (5-8. Sınıf)", "url": "https://mufredat.meb.gov.tr/ProgramDetay.aspx?PID=222", "type": "official" },
+        { "name": "EBA Matematik Konu Anlatımları", "url": "https://www.eba.gov.tr/", "type": "video" },
+        { "name": "MEB 8. Sınıf Matematik Ders Kitabı", "url": "https://www.meb.gov.tr/", "type": "book" },
+        { "name": "Bilgenç 8. Sınıf Matematik Konuları", "url": "https://www.bilgenc.com/8-sinif-matematik-konulari/", "type": "article" }
       ]
     },
     {
       "id": "fen",
       "name": "Fen Bilimleri",
       "icon": "atom",
-      "description": "Fen bilimleri konuları",
+      "description": "Fen bilimleri konuları: Fizik, kimya, biyoloji ve astronomi temelleri.",
+      "difficulty": 3,
+      "hours": 4,
       "topics": [
-        { "title": "Kuvvet ve Hareket", "summary": "Sürat, kuvvet ve basit makineler." },
-        { "title": "Madde ve Isı", "summary": "Maddenin halleri, ısı ve sıcaklık." },
-        { "title": "Işık ve Ses", "summary": "Işığın yayılması, yansıma ve sesin özellikleri." },
-        { "title": "Canlılar ve Yaşam", "summary": "Hücre, sistemler ve kalıtım." },
-        { "title": "Elektrik", "summary": "Basit devreler ve elektrik enerjisi." },
-        { "title": "Dünya ve Evren", "summary": "Güneş sistemi ve mevsimler." }
+        { "title": "Kuvvet ve Hareket", "summary": "Sürat, kuvvet, sürtünme, basit makineler ve mekanik enerji; kuvvetin yönü ve büyüklüğü." },
+        { "title": "Madde ve Isı", "summary": "Maddenin halleri, ısı, sıcaklık, genleşme, erime, donma, buharlaşma ve yoğuşma." },
+        { "title": "Işık ve Ses", "summary": "Işığın yayılması, yansıma, kırılma, sesin özellikleri, yankı ve sesin hızı." },
+        { "title": "Canlılar ve Yaşam", "summary": "Hücre, doku, organ, sistem, kalıtım, adaptasyon ve biyoteknoloji; canlıların sınıflandırılması." },
+        { "title": "Elektrik", "summary": "Basit devreler, elektrik enerjisi, elektrik yükleri, iletken ve yalıtkanlar; manyetizma." },
+        { "title": "Dünya ve Evren", "summary": "Güneş sistemi, mevsimler, ayın evreleri, gök cisimleri ve uzay araştırmaları." }
+      ],
+      "resources": [
+        { "name": "MEB Fen Bilimleri Öğretim Programı (3-8. Sınıf)", "url": "https://mufredat.meb.gov.tr/ProgramDetay.aspx?PID=321", "type": "official" },
+        { "name": "EBA Fen Bilimleri Ders Videoları", "url": "https://www.eba.gov.tr/", "type": "video" },
+        { "name": "MEB 8. Sınıf Fen Bilimleri Ders Kitabı", "url": "https://www.meb.gov.tr/", "type": "book" },
+        { "name": "FenBUL 8. Sınıf Fen Bilimleri Yıllık Plan", "url": "https://fenbul.com/ogretmenler-icin/yillik-planlar/2024-2025-egitim-ogretim-yili-8-sinif-yeni-mufredat-fen-bilimleri-yillik-plan/", "type": "article" }
       ]
     },
     {
       "id": "sosyal",
       "name": "Sosyal Bilgiler",
       "icon": "globe",
-      "description": "Sosyal bilgiler konuları",
+      "description": "Sosyal bilgiler konuları: Tarih, coğrafya, vatandaşlık ve ekonomi temelleri.",
+      "difficulty": 3,
+      "hours": 3,
       "topics": [
-        { "title": "Birey ve Toplum", "summary": "Roller, haklar ve sorumluluklar." },
-        { "title": "Kültür ve Miras", "summary": "Tarihî olaylar ve kültürel değerler." },
-        { "title": "İnsanlar, Yerler ve Çevreler", "summary": "Harita bilgisi, iklim ve yeryüzü şekilleri." },
-        { "title": "Bilim, Teknoloji ve Toplum", "summary": "Buluşların topluma etkileri." },
-        { "title": "Üretim, Dağıtım ve Tüketim", "summary": "Ekonomik faaliyetler ve kaynaklar." }
+        { "title": "Birey ve Toplum", "summary": "Roller, haklar, sorumluluklar ve demokrasi; vatandaşlık bilinci ve insan hakları." },
+        { "title": "Kültür ve Miras", "summary": "Tarihî olaylar, kültürel değerler, somut ve somut olmayan miras; Anadolu medeniyetleri." },
+        { "title": "İnsanlar, Yerler ve Çevreler", "summary": "Harita bilgisi, iklim, yeryüzü şekilleri, nüfus ve yerleşme; Türkiye'nin coğrafi özellikleri." },
+        { "title": "Bilim, Teknoloji ve Toplum", "summary": "Buluşların topluma etkileri, bilimsel süreç, teknolojik gelişmelerin günlük hayata yansıması." },
+        { "title": "Üretim, Dağıtım ve Tüketim", "summary": "Ekonomik faaliyetler, kaynaklar, ticaret, bütçe ve tasarruf; küresel ekonomi ilişkileri." }
+      ],
+      "resources": [
+        { "name": "MEB Sosyal Bilgiler Öğretim Programı", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "EBA Sosyal Bilgiler Konu Anlatımı", "url": "https://www.eba.gov.tr/", "type": "video" },
+        { "name": "MEB 5. Sınıf Sosyal Bilgiler Konuları", "url": "https://www.bilgenc.com/5-sinif-sosyal-bilgiler-konulari/", "type": "article" },
+        { "name": "K12 Sosyal Bilgiler Materyalleri", "url": "https://k12.meb.gov.tr/", "type": "pdf" }
       ]
     },
     {
       "id": "turkce",
       "name": "Türkçe",
       "icon": "book",
-      "description": "Türkçe dil becerileri",
+      "description": "Türkçe dil becerileri: Okuma, yazma, dinleme, konuşma ve dil bilgisi.",
+      "difficulty": 3,
+      "hours": 5,
       "topics": [
-        { "title": "Okuduğunu Anlama", "summary": "Ana fikir, yardımcı fikir ve çıkarım." },
-        { "title": "Sözcükte Anlam", "summary": "Gerçek, mecaz anlam ve deyimler." },
-        { "title": "Cümle Bilgisi", "summary": "Cümlenin ögeleri ve cümle türleri." },
-        { "title": "Yazım ve Noktalama", "summary": "Yazım kuralları ve noktalama işaretleri." },
-        { "title": "Metin Türleri", "summary": "Bilgilendirici, öyküleyici ve şiir." }
+        { "title": "Okuduğunu Anlama", "summary": "Ana fikir, yardımcı fikir, çıkarım, tahmin ve yorum; paragraf türleri ve anlama stratejileri." },
+        { "title": "Sözcükte Anlam", "summary": "Gerçek, mecaz anlam, deyimler, atasözleri ve eş anlamlı–zıt anlamlı sözcükler." },
+        { "title": "Cümle Bilgisi", "summary": "Cümlenin ögeleri, cümle türleri (basit, birleşik, sıralı cümleler) ve anlatım bozuklukları." },
+        { "title": "Yazım ve Noktalama", "summary": "Yazım kuralları, büyük harf, noktalama işaretleri ve imla kuralları; TDK yazım kılavuzu." },
+        { "title": "Metin Türleri", "summary": "Bilgilendirici, öyküleyici, şiir, mektup, dilekçe, haber ve özet metinler." }
+      ],
+      "resources": [
+        { "name": "MEB Türkçe Dersi Öğretim Programı (1-8. Sınıf)", "url": "https://mufredat.meb.gov.tr/ProgramDetay.aspx?PID=222", "type": "official" },
+        { "name": "Türk Dil Kurumu (TDK)", "url": "https://sozluk.gov.tr/", "type": "official" },
+        { "name": "EBA Türkçe Dinleme Metinleri", "url": "https://www.eba.gov.tr/", "type": "video" },
+        { "name": "MEB Türkçe Ders Kitapları", "url": "https://www.meb.gov.tr/", "type": "book" }
       ]
     },
     {
       "id": "ingilizce",
       "name": "İngilizce",
       "icon": "languages",
-      "description": "Yabancı dil İngilizce",
+      "description": "Yabancı dil İngilizce: Günlük iletişim, kelime, gramer, okuma ve dinleme becerileri.",
+      "difficulty": 3,
+      "hours": 4,
       "topics": [
-        { "title": "Daily Routines", "summary": "Günlük eylemleri anlatan basit cümleler." },
-        { "title": "Vocabulary", "summary": "Temel sözcük grupları ve kalıplar." },
-        { "title": "Reading", "summary": "Kısa metin anlama ve eşleştirme." },
-        { "title": "Listening", "summary": "Basit diyalogları dinleyip anlama." },
-        { "title": "Grammar", "summary": "Present simple ve temel yapılar." }
+        { "title": "Daily Routines", "summary": "Günlük eylemleri anlatan basit cümleler; saatler, alışkanlıklar ve günlük programlar." },
+        { "title": "Vocabulary", "summary": "Temel sözcük grupları, kalıplar, eşleştirme ve kelime hafıza teknikleri." },
+        { "title": "Reading", "summary": "Kısa metin anlama, ana fikir bulma, eşleştirme ve doğru/yanlış soruları." },
+        { "title": "Listening", "summary": "Basit diyalogları dinleyip anlama, talimatları takip etme ve not alma." },
+        { "title": "Grammar", "summary": "Present simple, past simple, future tense, modal verbs, comparative/superlative." }
+      ],
+      "resources": [
+        { "name": "MEB İngilizce Öğretim Programı", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "EBA İngilizce Ders Videoları", "url": "https://www.eba.gov.tr/", "type": "video" },
+        { "name": "MEB 8. Sınıf İngilizce Konuları", "url": "https://www.bilgenc.com/8-sinif-ingilizce-konulari/", "type": "article" },
+        { "name": "İngilizce Ders Kitapları (MEB-EBA)", "url": "https://www.mebkaynak.com/tum/ingilizce1-12/", "type": "book" }
       ]
     },
     {
       "id": "din",
-      "name": "Din Kültürü",
+      "name": "Din Kültürü ve Ahlak Bilgisi",
       "icon": "book-marked",
-      "description": "Din kültürü ve ahlak bilgisi",
+      "description": "Din kültürü ve ahlak bilgisi: İbadet, ahlak, Kur'an ve Hz. Muhammed'in hayatı.",
+      "difficulty": 2,
+      "hours": 2,
       "topics": [
-        { "title": "İbadet", "summary": "Temel ibadetler ve anlamları." },
-        { "title": "Ahlak", "summary": "İyi davranışlar ve değerler." },
-        { "title": "Kur'an ve Yorum", "summary": "Temel kavramlar ve sureler." },
-        { "title": "Hz. Muhammed", "summary": "Peygamberin hayatı ve örnek davranışları." },
-        { "title": "Din ve Kültür", "summary": "Dinin kültür üzerindeki etkileri." }
+        { "title": "İbadet", "summary": "Temel ibadetler, namaz, oruç, hac ve zekât; ibadetlerin anlamı ve toplumsal faydası." },
+        { "title": "Ahlak", "summary": "İyi davranışlar, değerler, erdemler, özfarkındalık ve ahlaki karar verme." },
+        { "title": "Kur'an ve Yorum", "summary": "Temel kavramlar, sureler, ayetlerin anlamı ve günlük hayata uygulanması." },
+        { "title": "Hz. Muhammed", "summary": "Peygamberin hayatı, örnek davranışları, ahlakı ve topluma verdiği mesajlar." },
+        { "title": "Din ve Kültür", "summary": "Dinin kültür üzerindeki etkileri, dinler tarihi, hoşgörü ve birlikte yaşama." }
+      ],
+      "resources": [
+        { "name": "MEB Din Kültürü Öğretim Programı", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "Diyanet İşleri Başkanlığı – Çocuk", "url": "https://www.diyanet.gov.tr/", "type": "official" },
+        { "name": "EBA Din Kültürü Dersleri", "url": "https://www.eba.gov.tr/", "type": "video" },
+        { "name": "MEB Din Kültürü Ders Kitabı", "url": "https://www.meb.gov.tr/", "type": "book" }
       ]
     },
     {
       "id": "trafik",
       "name": "Trafik",
       "icon": "car",
-      "description": "Trafik güvenliği",
+      "description": "Trafik güvenliği: İşaretler, yaya güvenliği, araç kuralları ve ilk yardım.",
+      "difficulty": 1,
+      "hours": 1,
       "topics": [
-        { "title": "Trafik İşaretleri", "summary": "Uyarı, yasak ve bilgi işaretleri." },
-        { "title": "Yaya Güvenliği", "summary": "Güvenli yürüme ve karşıdan karşıya geçme." },
-        { "title": "Güvenli Yolculuk", "summary": "Emniyet kemeri ve araç içi kurallar." },
-        { "title": "İlk Yardım", "summary": "Temel ilk yardım bilgisi." },
-        { "title": "Ulaşım Araçları", "summary": "Ulaşım türleri ve kuralları." }
+        { "title": "Trafik İşaretleri", "summary": "Uyarı, yasak ve bilgi işaretleri; işaretlerin renkleri, şekilleri ve anlamları." },
+        { "title": "Yaya Güvenliği", "summary": "Güvenli yürüme, karşıdan karşıya geçme, yaya geçidi kullanımı ve farkındalık." },
+        { "title": "Güvenli Yolculuk", "summary": "Emniyet kemeri, araç içi kurallar, otobüs ve servis güvenliği." },
+        { "title": "İlk Yardım", "summary": "Temel ilk yardım bilgisi, kazada yapılacaklar, 112 arama ve acil durum prosedürleri." },
+        { "title": "Ulaşım Araçları", "summary": "Ulaşım türleri (kara, hava, deniz, demiryolu) ve kuralları; çevre dostu ulaşım." }
+      ],
+      "resources": [
+        { "name": "MEB Trafik Güvenliği Dersi Programı", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "Emniyet Genel Müdürlüğü – Trafik Eğitimi", "url": "https://www.egm.gov.tr/", "type": "official" },
+        { "name": "EBA Trafik Güvenliği Videoları", "url": "https://www.eba.gov.tr/", "type": "video" },
+        { "name": "Trafik İşaretleri Rehberi", "url": "https://www.kgm.gov.tr/", "type": "article" }
+      ]
+    },
+    {
+      "id": "muzik",
+      "name": "Müzik",
+      "icon": "music",
+      "description": "Müzik dersi: Ses eğitimi, nota, ritim, enstrüman, besteleme ve müzik tarihi.",
+      "difficulty": 2,
+      "hours": 2,
+      "topics": [
+        { "title": "Ses ve Ritim", "summary": "Doğal ve yapay sesler, ritim, tempo, vuruş ölçüleri; vücut perküsyonu ile ritim çalışmaları." },
+        { "title": "Melodi ve Armoni", "summary": "Melodi hatları, aralıklar, gam, armoni temelleri; melodi oluşturma ve ezberleme." },
+        { "title": "Müzik Tarihi", "summary": "Türk halk müziği, Türk sanat müziği, batı klasik müziği; besteciler ve eserler." },
+        { "title": "Enstrüman Bilgisi", "summary": "Yaylı, nefesli, vurmalı, telli çalgılar; bağlama, keman, gitar, piyano tanıtımı." },
+        { "title": "Besteleme ve İcra", "summary": "Basit besteleme teknikleri, şarkı söyleme, doğru nefes alma ve ses kullanımı." },
+        { "title": "Müzik Notasyonu", "summary": "Nota yazımı, solfej, piyano ile nota okuma, tempo ve dinamik işaretleri." }
+      ],
+      "resources": [
+        { "name": "MEB Müzik Dersi Öğretim Programı", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "Müzik Öğretmeni Portalı – 8. Sınıf Yıllık Plan", "url": "https://muzikogretmeni.net/8-sinif-muzik-dersi-yillik-plani-2025-2026/", "type": "article" },
+        { "name": "MEB 8. Sınıf Müzik Ders Kitabı (PDF)", "url": "https://www.mebkaynak.com/8sin/muzik8/", "type": "book" },
+        { "name": "EBA Müzik Ders Videoları", "url": "https://www.eba.gov.tr/", "type": "video" }
+      ]
+    },
+    {
+      "id": "gorsel-sanatlar",
+      "name": "Görsel Sanatlar",
+      "icon": "palette",
+      "description": "Görsel sanatlar: Resim, heykel, tasarım, sanat tarihi, görsel kültür ve dijital sanat.",
+      "difficulty": 2,
+      "hours": 2,
+      "topics": [
+        { "title": "Çizgi ve Biçim", "summary": "Çizgi, biçim, doku, leke, yapı, mekân, renk gibi görsel sanat ögeleri; çizgi çalışmaları." },
+        { "title": "Resim Teknikleri", "summary": "Sulu boya, guaj, pastel, kuru boya, karakalem; açık hava resmi ve portre çalışmaları." },
+        { "title": "Heykel ve Rölyef", "summary": "Kil, taş, karton, geri dönüşüm malzemeleri ile üç boyutlu çalışmalar; hacim ve derinlik." },
+        { "title": "Sanat Tarihi", "summary": "Türk sanatı, İslam sanatı, Rönesans, Barok, modern sanat; sanat eserleri analizi." },
+        { "title": "Grafik ve Dijital Sanat", "summary": "Grafik tasarım, illüstrasyon, ekslibris, mizanpaj, dijital resim araçları ve yaratıcı üretim." },
+        { "title": "Müze ve Kültür", "summary": "Müze bilinci, kültürel miras, sanat eleştirisi, estetik duyarlılık ve sanatın toplumsal işlevi." }
+      ],
+      "resources": [
+        { "name": "MEB Görsel Sanatlar Öğretim Programı (1-8)", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "Görsel Sanatlar Dersi Öğretim Programı (MEB PDF)", "url": "http://rukiyetekkesinoglu.weebly.com/uploads/4/7/8/5/47858551/2006-351gorselsanatlar.pdf", "type": "official" },
+        { "name": "MEB Yeni Görsel Sanatlar Müfredatı Haberi", "url": "https://www.kamubulteni.com/kamu-personeli/mebden-mufredat-hamlesi-gorsel-sanatlar-dersi-ilkokul-ve-ortaokulda-h82859.html", "type": "article" },
+        { "name": "Defterdoldur Görsel Sanatlar Yıllık Plan", "url": "https://defterdoldur.com/planprint/1615", "type": "article" }
+      ]
+    },
+    {
+      "id": "beden-egitimi",
+      "name": "Beden Eğitimi ve Spor",
+      "icon": "dumbbell",
+      "description": "Beden eğitimi: Atletizm, jimnastik, takım ve bireysel sporlar, sağlık, fair-play ve olimpik değerler.",
+      "difficulty": 2,
+      "hours": 2,
+      "topics": [
+        { "title": "Atletizm", "summary": "Koşu, atlama, atma temelleri; sprint, orta mesafe, uzun atlama ve yüksek atlama teknikleri." },
+        { "title": "Jimnastik", "summary": "Serbest, aletli ve ritmik jimnastik; esneklik, denge, kuvvet ve koordinasyon egzersizleri." },
+        { "title": "Takım Sporları", "summary": "Futbol, basketbol, voleybol, hentbol; takım çalışması, strateji ve pozisyon bilgisi." },
+        { "title": "Bireysel Sporlar", "summary": "Yüzme, badminton, masa tenisi, atletizm; bireysel rekabet ve kendi rekorunu kırma." },
+        { "title": "Sağlık ve Fitness", "summary": "Sağlıklı yaşam, beslenme, doğru egzersiz, kondisyon, kalp–damar sağlığı ve fiziksel uygunluk." },
+        { "title": "Spor Ahlakı ve Olimpik Değerler", "summary": "Fair-play, saygı, dürüstlük, kardeşlik, olimpik hareket ve sporda etik değerler." }
+      ],
+      "resources": [
+        { "name": "MEB Beden Eğitimi ve Spor Öğretim Programı (5-8)", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "Beden Eğitimi ve Spor Portalı", "url": "https://forum.bedenegitimi.gen.tr/", "type": "article" },
+        { "name": "EBA Beden Eğitimi Dersleri", "url": "https://www.eba.gov.tr/", "type": "video" },
+        { "name": "MEB 2019 Beden Eğitimi Programı", "url": "https://ebp.bayburt.edu.tr/DereceProgramlari/Ders/1/235/11384/15982/1", "type": "official" }
+      ]
+    },
+    {
+      "id": "teknoloji-tasarim",
+      "name": "Teknoloji ve Tasarım",
+      "icon": "wrench",
+      "description": "Teknoloji ve tasarım: Tasarım süreci, malzeme, ergonomi, mekanik tasarım, biyotaklit ve sürdürülebilirlik.",
+      "difficulty": 3,
+      "hours": 2,
+      "topics": [
+        { "title": "Tasarım Süreci", "summary": "Fikir geliştirme, eskiz, detaylandırma, ürün geliştirme; problem tanımlama ve döngüsel tasarım." },
+        { "title": "Malzeme ve Araçlar", "summary": "Ahşap, metal, plastik, tekstil; malzeme özellikleri, bağlantı elemanları ve güvenli kullanım." },
+        { "title": "Ergonomi ve Mekanik", "summary": "Kullanıcı odaklı tasarım, insan faktörü, mekanik özellikler, yapısal tasarım ve güç dengesi." },
+        { "title": "Elektronik ve Robotik", "summary": "Basit elektronik devreler, sensörler, motorlar, robotik temeller ve mBot/Micro:bit deneyimleri." },
+        { "title": "Biyotaklit ve Doğadan Tasarım", "summary": "Doğada çözümlerin incelenmesi, biyomimikri, sürdürülebilir tasarım ve çevre dostu ürünler." },
+        { "title": "Grafik ve Sunum", "summary": "Grafik tasarım, görsel iletişim, mizanpaj, afiş, broşür, tanıtım ve ürün sunumu teknikleri." }
+      ],
+      "resources": [
+        { "name": "MEB Teknoloji ve Tasarım Öğretim Programı (7-8)", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "Teknoloji ve Tasarım Dersi Programı (MEB PDF)", "url": "https://s625152f12579bb4f.jimcontent.com/download/version/1494431249/module/10044964898/name/Teknoloji%20ve%20Tasar%C4%B1m%20Dersi%207%20ve%208.%20S%C4%B1n%C4%B1flar%20Taslak%20%C3%96%C4%9Fretim%20Program%C4%B1.pdf", "type": "official" },
+        { "name": "Teknoloji ve Tasarım Ders Kitabı", "url": "https://online.fliphtml5.com/ysmd/qzyp/", "type": "book" },
+        { "name": "EBA Teknoloji Dersleri", "url": "https://www.eba.gov.tr/", "type": "video" }
+      ]
+    },
+    {
+      "id": "bilisim",
+      "name": "Bilişim Teknolojileri ve Yazılım",
+      "icon": "laptop",
+      "description": "Bilişim teknolojileri: Bilgisayar temelleri, internet güvenliği, kodlama, algoritmalar, robotik ve yapay zeka okuryazarlığı.",
+      "difficulty": 3,
+      "hours": 2,
+      "topics": [
+        { "title": "Bilgisayar Temelleri", "summary": "Donanım, yazılım, işletim sistemi, dosya yönetimi; bilgisayar ve tablet güvenli kullanım." },
+        { "title": "İnternet ve Güvenlik", "summary": "İnternet etiği, dijital kimlik, kişisel veri güvenliği, siber zorbalık ve dijital ayak izi." },
+        { "title": "Algoritma ve Scratch", "summary": "Blok tabanlı kodlama, algoritma mantığı, döngü, koşul, değişken; Scratch ile proje üretimi." },
+        { "title": "Python ve Programlama", "summary": "Metin tabanlı kodlama girişi, Python temelleri, fonksiyonlar, listeler ve basit projeler." },
+        { "title": "Robotik Kodlama", "summary": "Robot kavramı, sensörler, motorlar, basit robotik senaryolar; mBot ve Micro:bit uygulamaları." },
+        { "title": "AI Okuryazarlığı", "summary": "Yapay zeka nedir, günlük hayattaki etkisi, etik kullanım, ChatGPT benzeri araçlar ve sınırlar." }
+      ],
+      "resources": [
+        { "name": "MEB Bilişim Teknolojileri ve Yazılım Programı", "url": "https://mufredat.meb.gov.tr/ProgramDetay.aspx?PID=1383", "type": "official" },
+        { "name": "MEB 2026 Kodlama Müfredatı Değişikliği", "url": "https://www.1e1kod.org/blog/meb-2026-kodlama-mufredati", "type": "article" },
+        { "name": "EBA Bilişim Ders Videoları", "url": "https://www.eba.gov.tr/", "type": "video" },
+        { "name": "MEB Bilişim 7-8. Sınıf Programı (PDF)", "url": "https://mufredat.meb.gov.tr/Dosyalar/2018813171426130-2-201881Bili%C5%9Fim%20Teknolojileri%20ve%20Yaz%C4%B1l%C4%B1m%20Dersi%20(7%20ve%208.%20S%C4%B1n%C4%B1flar).pdf", "type": "official" }
+      ]
+    },
+    {
+      "id": "rehberlik",
+      "name": "Rehberlik ve Psikolojik Danışma",
+      "icon": "heart-handshake",
+      "description": "Rehberlik dersi: Benlik gelişimi, çalışma becerileri, kariyer farkındalığı, iletişim, stres yönetimi ve değerler eğitimi.",
+      "difficulty": 1,
+      "hours": 1,
+      "topics": [
+        { "title": "Benlik ve Öz Farkındalık", "summary": "Kendini tanıma, güçlü ve zayıf yönler, ilgi ve yetenekler; kişilik gelişimi ve öz saygı." },
+        { "title": "Çalışma Becerileri", "summary": "Verimli ders çalışma, zaman yönetimi, not tutma, planlı çalışma ve hedef belirleme." },
+        { "title": "Kariyer Farkındalığı", "summary": "Meslek tanıma, lise türleri, LGS hazırlık, kariyer planlama ve doğru tercih stratejileri." },
+        { "title": "İletişim ve Sosyal Beceriler", "summary": "Empati, aktif dinleme, çatışma çözme, arkadaşlık ilişkileri ve aile içi iletişim." },
+        { "title": "Stres ve Duygu Yönetimi", "summary": "Sınav kaygısı, stresle başa çıkma, gevşeme teknikleri, motivasyon ve olumlu düşünme." },
+        { "title": "Değerler ve Ahlaki Gelişim", "summary": "Saygı, sorumluluk, dürüstlük, hoşgörü, adalet ve toplumsal değerlerin içselleştirilmesi." }
+      ],
+      "resources": [
+        { "name": "MEB Rehberlik ve Kariyer Planlama Dersi", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "MEB Rehberlik ve Psikolojik Danışma Hizmetleri", "url": "https://www.meb.gov.tr/rehberlik-ve-psikolojik-danisma-hizmetleri", "type": "official" },
+        { "name": "2025-2026 Rehberlik Dersi Zorunlu Haberi", "url": "https://ogretmenlersitesi.com/haber/2025-2026_egitim_yilinda_ders_saatleri_degisiyor_iste_yeni_mufredat_duzenlemeleri-340773.html", "type": "article" },
+        { "name": "EBA Rehberlik Videoları", "url": "https://www.eba.gov.tr/", "type": "video" }
+      ]
+    },
+    {
+      "id": "hayat-bilgisi",
+      "name": "Hayat Bilgisi",
+      "icon": "leaf",
+      "description": "Hayat bilgisi (5. sınıf): Benlik, aile, okul, çevre, sağlık, güvenlik, toplum ve doğa bilinci.",
+      "difficulty": 1,
+      "hours": 2,
+      "grades": [5],
+      "topics": [
+        { "title": "Okulumuzda Hayat", "summary": "Okul kuralları, iletişim, karar alma süreçleri; sınıf ve okul krokisi çizme." },
+        { "title": "Sağlıklı Hayat", "summary": "Kişisel bakım, hijyen, beslenme, hastalıklardan korunma; sağlıklı büyüme ve gelişme." },
+        { "title": "Güvenli Hayat", "summary": "Yolculuk güvenliği, acil durum numaraları, ev ve okul güvenliği; ilk yardım temelleri." },
+        { "title": "Ülkemizde Hayat", "summary": "Türkiye'nin coğrafyası, bayrak ve marş, milli günler, Atatürk ve çocukluk anıları." },
+        { "title": "Doğada Hayat", "summary": "Çevre kirliliği, geri dönüşüm, doğal afetler, bitki ve hayvanlar; sürdürülebilir yaşam." },
+        { "title": "Aile ve Toplum", "summary": "Aile içi iş birliği, dayanışma, komşuluk, yardımlaşma ve toplumsal sorumluluk." }
+      ],
+      "resources": [
+        { "name": "MEB Hayat Bilgisi Öğretim Programı (1-4)", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "Hayat Bilgisi Programı (MEB PDF)", "url": "https://bilimakademisi.org/wp-content/uploads/2017/02/Hayat-Bilgisi.pdf", "type": "official" },
+        { "name": "EBA Hayat Bilgisi Dersleri", "url": "https://www.eba.gov.tr/", "type": "video" },
+        { "name": "MEB 5. Sınıf Sosyal Bilgiler (Hayat Bilgisi Devamı)", "url": "https://www.bilgenc.com/5-sinif-sosyal-bilgiler-konulari/", "type": "article" }
+      ]
+    },
+    {
+      "id": "girisimcilik",
+      "name": "Girişimcilik",
+      "icon": "rocket",
+      "description": "Girişimcilik dersi: İş fikirleri, pazarlama, finans, inovasyon, proje geliştirme ve iş planı.",
+      "difficulty": 2,
+      "hours": 1,
+      "topics": [
+        { "title": "Girişimcilik Temelleri", "summary": "Girişimci kimdir, risk alma, fırsat tanıma, başarı hikayeleri; girişimcilik zihniyeti." },
+        { "title": "İş Fikri Geliştirme", "summary": "Problem tespiti, çözüm üretme, beyin fırtınası, ihtiyaç analizi ve fikir doğrulama." },
+        { "title": "Pazarlama ve Tanıtım", "summary": "Ürün, fiyat, yer, tanıtım (4P); hedef kitle, reklam, sosyal medya ve marka oluşturma." },
+        { "title": "Finans ve Bütçe", "summary": "Gelir–gider, kar–zarar, basit muhasebe, bütçe planlama ve yatırım kararları." },
+        { "title": "Proje Geliştirme", "summary": "İş planı hazırlama, prototip, sunum, geri bildirim ve sürekli iyileştirme." },
+        { "title": "İnovasyon ve Yaratıcılık", "summary": "Yenilikçi düşünme, tasarım odaklı düşünme, ekosistem ve sürdürülebilir iş modelleri." }
+      ],
+      "resources": [
+        { "name": "MEB Girişimcilik Dersi Programı", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "KOSGEB Girişimcilik Eğitimi", "url": "https://www.kosgeb.gov.tr/", "type": "official" },
+        { "name": "EBA Girişimcilik Videoları", "url": "https://www.eba.gov.tr/", "type": "video" },
+        { "name": "TÜBİTAK 4006 Proje Yarışmaları", "url": "https://www.tubitak.gov.tr/", "type": "article" }
+      ]
+    },
+    {
+      "id": "medya-okuryazarligi",
+      "name": "Medya Okuryazarlığı",
+      "icon": "radio",
+      "description": "Medya okuryazarlığı: Medya türleri, eleştirel düşünme, dijital vatandaşlık, sahte haber, reklam analizi ve içerik üretimi.",
+      "difficulty": 2,
+      "hours": 2,
+      "grades": [7, 8],
+      "topics": [
+        { "title": "Medya Türleri ve Tarihi", "summary": "Gazete, radyo, televizyon, internet, sosyal medya; medyanın evrimi ve toplumsal işlevi." },
+        { "title": "Eleştirel Düşünme", "summary": "Medya mesajlarını sorgulama, önyargı tanıma, kaynak doğrulama ve analitik bakış." },
+        { "title": "Dijital Vatandaşlık", "summary": "İnternet etiği, dijital haklar ve sorumluluklar, siber zorbalık, mahremiyet ve güvenlik." },
+        { "title": "Sahte Haber ve Dezenformasyon", "summary": "Yalan haber tanıma, doğrulama araçları, algoritma ve baloncuk etkisi; bilgiye güven." },
+        { "title": "Reklam ve İkna", "summary": "Reklam teknikleri, hedef kitle, pazarlama stratejileri, tüketici bilinci ve reklam etiği." },
+        { "title": "İçerik Üretimi", "summary": "Blog, video, podcast, dijital hikaye anlatımı; yaratıcı üretim ve etik yayıncılık." }
+      ],
+      "resources": [
+        { "name": "MEB Medya Okuryazarlığı Programı (7-8)", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "Medya Okuryazarlığı Dersi Araştırması (PDF)", "url": "https://medyaokuryazari.org/wp-content/uploads/2022/11/1-T%C3%BCrkiye%E2%80%99de%20Medya%20Okuryazarl%C4%B1%C4%9F%C4%B1%20E%C4%9Fitimi%20%C3%9Czerine%20Bir%20%C4%B0nceleme.pdf", "type": "official" },
+        { "name": "RTÜK Medya Okuryazarlığı", "url": "https://www.rtuk.gov.tr/", "type": "official" },
+        { "name": "EBA Medya Okuryazarlığı Videoları", "url": "https://www.eba.gov.tr/", "type": "video" }
+      ]
+    },
+    {
+      "id": "degerler-egitimi",
+      "name": "Değerler Eğitimi",
+      "icon": "star",
+      "description": "Değerler eğitimi: Saygı, sorumluluk, dürüstlük, hoşgörü, empati, adalet ve vatanseverlik.",
+      "difficulty": 1,
+      "hours": 0,
+      "topics": [
+        { "title": "Saygı ve Sevgi", "summary": "Kendine ve başkalarına saygı, farklılıklara hoşgörü, empati kurma ve sevgi dilini kullanma." },
+        { "title": "Sorumluluk ve Dürüstlük", "summary": "Görev bilinci, sözünün eri olma, doğruluk, güvenilirlik ve etik davranış." },
+        { "title": "Hoşgörü ve Empati", "summary": "Farklı kültürleri anlama, yardımseverlik, dayanışma ve toplumsal birlikte yaşama." },
+        { "title": "Adalet ve Hakkaniyet", "summary": "Hak ve adalet kavramı, kurallara uyma, adil paylaşım ve toplumsal düzen." },
+        { "title": "Vatanseverlik ve Bayrak", "summary": "Vatan sevgisi, bayrağın anlamı, milli günler, tarih bilinci ve Atatürk ilkeleri." },
+        { "title": "Özdenetim ve Sabır", "summary": "Duygu kontrolü, sabır, azim, hedefe ulaşma ve zorluklarla başa çıkma." }
+      ],
+      "resources": [
+        { "name": "MEB Değerler Eğitimi Programı", "url": "https://mufredat.meb.gov.tr/", "type": "official" },
+        { "name": "MEB 10 Kök Değer Listesi", "url": "https://www.multibem.com.tr/degerler-egitimi-nedir/", "type": "article" },
+        { "name": "Değerler Eğitimi Dergisi", "url": "https://www.degerleregitimi.org/", "type": "article" },
+        { "name": "EBA Değerler Eğitimi Videoları", "url": "https://www.eba.gov.tr/", "type": "video" }
       ]
     }
   ]

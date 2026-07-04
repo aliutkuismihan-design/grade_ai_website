@@ -1,5 +1,5 @@
 {
-  "examSystem": "DELF",
+  "examSystem": "DELF / DALF",
   "locale": "fr",
   "subjects": [
     {
@@ -8,12 +8,73 @@
       "icon": "languages",
       "description": "Utilisateur débutant",
       "topics": [
-        { "title": "Grammaire", "summary": "Présent des verbes courants, articles définis/indéfinis et pronoms personnels." },
-        { "title": "Vocabulaire", "summary": "Se présenter, la famille, les nombres et le quotidien." },
-        { "title": "Compréhension orale", "summary": "Comprendre des consignes simples et des dialogues très lents." },
-        { "title": "Compréhension écrite", "summary": "Lire des annonces, panneaux et messages courts." },
-        { "title": "Expression orale", "summary": "Répondre à des questions personnelles simples." },
-        { "title": "Expression écrite", "summary": "Remplir un formulaire et écrire une carte postale." }
+        {
+          "title": "Grammaire",
+          "summary": "Le niveau A1 couvre les fondements de la grammaire française : présent de l'indicatif des verbes courants (être, avoir, aller, faire), articles définis et indéfinis, pronoms personnels sujets et toniques, adjectifs qualificatifs au masculin et au féminin, négation simple avec 'ne...pas', et formes interrogatives de base. L'apprenant apprend à conjuguer les verbes du premier et deuxième groupe ainsi que quelques verbes irréguliers essentiels pour la vie quotidienne.",
+          "difficulty": 1,
+          "hours": 20,
+          "resources": [
+            { "name": "France Éducation International - DELF A1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "TV5Monde - Exercices A1", "url": "https://apprendre.tv5monde.com/fr/exercices", "type": "video" },
+            { "name": "RFI Savoirs - Français facile", "url": "https://francaisfacile.rfi.fr/en/", "type": "article" },
+            { "name": "Bonjour de France - Grammaire A1", "url": "https://www.bonjourdefrance.com/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Vocabulaire",
+          "summary": "Le lexique du niveau A1 est centré sur la vie quotidienne et l'expression des besoins immédiats. On y trouve le vocabulaire de la présentation personnelle (nom, prénom, nationalité, profession), de la famille, des nombres de 0 à 100, des couleurs, des jours et des mois, ainsi que les mots essentiels pour décrire son logement, ses loisirs et les activités de la vie courante. L'accent est mis sur la mémorisation et la réutilisation active dans des contextes prévisibles.",
+          "difficulty": 1,
+          "hours": 15,
+          "resources": [
+            { "name": "TV5Monde - Vocabulaire A1", "url": "https://apprendre.tv5monde.com/fr/exercices", "type": "video" },
+            { "name": "France Éducation International - Ressources DELF A1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "Le Café du FLE - DELF A1", "url": "https://lecafedufle.fr/liens-utiles-delf-dalf-preparation/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Compréhension orale",
+          "summary": "À ce niveau, l'apprenant doit comprendre des consignes simples et des dialogues très lents portant sur des sujets familiers. Les documents audio sont des annonces dans des lieux publics, des conversations téléphoniques basiques, ou des présentations personnelles. L'objectif est de saisir l'essentiel d'un message court, de repérer des informations concrètes (horaires, prix, adresses) et de suivre une conversation structurée lorsque l'interlocuteur parle lentement et clairement.",
+          "difficulty": 1,
+          "hours": 15,
+          "resources": [
+            { "name": "RFI Savoirs - Journal en français facile", "url": "https://francaisfacile.rfi.fr/en/", "type": "video" },
+            { "name": "TV5Monde - Vidéos A1", "url": "https://apprendre.tv5monde.com/fr/exercices", "type": "video" },
+            { "name": "France Éducation International - Exemples de sujets A1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" }
+          ]
+        },
+        {
+          "title": "Compréhension écrite",
+          "summary": "La compréhension écrite au niveau A1 porte sur des textes très courts et simples : annonces, panneaux publicitaires, messages sur les réseaux sociaux, formulaires d'identité et cartes postales. L'apprenant doit être capable de lire et de comprendre des mots isolés et des expressions courantes, d'identifier les informations essentielles dans un texte de quelques lignes et de suivre des instructions élémentaires écrites.",
+          "difficulty": 1,
+          "hours": 12,
+          "resources": [
+            { "name": "TV5Monde - Lecture A1", "url": "https://apprendre.tv5monde.com/fr/exercices", "type": "article" },
+            { "name": "France Éducation International - Sujets A1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "Bonjour de France - Compréhension écrite A1", "url": "https://www.bonjourdefrance.com/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Expression orale",
+          "summary": "L'expression orale au niveau A1 consiste à répondre à des questions personnelles simples et à interagir dans des situations quotidiennes prévisibles. L'apprenant doit savoir se présenter, décrire son environnement immédiat, exprimer des goûts et des préférences basiques, et poser des questions simples. La communication repose sur des échanges directs où l'interlocuteur peut répéter ou reformuler.",
+          "difficulty": 1,
+          "hours": 15,
+          "resources": [
+            { "name": "France Éducation International - Production orale A1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "TV5Monde - Expression orale A1", "url": "https://apprendre.tv5monde.com/fr/exercices", "type": "video" },
+            { "name": "Le Café du FLE - Préparation DELF A1", "url": "https://lecafedufle.fr/liens-utiles-delf-dalf-preparation/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Expression écrite",
+          "summary": "À ce niveau, l'apprenant doit être capable de remplir un formulaire simple (fiche d'identité, inscription), d'écrire une carte postale à un ami ou à sa famille, et de rédiger un message court (SMS, e-mail) pour donner des nouvelles ou faire une demande simple. Les textes produits sont courts, avec des phrases simples et un vocabulaire limité mais correctement orthographié.",
+          "difficulty": 1,
+          "hours": 12,
+          "resources": [
+            { "name": "France Éducation International - Expression écrite A1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "TV5Monde - Écriture A1", "url": "https://apprendre.tv5monde.com/fr/exercices", "type": "article" },
+            { "name": "Bonjour de France - Expression écrite A1", "url": "https://www.bonjourdefrance.com/", "type": "article" }
+          ]
+        }
       ]
     },
     {
@@ -22,12 +83,73 @@
       "icon": "languages",
       "description": "Utilisateur élémentaire",
       "topics": [
-        { "title": "Grammaire", "summary": "Passé composé, futur proche et adjectifs possessifs." },
-        { "title": "Vocabulaire", "summary": "Les loisirs, la ville, la nourriture et les achats." },
-        { "title": "Compréhension orale", "summary": "Comprendre des messages et annonces de la vie quotidienne." },
-        { "title": "Compréhension écrite", "summary": "Lire des courriels et des textes informatifs courts." },
-        { "title": "Expression orale", "summary": "Décrire des habitudes et raconter un événement passé." },
-        { "title": "Expression écrite", "summary": "Écrire une lettre amicale et une invitation." }
+        {
+          "title": "Grammaire",
+          "summary": "Le niveau A2 introduit les temps du passé avec le passé composé et l'imparfait dans leurs emplois fondamentaux, le futur proche pour exprimer un projet imminent, les adjectifs possessifs et démonstratifs, les pronoms compléments d'objet direct et indirect (le, la, les, lui, leur), les comparatifs et superlatifs simples, et les pronoms relatifs 'qui' et 'que'. L'apprenant apprend à articuler des séquences d'actions passées et à structurer un récit chronologique simple.",
+          "difficulty": 2,
+          "hours": 25,
+          "resources": [
+            { "name": "France Éducation International - DELF A2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "TV5Monde - Grammaire A2", "url": "https://apprendre.tv5monde.com/fr/exercices/a2-elementaire", "type": "video" },
+            { "name": "RFI Savoirs - Exercices A2", "url": "https://francaisfacile.rfi.fr/en/", "type": "article" },
+            { "name": "Bonjour de France - Grammaire A2", "url": "https://www.bonjourdefrance.com/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Vocabulaire",
+          "summary": "Le lexique A2 s'enrichit pour couvrir les domaines de la vie sociale et pratique : les loisirs et les activités culturelles, la ville et les transports, la nourriture et les courses, les achats et les services. L'apprenant apprend à décrire son emploi du temps, à parler de la météo, à exprimer des besoins dans des commerces, et à décrire des expériences passées simples. Le vocabulaire des sentiments et des émotions de base est également introduit.",
+          "difficulty": 2,
+          "hours": 20,
+          "resources": [
+            { "name": "TV5Monde - Vocabulaire A2", "url": "https://apprendre.tv5monde.com/fr/exercices/a2-elementaire", "type": "video" },
+            { "name": "France Éducation International - Ressources A2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "Le Café du FLE - Préparation A2", "url": "https://lecafedufle.fr/liens-utiles-delf-dalf-preparation/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Compréhension orale",
+          "summary": "À ce niveau, l'apprenant comprend des messages et des annonces de la vie quotidienne (gares, aéroports, magasins), des conversations simples entre locuteurs natifs sur des sujets familiers, et des émissions radiophoniques courtes portant sur l'actualité locale ou les intérêts généraux. Il doit pouvoir saisir les points essentiels d'un document audio de longueur modérée, repérer les consignes pratiques et comprendre une narration simple au passé.",
+          "difficulty": 2,
+          "hours": 20,
+          "resources": [
+            { "name": "RFI Savoirs - Journal en français facile", "url": "https://francaisfacile.rfi.fr/en/", "type": "video" },
+            { "name": "TV5Monde - Compréhension orale A2", "url": "https://apprendre.tv5monde.com/fr/exercices/a2-elementaire", "type": "video" },
+            { "name": "France Éducation International - Sujets A2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" }
+          ]
+        },
+        {
+          "title": "Compréhension écrite",
+          "summary": "La compréhension écrite au niveau A2 porte sur des textes informatifs et narratifs courts : courriels personnels, lettres amicales, brochures touristiques, menus, et articles de presse locale simples. L'apprenant doit être capable de comprendre des textes rédigés dans une langue courante ou liée au travail, d'identifier les événements principaux d'un récit et de saisir des informations factuelles précises dans un document structuré.",
+          "difficulty": 2,
+          "hours": 18,
+          "resources": [
+            { "name": "TV5Monde - Lecture A2", "url": "https://apprendre.tv5monde.com/fr/exercices/a2-elementaire", "type": "article" },
+            { "name": "France Éducation International - Exemples A2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "Bonjour de France - Compréhension écrite A2", "url": "https://www.bonjourdefrance.com/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Expression orale",
+          "summary": "L'expression orale A2 permet de décrire des habitudes et des routines quotidiennes, de raconter un événement passé (sortie, voyage, week-end), de décrire des projets et des plans pour le futur proche, et de donner des instructions simples. L'apprenant doit pouvoir gérer des échanges sociaux élémentaires, exprimer des opinions simples avec des justifications basiques, et poser des questions pour obtenir des informations dans des situations courantes.",
+          "difficulty": 2,
+          "hours": 20,
+          "resources": [
+            { "name": "France Éducation International - Production orale A2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "TV5Monde - Expression orale A2", "url": "https://apprendre.tv5monde.com/fr/exercices/a2-elementaire", "type": "video" },
+            { "name": "Le Café du FLE - Conseils A2", "url": "https://lecafedufle.fr/liens-utiles-delf-dalf-preparation/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Expression écrite",
+          "summary": "À ce niveau, l'apprenant écrit une lettre amicale ou une invitation pour un événement, un message pour remercier ou s'excuser, et un court récit personnel. Les textes sont cohérents, avec une succession logique d'événements et l'utilisation de connecteurs simples (et, mais, parce que, ensuite). L'orthographe et la grammaire de base doivent être suffisamment maîtrisées pour être compréhensibles sans effort.",
+          "difficulty": 2,
+          "hours": 18,
+          "resources": [
+            { "name": "France Éducation International - Expression écrite A2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "TV5Monde - Écriture A2", "url": "https://apprendre.tv5monde.com/fr/exercices/a2-elementaire", "type": "article" },
+            { "name": "Bonjour de France - Expression écrite A2", "url": "https://www.bonjourdefrance.com/", "type": "article" }
+          ]
+        }
       ]
     },
     {
@@ -36,12 +158,77 @@
       "icon": "languages",
       "description": "Utilisateur indépendant",
       "topics": [
-        { "title": "Grammaire", "summary": "Imparfait, conditionnel et pronoms relatifs." },
-        { "title": "Vocabulaire", "summary": "Le travail, les études, la santé et les médias." },
-        { "title": "Compréhension orale", "summary": "Suivre une conversation et une émission sur un sujet familier." },
-        { "title": "Compréhension écrite", "summary": "Comprendre des articles et exprimer le point de vue de l'auteur." },
-        { "title": "Expression orale", "summary": "Donner son opinion et argumenter dans un monologue suivi." },
-        { "title": "Expression écrite", "summary": "Rédiger un essai personnel exprimant une opinion." }
+        {
+          "title": "Grammaire",
+          "summary": "Le niveau B1 approfondit la maîtrise des temps du passé avec la distinction imparfait/passé composé/plus-que-parfait, introduit le conditionnel présent pour exprimer la politesse et l'hypothèse, les pronoms relatifs composés (lequel, auquel, dont), les pronoms possessifs et démonstratifs, le discours indirect au présent, et les subordonnées circonstancielles (temps, cause, but, concession). L'accent est mis sur la fluidité et la correction dans des contextes variés.",
+          "difficulty": 3,
+          "hours": 30,
+          "resources": [
+            { "name": "France Éducation International - DELF B1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "TV5Monde - Exercices B1", "url": "https://apprendre.tv5monde.com/fr/exercices/b1-intermediaire", "type": "video" },
+            { "name": "RFI Savoirs - Exercices B1", "url": "https://francaisfacile.rfi.fr/en/", "type": "article" },
+            { "name": "CNED - Préparation DELF B1", "url": "https://www.cned.fr/inscription/8FLESDX", "type": "book" }
+          ]
+        },
+        {
+          "title": "Vocabulaire",
+          "summary": "Le lexique B1 couvre des domaines plus abstraits et sociétaux : le travail et la formation professionnelle, les études et le système éducatif, la santé et le bien-être, les médias et les technologies de l'information. L'apprenant apprend à exprimer des émotions plus nuancées, à parler de relations interpersonnelles, à décrire des tendances et des évolutions, et à utiliser le vocabulaire de l'opinion et du jugement (d'accord, en désaccord, d'un côté... de l'autre).",
+          "difficulty": 3,
+          "hours": 25,
+          "resources": [
+            { "name": "TV5Monde - Vocabulaire B1", "url": "https://apprendre.tv5monde.com/fr/exercices/b1-intermediaire", "type": "video" },
+            { "name": "France Éducation International - Ressources B1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "Le Café du FLE - Préparation B1", "url": "https://lecafedufle.fr/liens-utiles-delf-dalf-preparation/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Compréhension orale",
+          "summary": "Au niveau B1, l'apprenant suit une conversation entre plusieurs locuteurs natifs sur un sujet familier, comprend une émission de radio ou un podcast sur l'actualité ou la culture, et saisit les points essentiels d'un documentaire court. Il doit pouvoir comprendre des énoncés standard dans des situations prévisibles, identifier l'attitude et les intentions des locuteurs, et suivre une argumentation développée lorsque le sujet est connu.",
+          "difficulty": 3,
+          "hours": 25,
+          "resources": [
+            { "name": "RFI Savoirs - Compréhension orale B1", "url": "https://francaisfacile.rfi.fr/en/", "type": "video" },
+            { "name": "TV5Monde - Vidéos B1", "url": "https://apprendre.tv5monde.com/fr/exercices/b1-intermediaire", "type": "video" },
+            { "name": "France Éducation International - Sujets B1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "France 24 - Actualités en français", "url": "https://www.france24.com/fr/", "type": "video" }
+          ]
+        },
+        {
+          "title": "Compréhension écrite",
+          "summary": "La compréhension écrite B1 porte sur des articles de presse, des textes argumentatifs simples, des courriers administratifs et des récits personnels développés. L'apprenant doit comprendre des textes rédigés dans une langue courante liée à des situations personnelles et professionnelles, identifier le point de vue de l'auteur, repérer les arguments principaux et les exemples, et comprendre des instructions détaillées même lorsqu'elles ne concernent pas son domaine.",
+          "difficulty": 3,
+          "hours": 25,
+          "resources": [
+            { "name": "TV5Monde - Lecture B1", "url": "https://apprendre.tv5monde.com/fr/exercices/b1-intermediaire", "type": "article" },
+            { "name": "France Éducation International - Exemples B1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "Le Monde - Articles de niveau intermédiaire", "url": "https://www.lemonde.fr/", "type": "article" },
+            { "name": "Bonjour de France - Compréhension écrite B1", "url": "https://www.bonjourdefrance.com/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Expression orale",
+          "summary": "L'expression orale B1 permet de donner son opinion sur des sujets courants et de l'argumenter brièvement, de décrire une expérience personnelle en détail, de participer à une conversation sans préparation sur des sujets familiers, et de reproduire l'argumentation d'un film ou d'un livre. L'apprenant doit maîtriser un monologue suivi de quelques minutes, utiliser des connecteurs logiques pour structurer son propos, et interagir en reformulant ou en négociant le sens.",
+          "difficulty": 3,
+          "hours": 25,
+          "resources": [
+            { "name": "France Éducation International - Production orale B1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "TV5Monde - Expression orale B1", "url": "https://apprendre.tv5monde.com/fr/exercices/b1-intermediaire", "type": "video" },
+            { "name": "CNED - Préparation orale B1", "url": "https://www.cned.fr/inscription/8FLESDX", "type": "book" },
+            { "name": "Le Café du FLE - Conseils B1", "url": "https://lecafedufle.fr/liens-utiles-delf-dalf-preparation/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Expression écrite",
+          "summary": "À ce niveau, l'apprenant rédige un essai personnel exprimant une opinion sur un sujet d'intérêt général, une lettre formelle pour faire une demande ou réclamer, et un récit structuré avec introduction, développement et conclusion. Les textes doivent être relativement clairs et bien structurés, avec une utilisation correcte des connecteurs logiques et une orthographe suffisamment fiable pour ne pas gêner la compréhension. Le registre de langue est adapté au destinataire.",
+          "difficulty": 3,
+          "hours": 25,
+          "resources": [
+            { "name": "France Éducation International - Expression écrite B1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "TV5Monde - Écriture B1", "url": "https://apprendre.tv5monde.com/fr/exercices/b1-intermediaire", "type": "article" },
+            { "name": "CNED - Préparation écrite B1", "url": "https://www.cned.fr/inscription/8FLESDX", "type": "book" },
+            { "name": "Bonjour de France - Expression écrite B1", "url": "https://www.bonjourdefrance.com/", "type": "article" }
+          ]
+        }
       ]
     },
     {
@@ -50,12 +237,288 @@
       "icon": "languages",
       "description": "Utilisateur indépendant avancé",
       "topics": [
-        { "title": "Grammaire", "summary": "Subjonctif, discours indirect et connecteurs logiques." },
-        { "title": "Vocabulaire", "summary": "Société, environnement, culture et vie professionnelle." },
-        { "title": "Compréhension orale", "summary": "Comprendre des débats, conférences et documents complexes." },
-        { "title": "Compréhension écrite", "summary": "Analyser des textes argumentatifs et en dégager la thèse." },
-        { "title": "Expression orale", "summary": "Défendre un point de vue et débattre de façon structurée." },
-        { "title": "Expression écrite", "summary": "Rédiger une lettre formelle ou un essai argumenté." }
+        {
+          "title": "Grammaire",
+          "summary": "Le niveau B2 exige une maîtrise approfondie du subjonctif dans tous ses emplois (volonté, émotion, jugement, but, concession), le discours indirect au passé et au conditionnel, les connecteurs logiques avancés (cependant, néanmoins, par conséquent, en revanche), les pronoms neutres et la mise en relief (ce qui, ce que, c'est... qui/que), le gérondif et les participes présents. L'apprenant doit maîtriser les nuances entre les temps du passé littéraires et courants, et utiliser avec précision les structures conditionnelles complexes (mélange des temps).",
+          "difficulty": 4,
+          "hours": 35,
+          "resources": [
+            { "name": "France Éducation International - DELF B2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "TV5Monde - Exercices B2", "url": "https://apprendre.tv5monde.com/fr/exercices/b2-avance", "type": "video" },
+            { "name": "RFI Savoirs - Entraînement DELF B2 oral", "url": "https://savoirs.rfi.fr/fr/apprendre-enseigner/langue-francaise/delf-b2-comprehension-orale", "type": "video" },
+            { "name": "CNED - Préparation DELF B2", "url": "https://www.cned.fr/inscription/8FLESDX", "type": "book" },
+            { "name": "Didier FLE - Réussir le DELF B2", "url": "https://www.didierfle-delfreussite.fr/", "type": "book" }
+          ]
+        },
+        {
+          "title": "Vocabulaire",
+          "summary": "Le lexique B2 couvre des thèmes sociétaux et abstraits : société (inégalités, immigration, éducation), environnement (changement climatique, développement durable), culture (patrimoine, arts, médias), et vie professionnelle (management, entretien d'embauche, relations de travail). L'apprenant maîtrise le vocabulaire de l'argumentation (affirmer, réfuter, nuancer, étayer), les expressions idiomatiques courantes, et le vocabulaire spécialisé de son domaine d'intérêt. La capacité à reformuler et à éviter les répétitions est essentielle.",
+          "difficulty": 4,
+          "hours": 30,
+          "resources": [
+            { "name": "TV5Monde - Vocabulaire B2", "url": "https://apprendre.tv5monde.com/fr/exercices/b2-avance", "type": "video" },
+            { "name": "France Éducation International - Ressources B2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "Le Monde - Vocabulaire de l'actualité", "url": "https://www.lemonde.fr/", "type": "article" },
+            { "name": "Le Figaro - Enjeux de société", "url": "https://www.lefigaro.fr/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Compréhension orale",
+          "summary": "Au niveau B2, l'apprenant comprend des débats télévisés ou radiophoniques, des conférences et des exposés sur des sujets complexes, des documents techniques dans sa spécialité, et des conversations entre locuteurs natifs avec des accents variés. Il doit pouvoir suivre une argumentation longue et structurée, comprendre les implications implicites, repérer l'ironie et les sous-entendus, et prendre des notes efficaces pour restituer l'essentiel d'un document oral.",
+          "difficulty": 4,
+          "hours": 30,
+          "resources": [
+            { "name": "RFI Savoirs - Entraînement DELF B2 oral", "url": "https://savoirs.rfi.fr/fr/apprendre-enseigner/langue-francaise/delf-b2-comprehension-orale", "type": "video" },
+            { "name": "TV5Monde - Compréhension orale B2", "url": "https://apprendre.tv5monde.com/fr/exercices/b2-avance", "type": "video" },
+            { "name": "France Inter - Podcasts et débats", "url": "https://www.franceinter.fr/", "type": "video" },
+            { "name": "France Éducation International - Sujets B2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" }
+          ]
+        },
+        {
+          "title": "Compréhension écrite",
+          "summary": "La compréhension écrite B2 porte sur des textes argumentatifs et journalistiques complexes, des articles de fond, des essais critiques, et des rapports professionnels. L'apprenant doit analyser la structure d'un texte, en dégager la thèse et les arguments, repérer les stratégies rhétoriques de l'auteur, comprendre les références implicites et culturelles, et évaluer la crédibilité des sources. La lecture rapide pour repérer l'information pertinente est une compétence clé.",
+          "difficulty": 4,
+          "hours": 30,
+          "resources": [
+            { "name": "TV5Monde - Lecture B2", "url": "https://apprendre.tv5monde.com/fr/exercices/b2-avance", "type": "article" },
+            { "name": "France Éducation International - Exemples B2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "Le Monde - Idées et débats", "url": "https://www.lemonde.fr/idees/", "type": "article" },
+            { "name": "Courrier International - Perspectives mondiales", "url": "https://www.courrierinternational.com/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Expression orale",
+          "summary": "L'expression orale B2 exige la capacité à défendre un point de vue de manière structurée, à débattre en réagissant aux arguments adverses, à présenter un sujet complexe avec un plan clair (introduction, thèse, arguments, exemples, conclusion), et à nuancer sa position. L'apprenant doit maîtriser les registres de langue (soutenu, courant, familier), utiliser des marqueurs discursifs sophistiqués, et gérer l'interaction avec aisance, y compris en récupérant des incidents de communication.",
+          "difficulty": 4,
+          "hours": 30,
+          "resources": [
+            { "name": "France Éducation International - Production orale B2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "TV5Monde - Expression orale B2", "url": "https://apprendre.tv5monde.com/fr/exercices/b2-avance", "type": "video" },
+            { "name": "CNED - Préparation orale B2", "url": "https://www.cned.fr/inscription/8FLESDX", "type": "book" },
+            { "name": "Université de Calgary - Exemples de production orale B2", "url": "https://arts.ucalgary.ca/languages-linguistics-literatures-cultures/french-centre/french-language-riom/prepare-your-exam", "type": "video" }
+          ]
+        },
+        {
+          "title": "Expression écrite",
+          "summary": "À ce niveau, l'apprenant rédige une lettre formelle structurée (plainte, demande, opinion), un essai argumenté développant une thèse avec plusieurs arguments étayés par des exemples, et un article d'opinion. Les textes doivent être clairs, bien organisés, avec une progression logique, une variété syntaxique, et un registre adapté au contexte. L'orthographe et la grammaire doivent être suffisamment fiables pour ne pas distraire le lecteur, et le style doit montrer une certaine personnalité.",
+          "difficulty": 4,
+          "hours": 30,
+          "resources": [
+            { "name": "France Éducation International - Expression écrite B2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "TV5Monde - Écriture B2", "url": "https://apprendre.tv5monde.com/fr/exercices/b2-avance", "type": "article" },
+            { "name": "CNED - Préparation écrite B2", "url": "https://www.cned.fr/inscription/8FLESDX", "type": "book" },
+            { "name": "Didier FLE - Réussir le DELF B2", "url": "https://www.didierfle-delfreussite.fr/", "type": "book" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dalf-c1",
+      "name": "C1 — Autonome",
+      "icon": "languages",
+      "description": "Utilisateur compétent (DALF C1)",
+      "topics": [
+        {
+          "title": "Grammaire avancée et nuance",
+          "summary": "Le niveau C1 exige une maîtrise sophistiquée des structures grammaticales complexes : concordance des temps dans le discours rapporté, subjonctif imparfait et plus-que-parfait dans les registres soutenus, pronoms relatifs complexes (lequel, dont, où, quoi), structures de mise en relief et de focalisation (c'est... que, ce que... c'est), et l'emploi nuancé des modalisateurs (peut-être, sans doute, il semble que). L'apprenant doit maîtriser la distinction entre registre soutenu, courant et familier, et utiliser la grammaire comme outil de précision rhétorique pour affiner son argumentation et exprimer des nuances subtiles.",
+          "difficulty": 4,
+          "hours": 50,
+          "resources": [
+            { "name": "France Éducation International - DALF C1", "url": "https://www.france-education-international.fr/article/dalf-c1", "type": "official" },
+            { "name": "France Éducation International - Manuel candidat DALF C1", "url": "https://delfdalf.jp/wp-content/uploads/2023/08/manuel-candidat-dalf-c1.pdf", "type": "pdf" },
+            { "name": "CLE International - Grammaire Progressive du Français Niveau avancé", "url": "https://www.cle-international.com/", "type": "book" },
+            { "name": "Didier FLE - Réussir le DALF C1/C2", "url": "https://www.didierfle-delfreussite.fr/", "type": "book" }
+          ]
+        },
+        {
+          "title": "Vocabulaire soutenu et argumentation",
+          "summary": "Le lexique C1 est caractérisé par une richesse et une précision exceptionnelles. L'apprenant doit maîtriser les champs lexicaux abstraits (épistémologie, herméneutique, axiologie), les expressions idiomatiques et les locutions figées, les connecteurs logiques sophistiqués (nonobstant, en dépit de, partant de là, sous réserve de), et le vocabulaire de la critique et de l'analyse (distinguer, nuancer, relativiser, déconstruire). La capacité à reformuler avec élégance, à éviter les répétitions par des synonymes contextuels, et à adapter le registre lexical au public visé est essentielle pour la réussite au DALF C1.",
+          "difficulty": 4,
+          "hours": 45,
+          "resources": [
+            { "name": "France Éducation International - Inventaire linguistique C1", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "Le Monde - Idées et débats (vocabulaire argumentatif)", "url": "https://www.lemonde.fr/idees/", "type": "article" },
+            { "name": "Sciences Humaines - Lexique académique", "url": "https://www.scienceshumaines.com/", "type": "article" },
+            { "name": "CNED - Préparation DALF C1", "url": "https://www.cned.fr/inscription/8FLESDX", "type": "book" }
+          ]
+        },
+        {
+          "title": "Compréhension orale complexe",
+          "summary": "La compréhension orale au niveau C1 porte sur des documents longs et exigeants : conférences académiques, débats politiques, entretiens approfondis, émissions de radio culturelles (France Culture, France Inter), et discours avec des accents régionaux ou étrangers. L'apprenant doit comprendre des significations implicites, saisir les subtilités humoristiques, ironiques et sarcastiques, repérer les stratégies rhétoriques du locuteur, et prendre des notes structurées pour restituer l'argumentation dans sa globalité. La compréhension s'étend à des sujets hors du domaine propre de l'apprenant.",
+          "difficulty": 4,
+          "hours": 45,
+          "resources": [
+            { "name": "France Culture - Podcasts et conférences", "url": "https://www.franceculture.fr/", "type": "video" },
+            { "name": "RFI Savoirs - Français des affaires et actualité", "url": "https://francaisfacile.rfi.fr/en/", "type": "video" },
+            { "name": "TV5Monde - Documentaires et débats", "url": "https://apprendre.tv5monde.com/fr/exercices", "type": "video" },
+            { "name": "France Éducation International - Sujets DALF C1", "url": "https://www.france-education-international.fr/diplome/dalf/dalf-c1", "type": "official" }
+          ]
+        },
+        {
+          "title": "Compréhension écrite analytique",
+          "summary": "Au niveau C1, la compréhension écrite porte sur des textes littéraires (romans, essais, poésie), journalistiques (articles de fond, éditoriaux, chroniques), et académiques (publications scientifiques, rapports institutionnels). L'apprenant doit comprendre dans le détail des textes longs et complexes, qu'ils se rapportent ou non à son domaine, en saisir les structures implicites de sens, les présupposés idéologiques, les intertextualités, et les jeux de langage. La capacité à lire rapidement pour repérer l'essentiel et à lire attentivement pour analyser la microstructure du texte est fondamentale.",
+          "difficulty": 4,
+          "hours": 45,
+          "resources": [
+            { "name": "Le Monde - Articles de fond et éditoriaux", "url": "https://www.lemonde.fr/", "type": "article" },
+            { "name": "Courrier International - Analyses internationales", "url": "https://www.courrierinternational.com/", "type": "article" },
+            { "name": "France Éducation International - Exemples DALF C1", "url": "https://www.france-education-international.fr/diplome/dalf/dalf-c1", "type": "official" },
+            { "name": "Pour la Science - Publications académiques", "url": "https://www.pourlascience.fr/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Production écrite - Synthèse et essai argumenté",
+          "summary": "L'épreuve de production écrite du DALF C1 est en deux parties : une synthèse de 220-240 mots à partir de plusieurs documents écrits d'environ 1000 mots au total, et un essai argumenté de 250 mots minimum prenant appui sur le contenu des documents. La synthèse exige l'objectivité absolue, la reformulation personnelle des idées, la structuration logique (problématique, plan en deux parties ou dialectique), et le respect des conventions du genre. L'essai argumenté demande la construction d'une thèse personnelle nuancée, l'articulation de arguments étayés par des exemples concrets, et une conclusion ouverte. La gestion du temps (2h30) est un enjeu majeur.",
+          "difficulty": 4,
+          "hours": 55,
+          "resources": [
+            { "name": "France Éducation International - Sujet démo DALF C1", "url": "https://www.france-education-international.fr/document/dalf-c1sujet-demo-candidat-coll", "type": "official" },
+            { "name": "France Éducation International - Grilles d'évaluation C1", "url": "https://www.france-education-international.fr/diplome/dalf/dalf-c1", "type": "official" },
+            { "name": "CNED - Préparation DALF C1 écrit", "url": "https://www.cned.fr/inscription/8FLESDX", "type": "book" },
+            { "name": "SavoirX - DALF C1 Writing Guide", "url": "https://savoirx.ai/articles/dalf-c1-preparation-guide", "type": "article" }
+          ]
+        },
+        {
+          "title": "Production orale - Exposé et discussion",
+          "summary": "L'épreuve orale du DALF C1 (30 minutes dont 1h de préparation) comporte un exposé structuré à partir de plusieurs documents écrits, suivi d'une discussion avec le jury. L'exposé doit restituer fidèlement les informations, présenter une problématique claire, et articuler un plan personnel original. La discussion évalue la capacité à défendre et nuancer ses arguments, à réagir aux questions du jury avec spontanéité et courtoisie, et à gérer les accidents de communication. La maîtrise du registre soutenu, l'usage varié des articulateurs logiques, et la fluidité sans hésitation marquée sont attendus.",
+          "difficulty": 4,
+          "hours": 50,
+          "resources": [
+            { "name": "France Éducation International - Conseils DALF C1 oral", "url": "https://www.france-education-international.fr/article/dalf-c1", "type": "official" },
+            { "name": "Université de Calgary - Exemples de production orale", "url": "https://arts.ucalgary.ca/languages-linguistics-literatures-cultures/french-centre/french-language-riom/prepare-your-exam", "type": "video" },
+            { "name": "CNED - Préparation DALF C1 oral", "url": "https://www.cned.fr/inscription/8FLESDX", "type": "book" },
+            { "name": "Langmitra - DALF C1/C2 Preparation Tips", "url": "https://langmitra.com/blog/dalf-c1-c2-advanced-french-certification", "type": "article" }
+          ]
+        },
+        {
+          "title": "Communication professionnelle et académique",
+          "summary": "Le niveau C1 exige la maîtrise du français des affaires et du français académique dans des contextes formels. L'apprenant doit savoir rédiger des rapports, des comptes rendus, des notes de synthèse, et des présentations PowerPoint orales. Le vocabulaire du management, de la négociation, de la recherche scientifique (méthodologie, hypothèses, résultats, discussion) et de l'enseignement supérieur est indispensable. La capacité à adapter son discours à des publics spécialisés ou non spécialisés, à vulgariser des concepts complexes, et à maintenir un ton professionnel courtois est essentielle pour les études en France et le monde du travail francophone.",
+          "difficulty": 4,
+          "hours": 40,
+          "resources": [
+            { "name": "RFI Savoirs - Français des affaires", "url": "https://francaisfacile.rfi.fr/en/", "type": "article" },
+            { "name": "France Éducation International - DALF C1 et université", "url": "https://www.france-education-international.fr/article/dalf-c1", "type": "official" },
+            { "name": "TV5Monde - Français professionnel", "url": "https://apprendre.tv5monde.com/fr/exercices", "type": "video" },
+            { "name": "CNED - Préparation méthodologique DALF C1", "url": "https://www.cned.fr/inscription/8FLESDX", "type": "book" }
+          ]
+        },
+        {
+          "title": "Culture et société française contemporaine",
+          "summary": "La réussite au DALF C1 requiert une connaissance approfondie de l'actualité française et francophone, des enjeux sociétaux contemporains (laïcité, écologie, identité nationale, patrimoine), et des références culturelles partagées. L'apprenant doit être capable de situer un débat dans son contexte historique et sociologique, de citer des exemples précis (lois, événements, personnalités), et d'analyser les évolutions récentes de la société française. La culture générale est un levier essentiel pour enrichir les arguments et démontrer une intégration culturelle avancée.",
+          "difficulty": 4,
+          "hours": 40,
+          "resources": [
+            { "name": "Le Monde - Actualité et débats de société", "url": "https://www.lemonde.fr/", "type": "article" },
+            { "name": "France Culture - Émissions culturelles et philosophiques", "url": "https://www.franceculture.fr/", "type": "video" },
+            { "name": "TV5Monde - Magazines et documentaires culturels", "url": "https://apprendre.tv5monde.com/fr/exercices", "type": "video" },
+            { "name": "France Éducation International - Thèmes DALF C1", "url": "https://www.france-education-international.fr/article/dalf-c1", "type": "official" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dalf-c2",
+      "name": "C2 — Maîtrise",
+      "icon": "languages",
+      "description": "Utilisateur expert (DALF C2)",
+      "topics": [
+        {
+          "title": "Grammaire de la nuance et de la précision",
+          "summary": "Le niveau C2 représente la maîtrise quasi-native de la grammaire française. L'apprenant doit utiliser avec une exactitude raisonnable une gamme étendue de modalisateurs pour nuancer ses affirmations (il est plausible que, nul doute que, force est de constater que), maîtriser les constructions complexes et les inversions stylistiques, employer les figures de style (antithèse, chiasme, anaphore, litote) comme outils rhétoriques naturels, et naviguer avec aisance entre les registres de langue les plus soutenus et les plus familiers. La grammaire devient un instrument de créativité linguistique et de persuasion sophistiquée.",
+          "difficulty": 5,
+          "hours": 60,
+          "resources": [
+            { "name": "France Éducation International - DALF C2", "url": "https://www.france-education-international.fr/diplome/dalf/dalf-c2-exemples-de-sujets", "type": "official" },
+            { "name": "France Éducation International - Manuel candidat DALF C2", "url": "https://www.france-education-international.fr/document/manuel-candidat-dalf-c2", "type": "pdf" },
+            { "name": "France Éducation International - Conseils DALF C2", "url": "https://www.france-education-international.fr/article/dalf-c2-conseils", "type": "official" },
+            { "name": "Didier FLE - Réussir le DALF C1/C2", "url": "https://www.didierfle-delfreussite.fr/", "type": "book" },
+            { "name": "CLE International - Grammaire Progressive Niveau perfectionnement", "url": "https://www.cle-international.com/", "type": "book" }
+          ]
+        },
+        {
+          "title": "Vocabulaire littéraire, académique et spécialisé",
+          "summary": "Le lexique C2 est encyclopédique et précis. L'apprenant doit maîtriser le vocabulaire littéraire (topique, isotopie, intertextualité, métanarratif), le lexique académique des sciences humaines et exactes, la terminologie juridique et institutionnelle (prérogative, dérogation, jurisprudence, quorum), et les expressions idiomatiques avec leurs connotations socioculturelles. La capacité à choisir le mot juste, à créer des néologismes contextuels compréhensibles, à manipuler les champs lexicaux avec une grande finesse, et à reconstruire sans heurts une difficulté de formulation fait la différence entre C1 et C2.",
+          "difficulty": 5,
+          "hours": 55,
+          "resources": [
+            { "name": "France Éducation International - Inventaire linguistique C2", "url": "https://www.france-education-international.fr/delf-dalf", "type": "official" },
+            { "name": "Le Monde - Idées et essais", "url": "https://www.lemonde.fr/idees/", "type": "article" },
+            { "name": "Sciences Humaines - Articles académiques", "url": "https://www.scienceshumaines.com/", "type": "article" },
+            { "name": "L'Express - Chroniques et éditoriaux", "url": "https://www.lexpress.fr/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Compréhension orale exhaustive",
+          "summary": "Au niveau C2, l'apprenant comprend sans effort pratiquement tout ce qu'il entend, y compris des discours abstraits et complexes sur des sujets spécialisés hors de son domaine. Il doit saisir les nuances les plus fines, les jeux de mots, les allusions culturelles, les changements de registre, et les variations régionales ou sociales. La prise de notes simultanée lors de conférences, la capacité à résumer fidèlement un document de 10-15 minutes en restituant la tonalité et les présupposés, et la compréhension de documents sonores de qualité médiocre ou avec des interférences sont des compétences clés. L'écoute de France Culture, d'Arte, et de débats parlementaires est une préparation essentielle.",
+          "difficulty": 5,
+          "hours": 50,
+          "resources": [
+            { "name": "France Culture - Conférences et débats philosophiques", "url": "https://www.franceculture.fr/", "type": "video" },
+            { "name": "Arte - Documentaires et magazines", "url": "https://www.arte.tv/fr/", "type": "video" },
+            { "name": "RFI Savoirs - Entraînements avancés", "url": "https://francaisfacile.rfi.fr/en/", "type": "video" },
+            { "name": "France Éducation International - Exemples DALF C2", "url": "https://www.france-education-international.fr/diplome/dalf/dalf-c2-exemples-de-sujets", "type": "official" }
+          ]
+        },
+        {
+          "title": "Compréhension écrite critique",
+          "summary": "La compréhension écrite C2 porte sur tous les types de textes écrits, y compris littéraires, philosophiques, juridiques et hautement colloquiaux. L'apprenant doit comprendre et interpréter de manière critique des textes structuralement complexes, apprécier les différences subtiles de style et de ton, détecter les biais idéologiques, les fallacies argumentatives, et les stratégies de manipulation rhétorique. Il doit pouvoir lire entre les lignes, reconstruire les implications non dites, et situer le texte dans son contexte de production (historique, politique, culturel). La lecture d'essais philosophiques (Sartre, Camus, Foucault), de textes juridiques, et de littérature contemporaine est indispensable.",
+          "difficulty": 5,
+          "hours": 50,
+          "resources": [
+            { "name": "Le Monde - Enquêtes et analyses de fond", "url": "https://www.lemonde.fr/", "type": "article" },
+            { "name": "Courrier International - Essais et traductions", "url": "https://www.courrierinternational.com/", "type": "article" },
+            { "name": "France Éducation International - Sujets DALF C2", "url": "https://www.france-education-international.fr/diplome/dalf/dalf-c2-exemples-de-sujets", "type": "official" },
+            { "name": "Pour la Science - Articles scientifiques avancés", "url": "https://www.pourlascience.fr/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Production écrite - Synthèse et texte structuré",
+          "summary": "L'épreuve écrite du DALF C2 (3h30) consiste à produire un texte structuré (article, éditorial, rapport, discours) de 500-600 mots à partir d'un dossier de documents écrits totalisant environ 2000 mots. L'exercice évalue la capacité à synthétiser l'information de manière critique, à développer une argumentation originale et nuancée, à utiliser un registre soutenu et adapté au genre demandé, et à maîtriser la structure logique (problématique, plan en trois parties, articulations, conclusion ouverte). La gestion du temps, la précision terminologique, la correction orthographique et syntaxique irréprochable, et la créativité stylistique sont des critères déterminants. Le candidat doit démontrer une maîtrise du français comparable à celle d'un locuteur natif instruit.",
+          "difficulty": 5,
+          "hours": 60,
+          "resources": [
+            { "name": "France Éducation International - Exemples de sujets DALF C2", "url": "https://www.france-education-international.fr/diplome/dalf/dalf-c2-exemples-de-sujets", "type": "official" },
+            { "name": "France Éducation International - Grilles d'évaluation C2", "url": "https://www.france-education-international.fr/diplome/dalf/dalf-c2-exemples-de-sujets", "type": "official" },
+            { "name": "Université de Calgary - Exemples de production écrite C2", "url": "https://arts.ucalgary.ca/languages-linguistics-literatures-cultures/french-centre/french-language-riom/prepare-your-exam", "type": "article" },
+            { "name": "Didier FLE - Réussir le DALF C2", "url": "https://www.didierfle-delfreussite.fr/", "type": "book" }
+          ]
+        },
+        {
+          "title": "Production orale - Résumé, exposé et débat approfondi",
+          "summary": "L'épreuve orale du DALF C2 (1h de préparation, 30 minutes d'épreuve) comporte trois exercices : résumé du contenu d'un document audio, réflexion personnelle élaborée sur la problématique du document, et débat approfondi avec le jury. Le candidat doit restituer la majorité des informations principales avec une structure organisationnelle claire, produire une argumentation personnelle étayée par des exemples variés et des apports culturels, et contribuer au développement du débat en défendant, précisant et nuancant son point de vue. La fluidité, la spontanéité, la précision lexicale, la correction grammaticale, et la capacité à gérer un questionnement complexe avec aisance et courtoisie sont attendues. Le jury évalue une maîtrise comparable à celle d'un locuteur natif hautement qualifié.",
+          "difficulty": 5,
+          "hours": 55,
+          "resources": [
+            { "name": "France Éducation International - Conseils DALF C2 oral", "url": "https://www.france-education-international.fr/article/dalf-c2-conseils", "type": "official" },
+            { "name": "Université de Calgary - Exemples de production orale DALF C2", "url": "https://arts.ucalgary.ca/languages-linguistics-literatures-cultures/french-centre/french-language-riom/prepare-your-exam", "type": "video" },
+            { "name": "France Éducation International - Sujets démo DALF C2", "url": "https://www.france-education-international.fr/diplome/dalf/dalf-c2-exemples-de-sujets", "type": "official" },
+            { "name": "Langmitra - DALF C2 Preparation Guide", "url": "https://langmitra.com/blog/dalf-c1-c2-advanced-french-certification", "type": "article" }
+          ]
+        },
+        {
+          "title": "Français juridique, institutionnel et des médias",
+          "summary": "Le niveau C2 exige la maîtrise des registres les plus spécialisés du français. Le candidat doit comprendre et produire des textes juridiques (contrats, arrêts, lois), institutionnels (discours politiques, rapports parlementaires, communiqués administratifs), et médiatiques (éditoriaux, tribunes, reportages d'investigation). Le vocabulaire du droit constitutionnel, de la procédure légale, des institutions européennes et internationales, et de la critique médiatique est indispensable. La capacité à déconstruire un discours politique, à analyser les stratégies de communication institutionnelle, et à produire des analyses juridiques ou médiatiques dans un français impeccable est un marqueur distinctif du niveau C2.",
+          "difficulty": 5,
+          "hours": 50,
+          "resources": [
+            { "name": "Légifrance - Textes juridiques et lois", "url": "https://www.legifrance.gouv.fr/", "type": "article" },
+            { "name": "France Éducation International - Thèmes DALF C2", "url": "https://www.france-education-international.fr/article/dalf-c2-conseils", "type": "official" },
+            { "name": "Le Monde - Décryptage politique et juridique", "url": "https://www.lemonde.fr/", "type": "article" },
+            { "name": "RFI Savoirs - Actualité et institutions", "url": "https://francaisfacile.rfi.fr/en/", "type": "article" }
+          ]
+        },
+        {
+          "title": "Analyse culturelle, interculturelle et philosophique",
+          "summary": "Au sommet du CECRL, le candidat C2 doit démontrer une intelligence culturelle et une réflexivité philosophique de haut niveau. Les sujets abordent l'identité française et européenne, la francophonie mondiale, les débats sur la modernité et la postmodernité, les enjeux éthiques (bioéthique, intelligence artificielle, climat), et les questions de mémoire et d'histoire. Le candidat doit être capable de citer des auteurs et des œuvres, de mobiliser des cadres théoriques (sociologie, philosophie politique, anthropologie), et de produire une réflexion personnelle originale qui dépasse les lieux communs. Cette compétence culturelle est ce qui distingue le DALF C2 de toutes les autres certifications de français langue étrangère.",
+          "difficulty": 5,
+          "hours": 50,
+          "resources": [
+            { "name": "France Culture - Philosophie et société", "url": "https://www.franceculture.fr/", "type": "video" },
+            { "name": "Le Monde - Idées et essais philosophiques", "url": "https://www.lemonde.fr/idees/", "type": "article" },
+            { "name": "TV5Monde - Magazines francophones et interculturels", "url": "https://apprendre.tv5monde.com/fr/exercices", "type": "video" },
+            { "name": "France Éducation International - Conseils et thèmes DALF C2", "url": "https://www.france-education-international.fr/article/dalf-c2-conseils", "type": "official" }
+          ]
+        }
       ]
     }
   ]

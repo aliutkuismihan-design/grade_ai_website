@@ -139,6 +139,7 @@
     "intro": "Browse subjects and topic-by-topic summaries for each exam system. GradeAI grades student answers against these curricula automatically.",
     "subjects": "subjects",
     "topics": "topics",
+    "resources": "Resources & Documents",
     "advertisement": "Advertisement",
     "adPlaceholder": "Ad space",
     "home": "Home",

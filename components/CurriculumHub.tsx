@@ -1,7 +1,5 @@
 'use client';
 
-'use client';
-
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
@@ -19,15 +17,31 @@ import {
   TrendingUp,
   Code,
   Car,
+  Music,
+  Palette,
+  Dumbbell,
+  Monitor,
   ChevronDown,
   ArrowRight,
+  ExternalLink,
+  FileText,
+  Clock,
+  Star,
   type LucideIcon,
 } from 'lucide-react';
 import AdSlot from './AdSlot';
 
+export interface Resource {
+  name: string;
+  url: string;
+  type: 'pdf' | 'video' | 'article' | 'official' | 'book';
+}
 export interface Topic {
   title: string;
   summary: string;
+  resources?: Resource[];
+  difficulty?: 1 | 2 | 3 | 4 | 5;
+  hours?: number;
 }
 export interface Subject {
   id: string;
@@ -56,7 +70,41 @@ const ICONS: Record<string, LucideIcon> = {
   'trending-up': TrendingUp,
   code: Code,
   car: Car,
+  music: Music,
+  palette: Palette,
+  dumbbell: Dumbbell,
+  monitor: Monitor,
 };
+
+const TYPE_LABEL: Record<Resource['type'], string> = {
+  pdf: 'PDF',
+  video: 'Video',
+  article: 'Makale',
+  official: 'Resmi',
+  book: 'Kitap',
+};
+
+const TYPE_COLOR: Record<Resource['type'], string> = {
+  pdf: 'text-red-400 border-red-400/20 bg-red-400/10',
+  video: 'text-rose-400 border-rose-400/20 bg-rose-400/10',
+  article: 'text-sky-400 border-sky-400/20 bg-sky-400/10',
+  official: 'text-emerald-400 border-emerald-400/20 bg-emerald-400/10',
+  book: 'text-amber-400 border-amber-400/20 bg-amber-400/10',
+};
+
+function DifficultyStars({ level }: { level?: number }) {
+  if (!level) return null;
+  return (
+    <span className="inline-flex items-center gap-0.5" title={`Zorluk: ${level}/5`}>
+      {Array.from({ length: 5 }).map((_, i) => (
+        <Star
+          key={i}
+          className={`h-3 w-3 ${i < level ? 'text-aurora-accent fill-aurora-accent' : 'text-slate-600'}`}
+        />
+      ))}
+    </span>
+  );
+}
 
 export default function CurriculumHub({ systems }: { systems: CurriculumData[] }) {
   const t = useTranslations('curriculum');
@@ -101,7 +149,7 @@ export default function CurriculumHub({ systems }: { systems: CurriculumData[] }
           <div className="flex flex-col gap-4">
             {sys.subjects.map((subject, si) => (
               <div key={subject.id}>
-                <SubjectCard subject={subject} topicsLabel={t('topics')} />
+                <SubjectCard subject={subject} topicsLabel={t('topics')} resourcesLabel={t('resources')} />
                 {/* inline ad after every 3rd subject */}
                 {(si + 1) % 3 === 0 && si + 1 < sys.subjects.length && (
                   <div className="my-6">
@@ -131,9 +179,23 @@ export default function CurriculumHub({ systems }: { systems: CurriculumData[] }
   );
 }
 
-function SubjectCard({ subject, topicsLabel }: { subject: Subject; topicsLabel: string }) {
+function SubjectCard({
+  subject,
+  topicsLabel,
+  resourcesLabel,
+}: {
+  subject: Subject;
+  topicsLabel: string;
+  resourcesLabel: string;
+}) {
   const Icon = ICONS[subject.icon] ?? BookOpen;
   const [isOpen, setIsOpen] = useState(false);
+  const totalHours = subject.topics.reduce((sum, t) => sum + (t.hours ?? 0), 0);
+  const avgDifficulty = subject.topics.length
+    ? Math.round(
+        subject.topics.reduce((sum, t) => sum + (t.difficulty ?? 0), 0) / subject.topics.length,
+      )
+    : 0;
 
   return (
     <div
@@ -151,6 +213,22 @@ function SubjectCard({ subject, topicsLabel }: { subject: Subject; topicsLabel: 
         <span className="min-w-0 flex-1">
           <span className="block font-semibold text-white">{subject.name}</span>
           <span className="block text-sm text-slate-400">{subject.description}</span>
+          <span className="mt-1 flex flex-wrap items-center gap-3 text-xs text-slate-500">
+            <span className="hidden sm:inline">
+              {subject.topics.length} {topicsLabel}
+            </span>
+            {avgDifficulty > 0 && (
+              <span className="flex items-center gap-1">
+                <DifficultyStars level={avgDifficulty} />
+              </span>
+            )}
+            {totalHours > 0 && (
+              <span className="flex items-center gap-1">
+                <Clock className="h-3 w-3" />
+                ~{totalHours} saat
+              </span>
+            )}
+          </span>
         </span>
         <span className="hidden flex-none text-xs text-slate-500 sm:block">
           {subject.topics.length} {topicsLabel}
@@ -161,14 +239,60 @@ function SubjectCard({ subject, topicsLabel }: { subject: Subject; topicsLabel: 
       </button>
 
       {isOpen && (
-        <ul className="grid gap-3 border-t border-white/5 p-5 sm:grid-cols-2">
-          {subject.topics.map((topic) => (
-            <li key={topic.title} className="rounded-lg border border-white/5 bg-black/20 p-3">
-              <p className="text-sm font-semibold text-white">{topic.title}</p>
-              <p className="mt-1 text-sm text-slate-400">{topic.summary}</p>
-            </li>
-          ))}
-        </ul>
+        <div className="border-t border-white/5">
+          <ul className="grid gap-4 p-5 sm:grid-cols-2">
+            {subject.topics.map((topic) => (
+              <li
+                key={topic.title}
+                className="rounded-xl border border-white/5 bg-black/20 p-4 transition hover:border-white/10 hover:bg-black/30"
+              >
+                <div className="flex items-start justify-between gap-2">
+                  <p className="text-sm font-semibold text-white">{topic.title}</p>
+                  <div className="flex flex-none items-center gap-1.5">
+                    {topic.difficulty && <DifficultyStars level={topic.difficulty} />}
+                    {topic.hours && (
+                      <span className="flex items-center gap-0.5 text-[10px] text-slate-500">
+                        <Clock className="h-3 w-3" />
+                        {topic.hours}h
+                      </span>
+                    )}
+                  </div>
+                </div>
+                <p className="mt-2 text-sm leading-relaxed text-slate-400">{topic.summary}</p>
+
+                {/* Resources / Documents */}
+                {topic.resources && topic.resources.length > 0 && (
+                  <div className="mt-3">
+                    <p className="mb-1.5 text-[10px] font-semibold uppercase tracking-wider text-slate-500">
+                      {resourcesLabel}
+                    </p>
+                    <div className="flex flex-wrap gap-1.5">
+                      {topic.resources.map((res) => (
+                        <a
+                          key={res.name}
+                          href={res.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={`inline-flex items-center gap-1 rounded-md border px-2 py-1 text-[10px] font-medium transition hover:opacity-80 ${
+                            TYPE_COLOR[res.type]
+                          }`}
+                        >
+                          {res.type === 'pdf' && <FileText className="h-3 w-3" />}
+                          {res.type === 'video' && <ExternalLink className="h-3 w-3" />}
+                          {res.type === 'article' && <FileText className="h-3 w-3" />}
+                          {res.type === 'official' && <ExternalLink className="h-3 w-3" />}
+                          {res.type === 'book' && <BookOpen className="h-3 w-3" />}
+                          {res.name}
+                          <ExternalLink className="h-2.5 w-2.5 opacity-60" />
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </li>
+            ))}
+          </ul>
+        </div>
       )}
     </div>
   );

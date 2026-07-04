@@ -5,133 +5,1741 @@
     {
       "id": "mathematics",
       "name": "Mathematics",
+      "code": "0580",
       "icon": "calculator",
-      "description": "Number, algebra and geometry",
+      "description": "Number, algebra, geometry, statistics and probability",
+      "summary": "Cambridge IGCSE Mathematics (0580) develops mathematical knowledge and skills as a foundation for further study or practical application. The syllabus covers number concepts, algebra, geometry, trigonometry, statistics, and probability, with candidates entering either Core or Extended tiers. Extended candidates may achieve grades A* to E, while Core candidates achieve C to G. The qualification is assessed through two papers and is essential for progression to A-Level Mathematics and many STEM fields.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Mathematics 0580 Syllabus 2025-2027",
+          "url": "https://www.cambridgeinternational.org/Images/662452-2025-2027-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Mathematics Revision Notes",
+          "url": "https://www.savemyexams.com/igcse/maths/cie/23/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "BBC Bitesize GCSE Maths",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z6vg9j6",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Mathematics",
+          "url": "https://znotes.org/caie/igcse/mathematics-0580/",
+          "type": "article"
+        },
+        {
+          "name": "Physics & Maths Tutor IGCSE Maths",
+          "url": "https://www.physicsandmathstutor.com/maths-revision/gcse/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE Mathematics",
+          "url": "https://pastpapers.co/caie/igcse/mathematics-0580",
+          "type": "pdf"
+        }
+      ],
       "topics": [
-        { "title": "Number", "summary": "Fractions, percentages, ratio, standard form and bounds." },
-        { "title": "Algebra", "summary": "Expressions, linear/quadratic equations and inequalities." },
-        { "title": "Geometry", "summary": "Angles, similarity, congruence and circle theorems." },
-        { "title": "Trigonometry", "summary": "Pythagoras, sine/cosine rules and bearings." },
-        { "title": "Statistics", "summary": "Averages, charts, cumulative frequency and probability." }
+        {
+          "title": "Number",
+          "summary": "Fractions, percentages, ratio, standard form, bounds, and directed numbers. Candidates apply numerical skills to solve problems in context."
+        },
+        {
+          "title": "Algebra",
+          "summary": "Expressions, linear and quadratic equations, inequalities, factorising, formulae, and algebraic fractions. Extended tier includes simultaneous equations and algebraic proof."
+        },
+        {
+          "title": "Geometry",
+          "summary": "Angles, similarity, congruence, circle theorems, Pythagoras, and properties of polygons. Extended tier covers formal geometric proofs."
+        },
+        {
+          "title": "Trigonometry",
+          "summary": "Pythagoras theorem, sine and cosine rules, bearings, and three-dimensional trigonometry. Extended candidates solve multi-step problems."
+        },
+        {
+          "title": "Statistics",
+          "summary": "Averages, cumulative frequency, histograms, scatter diagrams, correlation, and probability trees. Includes data interpretation and analysis."
+        },
+        {
+          "title": "Graphs",
+          "summary": "Plotting linear and quadratic graphs, gradient and intercept, distance-time and speed-time graphs, and recognising function types."
+        }
       ]
     },
     {
       "id": "physics",
       "name": "Physics",
+      "code": "0625",
       "icon": "atom",
-      "description": "Forces, energy and electricity",
+      "description": "Forces, energy, waves, electricity and nuclear physics",
+      "summary": "Cambridge IGCSE Physics (0625) provides a solid foundation in physical principles and develops practical skills through investigation. The syllabus covers mechanics, thermal physics, waves, electricity and magnetism, and nuclear physics. Candidates are assessed through multiple-choice, theory, and practical or alternative-to-practical papers. Core and Extended tiers allow differentiation, with Extended candidates eligible for grades A* to E. The qualification prepares students for A-Level Physics and engineering pathways.",
+      "difficulty": 4,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Physics 0625 Syllabus 2023-2025",
+          "url": "https://www.cambridgeinternational.org/Images/662454-2023-2025-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Physics Revision",
+          "url": "https://www.savemyexams.com/igcse/physics/cie/23/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "BBC Bitesize GCSE Physics",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zxyb4wx",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Physics",
+          "url": "https://znotes.org/caie/igcse/physics-0625/",
+          "type": "article"
+        },
+        {
+          "name": "Physics & Maths Tutor IGCSE Physics",
+          "url": "https://www.physicsandmathstutor.com/physics-revision/gcse/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE Physics",
+          "url": "https://pastpapers.co/caie/igcse/physics-0625",
+          "type": "pdf"
+        }
+      ],
       "topics": [
-        { "title": "Motion & Forces", "summary": "Speed, acceleration, Newton's laws and momentum." },
-        { "title": "Energy", "summary": "Work, power, energy stores and efficiency." },
-        { "title": "Waves", "summary": "Sound, light, reflection and refraction." },
-        { "title": "Electricity", "summary": "Circuits, current, voltage and resistance." },
-        { "title": "Magnetism", "summary": "Magnetic fields, electromagnets and induction." },
-        { "title": "Nuclear", "summary": "Atomic structure and radioactivity." }
+        {
+          "title": "Motion & Forces",
+          "summary": "Speed, velocity, acceleration, Newton's laws, momentum, impulse, and force diagrams. Includes calculations of resultant forces and motion graphs."
+        },
+        {
+          "title": "Energy",
+          "summary": "Work, power, energy stores and transfers, kinetic and gravitational potential energy, efficiency, and conservation of energy principles."
+        },
+        {
+          "title": "Waves",
+          "summary": "Properties of transverse and longitudinal waves, sound, light, reflection, refraction, total internal reflection, lenses, and the electromagnetic spectrum."
+        },
+        {
+          "title": "Electricity",
+          "summary": "Electric circuits, Ohm's law, series and parallel circuits, power, domestic electricity, and safety including fuses and circuit breakers."
+        },
+        {
+          "title": "Magnetism",
+          "summary": "Magnetic fields, electromagnets, motor effect, electromagnetic induction, transformers, and the generator effect."
+        },
+        {
+          "title": "Nuclear Physics",
+          "summary": "Atomic structure, isotopes, radioactive decay, half-life, types of radiation, background radiation, and safety precautions."
+        },
+        {
+          "title": "Thermal Physics",
+          "summary": "Temperature scales, thermal expansion, specific heat capacity, latent heat, gas laws, and kinetic theory of gases."
+        }
       ]
     },
     {
       "id": "chemistry",
       "name": "Chemistry",
+      "code": "0620",
       "icon": "flask",
-      "description": "Atoms, reactions and organic",
+      "description": "Atoms, reactions, organic chemistry and industrial processes",
+      "summary": "Cambridge IGCSE Chemistry (0620) introduces learners to the fundamental principles of chemistry and develops practical investigative skills. The syllabus covers atomic structure, bonding, stoichiometry, acids and bases, salts, electrolysis, organic chemistry, rates of reaction, and industrial processes. Assessment includes multiple-choice, theory, and practical or alternative-to-practical papers. Core and Extended tiers are available, with Extended candidates eligible for grades A* to E. This qualification provides essential preparation for A-Level Chemistry and related sciences.",
+      "difficulty": 4,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Chemistry 0620 Syllabus 2023-2025",
+          "url": "https://www.cambridgeinternational.org/Images/662456-2023-2025-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Chemistry Revision",
+          "url": "https://www.savemyexams.com/igcse/chemistry/cie/23/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "BBC Bitesize GCSE Chemistry",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z8sfyrd",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Chemistry",
+          "url": "https://znotes.org/caie/igcse/chemistry-0620/",
+          "type": "article"
+        },
+        {
+          "name": "Chemguide IGCSE Chemistry",
+          "url": "https://www.chemguide.co.uk/igcse/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE Chemistry",
+          "url": "https://pastpapers.co/caie/igcse/chemistry-0620",
+          "type": "pdf"
+        }
+      ],
       "topics": [
-        { "title": "Atoms & Bonding", "summary": "Atomic structure, ionic and covalent bonding." },
-        { "title": "Stoichiometry", "summary": "Moles, formulae and reacting masses." },
-        { "title": "Acids & Bases", "summary": "pH, neutralisation and salt preparation." },
-        { "title": "Electrolysis", "summary": "Electrolysis of molten and aqueous compounds." },
-        { "title": "Organic", "summary": "Alkanes, alkenes, alcohols and polymers." },
-        { "title": "Rates & Energy", "summary": "Reaction rates and exothermic/endothermic changes." }
+        {
+          "title": "Atoms & Bonding",
+          "summary": "Atomic structure, protons, neutrons, electrons, isotopes, ionic and covalent bonding, metallic bonding, and giant structures including graphite and diamond."
+        },
+        {
+          "title": "Stoichiometry",
+          "summary": "Moles, relative atomic mass, empirical and molecular formulae, reacting masses, limiting reagents, and percentage yield calculations."
+        },
+        {
+          "title": "Acids & Bases",
+          "summary": "pH scale, strong and weak acids, neutralisation, salt preparation methods, titration calculations, and indicators."
+        },
+        {
+          "title": "Electrolysis",
+          "summary": "Electrolysis of molten and aqueous compounds, products at electrodes, extraction of aluminium, electroplating, and Faraday's laws."
+        },
+        {
+          "title": "Organic Chemistry",
+          "summary": "Alkanes, alkenes, alcohols, carboxylic acids, polymers, addition and condensation polymerisation, and identification of organic compounds."
+        },
+        {
+          "title": "Rates & Energy",
+          "summary": "Factors affecting reaction rates, collision theory, activation energy, exothermic and endothermic reactions, and reversible reactions including Haber process."
+        },
+        {
+          "title": "Industrial Chemistry",
+          "summary": "Haber process, Contact process, fractional distillation of crude oil, cracking, and environmental impacts of industrial processes."
+        }
       ]
     },
     {
       "id": "biology",
       "name": "Biology",
+      "code": "0610",
       "icon": "dna",
-      "description": "Cells, organisms and ecology",
+      "description": "Cells, organisms, genetics and ecology",
+      "summary": "Cambridge IGCSE Biology (0610) develops understanding of biological principles and practical skills through investigation. The syllabus covers cell biology, human physiology, plant physiology, genetics, evolution, and ecology. Candidates are assessed through multiple-choice, theory, and practical or alternative-to-practical papers. Core and Extended tiers are available, with Extended candidates eligible for grades A* to E. This qualification provides a strong foundation for A-Level Biology, medicine, and environmental sciences.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Biology 0610 Syllabus 2023-2025",
+          "url": "https://www.cambridgeinternational.org/Images/662458-2023-2025-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Biology Revision",
+          "url": "https://www.savemyexams.com/igcse/biology/cie/23/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "BBC Bitesize GCSE Biology",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zkhsb9q",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Biology",
+          "url": "https://znotes.org/caie/igcse/biology-0610/",
+          "type": "article"
+        },
+        {
+          "name": "Biology Notes for IGCSE",
+          "url": "https://www.biologynotes.org/igcse-biology/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE Biology",
+          "url": "https://pastpapers.co/caie/igcse/biology-0610",
+          "type": "pdf"
+        }
+      ],
       "topics": [
-        { "title": "Cells", "summary": "Cell structure, diffusion, osmosis and active transport." },
-        { "title": "Human Systems", "summary": "Digestion, circulation, respiration and coordination." },
-        { "title": "Plants", "summary": "Photosynthesis, transport and transpiration." },
-        { "title": "Genetics", "summary": "Chromosomes, inheritance and variation." },
-        { "title": "Ecology", "summary": "Food chains, cycles and human impact." }
+        {
+          "title": "Cells",
+          "summary": "Cell structure, prokaryotic and eukaryotic cells, specialised cells, diffusion, osmosis, active transport, and cell division by mitosis and meiosis."
+        },
+        {
+          "title": "Human Systems",
+          "summary": "Digestive system, circulatory system, respiratory system, excretion, coordination by nervous and hormonal systems, and the immune system."
+        },
+        {
+          "title": "Plants",
+          "summary": "Photosynthesis, leaf structure, transport systems including xylem and phloem, transpiration, and plant hormones including auxins and gibberellins."
+        },
+        {
+          "title": "Genetics",
+          "summary": "Chromosomes, genes, DNA structure, inheritance patterns, genetic variation, natural selection, evolution, and genetic engineering."
+        },
+        {
+          "title": "Ecology",
+          "summary": "Food chains and webs, nutrient cycles, population growth, human impact on the environment, conservation, and sustainability."
+        },
+        {
+          "title": "Reproduction",
+          "summary": "Asexual and sexual reproduction, human reproductive systems, menstrual cycle, fertilisation, contraception, and plant reproduction."
+        }
       ]
     },
     {
       "id": "english",
       "name": "English",
+      "code": "0500",
       "icon": "book",
-      "description": "Reading and writing skills",
+      "description": "Reading, writing, and language analysis skills",
+      "summary": "Cambridge IGCSE English Language (0500) develops learners' ability to communicate clearly, accurately, and effectively in both speech and writing. Candidates learn to employ a wide-ranging vocabulary, use correct grammar, spelling, and punctuation, and develop a personal style with an awareness of audience. The syllabus covers reading comprehension, directed writing, narrative and descriptive composition, and language analysis. Assessment includes reading and writing papers, with speaking and listening as optional endorsed components. This qualification is essential for further academic study and professional communication.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE English 0500 Syllabus 2024-2026",
+          "url": "https://www.cambridgeinternational.org/Images/662460-2024-2026-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize GCSE English Language",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zpnbkqt",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE English",
+          "url": "https://znotes.org/caie/igcse/english-language-0500/",
+          "type": "article"
+        },
+        {
+          "name": "English Language Guide IGCSE",
+          "url": "https://www.gcseguide.com/english-language/",
+          "type": "article"
+        },
+        {
+          "name": "SaveMyExams IGCSE English",
+          "url": "https://www.savemyexams.com/igcse/english-language/cie/24/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE English",
+          "url": "https://pastpapers.co/caie/igcse/english-language-0500",
+          "type": "pdf"
+        }
+      ],
       "topics": [
-        { "title": "Reading Comprehension", "summary": "Explicit and implicit meaning and summary skills." },
-        { "title": "Directed Writing", "summary": "Letters, reports and speeches for a purpose." },
-        { "title": "Descriptive Writing", "summary": "Imagery, structure and vocabulary for effect." },
-        { "title": "Narrative Writing", "summary": "Plot, characterisation and tension." },
-        { "title": "Language Analysis", "summary": "Tone, register and rhetorical devices." }
+        {
+          "title": "Reading Comprehension",
+          "summary": "Explicit and implicit meaning, inference, deduction, summary skills, and analysis of writer's craft including language and structural devices."
+        },
+        {
+          "title": "Directed Writing",
+          "summary": "Letters, reports, speeches, articles, and reviews written for specific purposes and audiences with appropriate register and tone."
+        },
+        {
+          "title": "Descriptive Writing",
+          "summary": "Imagery, figurative language, sensory detail, structure, and vocabulary choices to create vivid and engaging descriptions."
+        },
+        {
+          "title": "Narrative Writing",
+          "summary": "Plot development, characterisation, dialogue, tension, climax, and effective openings and endings for creative stories."
+        },
+        {
+          "title": "Language Analysis",
+          "summary": "Tone, register, rhetorical devices, figurative language, and how writers achieve specific effects through linguistic choices."
+        },
+        {
+          "title": "Grammar & Punctuation",
+          "summary": "Sentence structure, punctuation accuracy, spelling, and grammatical conventions to ensure clarity and precision in writing."
+        }
       ]
     },
     {
       "id": "history",
       "name": "History",
+      "code": "0470",
       "icon": "landmark",
-      "description": "Modern world history",
+      "description": "Modern world history and source analysis",
+      "summary": "Cambridge IGCSE History (0470) develops learners' interest in the past and their understanding of historical concepts and skills. The syllabus covers modern world history including the World Wars, the Cold War, international organisations, and depth studies of specific countries or regions. Candidates develop source analysis skills, the ability to evaluate historical evidence, and the capacity to construct coherent historical arguments. Assessment includes source-based questions and structured essays. This qualification prepares students for A-Level History, politics, and international relations.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE History 0470 Syllabus 2024-2026",
+          "url": "https://www.cambridgeinternational.org/Images/662462-2024-2026-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize GCSE History",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zj26n39",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE History",
+          "url": "https://znotes.org/caie/igcse/history-0470/",
+          "type": "article"
+        },
+        {
+          "name": "History Learning Site IGCSE",
+          "url": "https://www.historylearningsite.co.uk/",
+          "type": "article"
+        },
+        {
+          "name": "SaveMyExams IGCSE History",
+          "url": "https://www.savemyexams.com/igcse/history/cie/24/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE History",
+          "url": "https://pastpapers.co/caie/igcse/history-0470",
+          "type": "pdf"
+        }
+      ],
       "topics": [
-        { "title": "Source Skills", "summary": "Interpreting and evaluating historical sources." },
-        { "title": "WWI & WWII", "summary": "Causes, events and consequences of the World Wars." },
-        { "title": "Cold War", "summary": "Origins, crises and superpower rivalry." },
-        { "title": "League & UN", "summary": "International peacekeeping successes and failures." },
-        { "title": "Depth Study", "summary": "In-depth study of a country or period." }
+        {
+          "title": "Source Skills",
+          "summary": "Interpreting, evaluating, and comparing historical sources. Understanding utility, reliability, provenance, and the difference between primary and secondary sources."
+        },
+        {
+          "title": "WWI & WWII",
+          "summary": "Causes, events, and consequences of the World Wars, including peace treaties, the rise of dictators, and the impact on civilian populations."
+        },
+        {
+          "title": "Cold War",
+          "summary": "Origins of superpower rivalry, key crises including Berlin and Cuba, nuclear arms race, and the eventual collapse of the Soviet Union."
+        },
+        {
+          "title": "League & UN",
+          "summary": "International peacekeeping, successes and failures of the League of Nations, the establishment of the United Nations, and post-war cooperation."
+        },
+        {
+          "title": "Depth Study",
+          "summary": "In-depth study of a specific country, period, or theme such as Germany 1918-1945, the USA 1919-1941, or China 1930-1990."
+        },
+        {
+          "title": "Decolonisation",
+          "summary": "The end of European empires, independence movements in Africa and Asia, and the challenges faced by newly independent nations."
+        }
       ]
     },
     {
       "id": "geography",
       "name": "Geography",
+      "code": "0460",
       "icon": "globe",
-      "description": "Physical and human themes",
+      "description": "Physical and human geography themes",
+      "summary": "Cambridge IGCSE Geography (0460) develops learners' understanding of physical and human environments, and the interactions between them. The syllabus covers population, settlement, landforms, weather and climate, economic development, and environmental management. Candidates develop map skills, data interpretation, and fieldwork investigation techniques. Assessment includes written papers and a coursework or alternative-to-coursework component. This qualification prepares students for A-Level Geography, environmental science, and urban planning.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Geography 0460 Syllabus 2024-2026",
+          "url": "https://www.cambridgeinternational.org/Images/662464-2024-2026-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize GCSE Geography",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7nygk7",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Geography",
+          "url": "https://znotes.org/caie/igcse/geography-0460/",
+          "type": "article"
+        },
+        {
+          "name": "Geography Fieldwork Academy",
+          "url": "https://www.geographyfieldworkacademy.com/",
+          "type": "article"
+        },
+        {
+          "name": "SaveMyExams IGCSE Geography",
+          "url": "https://www.savemyexams.com/igcse/geography/cie/24/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE Geography",
+          "url": "https://pastpapers.co/caie/igcse/geography-0460",
+          "type": "pdf"
+        }
+      ],
       "topics": [
-        { "title": "Population", "summary": "Growth, migration and settlement patterns." },
-        { "title": "Landforms", "summary": "Rivers, coasts and tectonic processes." },
-        { "title": "Weather & Climate", "summary": "Climate types, ecosystems and measurement." },
-        { "title": "Economic Development", "summary": "Agriculture, industry and tourism." },
-        { "title": "Fieldwork", "summary": "Data collection and geographical enquiry." }
+        {
+          "title": "Population",
+          "summary": "Population growth, structure, migration patterns, demographic transition model, and population policies including China's one-child policy and pro-natalist policies."
+        },
+        {
+          "title": "Landforms",
+          "summary": "River processes and landforms, coastal processes and landforms, tectonic processes including volcanoes and earthquakes, and weathering and erosion."
+        },
+        {
+          "title": "Weather & Climate",
+          "summary": "Climate types, factors affecting climate, weather systems, ecosystems, tropical rainforests, and deserts."
+        },
+        {
+          "title": "Economic Development",
+          "summary": "Agriculture types, industrial location, tourism, energy resources, trade, and the development gap between countries."
+        },
+        {
+          "title": "Fieldwork",
+          "summary": "Data collection methods, geographical enquiry, sampling techniques, presentation of data, and analysis and evaluation of fieldwork findings."
+        },
+        {
+          "title": "Settlement",
+          "summary": "Urban land use models, urbanisation in LEDCs and MEDCs, urban problems and solutions, and sustainable urban living."
+        }
       ]
     },
     {
       "id": "computer-science",
       "name": "Computer Science",
+      "code": "0478",
       "icon": "code",
-      "description": "Theory and programming",
+      "description": "Theory, programming, and computational thinking",
+      "summary": "Cambridge IGCSE Computer Science (0478) develops learners' understanding of computer science principles and programming skills. The syllabus covers data representation, computer architecture, networks, cybersecurity, algorithms, and programming concepts. Candidates learn to write pseudocode and understand high-level programming constructs. Assessment includes theory papers and a practical programming examination. This qualification is essential for A-Level Computer Science, software engineering, and technology careers.",
+      "difficulty": 4,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Computer Science 0478 Syllabus 2023-2025",
+          "url": "https://www.cambridgeinternational.org/Images/662466-2023-2025-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "ZNotes IGCSE Computer Science",
+          "url": "https://znotes.org/caie/igcse/computer-science-0478/",
+          "type": "article"
+        },
+        {
+          "name": "BBC Bitesize GCSE Computer Science",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z34k7ty",
+          "type": "article"
+        },
+        {
+          "name": "Cambridge IGCSE Computer Science Revision",
+          "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-computer-science-0478/",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Computer Science",
+          "url": "https://www.savemyexams.com/igcse/computer-science/cie/23/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE Computer Science",
+          "url": "https://pastpapers.co/caie/igcse/computer-science-0478",
+          "type": "pdf"
+        }
+      ],
       "topics": [
-        { "title": "Data Representation", "summary": "Binary, hexadecimal and data storage units." },
-        { "title": "Hardware & Software", "summary": "Components, memory and operating systems." },
-        { "title": "Networks", "summary": "Network types, topologies and security." },
-        { "title": "Algorithms", "summary": "Pseudocode, flowcharts and problem solving." },
-        { "title": "Programming", "summary": "Variables, loops, conditionals and arrays." }
+        {
+          "title": "Data Representation",
+          "summary": "Binary, hexadecimal, denary conversions, binary arithmetic, ASCII, Unicode, bitmap and vector images, sound sampling, and data storage units."
+        },
+        {
+          "title": "Hardware & Software",
+          "summary": "CPU components and architecture, fetch-decode-execute cycle, memory types including RAM and ROM, input and output devices, and operating systems."
+        },
+        {
+          "title": "Networks",
+          "summary": "Network types including LAN and WAN, topologies, network protocols including TCP/IP, packet switching, network security, and the internet structure."
+        },
+        {
+          "title": "Algorithms",
+          "summary": "Pseudocode, flowcharts, search algorithms including linear and binary search, sort algorithms including bubble and merge sort, and algorithm efficiency."
+        },
+        {
+          "title": "Programming",
+          "summary": "Variables, constants, data types, sequence, selection, iteration, arrays, string manipulation, file handling, and structured programming principles."
+        },
+        {
+          "title": "Cybersecurity & Ethics",
+          "summary": "Malware types, encryption, firewalls, phishing, social engineering, ethical issues, data protection legislation, and digital rights."
+        }
       ]
     },
     {
       "id": "french",
       "name": "French",
+      "code": "0520",
       "icon": "languages",
-      "description": "Foreign language French",
+      "description": "Foreign language French proficiency",
+      "summary": "Cambridge IGCSE French (0520) develops learners' ability to communicate effectively in French across the four language skills: listening, reading, speaking, and writing. The syllabus covers everyday topics, grammar, and cultural awareness. Candidates are assessed through listening, reading, speaking, and writing papers, with tiers available for different ability levels. This qualification prepares students for A-Level French, international careers, and further language study.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE French 0520 Syllabus",
+          "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-french-0520/",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize GCSE French",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9dqxnb",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE French",
+          "url": "https://znotes.org/caie/igcse/french-0520/",
+          "type": "article"
+        },
+        {
+          "name": "Languages Online French",
+          "url": "https://www.languagesonline.org.uk/",
+          "type": "article"
+        },
+        {
+          "name": "SaveMyExams IGCSE French",
+          "url": "https://www.savemyexams.com/igcse/french/cie/24/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE French",
+          "url": "https://pastpapers.co/caie/igcse/french-0520",
+          "type": "pdf"
+        }
+      ],
       "topics": [
-        { "title": "Listening", "summary": "Understanding spoken French on familiar topics." },
-        { "title": "Reading", "summary": "Comprehending texts and extracting information." },
-        { "title": "Speaking", "summary": "Role-play, conversation and presentation." },
-        { "title": "Writing", "summary": "Structured writing with accurate grammar." },
-        { "title": "Grammar", "summary": "Tenses, agreement and sentence structure." }
+        {
+          "title": "Listening",
+          "summary": "Understanding spoken French on familiar topics including everyday conversations, announcements, and media extracts. Developing comprehension and inference skills."
+        },
+        {
+          "title": "Reading",
+          "summary": "Comprehending texts, extracting information, identifying main points and details, and inferring meaning from context across various text types."
+        },
+        {
+          "title": "Speaking",
+          "summary": "Role-play scenarios, guided conversation, presentation on a chosen topic, and discussion. Developing fluency, pronunciation, and spontaneous communication."
+        },
+        {
+          "title": "Writing",
+          "summary": "Structured writing tasks including letters, emails, articles, and descriptions with accurate grammar, appropriate register, and coherent organisation."
+        },
+        {
+          "title": "Grammar",
+          "summary": "Tenses including present, past, future, and conditional; agreement rules; pronouns; prepositions; and complex sentence structures."
+        },
+        {
+          "title": "Culture & Society",
+          "summary": "French-speaking countries, customs, traditions, education systems, and contemporary issues in the Francophone world."
+        }
       ]
     },
     {
       "id": "spanish",
       "name": "Spanish",
+      "code": "0530",
       "icon": "languages",
-      "description": "Foreign language Spanish",
+      "description": "Foreign language Spanish proficiency",
+      "summary": "Cambridge IGCSE Spanish (0530) develops learners' ability to communicate effectively in Spanish across the four language skills: listening, reading, speaking, and writing. The syllabus covers everyday topics, grammar, and cultural awareness of the Spanish-speaking world. Candidates are assessed through listening, reading, speaking, and writing papers, with tiers available for different ability levels. This qualification prepares students for A-Level Spanish, international careers, and further language study.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Spanish 0530 Syllabus",
+          "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-spanish-0530/",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize GCSE Spanish",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9dqxnb",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Spanish",
+          "url": "https://znotes.org/caie/igcse/spanish-0530/",
+          "type": "article"
+        },
+        {
+          "name": "SpanishDict Learning Resources",
+          "url": "https://www.spanishdict.com/",
+          "type": "article"
+        },
+        {
+          "name": "SaveMyExams IGCSE Spanish",
+          "url": "https://www.savemyexams.com/igcse/spanish/cie/24/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE Spanish",
+          "url": "https://pastpapers.co/caie/igcse/spanish-0530",
+          "type": "pdf"
+        }
+      ],
       "topics": [
-        { "title": "Listening", "summary": "Understanding spoken Spanish on everyday topics." },
-        { "title": "Reading", "summary": "Comprehending texts and inferring meaning." },
-        { "title": "Speaking", "summary": "Conversation, role-play and description." },
-        { "title": "Writing", "summary": "Messages, emails and short essays." },
-        { "title": "Grammar", "summary": "Verb tenses, ser/estar and adjective agreement." }
+        {
+          "title": "Listening",
+          "summary": "Understanding spoken Spanish on everyday topics including conversations, announcements, and media. Developing comprehension and inference skills."
+        },
+        {
+          "title": "Reading",
+          "summary": "Comprehending texts, extracting information, identifying main points and details, and inferring meaning from context across various text types."
+        },
+        {
+          "title": "Speaking",
+          "summary": "Role-play scenarios, guided conversation, presentation on a chosen topic, and discussion. Developing fluency, pronunciation, and spontaneous communication."
+        },
+        {
+          "title": "Writing",
+          "summary": "Structured writing tasks including messages, emails, short essays, and descriptions with accurate grammar, appropriate register, and coherent organisation."
+        },
+        {
+          "title": "Grammar",
+          "summary": "Verb tenses including present, preterite, imperfect, future, and conditional; ser and estar; subjunctive mood; adjective agreement; and pronoun usage."
+        },
+        {
+          "title": "Culture & Society",
+          "summary": "Spanish-speaking countries, customs, festivals, education systems, and contemporary issues in the Hispanic world."
+        }
+      ]
+    },
+    {
+      "id": "additional-mathematics",
+      "name": "Additional Mathematics",
+      "code": "0606",
+      "icon": "calculator",
+      "description": "Advanced functions, calculus, vectors, and trigonometry",
+      "summary": "Cambridge IGCSE Additional Mathematics (0606) is an advanced qualification designed for high-achieving mathematics students. It extends beyond standard IGCSE Mathematics to cover functions, quadratic functions, polynomials, logarithms, trigonometry, permutations and combinations, binomial series, vectors, and calculus including differentiation and integration. The syllabus assumes prior knowledge of IGCSE Mathematics and is assessed through two papers: Paper 1 (non-calculator) and Paper 2 (calculator). This qualification provides excellent preparation for A-Level Mathematics and Further Mathematics, and is recognised by universities as evidence of strong mathematical ability.",
+      "difficulty": 5,
+      "hours": 180,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Additional Mathematics 0606 Syllabus 2025-2027",
+          "url": "https://www.cambridgeinternational.org/Images/662470-2025-2027-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Additional Mathematics Topics",
+          "url": "https://www.savemyexams.com/learning-hub/subject-guides/igcse-additional-mathematics-topics/",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Additional Mathematics",
+          "url": "https://znotes.org/caie/igcse/additional-mathematics-0606/",
+          "type": "article"
+        },
+        {
+          "name": "Physics & Maths Tutor A-Level Maths",
+          "url": "https://www.physicsandmathstutor.com/maths-revision/",
+          "type": "article"
+        },
+        {
+          "name": "Smart Exam Resources 0606",
+          "url": "https://www.smartexamresources.com/igcse-past-papers/igcse-additional-mathematics-0606/",
+          "type": "pdf"
+        },
+        {
+          "name": "PastPapers.co Additional Mathematics",
+          "url": "https://pastpapers.co/caie/igcse/additional-mathematics-0606",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Functions",
+          "summary": "Function notation, domain and range, composite functions, inverse functions, modulus functions, and graph transformations including reflections and translations."
+        },
+        {
+          "title": "Quadratic Functions",
+          "summary": "Completing the square, maximum and minimum values, discriminant and nature of roots, quadratic inequalities, and solving equations algebraically and graphically."
+        },
+        {
+          "title": "Logarithms & Exponentials",
+          "summary": "Laws of logarithms, solving exponential equations, natural logarithms ln(x) and e^x, change of base, and asymptotic behaviour of graphs."
+        },
+        {
+          "title": "Trigonometry",
+          "summary": "Six trigonometric functions, trigonometric identities, solving equations for any magnitude, amplitude and period of functions, and graph sketching."
+        },
+        {
+          "title": "Vectors",
+          "summary": "Vector notation, addition and subtraction, scalar product, magnitude and direction, position vectors, and geometric applications in two dimensions."
+        },
+        {
+          "title": "Calculus",
+          "summary": "Differentiation of polynomial, trigonometric, exponential and logarithmic functions, chain rule, product and quotient rules, integration, definite integrals, area under curves, and kinematics applications."
+        },
+        {
+          "title": "Series & Combinations",
+          "summary": "Binomial expansion for positive integer n, arithmetic and geometric progressions, permutations and combinations, and solving arrangement problems."
+        }
+      ]
+    },
+    {
+      "id": "combined-science",
+      "name": "Combined Science",
+      "code": "0653",
+      "icon": "flask",
+      "description": "Coordinated sciences covering biology, chemistry and physics",
+      "summary": "Cambridge IGCSE Combined Science (0653) is a single-award qualification that combines biology, chemistry, and physics into one coherent syllabus. It covers core concepts from all three sciences with slightly less depth than the individual sciences, making it ideal for students who want a broad science foundation. The syllabus is aligned with the separate science syllabuses (0610, 0620, 0625) and is assessed through six papers: two per science area. Candidates choose Core or Extended tiers. This qualification provides a foundation for further study but may not meet the entry requirements for some A-Level science courses.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Combined Science 0653 Syllabus 2025-2027",
+          "url": "https://www.cambridgeinternational.org/Images/662474-2025-2027-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Combined Science Topics",
+          "url": "https://www.savemyexams.com/learning-hub/subject-guides/igcse-combined-sciences-topics/",
+          "type": "article"
+        },
+        {
+          "name": "Tutopiya Combined vs Coordinated Science",
+          "url": "https://www.tutopiya.com/blog/igcse-exam-codes/igcse-combined-science-vs-coordinated-science-comparison-guide/",
+          "type": "article"
+        },
+        {
+          "name": "Smart Exam Resources 0653",
+          "url": "https://www.smartexamresources.com/igcse-past-papers/igcse-combined-science-syllabus",
+          "type": "pdf"
+        },
+        {
+          "name": "ZNotes IGCSE Sciences",
+          "url": "https://znotes.org/caie/igcse/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co Combined Science",
+          "url": "https://pastpapers.co/caie/igcse/combined-science-0653",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Biology",
+          "summary": "Cell structure, human nutrition, plant nutrition, transport in plants and animals, respiration, coordination, and reproduction. Covers core biological concepts at a foundational level."
+        },
+        {
+          "title": "Chemistry",
+          "summary": "States of matter, atomic structure, bonding, stoichiometry, acids and bases, salts, electrolysis, metals, and organic chemistry fundamentals."
+        },
+        {
+          "title": "Physics",
+          "summary": "Motion, forces, energy, waves, light, sound, electricity, magnetism, and thermal physics. Covers essential physical principles without the depth of separate physics."
+        },
+        {
+          "title": "Scientific Skills",
+          "summary": "Experimental design, data collection, graph plotting, analysis, evaluation, and safety considerations across all three sciences."
+        },
+        {
+          "title": "Earth Science",
+          "summary": "The Earth and its atmosphere, fossil fuels, climate change, and the water cycle as they relate to biology, chemistry, and physics."
+        },
+        {
+          "title": "Practical Assessment",
+          "summary": "Practical test skills or alternative to practical questions involving apparatus, measurements, and data analysis across biology, chemistry, and physics."
+        }
+      ]
+    },
+    {
+      "id": "environmental-management",
+      "name": "Environmental Management",
+      "code": "0680",
+      "icon": "tree",
+      "description": "Sustainability, ecosystems, pollution, and climate change",
+      "summary": "Cambridge IGCSE Environmental Management (0680) is a multidisciplinary subject drawing on biology, earth science, geography, economics, and anthropology. It examines sustainable development, the impact of human activity on natural resources, and strategies for environmental sustainability. The syllabus covers rocks and minerals, energy, agriculture, water management, oceans, natural hazards, the atmosphere, human population, and ecosystems. Assessment includes Paper 1 (Theory) and Paper 2 (Management in Context), both source-based. This qualification prepares students for IB Environmental Systems and Society, geography, and environmental science careers.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Environmental Management 0680 Syllabus 2025-2026",
+          "url": "https://www.cambridgeinternational.org/Images/662476-2025-2026-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Environmental Management Topics",
+          "url": "https://www.savemyexams.com/learning-hub/subject-guides/igcse-environmental-management-topics/",
+          "type": "article"
+        },
+        {
+          "name": "Tutopiya Environmental Management Resources",
+          "url": "https://www.tutopiya.com/learning-portal/resource/cambridge-igcse/environmental-management/",
+          "type": "article"
+        },
+        {
+          "name": "Cambridge Climate Change Education Update",
+          "url": "https://www.cambridgeinternational.org/news/news-details/view/whats-new-in-climate-change-education-across-our-curricula-20240926/",
+          "type": "official"
+        },
+        {
+          "name": "ZNotes IGCSE Environmental Management",
+          "url": "https://znotes.org/caie/igcse/environmental-management-0680/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co Environmental Management",
+          "url": "https://pastpapers.co/caie/igcse/environmental-management-0680",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Natural Resources",
+          "summary": "Formation and extraction of rocks, ores and minerals, sustainable management, energy resources including fossil fuels and renewables, and conservation strategies."
+        },
+        {
+          "title": "Agriculture & Land",
+          "summary": "Soil composition and properties, types of agriculture, raising yields, environmental impacts of fertilisers and pesticides, soil erosion, and conservation case studies."
+        },
+        {
+          "title": "Water Management",
+          "summary": "Global water distribution, hydrological cycle, water supply and demand, water quality, pollution sources and control, and water-related diseases."
+        },
+        {
+          "title": "Oceans & Fisheries",
+          "summary": "Ocean resources, fishing methods, overfishing, marine conservation, quotas, oil spills, MARPOL regulations, and plastic pollution impacts."
+        },
+        {
+          "title": "Natural Hazards",
+          "summary": "Tectonic, climatic, and biological hazards, risk and vulnerability, prediction, preparation, response, and long-term management strategies for disasters."
+        },
+        {
+          "title": "Atmosphere & Climate",
+          "summary": "Atmospheric composition, weather and climate basics, air pollution, acid rain, ozone depletion, enhanced greenhouse effect, and climate change mitigation strategies."
+        },
+        {
+          "title": "Population & Ecosystems",
+          "summary": "Human population growth, structure, migration, carrying capacity, biomes, food chains, biodiversity, conservation, protected areas, and sustainable resource use."
+        }
+      ]
+    },
+    {
+      "id": "business-studies",
+      "name": "Business Studies",
+      "code": "0450",
+      "icon": "briefcase",
+      "description": "Business activity, marketing, finance, and human resources",
+      "summary": "Cambridge IGCSE Business Studies (0450) develops learners' understanding of business activity in the public and private sectors, and the importance of innovation and change. The syllabus covers business activity, classification, enterprise, marketing, operations management, finance, human resources, and external influences. Candidates learn to make simple business decisions based on analysis and evaluation. Assessment includes Paper 1 (Short Answer and Data Response) and Paper 2 (Case Study). This qualification provides a foundation for A-Level Business Studies, economics, and management careers.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Business Studies 0450 Syllabus 2023-2025",
+          "url": "https://www.cambridgeinternational.org/Images/596930-2023-2025-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Business Studies",
+          "url": "https://www.savemyexams.com/igcse/business-studies/cie/24/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "BestExamHelp Business Studies Mark Schemes",
+          "url": "https://bestexamhelp.com/exam/cambridge-igcse/business-studies-0450/",
+          "type": "pdf"
+        },
+        {
+          "name": "ZNotes IGCSE Business Studies",
+          "url": "https://znotes.org/caie/igcse/business-studies-0450/",
+          "type": "article"
+        },
+        {
+          "name": "BBC Bitesize GCSE Business",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zkvsbdm",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co Business Studies",
+          "url": "https://pastpapers.co/caie/igcse/business-studies-0450",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Business Activity",
+          "summary": "Needs, wants, scarcity, opportunity cost, specialisation, purpose of business, adding value, and classification by sector (primary, secondary, tertiary) and ownership (private vs public)."
+        },
+        {
+          "title": "Enterprise & Growth",
+          "summary": "Entrepreneurship characteristics, business plans, government support, methods of measuring business size, and problems of measuring growth."
+        },
+        {
+          "title": "Marketing",
+          "summary": "Market research, segmentation, marketing mix (4Ps), product life cycle, pricing strategies, promotion methods, and distribution channels."
+        },
+        {
+          "title": "Operations Management",
+          "summary": "Production methods (job, batch, flow), quality control, lean production, stock control, economies of scale, and location decisions."
+        },
+        {
+          "title": "Finance",
+          "summary": "Sources of finance, cash flow forecasting, break-even analysis, income statements, statements of financial position, profitability ratios, and liquidity ratios."
+        },
+        {
+          "title": "Human Resources",
+          "summary": "Organisational structures, recruitment and selection, training and development, motivation theories, remuneration methods, and industrial relations."
+        },
+        {
+          "title": "External Influences",
+          "summary": "Government economic policies, legal constraints, environmental and ethical issues, international trade, exchange rates, and globalisation impacts."
+        }
+      ]
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "code": "0455",
+      "icon": "trending-up",
+      "description": "Microeconomics, macroeconomics, and international trade",
+      "summary": "Cambridge IGCSE Economics (0455) develops understanding of economic terminology and principles, and the ability to apply tools of economic analysis. The syllabus covers the basic economic problem, allocation of resources through market forces, microeconomic decision makers (banks, households, firms), government and the macroeconomy, economic development, and international trade. Candidates learn to work with simple economic data and apply understanding to current issues. Assessment includes Paper 1 (Multiple Choice) and Paper 2 (Structured Questions). This qualification provides a foundation for A-Level Economics, business, and finance careers.",
+      "difficulty": 4,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Economics 0455 Syllabus",
+          "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-economics-0455/",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Economics",
+          "url": "https://www.savemyexams.com/igcse/economics/cie/24/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "Tutopiya Economics Syllabus Content",
+          "url": "https://www.tutopiya.com/blog/igcse-keywords/igcse-economics-0455/",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Economics",
+          "url": "https://znotes.org/caie/igcse/economics-0455/",
+          "type": "article"
+        },
+        {
+          "name": "BBC Bitesize GCSE Economics",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zk3d7p6",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE Economics",
+          "url": "https://pastpapers.co/caie/igcse/economics-0455",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Basic Economic Problem",
+          "summary": "Scarcity, choice, opportunity cost, factors of production, production possibility curves, and the distinction between economic and free goods."
+        },
+        {
+          "title": "Market Forces",
+          "summary": "Demand and supply curves, equilibrium, price elasticity, income elasticity, cross elasticity, consumer and producer surplus, and market failure."
+        },
+        {
+          "title": "Microeconomic Decision Makers",
+          "summary": "Role of banks, households as consumers, workers and trade unions, firms, costs of production, revenue, profit, and market structures."
+        },
+        {
+          "title": "Government & Macroeconomy",
+          "summary": "Macroeconomic aims (growth, low unemployment, low inflation, balance of payments), fiscal, monetary, and supply-side policies, and conflicts between objectives."
+        },
+        {
+          "title": "Economic Development",
+          "summary": "Population growth, living standards, poverty, income redistribution, and the effects of development on population structure and the environment."
+        },
+        {
+          "title": "International Trade",
+          "summary": "Specialisation, free trade, protectionism, exchange rates, balance of payments, multinational companies, and globalisation impacts."
+        },
+        {
+          "title": "Economic Indicators",
+          "summary": "GDP, GNP, inflation measurement, unemployment types, balance of payments accounts, and interpretation of economic data."
+        }
+      ]
+    },
+    {
+      "id": "global-perspectives",
+      "name": "Global Perspectives",
+      "code": "0457",
+      "icon": "globe",
+      "description": "Research, analysis, evaluation, and collaborative skills",
+      "summary": "Cambridge IGCSE Global Perspectives (0457) is a skills-based subject that develops critical thinking, research, analysis, evaluation, reflection, communication, and collaboration. Unlike traditional subjects, it does not have a fixed content syllabus; instead, students explore global issues from personal, local, and national perspectives, developing transferable skills. Assessment includes a written examination, individual research report, and team project. This qualification can be used as a qualifying subject for Cambridge ICE and prepares students for Cambridge Global Perspectives & Research at AS/A Level, IB, and university study.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Global Perspectives 0457 Syllabus",
+          "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-global-perspectives-0457/",
+          "type": "official"
+        },
+        {
+          "name": "Cambridge Global Perspectives Resources",
+          "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-global-perspectives/",
+          "type": "official"
+        },
+        {
+          "name": "ZNotes IGCSE Global Perspectives",
+          "url": "https://znotes.org/caie/igcse/global-perspectives-0457/",
+          "type": "article"
+        },
+        {
+          "name": "SaveMyExams Global Perspectives",
+          "url": "https://www.savemyexams.com/igcse/global-perspectives/cie/24/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "Cambridge ICE Qualification",
+          "url": "https://www.cambridgeinternational.org/qualifications/cambridge-ice/",
+          "type": "official"
+        },
+        {
+          "name": "PastPapers.co Global Perspectives",
+          "url": "https://pastpapers.co/caie/igcse/global-perspectives-0457",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Research Skills",
+          "summary": "Formulating research questions, identifying and evaluating sources, gathering and organising evidence, and conducting literature reviews on global issues."
+        },
+        {
+          "title": "Analysis & Evaluation",
+          "summary": "Analysing different perspectives, identifying bias and assumptions, evaluating arguments, and weighing evidence to reach informed conclusions."
+        },
+        {
+          "title": "Reflection",
+          "summary": "Reflecting on personal learning, recognising changes in perspective, identifying strengths and weaknesses, and planning for improvement."
+        },
+        {
+          "title": "Communication",
+          "summary": "Presenting arguments clearly in writing and speech, using evidence effectively, adapting communication for different audiences, and academic writing conventions."
+        },
+        {
+          "title": "Collaboration",
+          "summary": "Working effectively in teams, dividing responsibilities, resolving conflicts, building consensus, and managing collaborative projects."
+        },
+        {
+          "title": "Global Issues",
+          "summary": "Exploring contemporary global challenges such as poverty, conflict, environmental degradation, health, education, and human rights from multiple perspectives."
+        }
+      ]
+    },
+    {
+      "id": "art-and-design",
+      "name": "Art & Design",
+      "code": "0400",
+      "icon": "palette",
+      "description": "Fine art, graphic design, photography, and 3D design",
+      "summary": "Cambridge IGCSE Art & Design (0400) encourages personal expression, imagination, and creativity through a range of artistic media and techniques. The syllabus supports development in fine art, graphic design, photography, textiles, and three-dimensional design. Candidates produce a portfolio of coursework and complete an externally set assignment. Assessment focuses on the development of ideas, exploration of media, recording of observations, and realisation of intentions. This qualification prepares students for A-Level Art and Design, foundation courses, and creative industry careers.",
+      "difficulty": 2,
+      "hours": 150,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Art & Design 0400 Syllabus",
+          "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-art-and-design-0400/",
+          "type": "official"
+        },
+        {
+          "name": "XtraPapers Art & Design 0400",
+          "url": "https://xtrapapers.co/papers/caie/igcse/art-and-design-0400",
+          "type": "pdf"
+        },
+        {
+          "name": "TigerCampus Art & Design Course",
+          "url": "https://www.tigercampus.com/igcse-art-design-0400/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co Art & Design",
+          "url": "https://pastpapers.co/caie/igcse/art-and-design-0400",
+          "type": "pdf"
+        },
+        {
+          "name": "Cambridge Art & Design Specimen",
+          "url": "https://pastpapers.co/caie/igcse/art-and-design-0400/syllabus-&-specimen/0400_y24_sg.pdf",
+          "type": "pdf"
+        },
+        {
+          "name": "BBC Bitesize Art & Design",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z6hs34j",
+          "type": "article"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Fine Art",
+          "summary": "Drawing, painting, mixed media, printmaking, and sculpture. Developing observational skills, personal expression, and understanding of historical and contemporary art practice."
+        },
+        {
+          "title": "Graphic Design",
+          "summary": "Typography, layout, illustration, branding, poster design, and digital media. Understanding visual communication and the design process from brief to solution."
+        },
+        {
+          "title": "Photography",
+          "summary": "Digital and darkroom techniques, composition, lighting, portraiture, landscape, and documentary photography. Developing a personal photographic vision."
+        },
+        {
+          "title": "Textiles",
+          "summary": "Fabric manipulation, printing, weaving, embroidery, fashion design, and textile art. Exploring material qualities and surface decoration."
+        },
+        {
+          "title": "3D Design",
+          "summary": "Sculpture, ceramics, product design, architectural models, and installation art. Working with form, space, structure, and material properties in three dimensions."
+        },
+        {
+          "title": "Critical Studies",
+          "summary": "Researching artists and designers, analysing visual work, understanding cultural contexts, and developing the ability to articulate artistic intentions and evaluate outcomes."
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "code": "0410",
+      "icon": "music",
+      "description": "Performance, composition, listening, and world music",
+      "summary": "Cambridge IGCSE Music (0410) is the only major IGCSE Music qualification available, offered by Cambridge Assessment International Education. It develops skills in listening, performing, and composing across Western classical traditions and world music. The syllabus covers Baroque, Classical, Romantic, and 20th-century Western music, plus an annual World Focus on non-Western traditions. Assessment includes Component 1 (Listening Exam, 40%), Component 2 (Performing, 30%), and Component 3 (Composing, 30%). This qualification prepares students for A-Level Music, music conservatoires, and professional music careers.",
+      "difficulty": 3,
+      "hours": 150,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Music 0410 Syllabus",
+          "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-music-0410/",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Music Guide",
+          "url": "https://www.savemyexams.com/learning-hub/igcse-options/igcse-music-guide/",
+          "type": "article"
+        },
+        {
+          "name": "SaveMyExams IGCSE Music Topics",
+          "url": "https://www.savemyexams.com/learning-hub/subject-guides/igcse-music-topics-exam-board/",
+          "type": "article"
+        },
+        {
+          "name": "Spires IGCSE Music Tutors",
+          "url": "https://spires.co/online-music-tutors/igcse/how-to-pass-igcse-music",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Music",
+          "url": "https://znotes.org/caie/igcse/music-0410/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE Music",
+          "url": "https://pastpapers.co/caie/igcse/music-0410",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Western Classical Tradition",
+          "summary": "Baroque (1600-1750), Classical (1750-1820), Romantic (1820-1900), and 20th Century music. Stylistic characteristics, set works, and analysis of orchestral, chamber, and vocal repertoire."
+        },
+        {
+          "title": "World Music",
+          "summary": "Annual World Focus region studying non-Western traditions such as Indian, Caribbean, Arab, Chinese, or African music. Instruments, rhythmic and melodic systems, and cultural contexts."
+        },
+        {
+          "title": "Listening Skills",
+          "summary": "Identifying melody, harmony, rhythm, texture, structure, instrumentation, dynamics, and articulation. General listening skills and aural recognition."
+        },
+        {
+          "title": "Performance",
+          "summary": "Solo performance (one piece, 3-4 minutes) and ensemble performance (one piece, 3-4 minutes). Technical accuracy, fluency, interpretation, and musical communication."
+        },
+        {
+          "title": "Composition",
+          "summary": "Free composition (any style, minimum 1 minute) and composition to a brief (Cambridge-set parameters, minimum 1 minute). Notation, creativity, and structural coherence."
+        },
+        {
+          "title": "Set Works",
+          "summary": "Detailed study of two prescribed works per exam session, covering structure, themes, keys, chords, and instruments. Deep analysis and contextual understanding."
+        }
+      ]
+    },
+    {
+      "id": "drama",
+      "name": "Drama",
+      "code": "0411",
+      "icon": "theater",
+      "description": "Devising, text performance, and theatre theory",
+      "summary": "Cambridge IGCSE Drama (0411) is the only IGCSE Drama qualification available. It develops practical skills in performance, devising, and theoretical understanding of theatre. Candidates work on extracts from published plays, devise original drama from stimuli, and develop acting, directing, and design skills. The syllabus covers performance skills, staging and design, dramatic terminology, and the process of moving from script to performance. Assessment includes Component 1 (Written Examination, 40%) and Component 2 (Devised Performance and Performance, 60%). This qualification prepares students for A-Level Drama, theatre studies, and performance careers.",
+      "difficulty": 3,
+      "hours": 150,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Drama 0411 Syllabus 2025-2027",
+          "url": "https://www.cambridgeinternational.org/Images/664602-2025-2027-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Drama Topics",
+          "url": "https://www.savemyexams.com/learning-hub/subject-guides/igcse-drama-topics/",
+          "type": "article"
+        },
+        {
+          "name": "E-Consult Drama Syllabus Notes",
+          "url": "https://e-consult.co.ke/?p=notes&sub=10065",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Drama",
+          "url": "https://znotes.org/caie/igcse/drama-0411/",
+          "type": "article"
+        },
+        {
+          "name": "Cambridge Drama Glossary",
+          "url": "https://www.cambridgeinternational.org/support/",
+          "type": "official"
+        },
+        {
+          "name": "PastPapers.co IGCSE Drama",
+          "url": "https://pastpapers.co/caie/igcse/drama-0411",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Script to Performance",
+          "summary": "Working with extracts from published plays, interpreting text, bringing scripts alive through voice, movement, timing, and understanding the relationship between spoken word and physical expression."
+        },
+        {
+          "title": "Devising",
+          "summary": "Creating original drama from stimuli such as poems, images, songs, or historical events. Developing scenarios, characters, structure, and evaluating the devising process."
+        },
+        {
+          "title": "Performance Skills",
+          "summary": "Vocal techniques (articulation, projection, inflection), physical skills (movement, gesture, posture), character creation, and ensemble work."
+        },
+        {
+          "title": "Staging & Design",
+          "summary": "Set, props, lighting, sound, costume, and make-up contributions to performance. Understanding stage types (proscenium, thrust, theatre-in-the-round) and spatial awareness."
+        },
+        {
+          "title": "Directing",
+          "summary": "Advising actors, developing directorial concepts, creating mood and atmosphere, using space and levels, and communicating with the audience."
+        },
+        {
+          "title": "Dramatic Terminology",
+          "summary": "Core terms including action, chorus, comedy, tragedy, conflict, tension, exposition, climax, resolution, blocking, improvisation, and proxemics."
+        }
+      ]
+    },
+    {
+      "id": "physical-education",
+      "name": "Physical Education",
+      "code": "0413",
+      "icon": "activity",
+      "description": "Anatomy, physiology, skill acquisition, and sport psychology",
+      "summary": "Cambridge IGCSE Physical Education (0413) combines theoretical knowledge of sports science with practical performance in physical activities. The syllabus covers anatomy and physiology, health and fitness, skill acquisition, sports psychology, and social, cultural, and ethical influences on sport. Candidates also undertake four practical activities from at least two of seven categories. Assessment is 50% theory (Paper 1) and 50% coursework (practical performance). This qualification prepares students for A-Level PE, IB Sport Science, and careers in sports coaching, therapy, and management.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE PE 0413 Syllabus 2025-2026",
+          "url": "https://www.cambridgeinternational.org/Images/664604-2025-2026-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "Cambridge IGCSE PE 0413 Syllabus 2027-2028",
+          "url": "https://www.cambridgeinternational.org/Images/721298-2027-2028-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "ZNotes IGCSE Physical Education",
+          "url": "https://znotes.org/caie/igcse/physical-education-0413/",
+          "type": "article"
+        },
+        {
+          "name": "SaveMyExams IGCSE PE",
+          "url": "https://www.savemyexams.com/igcse/physical-education/cie/24/revision-notes/",
+          "type": "article"
+        },
+        {
+          "name": "BBC Bitesize GCSE PE",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/znybq6g",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE PE",
+          "url": "https://pastpapers.co/caie/igcse/physical-education-0413",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Anatomy & Physiology",
+          "summary": "Skeletal and muscular systems, joint types and movements, respiratory system, circulatory system, aerobic and anaerobic respiration, and effects of exercise on the body."
+        },
+        {
+          "title": "Health & Fitness",
+          "summary": "Components of fitness, fitness testing, principles of training, training methods, diet and energy, warming up and cooling down, and injury prevention."
+        },
+        {
+          "title": "Skill Acquisition",
+          "summary": "Skill classification (open/closed, basic/complex), information processing model, stages of learning (cognitive, associative, autonomous), feedback types, and guidance methods."
+        },
+        {
+          "title": "Sports Psychology",
+          "summary": "Motivation, arousal, anxiety, goal setting, mental preparation, relaxation techniques, personality types, and concentration strategies."
+        },
+        {
+          "title": "Social & Cultural Influences",
+          "summary": "Leisure and recreation, sports development pyramid, participation trends, sponsorship, media, global events, professional vs amateur sport, and technology in sport."
+        },
+        {
+          "title": "Ethics & Sport",
+          "summary": "Performance-enhancing drugs, blood doping, risk assessment, injuries, sportsmanship, fair play, and discrimination in sport."
+        },
+        {
+          "title": "Practical Performance",
+          "summary": "Four activities from at least two categories (games, gymnastics, dance, athletics, outdoor, swimming, combat). Skill execution, tactics, and effectiveness in performance."
+        }
+      ]
+    },
+    {
+      "id": "religious-studies",
+      "name": "Religious Studies",
+      "code": "0490",
+      "icon": "book-open",
+      "description": "Beliefs, teachings, practices, and ethics of world religions",
+      "summary": "Cambridge IGCSE Religious Studies (0490) develops learners' understanding of religious beliefs, practices, and ethical issues. The syllabus focuses on Christianity and Islam (with Judaism as an option), covering worship, beliefs, scriptures, sacred places, festivals, rites of passage, family life, and social action. Candidates develop skills in constructing well-argued, informed, and balanced written arguments. Assessment includes Paper 1 (Worship, Beliefs, Scriptures, Sacred Places) and Paper 2 (Festivals, Family, Social Action). This qualification prepares students for A-Level Religious Studies, philosophy, ethics, and careers in law, social work, and education.",
+      "difficulty": 2,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Religious Studies 0490 Syllabus 2025-2027",
+          "url": "https://www.cambridgeinternational.org/Images/663158-2025-2027-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "Tutopiya Religious Studies Reference Sheet",
+          "url": "https://www.tutopiya.com/tools/blog/igcse-religious-studies-formula-sheet/",
+          "type": "article"
+        },
+        {
+          "name": "Spires IGCSE Religious Studies Guide",
+          "url": "https://spires.co/online-religious-studies-tutors/igcse/how-to-pass-igcse-religious-studies",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Religious Studies",
+          "url": "https://znotes.org/caie/igcse/religious-studies-0490/",
+          "type": "article"
+        },
+        {
+          "name": "BBC Bitesize GCSE Religious Studies",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zb48q6f",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE Religious Studies",
+          "url": "https://pastpapers.co/caie/igcse/religious-studies-0490",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Beliefs & Teachings",
+          "summary": "Core beliefs about God, creation, the afterlife, prophets, and holy books in Christianity and Islam. Understanding creeds, articles of faith, and theological concepts."
+        },
+        {
+          "title": "Worship & Practices",
+          "summary": "Forms of worship, prayer, sacraments, pilgrimage, and religious ceremonies. The role of the church, mosque, and synagogue in community life."
+        },
+        {
+          "title": "Sacred Texts",
+          "summary": "The Bible, Qur'an, and Torah. Authority, interpretation, key stories, teachings, and the role of scripture in guiding moral and religious life."
+        },
+        {
+          "title": "Festivals & Rites of Passage",
+          "summary": "Religious festivals including Christmas, Easter, Eid al-Fitr, Eid al-Adha. Birth, marriage, and funeral ceremonies and their significance."
+        },
+        {
+          "title": "Ethics & Social Action",
+          "summary": "Moral codes, ethical decision-making, stewardship of the environment, poverty relief, charity work, and the role of religious organisations in social justice."
+        },
+        {
+          "title": "Family & Society",
+          "summary": "Religious teachings on family roles, marriage, divorce, gender equality, tradition and change, and the challenges of modern society for religious communities."
+        }
+      ]
+    },
+    {
+      "id": "travel-and-tourism",
+      "name": "Travel & Tourism",
+      "code": "0471",
+      "icon": "plane",
+      "description": "Tourism industry, destinations, customer service, and marketing",
+      "summary": "Cambridge IGCSE Travel & Tourism (0471) provides understanding of the global travel and tourism industry, its structure, and the factors affecting its development. The syllabus covers tourism definitions and concepts, global tourism, travel and tourism organisations, customer service, and destination marketing. Candidates learn about sustainable tourism, economic impacts, and the skills required for employment in the industry. Assessment includes Paper 1 (Key Terms and Concepts) and Paper 2 (Managing and Marketing Destinations). This qualification prepares students for further study in tourism management, hospitality, and related service industries.",
+      "difficulty": 2,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Travel & Tourism 0471 Syllabus 2027-2029",
+          "url": "https://www.cambridgeinternational.org/Images/721329-2027-2029-syllabus.pdf",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Travel & Tourism Topics",
+          "url": "https://www.savemyexams.com/learning-hub/subject-guides/igcse-travel-tourism-topics-by-exam-board/",
+          "type": "article"
+        },
+        {
+          "name": "SaveMyExams Travel & Tourism Overview",
+          "url": "https://www.savemyexams.com/learning-hub/igcse-options/what-is-igcse-travel-and-tourism/",
+          "type": "article"
+        },
+        {
+          "name": "HE Exams Wiki Travel & Tourism",
+          "url": "https://he-exams.fandom.com/wiki/Travel_and_Tourism",
+          "type": "article"
+        },
+        {
+          "name": "Tutopiya Travel & Tourism Formula Sheet",
+          "url": "https://www.tutopiya.com/tools/blog/igcse-travel-tourism-formula-sheet/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co Travel & Tourism",
+          "url": "https://pastpapers.co/caie/igcse/travel-and-tourism-0471",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Tourism Concepts",
+          "summary": "Definitions of tourism, types of tourism (leisure, business, adventure), reasons for travel, characteristics of tourism, and types of tourists and destinations."
+        },
+        {
+          "title": "Global Tourism",
+          "summary": "Scale of global tourism, features of destinations, appeal to different tourist types, accessibility, infrastructure, and sustainable tourism development."
+        },
+        {
+          "title": "Tourism Organisations",
+          "summary": "Role of national tourism organisations, destination management companies, airlines, hotels, and tour operators. Partnerships and sustainable practices."
+        },
+        {
+          "title": "Customer Service",
+          "summary": "Importance of customer service, handling complaints and enquiries, making reservations, product knowledge, and skills required for tourism employment."
+        },
+        {
+          "title": "Destination Marketing",
+          "summary": "Marketing mix (product, price, place, promotion), market research, segmentation, targeting, branding, and distribution channels for tourism products."
+        },
+        {
+          "title": "Sustainable Tourism",
+          "summary": "Environmental, economic, and sociocultural impacts of tourism, carrying capacity, overtourism, seasonality, and strategies for responsible tourism management."
+        }
+      ]
+    },
+    {
+      "id": "ict",
+      "name": "Information & Communication Technology",
+      "code": "0417",
+      "icon": "monitor",
+      "description": "Hardware, software, networks, data, and multimedia applications",
+      "summary": "Cambridge IGCSE ICT (0417) develops practical skills in using software applications and theoretical understanding of ICT systems. The syllabus covers hardware, software, networks, data types, the impact of ICT on society, and systems analysis. Practical skills include document production, data manipulation, spreadsheets, databases, presentations, data analysis, and website authoring. Assessment includes Paper 1 (Theory, 40%), Paper 2 (Document Production, Data Manipulation, Presentations, 30%), and Paper 3 (Data Analysis and Website Authoring, 30%). This qualification prepares students for A-Level IT, computer science, and digital careers.",
+      "difficulty": 3,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE ICT 0417 Syllabus",
+          "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-information-and-communication-technology-0417/",
+          "type": "official"
+        },
+        {
+          "name": "Tutopiya IGCSE ICT 0417 Guide",
+          "url": "https://www.tutopiya.com/blog/igcse-keywords/igcse-ict-0417/",
+          "type": "article"
+        },
+        {
+          "name": "Tutopiya Free ICT Notes",
+          "url": "https://www.tutopiya.com/blog/igcse-notes/free-igcse-ict-notes/",
+          "type": "article"
+        },
+        {
+          "name": "Cambridge ICT FAQs",
+          "url": "https://help.cambridgeinternational.org/hc/en-gb/articles/360000997069",
+          "type": "official"
+        },
+        {
+          "name": "ZNotes IGCSE ICT",
+          "url": "https://znotes.org/caie/igcse/information-and-communication-technology-0417/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE ICT",
+          "url": "https://pastpapers.co/caie/igcse/information-and-communication-technology-0417",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Hardware & Software",
+          "summary": "Types and components of computer systems, input and output devices, storage devices and media, system software, application software, and utility programs."
+        },
+        {
+          "title": "Networks",
+          "summary": "Network types (LAN, WAN), network topologies, internet structure, protocols, network security, and the role of network hardware including routers and switches."
+        },
+        {
+          "title": "Data & Security",
+          "summary": "Data types, data integrity, validation and verification, malware, encryption, firewalls, phishing, data protection legislation, and safe internet practices."
+        },
+        {
+          "title": "Document Production",
+          "summary": "Word processing skills including formatting, mail merge, tables, styles, and document design for professional presentation."
+        },
+        {
+          "title": "Spreadsheets & Databases",
+          "summary": "Formulas, functions, charts, sorting, filtering in spreadsheets. Database design, tables, relationships, queries, forms, and reports."
+        },
+        {
+          "title": "Website & Presentation",
+          "summary": "HTML and CSS authoring, website structure, navigation, and design. Presentation software including transitions, animations, and multimedia integration."
+        },
+        {
+          "title": "Impact of ICT",
+          "summary": "Social, economic, and ethical effects of ICT on individuals, organisations, and society. Emerging technologies, automation, and digital divides."
+        }
+      ]
+    },
+    {
+      "id": "design-and-technology",
+      "name": "Design & Technology",
+      "code": "0445",
+      "icon": "hammer",
+      "description": "Product design, resistant materials, systems, and graphics",
+      "summary": "Cambridge IGCSE Design & Technology (0445) develops creative thinking and problem-solving skills through designing and making products. The syllabus includes common content in product design and a specialist option in Resistant Materials, Systems & Control, or Graphic Products. Candidates learn the design process, materials and manufacturing, technical drawing, CAD/CAM, and sustainability. Assessment includes Paper 1 (Product Design, 25%), Paper 2-4 (Specialist Option, 25%), and a Design Project (50%). This qualification prepares students for A-Level Design & Technology, engineering, and creative careers.",
+      "difficulty": 3,
+      "hours": 150,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Design & Technology 0445 Syllabus",
+          "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-design-and-technology-0445/",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams D&T Past Papers",
+          "url": "https://www.savemyexams.com/igcse/design-and-technology/cie/past-papers/",
+          "type": "pdf"
+        },
+        {
+          "name": "DesignTechGuide IGCSE Paper 1 Revision",
+          "url": "https://www.designtechguide.com/revision/0445-igcse-paper-1",
+          "type": "article"
+        },
+        {
+          "name": "TigerCampus D&T Course",
+          "url": "https://www.tigercampus.com/igcse-design-technology-0445/",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Design & Technology",
+          "url": "https://znotes.org/caie/igcse/design-and-technology-0445/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co D&T",
+          "url": "https://pastpapers.co/caie/igcse/design-and-technology-0445",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Product Design",
+          "summary": "Design briefs and specifications, research methods, idea generation, design development, evaluation, and the iterative design process."
+        },
+        {
+          "title": "Resistant Materials",
+          "summary": "Properties and applications of woods, metals, plastics, and composites. Preparation, shaping, joining, and finishing techniques."
+        },
+        {
+          "title": "Systems & Control",
+          "summary": "Mechanisms, structures, electronics, and forces. Understanding systems, control inputs and outputs, and programmable components."
+        },
+        {
+          "title": "Graphic Products",
+          "summary": "Formal drawing techniques, pictorial and orthographic views, CAD software, presenting and communicating design information, and modelling."
+        },
+        {
+          "title": "CAD/CAM",
+          "summary": "Computer-aided design for modelling and prototyping, computer-aided manufacture including laser cutting and 3D printing, and digital technologies in industry."
+        },
+        {
+          "title": "Sustainability & Ethics",
+          "summary": "Sustainable design principles, material selection for environmental impact, recycling, ethical manufacturing, and the social impact of design."
+        },
+        {
+          "title": "Design Project",
+          "summary": "Independent design-and-make project from brief to finished product, including research, design folder, prototyping, manufacturing, and evaluation."
+        }
+      ]
+    },
+    {
+      "id": "accounting",
+      "name": "Accounting",
+      "code": "0452",
+      "icon": "file-text",
+      "description": "Bookkeeping, financial statements, and business analysis",
+      "summary": "Cambridge IGCSE Accounting (0452) introduces the theory and concepts of accounting and develops practical skills in preparing and interpreting financial information. The syllabus covers the fundamentals of accounting, sources and recording of data, verification of accounting records, accounting procedures, preparation of financial statements for various entities, analysis and interpretation, and accounting principles and policies. Assessment includes Paper 1 (Multiple Choice, 30%) and Paper 2 (Structured Questions, 70%). This qualification provides a foundation for A-Level Accounting, business, finance, and professional accountancy careers.",
+      "difficulty": 4,
+      "hours": 130,
+      "resources": [
+        {
+          "name": "Cambridge IGCSE Accounting 0452 Syllabus",
+          "url": "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-accounting-0452/",
+          "type": "official"
+        },
+        {
+          "name": "SaveMyExams IGCSE Accounting Topics",
+          "url": "https://www.savemyexams.com/learning-hub/subject-guides/igcse-accounting-topics/",
+          "type": "article"
+        },
+        {
+          "name": "Tutopiya Accounting Formula Sheet",
+          "url": "https://www.tutopiya.com/tools/blog/igcse-accounting-formula-sheet/",
+          "type": "article"
+        },
+        {
+          "name": "Tutopiya Limited Companies Revision",
+          "url": "https://www.tutopiya.com/blog/cambridge-igcse-accounting/preparation-of-financial-statements-limited-companies-part-1-cambridge-igcse-accounting/",
+          "type": "article"
+        },
+        {
+          "name": "ZNotes IGCSE Accounting",
+          "url": "https://znotes.org/caie/igcse/accounting-0452/",
+          "type": "article"
+        },
+        {
+          "name": "PastPapers.co IGCSE Accounting",
+          "url": "https://pastpapers.co/caie/igcse/accounting-0452",
+          "type": "pdf"
+        }
+      ],
+      "topics": [
+        {
+          "title": "Fundamentals of Accounting",
+          "summary": "The purpose of accounting, the accounting equation, double-entry bookkeeping, and the distinction between assets, liabilities, income, and expenses."
+        },
+        {
+          "title": "Sources & Recording of Data",
+          "summary": "Business documents, books of prime entry including sales and purchases day books, cash book, petty cash book, and the general journal."
+        },
+        {
+          "title": "Verification of Records",
+          "summary": "Trial balance, types of errors, correction of errors, bank reconciliation statements, and control accounts for sales and purchases ledgers."
+        },
+        {
+          "title": "Accounting Procedures",
+          "summary": "Capital vs revenue expenditure, depreciation methods, irrecoverable debts, allowance for doubtful debts, inventory valuation, and accruals and prepayments."
+        },
+        {
+          "title": "Financial Statements",
+          "summary": "Income statements and statements of financial position for sole traders, partnerships, limited companies, manufacturing businesses, clubs, and incomplete records."
+        },
+        {
+          "title": "Analysis & Interpretation",
+          "summary": "Accounting ratios (profitability, liquidity, efficiency), interpretation of financial performance, inter-business comparison, and limitations of accounting statements."
+        },
+        {
+          "title": "Principles & Policies",
+          "summary": "Accounting concepts including prudence, consistency, accruals, going concern, materiality, and the impact of ethical considerations and technology on accounting."
+        }
       ]
     }
   ]

@@ -6,140 +6,1442 @@
       "id": "mathematics",
       "name": "Mathematics",
       "icon": "calculator",
-      "description": "Pure, mechanics and statistics",
+      "description": "Pure mathematics, mechanics and statistics across three linear papers.",
+      "summary": "AQA A-Level Mathematics (7357) covers pure maths (two-thirds), statistics (one-sixth) and mechanics (one-sixth). Topics span proof, algebra, coordinate geometry, sequences, trigonometry, exponentials, differentiation, integration, numerical methods, vectors, statistical sampling, distributions, hypothesis testing, kinematics, forces and moments. The course is linear with three 2-hour papers at the end of Year 13.",
+      "difficulty": 4,
+      "hours": 360,
       "topics": [
-        { "title": "Algebra & Functions", "summary": "Indices, surds, quadratics, partial fractions and transformations of graphs." },
-        { "title": "Differentiation", "summary": "Rates of change, chain/product/quotient rules and stationary points." },
-        { "title": "Integration", "summary": "Definite and indefinite integrals, areas under curves and by substitution." },
-        { "title": "Trigonometry", "summary": "Identities, radian measure and solving trigonometric equations." },
-        { "title": "Mechanics", "summary": "Kinematics, forces, Newton's laws and moments." },
-        { "title": "Statistics", "summary": "Probability distributions, hypothesis testing and correlation." }
+        {
+          "title": "Algebra & Functions",
+          "summary": "Indices, surds, quadratics, partial fractions, polynomial division, modulus, transformations and composite functions."
+        },
+        {
+          "title": "Differentiation",
+          "summary": "Rates of change, chain/product/quotient rules, implicit differentiation, parametric equations and stationary points."
+        },
+        {
+          "title": "Integration",
+          "summary": "Definite and indefinite integrals, areas under curves, integration by substitution and parts, solving differential equations."
+        },
+        {
+          "title": "Trigonometry",
+          "summary": "Identities, radian measure, compound and double-angle formulae, solving trigonometric equations and modelling."
+        },
+        {
+          "title": "Mechanics",
+          "summary": "Kinematics in one and two dimensions, forces, Newton's laws, moments, projectiles and variable acceleration."
+        },
+        {
+          "title": "Statistics",
+          "summary": "Probability distributions, hypothesis testing, correlation, regression, the normal distribution and data interpretation."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Maths Specification (7357)",
+          "url": "https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize A-Level Maths",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z26k7ty",
+          "type": "article"
+        },
+        {
+          "name": "Physics and Maths Tutor - A-Level Maths Notes",
+          "url": "https://pmt.physicsandmathstutor.com/maths-revision/a-level/",
+          "type": "pdf"
+        },
+        {
+          "name": "Edexcel A-Level Maths Specification",
+          "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/mathematics-2017.html",
+          "type": "official"
+        },
+        {
+          "name": "OCR A-Level Maths Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/mathematics-a-h230-h240-from-2017/",
+          "type": "official"
+        }
       ]
     },
     {
       "id": "physics",
       "name": "Physics",
       "icon": "atom",
-      "description": "Mechanics, fields and quantum",
+      "description": "Mechanics, fields, thermodynamics, waves and modern physics.",
+      "summary": "AQA A-Level Physics (7408) is a context-free specification offering practical core content and optional topics such as Astrophysics or Medical Physics. It covers measurements, particles, waves, mechanics, electricity, thermal physics, fields, nuclear physics and an optional topic. Assessment is through three 2-hour papers plus practical endorsement.",
+      "difficulty": 4,
+      "hours": 360,
       "topics": [
-        { "title": "Mechanics", "summary": "Motion, momentum, energy and equilibrium of forces." },
-        { "title": "Electricity", "summary": "Current, potential difference, resistance and circuits." },
-        { "title": "Waves", "summary": "Superposition, interference, diffraction and the photoelectric effect." },
-        { "title": "Fields", "summary": "Gravitational, electric and magnetic fields." },
-        { "title": "Nuclear Physics", "summary": "Radioactivity, decay and mass–energy equivalence." },
-        { "title": "Thermal Physics", "summary": "Internal energy, ideal gases and specific heat capacity." }
+        {
+          "title": "Mechanics",
+          "summary": "Motion, momentum, energy, equilibrium, Newton's laws, circular motion and simple harmonic motion."
+        },
+        {
+          "title": "Electricity",
+          "summary": "Current, potential difference, resistance, circuits, EMF, internal resistance and the behaviour of semiconductors."
+        },
+        {
+          "title": "Waves",
+          "summary": "Superposition, interference, diffraction, standing waves, the photoelectric effect and quantum behaviour of light."
+        },
+        {
+          "title": "Fields",
+          "summary": "Gravitational, electric and magnetic fields, field strength, potential, orbital mechanics and electromagnetic induction."
+        },
+        {
+          "title": "Nuclear Physics",
+          "summary": "Radioactivity, decay equations, half-life, mass-energy equivalence, fission, fusion and safety considerations."
+        },
+        {
+          "title": "Thermal Physics",
+          "summary": "Internal energy, ideal gas laws, specific heat capacity, latent heat and the kinetic theory of gases."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Physics Specification (7408)",
+          "url": "https://www.aqa.org.uk/subjects/physics/a-level/physics-7408",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize A-Level Physics",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/znb9jty",
+          "type": "article"
+        },
+        {
+          "name": "Physics and Maths Tutor - A-Level Physics",
+          "url": "https://pmt.physicsandmathstutor.com/physics-revision/a-level/",
+          "type": "pdf"
+        },
+        {
+          "name": "OCR A-Level Physics Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/physics-a-h156-h556-from-2015/",
+          "type": "official"
+        },
+        {
+          "name": "AQA Physics Practical Handbook",
+          "url": "https://www.aqa.org.uk/resources/science/as-and-a-level/physics/practical-skills-handbook",
+          "type": "pdf"
+        }
       ]
     },
     {
       "id": "chemistry",
       "name": "Chemistry",
       "icon": "flask",
-      "description": "Physical, inorganic and organic",
+      "description": "Physical, inorganic and organic chemistry with practical skills.",
+      "summary": "AQA A-Level Chemistry (7405) is divided into physical, inorganic and organic chemistry. Students study atomic structure, bonding, energetics, kinetics, equilibria, redox, thermodynamics, transition metals, organic synthesis, polymers, proteins, NMR and chromatography. Practical skills are assessed within written papers and through a separate practical endorsement.",
+      "difficulty": 4,
+      "hours": 360,
       "topics": [
-        { "title": "Atomic Structure", "summary": "Electron configuration, ionisation energy and mass spectrometry." },
-        { "title": "Bonding", "summary": "Ionic, covalent and metallic bonding and molecular shapes." },
-        { "title": "Energetics", "summary": "Enthalpy changes, Hess's law and bond enthalpies." },
-        { "title": "Kinetics & Equilibria", "summary": "Rates of reaction, Le Chatelier's principle and Kc." },
-        { "title": "Organic Chemistry", "summary": "Functional groups, mechanisms and isomerism." },
-        { "title": "Analysis", "summary": "Spectroscopy, chromatography and identifying ions." }
+        {
+          "title": "Atomic Structure",
+          "summary": "Electron configuration, ionisation energy, mass spectrometry, time-of-flight calculations and quantum behaviour."
+        },
+        {
+          "title": "Bonding",
+          "summary": "Ionic, covalent and metallic bonding, shapes of molecules, intermolecular forces and evidence from physical properties."
+        },
+        {
+          "title": "Energetics",
+          "summary": "Enthalpy changes, Hess's law, Born-Haber cycles, bond enthalpies, calorimetry and enthalpy of solution."
+        },
+        {
+          "title": "Kinetics & Equilibria",
+          "summary": "Rates of reaction, collision theory, rate equations, Le Chatelier's principle, Kc, Kp and equilibrium constants."
+        },
+        {
+          "title": "Organic Chemistry",
+          "summary": "Functional groups, reaction mechanisms, isomerism, stereochemistry, optical isomerism and synthesis pathways."
+        },
+        {
+          "title": "Analysis",
+          "summary": "NMR spectroscopy, infrared spectroscopy, mass spectrometry, chromatography and identifying unknown compounds."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Chemistry Specification (7405)",
+          "url": "https://www.aqa.org.uk/subjects/science/as-and-a-level/chemistry-7404-7405",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize A-Level Chemistry",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z6svgcw",
+          "type": "article"
+        },
+        {
+          "name": "Chemguide - A-Level Chemistry",
+          "url": "https://www.chemguide.co.uk/",
+          "type": "article"
+        },
+        {
+          "name": "Physics and Maths Tutor - Chemistry Notes",
+          "url": "https://pmt.physicsandmathstutor.com/chemistry-revision/a-level/",
+          "type": "pdf"
+        },
+        {
+          "name": "OCR A-Level Chemistry Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/chemistry-a-h032-h432-from-2015/",
+          "type": "official"
+        }
       ]
     },
     {
       "id": "biology",
       "name": "Biology",
       "icon": "dna",
-      "description": "Cells, systems and genetics",
+      "description": "Cells, organisms, genetics, ecology and homeostasis.",
+      "summary": "AQA A-Level Biology (7402) covers biological molecules, cells, transport, genetics, energy transfers, homeostasis, populations, evolution, ecosystems and gene expression. It develops practical competency through 12 required practicals and assesses data analysis, essay writing and synoptic understanding across three papers.",
+      "difficulty": 4,
+      "hours": 360,
       "topics": [
-        { "title": "Biological Molecules", "summary": "Carbohydrates, lipids, proteins and enzymes." },
-        { "title": "Cells", "summary": "Ultrastructure, transport across membranes and the cell cycle." },
-        { "title": "Genetics", "summary": "DNA, inheritance, mutations and gene expression." },
-        { "title": "Exchange & Transport", "summary": "Gas exchange, circulation and mass transport systems." },
-        { "title": "Ecology", "summary": "Ecosystems, populations, succession and nutrient cycles." },
-        { "title": "Homeostasis", "summary": "Nervous and hormonal control and feedback mechanisms." }
+        {
+          "title": "Biological Molecules",
+          "summary": "Carbohydrates, lipids, proteins, enzymes, DNA structure, RNA and the importance of water and inorganic ions."
+        },
+        {
+          "title": "Cells",
+          "summary": "Ultrastructure, transport across membranes, cell division, the cell cycle, microscopy and investigating cell organisation."
+        },
+        {
+          "title": "Genetics",
+          "summary": "DNA replication, protein synthesis, inheritance patterns, mutations, genetic diversity and gene expression control."
+        },
+        {
+          "title": "Exchange & Transport",
+          "summary": "Gas exchange, circulation, mass transport in plants and animals, surface-area-to-volume ratio and adaptation."
+        },
+        {
+          "title": "Ecology",
+          "summary": "Ecosystems, populations, succession, nutrient cycling, energy transfer, biodiversity and conservation strategies."
+        },
+        {
+          "title": "Homeostasis",
+          "summary": "Nervous and hormonal control, feedback mechanisms, blood glucose regulation, osmoregulation and the kidney."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Biology Specification (7402)",
+          "url": "https://www.aqa.org.uk/subjects/science/as-and-a-level/biology-7401-7402",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize A-Level Biology",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z7nygk7",
+          "type": "article"
+        },
+        {
+          "name": "Physics and Maths Tutor - Biology Notes",
+          "url": "https://pmt.physicsandmathstutor.com/biology-revision/a-level/",
+          "type": "pdf"
+        },
+        {
+          "name": "A-Level Biology - Revision World",
+          "url": "https://revisionworld.com/a2-level-level-revision/biology",
+          "type": "article"
+        },
+        {
+          "name": "OCR A-Level Biology Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/biology-a-h020-h420-from-2015/",
+          "type": "official"
+        }
       ]
     },
     {
       "id": "english-literature",
       "name": "English Literature",
       "icon": "book",
-      "description": "Prose, poetry and drama",
+      "description": "Prose, poetry, drama and critical theory across genres and periods.",
+      "summary": "AQA A-Level English Literature A (7712) explores literary genres such as tragedy and crime writing, alongside love through the ages. Students study Shakespeare, pre-1900 and post-2000 prose and poetry, unseen texts, and complete a non-exam assessment comparing two texts informed by critical theory. The specification builds analytical, evaluative and synoptic essay skills.",
+      "difficulty": 3,
+      "hours": 300,
       "topics": [
-        { "title": "Poetry Analysis", "summary": "Form, meter, imagery and comparative reading of poems." },
-        { "title": "Prose", "summary": "Narrative voice, structure and thematic development in novels." },
-        { "title": "Drama", "summary": "Dramatic method, character and staging in plays." },
-        { "title": "Shakespeare", "summary": "Close reading of a set play with critical interpretations." },
-        { "title": "Critical Theory", "summary": "Applying feminist, Marxist and post-colonial lenses." },
-        { "title": "Contexts", "summary": "Historical, social and literary contexts of texts." }
+        {
+          "title": "Poetry Analysis",
+          "summary": "Form, meter, imagery, symbolism, comparative reading and the relationship between poet and reader."
+        },
+        {
+          "title": "Prose",
+          "summary": "Narrative voice, structure, thematic development, realism, stream of consciousness and social context in novels."
+        },
+        {
+          "title": "Drama",
+          "summary": "Dramatic method, character construction, stagecraft, audience response and the role of the tragic hero."
+        },
+        {
+          "title": "Shakespeare",
+          "summary": "Close reading of a set play, critical interpretations, performance history and connections to dramatic genre."
+        },
+        {
+          "title": "Critical Theory",
+          "summary": "Applying feminist, Marxist, post-colonial, structuralist and eco-critical lenses to literary texts."
+        },
+        {
+          "title": "Contexts",
+          "summary": "Historical, social, political and literary contexts, including how texts are shaped by and respond to their era."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level English Literature A Specification (7712)",
+          "url": "https://www.aqa.org.uk/subjects/english/as-and-a-level/english-literature-a-7712",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize A-Level English Literature",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zkgcwmn",
+          "type": "article"
+        },
+        {
+          "name": "British Library - English Literature Resources",
+          "url": "https://www.bl.uk/learning/english-literature",
+          "type": "article"
+        },
+        {
+          "name": "AQA English Literature A Critical Anthology",
+          "url": "https://www.aqa.org.uk/resources/english/as-and-a-level/english-literature-a/critical-anthology",
+          "type": "pdf"
+        },
+        {
+          "name": "OCR A-Level English Literature Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/english-literature-h072-h472-from-2015/",
+          "type": "official"
+        }
       ]
     },
     {
       "id": "history",
       "name": "History",
       "icon": "landmark",
-      "description": "Modern and early modern",
+      "description": "Modern and early modern British, European and world history.",
+      "summary": "AQA A-Level History (7042) offers breadth and depth through component groupings such as Tudor England, the Industrial Revolution, world wars and the Cold War. Students develop skills in evaluating source reliability, provenance and utility, constructing arguments using historiography, and writing extended essays. A coursework component allows independent research on a topic of the student's choice.",
+      "difficulty": 3,
+      "hours": 300,
       "topics": [
-        { "title": "Sources & Evidence", "summary": "Evaluating reliability, provenance and utility of sources." },
-        { "title": "Tudor England", "summary": "Religious change, government and rebellion." },
-        { "title": "Industrial Revolution", "summary": "Economic and social change in 18th–19th century Britain." },
-        { "title": "World Wars", "summary": "Causes, course and consequences of the World Wars." },
-        { "title": "Cold War", "summary": "Superpower tension, crises and détente." },
-        { "title": "Coursework Skills", "summary": "Constructing arguments and using historiography." }
+        {
+          "title": "Sources & Evidence",
+          "summary": "Evaluating reliability, provenance, utility and value of primary and secondary historical sources."
+        },
+        {
+          "title": "Tudor England",
+          "summary": "Religious change, government and rebellion under the Tudor monarchs, 1485–1603."
+        },
+        {
+          "title": "Industrial Revolution",
+          "summary": "Economic and social change in 18th–19th century Britain, urbanisation and the birth of modern industry."
+        },
+        {
+          "title": "World Wars",
+          "summary": "Causes, course and consequences of the First and Second World Wars, 1914–1945."
+        },
+        {
+          "title": "Cold War",
+          "summary": "Superpower tension, crises, détente, the arms race and the eventual collapse of the Soviet bloc."
+        },
+        {
+          "title": "Coursework Skills",
+          "summary": "Constructing independent arguments, using historiography and evaluating interpretations over time."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level History Specification (7042)",
+          "url": "https://www.aqa.org.uk/subjects/history/a-level/history-7042",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize A-Level History",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zj26n39",
+          "type": "article"
+        },
+        {
+          "name": "History Learning Site - A-Level Topics",
+          "url": "https://www.historylearningsite.co.uk/a-level/",
+          "type": "article"
+        },
+        {
+          "name": "AQA History Assessment Resources",
+          "url": "https://www.aqa.org.uk/subjects/history/a-level/history-7042/assessment-resources",
+          "type": "pdf"
+        },
+        {
+          "name": "OCR A-Level History Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/history-a-h105-h505-from-2015/",
+          "type": "official"
+        }
       ]
     },
     {
       "id": "geography",
       "name": "Geography",
       "icon": "globe",
-      "description": "Physical and human geography",
+      "description": "Physical and human geography with fieldwork and independent investigation.",
+      "summary": "AQA A-Level Geography (7037) covers physical systems including water and carbon cycles, coastal landscapes and hazards, and human systems including globalisation, urban environments and changing places. Students complete an independent fieldwork investigation and develop quantitative, qualitative and cartographic skills. The specification is synoptic, linking topics across physical and human geography.",
+      "difficulty": 3,
+      "hours": 300,
       "topics": [
-        { "title": "Water & Carbon Cycles", "summary": "Systems, stores, flows and human impacts." },
-        { "title": "Coastal Landscapes", "summary": "Erosion, deposition, landforms and management." },
-        { "title": "Hazards", "summary": "Tectonic and atmospheric hazards and responses." },
-        { "title": "Globalisation", "summary": "Trade, TNCs and global interdependence." },
-        { "title": "Urban Environments", "summary": "Urbanisation, regeneration and sustainability." },
-        { "title": "Fieldwork", "summary": "Data collection, presentation and independent investigation." }
+        {
+          "title": "Water & Carbon Cycles",
+          "summary": "Systems, stores, flows, human impacts, climate change feedbacks and the role of tropical rainforests."
+        },
+        {
+          "title": "Coastal Landscapes",
+          "summary": "Erosion, deposition, landforms, sea-level change, management strategies and conflict over coastlines."
+        },
+        {
+          "title": "Hazards",
+          "summary": "Tectonic and atmospheric hazards, responses, vulnerability, risk management and disaster resilience."
+        },
+        {
+          "title": "Globalisation",
+          "summary": "Trade, TNCs, global interdependence, international migration and the impacts of global governance."
+        },
+        {
+          "title": "Urban Environments",
+          "summary": "Urbanisation, regeneration, sustainability, smart cities and the challenges of megacities."
+        },
+        {
+          "title": "Fieldwork",
+          "summary": "Data collection, presentation, statistical analysis, independent investigation and risk assessment."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Geography Specification (7037)",
+          "url": "https://www.aqa.org.uk/subjects/geography/a-level/geography-7037",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize A-Level Geography",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z2f3cdm",
+          "type": "article"
+        },
+        {
+          "name": "Royal Geographical Society - A-Level Resources",
+          "url": "https://www.rgs.org.uk/schools/teaching-resources/",
+          "type": "article"
+        },
+        {
+          "name": "AQA Geography Fieldwork Guidance",
+          "url": "https://www.aqa.org.uk/resources/geography/a-level/geography-7037/fieldwork",
+          "type": "pdf"
+        },
+        {
+          "name": "OCR A-Level Geography Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/geography-h081-h481-from-2016/",
+          "type": "official"
+        }
       ]
     },
     {
       "id": "economics",
       "name": "Economics",
       "icon": "trending-up",
-      "description": "Micro and macroeconomics",
+      "description": "Microeconomics, macroeconomics and international economics with real-world application.",
+      "summary": "AQA A-Level Economics (7136) combines microeconomics (individual and firm behaviour, market structures, labour markets, market failure) with macroeconomics (national income, aggregate demand and supply, inflation, unemployment, financial markets, international trade and development). Students apply quantitative skills and evaluate government policy using contemporary case studies.",
+      "difficulty": 3,
+      "hours": 300,
       "topics": [
-        { "title": "Supply & Demand", "summary": "Price mechanism, elasticity and market equilibrium." },
-        { "title": "Market Failure", "summary": "Externalities, public goods and government intervention." },
-        { "title": "National Income", "summary": "GDP, the circular flow and aggregate demand/supply." },
-        { "title": "Inflation & Unemployment", "summary": "Causes, measurement and policy trade-offs." },
-        { "title": "International Trade", "summary": "Comparative advantage, exchange rates and the balance of payments." },
-        { "title": "Fiscal & Monetary Policy", "summary": "Government spending, taxation and interest rates." }
+        {
+          "title": "Supply & Demand",
+          "summary": "Price mechanism, elasticity, consumer and producer surplus, market equilibrium and government intervention."
+        },
+        {
+          "title": "Market Failure",
+          "summary": "Externalities, public goods, merit and demerit goods, information asymmetry and government failure."
+        },
+        {
+          "title": "National Income",
+          "summary": "GDP, the circular flow, aggregate demand and supply, Keynesian and classical models, and the multiplier."
+        },
+        {
+          "title": "Inflation & Unemployment",
+          "summary": "Causes, measurement, Phillips curve trade-offs, natural rate and hysteresis."
+        },
+        {
+          "title": "International Trade",
+          "summary": "Comparative advantage, exchange rates, balance of payments, protectionism and trading blocs."
+        },
+        {
+          "title": "Fiscal & Monetary Policy",
+          "summary": "Government spending, taxation, interest rates, quantitative easing and supply-side policies."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Economics Specification (7136)",
+          "url": "https://www.aqa.org.uk/subjects/economics/a-level/economics-7136",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize A-Level Economics",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zbvrq6f",
+          "type": "article"
+        },
+        {
+          "name": "Tutor2u - A-Level Economics",
+          "url": "https://www.tutor2u.net/economics",
+          "type": "article"
+        },
+        {
+          "name": "Bank of England - Education Resources",
+          "url": "https://www.bankofengland.co.uk/education",
+          "type": "article"
+        },
+        {
+          "name": "Edexcel A-Level Economics Specification",
+          "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/economics-a-2015.html",
+          "type": "official"
+        }
       ]
     },
     {
       "id": "computer-science",
       "name": "Computer Science",
       "icon": "code",
-      "description": "Programming and theory",
+      "description": "Programming, theory, systems, networks, databases and a practical project.",
+      "summary": "AQA A-Level Computer Science (7517) develops computational thinking through programming in Python, VB.NET, C# or Java. Students study data structures, algorithms, theory of computation, data representation, computer systems, networking, databases, big data and functional programming. A non-exam assessment (20%) requires students to solve a real problem through a systematic development project.",
+      "difficulty": 4,
+      "hours": 360,
       "topics": [
-        { "title": "Programming", "summary": "Data types, control structures, functions and OOP." },
-        { "title": "Data Structures", "summary": "Arrays, stacks, queues, trees and hash tables." },
-        { "title": "Algorithms", "summary": "Searching, sorting and Big-O complexity." },
-        { "title": "Computer Systems", "summary": "CPU architecture, memory and the fetch–execute cycle." },
-        { "title": "Networks", "summary": "Protocols, the TCP/IP stack and security." },
-        { "title": "Databases", "summary": "Relational models, normalisation and SQL." }
+        {
+          "title": "Programming",
+          "summary": "Data types, control structures, functions, object-oriented programming, recursion and exception handling."
+        },
+        {
+          "title": "Data Structures",
+          "summary": "Arrays, stacks, queues, trees, graphs, hash tables, dictionaries, vectors and dynamic versus static structures."
+        },
+        {
+          "title": "Algorithms",
+          "summary": "Searching, sorting, pathfinding, Big-O complexity, optimisation and standard algorithms including Dijkstra and A*."
+        },
+        {
+          "title": "Computer Systems",
+          "summary": "CPU architecture, memory, the fetch-execute cycle, machine code, assembly language and logic gates."
+        },
+        {
+          "title": "Networks",
+          "summary": "Protocols, TCP/IP stack, layers, packet switching, security, encryption and the Internet of Things."
+        },
+        {
+          "title": "Databases",
+          "summary": "Relational models, normalisation, SQL, entity-relationship modelling, transaction processing and Big Data."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Computer Science Specification (7517)",
+          "url": "https://www.aqa.org.uk/subjects/computer-science-and-it/a-level/computer-science-7516-7517",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize Computer Science",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zr3p7ty",
+          "type": "article"
+        },
+        {
+          "name": "Physics and Maths Tutor - CS Notes",
+          "url": "https://pmt.physicsandmathstutor.com/computer-science-revision/a-level/",
+          "type": "pdf"
+        },
+        {
+          "name": "OCR A-Level Computer Science Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/computer-science-h046-h446-from-2015/",
+          "type": "official"
+        },
+        {
+          "name": "Python Tutor - Visualise Code",
+          "url": "https://pythontutor.com/",
+          "type": "video"
+        }
       ]
     },
     {
       "id": "french",
       "name": "French",
       "icon": "languages",
-      "description": "Language and culture",
+      "description": "French language, literature, film and cultural studies.",
+      "summary": "AQA A-Level French (7652) develops advanced linguistic competence across listening, reading, writing and speaking. Themes include social issues and trends, artistic culture, multiculturalism and political life in French-speaking society. Students study one literary text and one film, and complete an individual research project for the speaking exam. Translation tasks require translation into and out of French.",
+      "difficulty": 3,
+      "hours": 300,
       "topics": [
-        { "title": "Grammar", "summary": "Tenses, subjunctive mood and pronoun agreement." },
-        { "title": "Listening", "summary": "Comprehension of authentic spoken French." },
-        { "title": "Speaking", "summary": "Discussion, debate and stimulus-based conversation." },
-        { "title": "Reading", "summary": "Literary texts, articles and inference." },
-        { "title": "Writing", "summary": "Essays on set texts and translation into French." },
-        { "title": "Culture", "summary": "Francophone society, film and literature." }
+        {
+          "title": "Grammar",
+          "summary": "Tenses, subjunctive mood, pronoun agreement, relative clauses, passive voice, negation and complex sentence structures."
+        },
+        {
+          "title": "Listening",
+          "summary": "Comprehension of authentic spoken French from news, interviews, lectures and everyday conversations."
+        },
+        {
+          "title": "Speaking",
+          "summary": "Discussion, debate, stimulus-based conversation and an individual research project presentation."
+        },
+        {
+          "title": "Reading",
+          "summary": "Literary texts, press articles, inferential comprehension and critical analysis of French-language sources."
+        },
+        {
+          "title": "Writing",
+          "summary": "Essays on set texts and film, translation into French, summary writing and argumentative composition."
+        },
+        {
+          "title": "Culture",
+          "summary": "Francophone society, film, literature, music, politics and the influence of French cultural heritage globally."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level French Specification (7652)",
+          "url": "https://www.aqa.org.uk/subjects/languages/a-level/french-7652",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize French",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9dqxnb",
+          "type": "article"
+        },
+        {
+          "name": "Radio France Internationale - Learning French",
+          "url": "https://www.rfi.fr/en/learn-french/",
+          "type": "article"
+        },
+        {
+          "name": "AQA French A-Level Grammar Resources",
+          "url": "https://www.aqa.org.uk/resources/french/as-and-a-level/french-7652/grammar",
+          "type": "pdf"
+        },
+        {
+          "name": "Edexcel A-Level French Specification",
+          "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/french-2016.html",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "further-mathematics",
+      "name": "Further Mathematics",
+      "icon": "square-function",
+      "description": "Complex numbers, matrices, differential equations, polar coordinates and hyperbolic functions.",
+      "summary": "AQA A-Level Further Mathematics (7367) builds on A-Level Maths with compulsory core pure content covering complex numbers, matrices, proof, further algebra, further calculus, differential equations, polar coordinates and hyperbolic functions. Students then choose two optional applications from mechanics, statistics, discrete mathematics or additional pure. Assessment is through four 2-hour papers, two of which are core pure and two are the chosen options.",
+      "difficulty": 5,
+      "hours": 360,
+      "topics": [
+        {
+          "title": "Complex Numbers",
+          "summary": "Argand diagrams, modulus-argument form, de Moivre's theorem, roots of unity and loci in the complex plane."
+        },
+        {
+          "title": "Matrices",
+          "summary": "Matrix algebra, determinants, inverse matrices, linear transformations, eigenvalues, eigenvectors and diagonalisation."
+        },
+        {
+          "title": "Differential Equations",
+          "summary": "First and second order ODEs, integrating factors, complementary functions, particular integrals and coupled systems."
+        },
+        {
+          "title": "Polar Coordinates",
+          "summary": "Sketching polar curves, area enclosed by polar curves and converting between Cartesian and polar forms."
+        },
+        {
+          "title": "Hyperbolic Functions",
+          "summary": "Definitions, identities, differentiation and integration, inverse hyperbolic functions and solving equations."
+        },
+        {
+          "title": "Further Mechanics",
+          "summary": "Momentum, impulse, work, energy, power, circular motion, centres of mass and further dynamics."
+        },
+        {
+          "title": "Further Statistics",
+          "summary": "Discrete and continuous distributions, chi-squared tests, bivariate data, correlation, regression and hypothesis testing."
+        },
+        {
+          "title": "Discrete Mathematics",
+          "summary": "Graph theory, networks, algorithms, critical path analysis, linear programming and game theory."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Further Maths Specification (7367)",
+          "url": "https://www.aqa.org.uk/subjects/mathematics/a-level/further-mathematics-7367",
+          "type": "official"
+        },
+        {
+          "name": "Physics and Maths Tutor - Further Maths",
+          "url": "https://pmt.physicsandmathstutor.com/maths-revision/a-level/further-maths/",
+          "type": "pdf"
+        },
+        {
+          "name": "Edexcel A-Level Further Maths Specification",
+          "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/further-mathematics-2017.html",
+          "type": "official"
+        },
+        {
+          "name": "OCR MEI Further Maths Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/mathematics-b-h630-h640-from-2017/",
+          "type": "official"
+        },
+        {
+          "name": "STEP/MAT Preparation Resources",
+          "url": "https://www.admissionstesting.org/for-test-takers/step/preparing/",
+          "type": "pdf"
+        }
+      ]
+    },
+    {
+      "id": "psychology",
+      "name": "Psychology",
+      "icon": "brain",
+      "description": "Cognitive, developmental, social, biological, psychopathology and research methods.",
+      "summary": "AQA A-Level Psychology (7182) covers introductory topics (social influence, memory, attachment, psychopathology), psychology in context (approaches, biopsychology, research methods) and issues and options (issues and debates, plus three option topics from relationships, gender, cognition, schizophrenia, eating behaviour, stress, aggression, forensic psychology and addiction). Students develop scientific literacy, research methodology and extended writing skills.",
+      "difficulty": 3,
+      "hours": 300,
+      "topics": [
+        {
+          "title": "Cognitive Psychology",
+          "summary": "Models of memory, forgetting, eyewitness testimony, cognitive interview and reconstructive memory."
+        },
+        {
+          "title": "Developmental Psychology",
+          "summary": "Attachment theory, animal studies, deprivation, privation and the influence of early experience on later relationships."
+        },
+        {
+          "title": "Social Psychology",
+          "summary": "Conformity, obedience, resistance to social influence, minority influence and the role of social change."
+        },
+        {
+          "title": "Biological Psychology",
+          "summary": "The nervous system, neurons, synaptic transmission, endocrine system, localisation of function and biological rhythms."
+        },
+        {
+          "title": "Psychopathology",
+          "summary": "Definitions of abnormality, phobias, depression, OCD and explanations from behavioural, cognitive and biological perspectives."
+        },
+        {
+          "title": "Research Methods",
+          "summary": "Experimental design, sampling, data handling, statistical testing, ethics and practical research procedures."
+        },
+        {
+          "title": "Issues and Debates",
+          "summary": "Free will vs determinism, nature vs nurture, holism vs reductionism, idiographic vs nomothetic, ethical implications and controversies."
+        },
+        {
+          "title": "Applied Psychology",
+          "summary": "Optional topics such as schizophrenia, forensic psychology, addiction, relationships, stress and eating behaviour."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Psychology Specification (7182)",
+          "url": "https://www.aqa.org.uk/subjects/psychology/a-level/psychology-7181-7182",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize Psychology",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z2nygk7",
+          "type": "article"
+        },
+        {
+          "name": "Simply Psychology - A-Level Topics",
+          "url": "https://www.simplypsychology.org/",
+          "type": "article"
+        },
+        {
+          "name": "PsychBoost - A-Level Psychology",
+          "url": "https://www.psychboost.com/",
+          "type": "article"
+        },
+        {
+          "name": "Tutor2u Psychology Revision",
+          "url": "https://www.tutor2u.net/psychology/reference",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "sociology",
+      "name": "Sociology",
+      "icon": "users",
+      "description": "Education, families, crime, theory, research methods and media.",
+      "summary": "AQA A-Level Sociology (7192) explores the structure of society through education, families and households, beliefs in society, crime and deviance, theory and methods. Students develop a critical understanding of sociological perspectives (functionalism, Marxism, feminism, interactionism, postmodernism) and apply them to contemporary social issues. Assessment is through three 2-hour papers.",
+      "difficulty": 3,
+      "hours": 300,
+      "topics": [
+        {
+          "title": "Education",
+          "summary": "The role of education, differential achievement by class, gender and ethnicity, education policy and the relationship between schooling and capitalism."
+        },
+        {
+          "title": "Families and Households",
+          "summary": "Changing family structures, gender roles, childhood, demographic trends, divorce and family diversity in contemporary Britain."
+        },
+        {
+          "title": "Crime and Deviance",
+          "summary": "Theories of crime, social distribution of crime, globalisation, green crime, state crime, surveillance and crime prevention."
+        },
+        {
+          "title": "Sociological Theory",
+          "summary": "Functionalism, Marxism, feminism, symbolic interactionism, postmodernism and the debate over sociology as a science."
+        },
+        {
+          "title": "Research Methods",
+          "summary": "Quantitative and qualitative methods, questionnaires, interviews, observations, experiments, secondary data and ethical considerations."
+        },
+        {
+          "title": "Media",
+          "summary": "The new media, globalisation and popular culture, media representations of age, gender, ethnicity and class, and the process of selection and presentation of news."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Sociology Specification (7192)",
+          "url": "https://www.aqa.org.uk/subjects/sociology/a-level/sociology-7191-7192",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize Sociology",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z3d7hyc",
+          "type": "article"
+        },
+        {
+          "name": "Sociology Central - Revision Resources",
+          "url": "https://www.sociologycentral.co.uk/",
+          "type": "article"
+        },
+        {
+          "name": "Tutor2u Sociology",
+          "url": "https://www.tutor2u.net/sociology",
+          "type": "article"
+        },
+        {
+          "name": "Revise Sociology - A-Level Notes",
+          "url": "https://revisesociology.com/",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "business-studies",
+      "name": "Business Studies",
+      "icon": "briefcase",
+      "description": "Finance, marketing, operations, HR, strategy and the external environment.",
+      "summary": "AQA A-Level Business (7132) examines business decision-making across marketing, finance, operations and human resources. Students analyse real-world case studies, evaluate strategic choices, and understand the external environment including economic, legal, social and technological influences. A new specification (7138) for first teaching 2025 refines the structure into three focuses: What is Business, Managing Marketing and Finance; Managing Operations and People; and Business Strategy and the External Environment.",
+      "difficulty": 3,
+      "hours": 300,
+      "topics": [
+        {
+          "title": "Marketing",
+          "summary": "Market research, segmentation, targeting, positioning, the marketing mix, digital marketing, branding and international marketing."
+        },
+        {
+          "title": "Finance",
+          "summary": "Sources of finance, break-even analysis, cash flow, liquidity, profitability ratios, budgets, financial reporting and investment appraisal."
+        },
+        {
+          "title": "Operations Management",
+          "summary": "Efficiency, quality management, lean production, supply chain, inventory management, capacity utilisation and technology."
+        },
+        {
+          "title": "Human Resources",
+          "summary": "Organisational design, leadership, motivation theories, recruitment, training, employee wellbeing and managing business culture."
+        },
+        {
+          "title": "Strategy",
+          "summary": "SWOT analysis, Ansoff matrix, Porter's generic strategies, growth, globalisation, retrenchment, digital strategy and competitive positioning."
+        },
+        {
+          "title": "External Environment",
+          "summary": "PESTLE analysis, corporate social responsibility, ESG, legal, economic, social, technological and competitive influences on business."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Business Specification (7132)",
+          "url": "https://www.aqa.org.uk/subjects/business/a-level/business-7131-7132",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize Business",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zbgcwmn",
+          "type": "article"
+        },
+        {
+          "name": "Tutor2u A-Level Business",
+          "url": "https://www.tutor2u.net/business",
+          "type": "article"
+        },
+        {
+          "name": "AQA Business Topic Trackers",
+          "url": "https://www.tutor2u.net/business/reference/exam-paper-topic-tracker-for-aqa-a-level-business",
+          "type": "pdf"
+        },
+        {
+          "name": "Edexcel A-Level Business Specification",
+          "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/business-2015.html",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "art-design",
+      "name": "Art & Design",
+      "icon": "palette",
+      "description": "Fine art, graphic communication, photography, textiles and 3D design.",
+      "summary": "AQA A-Level Art and Design (7201-7206) offers specialisms including Fine Art, Graphic Communication, Photography, Textile Design, Three-Dimensional Design and Art, Craft and Design. Students develop practical and critical skills through a personal investigation (60%) supported by a written study of 1,000–3,000 words, and an externally set assignment (15 hours, 40%). The course emphasises independent thinking, experimentation and the development of a personal visual language.",
+      "difficulty": 3,
+      "hours": 300,
+      "topics": [
+        {
+          "title": "Fine Art",
+          "summary": "Drawing, painting, mixed media, sculpture, printmaking, moving image and photography as forms of personal expression."
+        },
+        {
+          "title": "Graphic Communication",
+          "summary": "Advertising, packaging, illustration, branding, interactive media, motion graphics and design for print and screen."
+        },
+        {
+          "title": "Photography",
+          "summary": "Portraiture, landscape, documentary, fashion, experimental imagery, digital and analogue processes, and photographic installation."
+        },
+        {
+          "title": "Textile Design",
+          "summary": "Fashion design, printed and dyed fabrics, constructed textiles, art textiles, digital textiles and interior design applications."
+        },
+        {
+          "title": "3D Design",
+          "summary": "Sculpture, ceramics, product design, architectural design, jewellery, exhibition design and environmental design."
+        },
+        {
+          "title": "Critical and Contextual Studies",
+          "summary": "Research into artists, designers and movements, analysis of visual culture, and the relationship between theory and practice."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Art and Design Specification",
+          "url": "https://www.aqa.org.uk/subjects/art-and-design/a-level/art-and-design-7201-7206",
+          "type": "official"
+        },
+        {
+          "name": "Tate - Art Resources for Students",
+          "url": "https://www.tate.org.uk/learn/online-resources",
+          "type": "article"
+        },
+        {
+          "name": "BBC Bitesize Art and Design",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z6hs34j",
+          "type": "article"
+        },
+        {
+          "name": "Student Art Guide - A-Level Art",
+          "url": "https://www.studentartguide.com/",
+          "type": "article"
+        },
+        {
+          "name": "OCR Art and Design Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/art-and-design-h200-h600-from-2015/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "politics",
+      "name": "Politics",
+      "icon": "landmark-dome",
+      "description": "UK politics, political ideas, global politics and comparative politics.",
+      "summary": "AQA A-Level Politics (7152) covers the government and politics of the UK, the government and politics of the USA with comparative analysis, and political ideas including liberalism, conservatism, socialism and an optional ideology (feminism, nationalism, multiculturalism, ecologism or anarchism). Students develop skills in analysing political information, constructing arguments and evaluating political institutions and behaviour.",
+      "difficulty": 3,
+      "hours": 300,
+      "topics": [
+        {
+          "title": "UK Politics",
+          "summary": "Democracy and participation, political parties, electoral systems, voting behaviour, the media and pressure groups."
+        },
+        {
+          "title": "UK Government",
+          "summary": "The constitution, Parliament, the Prime Minister and Cabinet, the judiciary, and relations between branches of government."
+        },
+        {
+          "title": "US Politics",
+          "summary": "The US Constitution, Congress, the Presidency, the Supreme Court, federalism, civil rights and the electoral process."
+        },
+        {
+          "title": "Comparative Politics",
+          "summary": "Comparing UK and US constitutional arrangements, executives, judiciaries, party systems, civil rights and pressure groups."
+        },
+        {
+          "title": "Political Ideas",
+          "summary": "Liberalism, conservatism, socialism, and one optional ideology such as feminism, nationalism, multiculturalism, ecologism or anarchism."
+        },
+        {
+          "title": "Global Politics",
+          "summary": "Globalisation, global governance, international organisations, human rights, environmental politics and theories of international relations."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Politics Specification (7152)",
+          "url": "https://www.aqa.org.uk/subjects/politics/a-level/politics-7152",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize Politics",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zbet7ty",
+          "type": "article"
+        },
+        {
+          "name": "UK Parliament - Education Resources",
+          "url": "https://www.parliament.uk/education/",
+          "type": "article"
+        },
+        {
+          "name": "Edexcel A-Level Politics Specification",
+          "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/politics-2017.html",
+          "type": "official"
+        },
+        {
+          "name": "OCR A-Level Politics Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/politics-h007-h407-from-2017/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "law",
+      "name": "Law",
+      "icon": "scale",
+      "description": "English legal system, criminal law, contract law and tort law.",
+      "summary": "AQA A-Level Law (7162) provides a comprehensive introduction to the English legal system, criminal law, tort law and either contract law or human rights. Students develop analytical and critical thinking skills, learn to apply legal rules to scenarios, and evaluate legal concepts and issues. Assessment is through three 2-hour papers combining multiple choice, short answer and extended writing.",
+      "difficulty": 3,
+      "hours": 300,
+      "topics": [
+        {
+          "title": "English Legal System",
+          "summary": "Civil and criminal courts, the judiciary, juries, magistrates, legal profession, sources of law and access to justice."
+        },
+        {
+          "title": "Criminal Law",
+          "summary": "Actus reus, mens rea, offences against the person (murder, manslaughter, assault), theft, robbery and defences."
+        },
+        {
+          "title": "Tort Law",
+          "summary": "Negligence, duty of care, breach, causation, occupiers' liability, nuisance, vicarious liability and remedies."
+        },
+        {
+          "title": "Contract Law",
+          "summary": "Formation, terms, vitiating factors, misrepresentation, duress, frustration, breach and remedies for breach of contract."
+        },
+        {
+          "title": "Human Rights",
+          "summary": "The European Convention on Human Rights, the Human Rights Act 1998, enforcement and restrictions on rights."
+        },
+        {
+          "title": "Nature of Law",
+          "summary": "Law and morality, law and justice, the rule of law, fault, balancing conflicting interests and the judiciary's role."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Law Specification (7162)",
+          "url": "https://www.aqa.org.uk/subjects/law/a-level/law-7162",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize Law",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zjdtmsg",
+          "type": "article"
+        },
+        {
+          "name": "The Student Room - A-Level Law",
+          "url": "https://www.thestudentroom.co.uk/a-level/law",
+          "type": "article"
+        },
+        {
+          "name": "OCR A-Level Law Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/law-h018-h418-from-2017/",
+          "type": "official"
+        },
+        {
+          "name": "Law Teacher - Case Summaries",
+          "url": "https://www.lawteacher.net/cases/",
+          "type": "article"
+        }
+      ]
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "icon": "music",
+      "description": "Performance, composition, analysis, listening and historical study.",
+      "summary": "AQA A-Level Music (7272) develops performing, composing and appraising skills. Students study works from the Western classical tradition, popular music and jazz, and music for media and theatre. The course includes solo and ensemble performance, free and brief-based composition, and analysis of set works through listening and written examination. Assessment includes coursework (40%) and a 2.5-hour written exam (40%).",
+      "difficulty": 3,
+      "hours": 300,
+      "topics": [
+        {
+          "title": "Performance",
+          "summary": "Solo and ensemble recital performance, interpretation, technical control, stylistic awareness and programme notes."
+        },
+        {
+          "title": "Composition",
+          "summary": "Free composition and composition to a brief, harmonic language, texture, structure, orchestration and notation."
+        },
+        {
+          "title": "Listening and Analysis",
+          "summary": "Aural perception, dictation, harmonic analysis, score reading and identification of musical features."
+        },
+        {
+          "title": "Western Classical Tradition",
+          "summary": "Set works from Baroque, Classical, Romantic and twentieth-century orchestral and choral repertoire."
+        },
+        {
+          "title": "Popular Music and Jazz",
+          "summary": "Study of popular music styles, jazz, blues, rock, pop and their social and cultural contexts."
+        },
+        {
+          "title": "Music for Media and Theatre",
+          "summary": "Film music, musical theatre, programme music and the relationship between music and dramatic narrative."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Music Specification (7272)",
+          "url": "https://www.aqa.org.uk/subjects/music/a-level/music-7272",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize Music",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zpf3cdm",
+          "type": "article"
+        },
+        {
+          "name": "ABRSM - Music Theory Resources",
+          "url": "https://www.abrsm.org/en/our-music/theory",
+          "type": "article"
+        },
+        {
+          "name": "OCR A-Level Music Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/music-h155-h555-from-2016/",
+          "type": "official"
+        },
+        {
+          "name": "Edexcel A-Level Music Specification",
+          "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/music-2016.html",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "drama-theatre",
+      "name": "Drama & Theatre",
+      "icon": "theater",
+      "description": "Devising, text performance, theatre makers and critical analysis.",
+      "summary": "AQA A-Level Drama and Theatre (7262) combines practical theatre-making with academic study. Students devise original work informed by a practitioner, perform extracts from published plays applying a different practitioner's methodology, and analyse live theatre and set texts in a written exam. Assessment includes practical performance (60%) and written examination (40%).",
+      "difficulty": 3,
+      "hours": 300,
+      "topics": [
+        {
+          "title": "Devising Theatre",
+          "summary": "Creating original performance from a stimulus, documenting the process in a working notebook and applying practitioner methodologies."
+        },
+        {
+          "title": "Text Performance",
+          "summary": "Performing key extracts from three different plays, interpreting character and applying theatrical techniques."
+        },
+        {
+          "title": "Theatre Makers",
+          "summary": "Studying the work and methodologies of influential practitioners such as Stanislavski, Brecht, Artaud, Boal and Brook."
+        },
+        {
+          "title": "Live Theatre Analysis",
+          "summary": "Evaluating acting, directing, design and the creative intentions of professional productions as an audience member."
+        },
+        {
+          "title": "Set Text Study",
+          "summary": "In-depth analysis of two set plays, exploring interpretation, staging, context and the relationship between text and performance."
+        },
+        {
+          "title": "Theatre Design",
+          "summary": "Lighting, sound, set and costume design, and how design elements contribute to meaning and theatrical effect."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Drama and Theatre Specification (7262)",
+          "url": "https://www.aqa.org.uk/subjects/drama/a-level/drama-7262",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize Drama",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zpkc87h",
+          "type": "article"
+        },
+        {
+          "name": "National Theatre - Learning Resources",
+          "url": "https://www.nationaltheatre.org.uk/learning/",
+          "type": "article"
+        },
+        {
+          "name": "Digital Theatre - Online Performances",
+          "url": "https://www.digitaltheatre.com/",
+          "type": "video"
+        },
+        {
+          "name": "OCR A-Level Drama and Theatre Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/drama-and-theatre-h059-h459-from-2016/",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "physical-education",
+      "name": "Physical Education",
+      "icon": "dumbbell",
+      "description": "Anatomy, physiology, biomechanics, psychology and sport in society.",
+      "summary": "AQA A-Level Physical Education (7582) combines scientific theory with practical performance. Students study applied anatomy and physiology, exercise physiology, biomechanics, skill acquisition, sport psychology, and sport in society and technology. Practical assessment requires performance or coaching in one approved activity, plus a written/verbal analysis of performance. Assessment is two 2-hour exams (35% each) and practical NEA (30%).",
+      "difficulty": 3,
+      "hours": 300,
+      "topics": [
+        {
+          "title": "Applied Anatomy and Physiology",
+          "summary": "Cardiovascular, respiratory, musculoskeletal and energy systems, and their adaptation to exercise."
+        },
+        {
+          "title": "Exercise Physiology",
+          "summary": "Training methods, fatigue, recovery, injury prevention, and the physiological effects of altitude and heat."
+        },
+        {
+          "title": "Biomechanics",
+          "summary": "Newton's laws, linear and angular motion, projectile motion, levers, stability and analysis of sporting movements."
+        },
+        {
+          "title": "Skill Acquisition",
+          "summary": "Theories of learning, stages of learning, feedback, guidance, practice structures and information processing models."
+        },
+        {
+          "title": "Sport Psychology",
+          "summary": "Personality, motivation, arousal, anxiety, aggression, group dynamics, leadership and goal setting."
+        },
+        {
+          "title": "Sport and Society",
+          "summary": "Commercialisation, media, ethics, deviance, discrimination, the role of technology and the development of sport."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level PE Specification (7582)",
+          "url": "https://www.aqa.org.uk/subjects/physical-education/a-level/physical-education-7582",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize Physical Education",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/znyb8d6",
+          "type": "article"
+        },
+        {
+          "name": "TeachPE - A-Level PE Resources",
+          "url": "https://www.teachpe.com/",
+          "type": "article"
+        },
+        {
+          "name": "OCR A-Level PE Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/physical-education-h155-h555-from-2016/",
+          "type": "official"
+        },
+        {
+          "name": "Edexcel A-Level PE Specification",
+          "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/physical-education-2016.html",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "spanish",
+      "name": "Spanish",
+      "icon": "languages",
+      "description": "Spanish language, literature, film and cultural studies.",
+      "summary": "AQA A-Level Spanish (7692) develops advanced linguistic competence across listening, reading, writing and speaking. Themes include social issues and trends, artistic culture, multiculturalism and political life in Hispanic society. Students study one literary text and one film, and complete an individual research project for the speaking exam. Translation tasks require translation into and out of Spanish.",
+      "difficulty": 3,
+      "hours": 300,
+      "topics": [
+        {
+          "title": "Grammar",
+          "summary": "Advanced tenses, subjunctive mood, pronoun agreement, relative clauses, passive voice, negation and complex sentence structures."
+        },
+        {
+          "title": "Listening",
+          "summary": "Comprehension of authentic spoken Spanish from news, interviews, lectures and everyday conversations in Hispanic contexts."
+        },
+        {
+          "title": "Speaking",
+          "summary": "Discussion, debate, stimulus-based conversation and an individual research project presentation on a chosen topic."
+        },
+        {
+          "title": "Reading",
+          "summary": "Literary texts, press articles, inferential comprehension and critical analysis of Spanish-language sources."
+        },
+        {
+          "title": "Writing",
+          "summary": "Essays on set texts and film, translation into Spanish, summary writing and argumentative composition."
+        },
+        {
+          "title": "Hispanic Culture",
+          "summary": "Spanish and Latin American society, film, literature, music, politics, regional identity and cultural heritage."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Spanish Specification (7692)",
+          "url": "https://www.aqa.org.uk/subjects/spanish/a-level/spanish-7692",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize Spanish",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9dqxnb",
+          "type": "article"
+        },
+        {
+          "name": "Radio France Internationale - Spanish Learning",
+          "url": "https://www.rfi.fr/es/aprender-espanol/",
+          "type": "article"
+        },
+        {
+          "name": "AQA Spanish A-Level Grammar Resources",
+          "url": "https://www.aqa.org.uk/resources/spanish/as-and-a-level/spanish-7692/grammar",
+          "type": "pdf"
+        },
+        {
+          "name": "Edexcel A-Level Spanish Specification",
+          "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/spanish-2016.html",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "german",
+      "name": "German",
+      "icon": "languages",
+      "description": "German language, literature, film and cultural studies.",
+      "summary": "AQA A-Level German (7662) develops advanced linguistic competence across listening, reading, writing and speaking. Themes include social issues and trends, artistic culture, multiculturalism and political life in German-speaking society. Students study one literary text and one film, and complete an individual research project for the speaking exam. Translation tasks require translation into and out of German.",
+      "difficulty": 3,
+      "hours": 300,
+      "topics": [
+        {
+          "title": "Grammar",
+          "summary": "Advanced tenses, subjunctive mood, case system, adjective endings, word order, passive voice and complex sentence structures."
+        },
+        {
+          "title": "Listening",
+          "summary": "Comprehension of authentic spoken German from news, interviews, lectures and everyday conversations in German-speaking contexts."
+        },
+        {
+          "title": "Speaking",
+          "summary": "Discussion, debate, stimulus-based conversation and an individual research project presentation on a chosen topic."
+        },
+        {
+          "title": "Reading",
+          "summary": "Literary texts, press articles, inferential comprehension and critical analysis of German-language sources."
+        },
+        {
+          "title": "Writing",
+          "summary": "Essays on set texts and film, translation into German, summary writing and argumentative composition."
+        },
+        {
+          "title": "German-speaking Culture",
+          "summary": "German and Austrian society, film, literature, music, politics, reunification, immigration and cultural heritage."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level German Specification (7662)",
+          "url": "https://www.aqa.org.uk/subjects/german/a-level/german-7662",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize German",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/z9dqxnb",
+          "type": "article"
+        },
+        {
+          "name": "Deutsche Welle - Learn German",
+          "url": "https://www.dw.com/en/learn-german/s-2469",
+          "type": "article"
+        },
+        {
+          "name": "Goethe-Institut - German Learning Resources",
+          "url": "https://www.goethe.de/en/spr/kup/prf/prf.html",
+          "type": "article"
+        },
+        {
+          "name": "Edexcel A-Level German Specification",
+          "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/german-2016.html",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "religious-studies",
+      "name": "Religious Studies",
+      "icon": "book-open",
+      "description": "Philosophy, ethics, developments in religious thought and Christian theology.",
+      "summary": "AQA A-Level Religious Studies (7062) combines Philosophy of Religion, Ethics and the Study of a Religion (typically Christianity). Students examine arguments for the existence of God, the problem of evil, religious language, ethical theories (natural law, virtue ethics, utilitarianism, situation ethics), and developments in Christian thought including gender, liberation theology, and the relationship between religion and science. Assessment is through two 3-hour papers.",
+      "difficulty": 3,
+      "hours": 300,
+      "topics": [
+        {
+          "title": "Philosophy of Religion",
+          "summary": "Arguments for God's existence, the problem of evil, religious experience, religious language, the nature of God and miracles."
+        },
+        {
+          "title": "Ethics",
+          "summary": "Natural moral law, virtue ethics, Kantian ethics, utilitarianism, situation ethics, euthanasia, business ethics and sexual ethics."
+        },
+        {
+          "title": "Developments in Christian Thought",
+          "summary": "Augustine's teachings, human nature, death and the afterlife, knowledge of God, the person of Jesus, Christian moral principles and action."
+        },
+        {
+          "title": "Religious Language",
+          "summary": "Verification and falsification, analogy, symbol, myth, the via negativa and Wittgenstein's language games."
+        },
+        {
+          "title": "Christianity and Society",
+          "summary": "Gender and society, gender and theology, secularism, liberation theology, Marxism and Christian responses to pluralism."
+        },
+        {
+          "title": "Religion and Science",
+          "summary": "Creation, cosmology, evolution, the environment, the value of the world and the relationship between scientific and religious worldviews."
+        }
+      ],
+      "resources": [
+        {
+          "name": "AQA A-Level Religious Studies Specification (7062)",
+          "url": "https://www.aqa.org.uk/subjects/religious-studies/a-level/religious-studies-7062",
+          "type": "official"
+        },
+        {
+          "name": "BBC Bitesize Religious Studies",
+          "url": "https://www.bbc.co.uk/bitesize/subjects/zbtsgk7",
+          "type": "article"
+        },
+        {
+          "name": "Philosophy of Religion - A-Level Notes",
+          "url": "https://www.philosophyofreligion.info/",
+          "type": "article"
+        },
+        {
+          "name": "OCR A-Level Religious Studies Specification",
+          "url": "https://www.ocr.org.uk/qualifications/as-and-a-level/religious-studies-h173-h573-from-2016/",
+          "type": "official"
+        },
+        {
+          "name": "Edexcel A-Level Religious Studies Specification",
+          "url": "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/religious-studies-2016.html",
+          "type": "official"
+        }
       ]
     }
   ]
