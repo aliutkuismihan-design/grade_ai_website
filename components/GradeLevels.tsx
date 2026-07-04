@@ -56,10 +56,10 @@ export default function GradeLevels() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
-              className="group flex gap-5 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition hover:-translate-y-0.5 hover:border-white/20 hover:bg-white/[0.06]"
+              className="group flex flex-col gap-4 overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition hover:-translate-y-0.5 hover:border-white/20 hover:bg-white/[0.06] sm:flex-row sm:gap-5"
             >
               {/* color bar */}
-              <span className="w-1.5 flex-none rounded-full" style={{ backgroundColor: color }} />
+              <span className="h-1.5 w-full rounded-full sm:h-auto sm:w-1.5 sm:rounded-full" style={{ backgroundColor: color }} />
 
               <div
                 className="grid h-12 w-12 flex-none place-items-center rounded-xl"
@@ -95,9 +95,9 @@ export default function GradeLevels() {
                 </div>
               </div>
 
-              <div className="flex flex-none flex-col items-center justify-center">
+              <div className="flex flex-none flex-row items-center gap-3 sm:flex-col sm:justify-center sm:gap-0">
                 <ComplexityRing level={i + 1} color={color} />
-                <span className="mt-1 text-[10px] uppercase tracking-wide text-slate-500">
+                <span className="text-[10px] uppercase tracking-wide text-slate-500 sm:mt-1">
                   {t('complexity')}
                 </span>
               </div>

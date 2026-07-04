@@ -1,9 +1,10 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { type Locale } from '@/i18n/config';
+import AdSenseScript from '@/components/AdSenseScript';
 import '../globals.css';
 
 export const metadata: Metadata = {
@@ -16,6 +17,12 @@ export const metadata: Metadata = {
     description: 'AI-powered exam grading for teachers.',
     type: 'website',
   },
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#0f172a',
 };
 
 export function generateStaticParams() {
@@ -33,14 +40,13 @@ export default async function LocaleLayout({
     notFound();
   }
 
-  // Enable static rendering for this locale.
   setRequestLocale(locale);
-
   const messages = await getMessages();
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <body className="bg-aurora-bg text-slate-200 antialiased">
+      <body className="bg-aurora-bg text-slate-200 antialiased overflow-x-hidden">
+        <AdSenseScript />
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
