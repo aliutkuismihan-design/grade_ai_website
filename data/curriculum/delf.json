@@ -1,0 +1,62 @@
+{
+  "examSystem": "DELF",
+  "locale": "fr",
+  "subjects": [
+    {
+      "id": "delf-a1",
+      "name": "A1 — Découverte",
+      "icon": "languages",
+      "description": "Utilisateur débutant",
+      "topics": [
+        { "title": "Grammaire", "summary": "Présent des verbes courants, articles définis/indéfinis et pronoms personnels." },
+        { "title": "Vocabulaire", "summary": "Se présenter, la famille, les nombres et le quotidien." },
+        { "title": "Compréhension orale", "summary": "Comprendre des consignes simples et des dialogues très lents." },
+        { "title": "Compréhension écrite", "summary": "Lire des annonces, panneaux et messages courts." },
+        { "title": "Expression orale", "summary": "Répondre à des questions personnelles simples." },
+        { "title": "Expression écrite", "summary": "Remplir un formulaire et écrire une carte postale." }
+      ]
+    },
+    {
+      "id": "delf-a2",
+      "name": "A2 — Survie",
+      "icon": "languages",
+      "description": "Utilisateur élémentaire",
+      "topics": [
+        { "title": "Grammaire", "summary": "Passé composé, futur proche et adjectifs possessifs." },
+        { "title": "Vocabulaire", "summary": "Les loisirs, la ville, la nourriture et les achats." },
+        { "title": "Compréhension orale", "summary": "Comprendre des messages et annonces de la vie quotidienne." },
+        { "title": "Compréhension écrite", "summary": "Lire des courriels et des textes informatifs courts." },
+        { "title": "Expression orale", "summary": "Décrire des habitudes et raconter un événement passé." },
+        { "title": "Expression écrite", "summary": "Écrire une lettre amicale et une invitation." }
+      ]
+    },
+    {
+      "id": "delf-b1",
+      "name": "B1 — Seuil",
+      "icon": "languages",
+      "description": "Utilisateur indépendant",
+      "topics": [
+        { "title": "Grammaire", "summary": "Imparfait, conditionnel et pronoms relatifs." },
+        { "title": "Vocabulaire", "summary": "Le travail, les études, la santé et les médias." },
+        { "title": "Compréhension orale", "summary": "Suivre une conversation et une émission sur un sujet familier." },
+        { "title": "Compréhension écrite", "summary": "Comprendre des articles et exprimer le point de vue de l'auteur." },
+        { "title": "Expression orale", "summary": "Donner son opinion et argumenter dans un monologue suivi." },
+        { "title": "Expression écrite", "summary": "Rédiger un essai personnel exprimant une opinion." }
+      ]
+    },
+    {
+      "id": "delf-b2",
+      "name": "B2 — Avancé",
+      "icon": "languages",
+      "description": "Utilisateur indépendant avancé",
+      "topics": [
+        { "title": "Grammaire", "summary": "Subjonctif, discours indirect et connecteurs logiques." },
+        { "title": "Vocabulaire", "summary": "Société, environnement, culture et vie professionnelle." },
+        { "title": "Compréhension orale", "summary": "Comprendre des débats, conférences et documents complexes." },
+        { "title": "Compréhension écrite", "summary": "Analyser des textes argumentatifs et en dégager la thèse." },
+        { "title": "Expression orale", "summary": "Défendre un point de vue et débattre de façon structurée." },
+        { "title": "Expression écrite", "summary": "Rédiger une lettre formelle ou un essai argumenté." }
+      ]
+    }
+  ]
+}

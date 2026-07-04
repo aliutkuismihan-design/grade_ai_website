@@ -1,6 +1,7 @@
 {
   "nav": {
     "features": "Features",
+    "curriculum": "Curriculum",
     "security": "Security",
     "how": "How it works",
     "levels": "Grade Levels",
@@ -131,6 +132,17 @@
     "appStore": "App Store",
     "googlePlay": "Google Play",
     "windows": "Windows"
+  },
+  "curriculum": {
+    "title": "Curriculum Hub",
+    "subtitle": "Free topic summaries across major exam systems — study smarter with GradeAI.",
+    "intro": "Browse subjects and topic-by-topic summaries for each exam system. GradeAI grades student answers against these curricula automatically.",
+    "subjects": "subjects",
+    "topics": "topics",
+    "advertisement": "Advertisement",
+    "adPlaceholder": "Ad space",
+    "home": "Home",
+    "cta": "Grade these subjects with AI"
   },
   "footer": {
     "tagline": "AI exam grading for teachers.",

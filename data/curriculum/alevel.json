@@ -1,0 +1,146 @@
+{
+  "examSystem": "A-Level",
+  "locale": "en",
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "icon": "calculator",
+      "description": "Pure, mechanics and statistics",
+      "topics": [
+        { "title": "Algebra & Functions", "summary": "Indices, surds, quadratics, partial fractions and transformations of graphs." },
+        { "title": "Differentiation", "summary": "Rates of change, chain/product/quotient rules and stationary points." },
+        { "title": "Integration", "summary": "Definite and indefinite integrals, areas under curves and by substitution." },
+        { "title": "Trigonometry", "summary": "Identities, radian measure and solving trigonometric equations." },
+        { "title": "Mechanics", "summary": "Kinematics, forces, Newton's laws and moments." },
+        { "title": "Statistics", "summary": "Probability distributions, hypothesis testing and correlation." }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "icon": "atom",
+      "description": "Mechanics, fields and quantum",
+      "topics": [
+        { "title": "Mechanics", "summary": "Motion, momentum, energy and equilibrium of forces." },
+        { "title": "Electricity", "summary": "Current, potential difference, resistance and circuits." },
+        { "title": "Waves", "summary": "Superposition, interference, diffraction and the photoelectric effect." },
+        { "title": "Fields", "summary": "Gravitational, electric and magnetic fields." },
+        { "title": "Nuclear Physics", "summary": "Radioactivity, decay and mass–energy equivalence." },
+        { "title": "Thermal Physics", "summary": "Internal energy, ideal gases and specific heat capacity." }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "icon": "flask",
+      "description": "Physical, inorganic and organic",
+      "topics": [
+        { "title": "Atomic Structure", "summary": "Electron configuration, ionisation energy and mass spectrometry." },
+        { "title": "Bonding", "summary": "Ionic, covalent and metallic bonding and molecular shapes." },
+        { "title": "Energetics", "summary": "Enthalpy changes, Hess's law and bond enthalpies." },
+        { "title": "Kinetics & Equilibria", "summary": "Rates of reaction, Le Chatelier's principle and Kc." },
+        { "title": "Organic Chemistry", "summary": "Functional groups, mechanisms and isomerism." },
+        { "title": "Analysis", "summary": "Spectroscopy, chromatography and identifying ions." }
+      ]
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "icon": "dna",
+      "description": "Cells, systems and genetics",
+      "topics": [
+        { "title": "Biological Molecules", "summary": "Carbohydrates, lipids, proteins and enzymes." },
+        { "title": "Cells", "summary": "Ultrastructure, transport across membranes and the cell cycle." },
+        { "title": "Genetics", "summary": "DNA, inheritance, mutations and gene expression." },
+        { "title": "Exchange & Transport", "summary": "Gas exchange, circulation and mass transport systems." },
+        { "title": "Ecology", "summary": "Ecosystems, populations, succession and nutrient cycles." },
+        { "title": "Homeostasis", "summary": "Nervous and hormonal control and feedback mechanisms." }
+      ]
+    },
+    {
+      "id": "english-literature",
+      "name": "English Literature",
+      "icon": "book",
+      "description": "Prose, poetry and drama",
+      "topics": [
+        { "title": "Poetry Analysis", "summary": "Form, meter, imagery and comparative reading of poems." },
+        { "title": "Prose", "summary": "Narrative voice, structure and thematic development in novels." },
+        { "title": "Drama", "summary": "Dramatic method, character and staging in plays." },
+        { "title": "Shakespeare", "summary": "Close reading of a set play with critical interpretations." },
+        { "title": "Critical Theory", "summary": "Applying feminist, Marxist and post-colonial lenses." },
+        { "title": "Contexts", "summary": "Historical, social and literary contexts of texts." }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "icon": "landmark",
+      "description": "Modern and early modern",
+      "topics": [
+        { "title": "Sources & Evidence", "summary": "Evaluating reliability, provenance and utility of sources." },
+        { "title": "Tudor England", "summary": "Religious change, government and rebellion." },
+        { "title": "Industrial Revolution", "summary": "Economic and social change in 18th–19th century Britain." },
+        { "title": "World Wars", "summary": "Causes, course and consequences of the World Wars." },
+        { "title": "Cold War", "summary": "Superpower tension, crises and détente." },
+        { "title": "Coursework Skills", "summary": "Constructing arguments and using historiography." }
+      ]
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "icon": "globe",
+      "description": "Physical and human geography",
+      "topics": [
+        { "title": "Water & Carbon Cycles", "summary": "Systems, stores, flows and human impacts." },
+        { "title": "Coastal Landscapes", "summary": "Erosion, deposition, landforms and management." },
+        { "title": "Hazards", "summary": "Tectonic and atmospheric hazards and responses." },
+        { "title": "Globalisation", "summary": "Trade, TNCs and global interdependence." },
+        { "title": "Urban Environments", "summary": "Urbanisation, regeneration and sustainability." },
+        { "title": "Fieldwork", "summary": "Data collection, presentation and independent investigation." }
+      ]
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "icon": "trending-up",
+      "description": "Micro and macroeconomics",
+      "topics": [
+        { "title": "Supply & Demand", "summary": "Price mechanism, elasticity and market equilibrium." },
+        { "title": "Market Failure", "summary": "Externalities, public goods and government intervention." },
+        { "title": "National Income", "summary": "GDP, the circular flow and aggregate demand/supply." },
+        { "title": "Inflation & Unemployment", "summary": "Causes, measurement and policy trade-offs." },
+        { "title": "International Trade", "summary": "Comparative advantage, exchange rates and the balance of payments." },
+        { "title": "Fiscal & Monetary Policy", "summary": "Government spending, taxation and interest rates." }
+      ]
+    },
+    {
+      "id": "computer-science",
+      "name": "Computer Science",
+      "icon": "code",
+      "description": "Programming and theory",
+      "topics": [
+        { "title": "Programming", "summary": "Data types, control structures, functions and OOP." },
+        { "title": "Data Structures", "summary": "Arrays, stacks, queues, trees and hash tables." },
+        { "title": "Algorithms", "summary": "Searching, sorting and Big-O complexity." },
+        { "title": "Computer Systems", "summary": "CPU architecture, memory and the fetch–execute cycle." },
+        { "title": "Networks", "summary": "Protocols, the TCP/IP stack and security." },
+        { "title": "Databases", "summary": "Relational models, normalisation and SQL." }
+      ]
+    },
+    {
+      "id": "french",
+      "name": "French",
+      "icon": "languages",
+      "description": "Language and culture",
+      "topics": [
+        { "title": "Grammar", "summary": "Tenses, subjunctive mood and pronoun agreement." },
+        { "title": "Listening", "summary": "Comprehension of authentic spoken French." },
+        { "title": "Speaking", "summary": "Discussion, debate and stimulus-based conversation." },
+        { "title": "Reading", "summary": "Literary texts, articles and inference." },
+        { "title": "Writing", "summary": "Essays on set texts and translation into French." },
+        { "title": "Culture", "summary": "Francophone society, film and literature." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "examSystem": "Cambridge IGCSE",
+  "locale": "en",
+  "subjects": [
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "icon": "calculator",
+      "description": "Number, algebra and geometry",
+      "topics": [
+        { "title": "Number", "summary": "Fractions, percentages, ratio, standard form and bounds." },
+        { "title": "Algebra", "summary": "Expressions, linear/quadratic equations and inequalities." },
+        { "title": "Geometry", "summary": "Angles, similarity, congruence and circle theorems." },
+        { "title": "Trigonometry", "summary": "Pythagoras, sine/cosine rules and bearings." },
+        { "title": "Statistics", "summary": "Averages, charts, cumulative frequency and probability." }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "icon": "atom",
+      "description": "Forces, energy and electricity",
+      "topics": [
+        { "title": "Motion & Forces", "summary": "Speed, acceleration, Newton's laws and momentum." },
+        { "title": "Energy", "summary": "Work, power, energy stores and efficiency." },
+        { "title": "Waves", "summary": "Sound, light, reflection and refraction." },
+        { "title": "Electricity", "summary": "Circuits, current, voltage and resistance." },
+        { "title": "Magnetism", "summary": "Magnetic fields, electromagnets and induction." },
+        { "title": "Nuclear", "summary": "Atomic structure and radioactivity." }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "icon": "flask",
+      "description": "Atoms, reactions and organic",
+      "topics": [
+        { "title": "Atoms & Bonding", "summary": "Atomic structure, ionic and covalent bonding." },
+        { "title": "Stoichiometry", "summary": "Moles, formulae and reacting masses." },
+        { "title": "Acids & Bases", "summary": "pH, neutralisation and salt preparation." },
+        { "title": "Electrolysis", "summary": "Electrolysis of molten and aqueous compounds." },
+        { "title": "Organic", "summary": "Alkanes, alkenes, alcohols and polymers." },
+        { "title": "Rates & Energy", "summary": "Reaction rates and exothermic/endothermic changes." }
+      ]
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "icon": "dna",
+      "description": "Cells, organisms and ecology",
+      "topics": [
+        { "title": "Cells", "summary": "Cell structure, diffusion, osmosis and active transport." },
+        { "title": "Human Systems", "summary": "Digestion, circulation, respiration and coordination." },
+        { "title": "Plants", "summary": "Photosynthesis, transport and transpiration." },
+        { "title": "Genetics", "summary": "Chromosomes, inheritance and variation." },
+        { "title": "Ecology", "summary": "Food chains, cycles and human impact." }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "English",
+      "icon": "book",
+      "description": "Reading and writing skills",
+      "topics": [
+        { "title": "Reading Comprehension", "summary": "Explicit and implicit meaning and summary skills." },
+        { "title": "Directed Writing", "summary": "Letters, reports and speeches for a purpose." },
+        { "title": "Descriptive Writing", "summary": "Imagery, structure and vocabulary for effect." },
+        { "title": "Narrative Writing", "summary": "Plot, characterisation and tension." },
+        { "title": "Language Analysis", "summary": "Tone, register and rhetorical devices." }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "icon": "landmark",
+      "description": "Modern world history",
+      "topics": [
+        { "title": "Source Skills", "summary": "Interpreting and evaluating historical sources." },
+        { "title": "WWI & WWII", "summary": "Causes, events and consequences of the World Wars." },
+        { "title": "Cold War", "summary": "Origins, crises and superpower rivalry." },
+        { "title": "League & UN", "summary": "International peacekeeping successes and failures." },
+        { "title": "Depth Study", "summary": "In-depth study of a country or period." }
+      ]
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "icon": "globe",
+      "description": "Physical and human themes",
+      "topics": [
+        { "title": "Population", "summary": "Growth, migration and settlement patterns." },
+        { "title": "Landforms", "summary": "Rivers, coasts and tectonic processes." },
+        { "title": "Weather & Climate", "summary": "Climate types, ecosystems and measurement." },
+        { "title": "Economic Development", "summary": "Agriculture, industry and tourism." },
+        { "title": "Fieldwork", "summary": "Data collection and geographical enquiry." }
+      ]
+    },
+    {
+      "id": "computer-science",
+      "name": "Computer Science",
+      "icon": "code",
+      "description": "Theory and programming",
+      "topics": [
+        { "title": "Data Representation", "summary": "Binary, hexadecimal and data storage units." },
+        { "title": "Hardware & Software", "summary": "Components, memory and operating systems." },
+        { "title": "Networks", "summary": "Network types, topologies and security." },
+        { "title": "Algorithms", "summary": "Pseudocode, flowcharts and problem solving." },
+        { "title": "Programming", "summary": "Variables, loops, conditionals and arrays." }
+      ]
+    },
+    {
+      "id": "french",
+      "name": "French",
+      "icon": "languages",
+      "description": "Foreign language French",
+      "topics": [
+        { "title": "Listening", "summary": "Understanding spoken French on familiar topics." },
+        { "title": "Reading", "summary": "Comprehending texts and extracting information." },
+        { "title": "Speaking", "summary": "Role-play, conversation and presentation." },
+        { "title": "Writing", "summary": "Structured writing with accurate grammar." },
+        { "title": "Grammar", "summary": "Tenses, agreement and sentence structure." }
+      ]
+    },
+    {
+      "id": "spanish",
+      "name": "Spanish",
+      "icon": "languages",
+      "description": "Foreign language Spanish",
+      "topics": [
+        { "title": "Listening", "summary": "Understanding spoken Spanish on everyday topics." },
+        { "title": "Reading", "summary": "Comprehending texts and inferring meaning." },
+        { "title": "Speaking", "summary": "Conversation, role-play and description." },
+        { "title": "Writing", "summary": "Messages, emails and short essays." },
+        { "title": "Grammar", "summary": "Verb tenses, ser/estar and adjective agreement." }
+      ]
+    }
+  ]
+}

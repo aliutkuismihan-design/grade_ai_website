@@ -1,0 +1,99 @@
+{
+  "examSystem": "MEB (EÖS)",
+  "locale": "tr",
+  "subjects": [
+    {
+      "id": "matematik",
+      "name": "Matematik",
+      "icon": "calculator",
+      "description": "Ortaokul matematik konuları",
+      "topics": [
+        { "title": "Çarpanlar ve Katlar", "summary": "Asal çarpanlar, EBOB ve EKOK hesapları." },
+        { "title": "Tam Sayılar", "summary": "Tam sayılarla dört işlem ve sıralama." },
+        { "title": "Cebirsel İfadeler", "summary": "Değişken, terim ve özdeşlikler." },
+        { "title": "Oran–Orantı", "summary": "Doğru ve ters orantı problemleri." },
+        { "title": "Geometrik Cisimler", "summary": "Prizma, silindir ve alan–hacim hesapları." },
+        { "title": "Veri Analizi", "summary": "Ortalama, tablo ve grafik yorumu." }
+      ]
+    },
+    {
+      "id": "fen",
+      "name": "Fen Bilimleri",
+      "icon": "atom",
+      "description": "Fen bilimleri konuları",
+      "topics": [
+        { "title": "Kuvvet ve Hareket", "summary": "Sürat, kuvvet ve basit makineler." },
+        { "title": "Madde ve Isı", "summary": "Maddenin halleri, ısı ve sıcaklık." },
+        { "title": "Işık ve Ses", "summary": "Işığın yayılması, yansıma ve sesin özellikleri." },
+        { "title": "Canlılar ve Yaşam", "summary": "Hücre, sistemler ve kalıtım." },
+        { "title": "Elektrik", "summary": "Basit devreler ve elektrik enerjisi." },
+        { "title": "Dünya ve Evren", "summary": "Güneş sistemi ve mevsimler." }
+      ]
+    },
+    {
+      "id": "sosyal",
+      "name": "Sosyal Bilgiler",
+      "icon": "globe",
+      "description": "Sosyal bilgiler konuları",
+      "topics": [
+        { "title": "Birey ve Toplum", "summary": "Roller, haklar ve sorumluluklar." },
+        { "title": "Kültür ve Miras", "summary": "Tarihî olaylar ve kültürel değerler." },
+        { "title": "İnsanlar, Yerler ve Çevreler", "summary": "Harita bilgisi, iklim ve yeryüzü şekilleri." },
+        { "title": "Bilim, Teknoloji ve Toplum", "summary": "Buluşların topluma etkileri." },
+        { "title": "Üretim, Dağıtım ve Tüketim", "summary": "Ekonomik faaliyetler ve kaynaklar." }
+      ]
+    },
+    {
+      "id": "turkce",
+      "name": "Türkçe",
+      "icon": "book",
+      "description": "Türkçe dil becerileri",
+      "topics": [
+        { "title": "Okuduğunu Anlama", "summary": "Ana fikir, yardımcı fikir ve çıkarım." },
+        { "title": "Sözcükte Anlam", "summary": "Gerçek, mecaz anlam ve deyimler." },
+        { "title": "Cümle Bilgisi", "summary": "Cümlenin ögeleri ve cümle türleri." },
+        { "title": "Yazım ve Noktalama", "summary": "Yazım kuralları ve noktalama işaretleri." },
+        { "title": "Metin Türleri", "summary": "Bilgilendirici, öyküleyici ve şiir." }
+      ]
+    },
+    {
+      "id": "ingilizce",
+      "name": "İngilizce",
+      "icon": "languages",
+      "description": "Yabancı dil İngilizce",
+      "topics": [
+        { "title": "Daily Routines", "summary": "Günlük eylemleri anlatan basit cümleler." },
+        { "title": "Vocabulary", "summary": "Temel sözcük grupları ve kalıplar." },
+        { "title": "Reading", "summary": "Kısa metin anlama ve eşleştirme." },
+        { "title": "Listening", "summary": "Basit diyalogları dinleyip anlama." },
+        { "title": "Grammar", "summary": "Present simple ve temel yapılar." }
+      ]
+    },
+    {
+      "id": "din",
+      "name": "Din Kültürü",
+      "icon": "book-marked",
+      "description": "Din kültürü ve ahlak bilgisi",
+      "topics": [
+        { "title": "İbadet", "summary": "Temel ibadetler ve anlamları." },
+        { "title": "Ahlak", "summary": "İyi davranışlar ve değerler." },
+        { "title": "Kur'an ve Yorum", "summary": "Temel kavramlar ve sureler." },
+        { "title": "Hz. Muhammed", "summary": "Peygamberin hayatı ve örnek davranışları." },
+        { "title": "Din ve Kültür", "summary": "Dinin kültür üzerindeki etkileri." }
+      ]
+    },
+    {
+      "id": "trafik",
+      "name": "Trafik",
+      "icon": "car",
+      "description": "Trafik güvenliği",
+      "topics": [
+        { "title": "Trafik İşaretleri", "summary": "Uyarı, yasak ve bilgi işaretleri." },
+        { "title": "Yaya Güvenliği", "summary": "Güvenli yürüme ve karşıdan karşıya geçme." },
+        { "title": "Güvenli Yolculuk", "summary": "Emniyet kemeri ve araç içi kurallar." },
+        { "title": "İlk Yardım", "summary": "Temel ilk yardım bilgisi." },
+        { "title": "Ulaşım Araçları", "summary": "Ulaşım türleri ve kuralları." }
+      ]
+    }
+  ]
+}

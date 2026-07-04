@@ -1,6 +1,7 @@
 {
   "nav": {
     "features": "Fonctionnalités",
+    "curriculum": "Programmes",
     "security": "Sécurité",
     "how": "Comment ça marche",
     "levels": "Niveaux",
@@ -131,6 +132,17 @@
     "appStore": "App Store",
     "googlePlay": "Google Play",
     "windows": "Windows"
+  },
+  "curriculum": {
+    "title": "Pôle Programmes",
+    "subtitle": "Résumés de thèmes gratuits pour les grands examens — révisez mieux avec GradeAI.",
+    "intro": "Parcourez les matières et les résumés thème par thème de chaque système d'examen. GradeAI corrige les réponses selon ces programmes automatiquement.",
+    "subjects": "matières",
+    "topics": "thèmes",
+    "advertisement": "Publicité",
+    "adPlaceholder": "Espace publicitaire",
+    "home": "Accueil",
+    "cta": "Corriger ces matières avec l'IA"
   },
   "footer": {
     "tagline": "Correction d'examens par IA pour enseignants.",

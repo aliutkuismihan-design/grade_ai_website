@@ -1,0 +1,157 @@
+{
+  "examSystem": "YKS",
+  "locale": "tr",
+  "subjects": [
+    {
+      "id": "math-tyt",
+      "name": "Matematik (TYT)",
+      "icon": "calculator",
+      "description": "Temel düzey matematik konuları",
+      "topics": [
+        { "title": "Sayı Basamakları", "summary": "Bir sayının basamak değerleri ve çözümlenmesi; ardışık ve çift/tek sayılarla kurulan denklemler." },
+        { "title": "Bölme ve Bölünebilme", "summary": "Kalanlı bölme, bölünebilme kuralları (2, 3, 4, 5, 9, 11) ve EBOB–EKOK ilişkileri." },
+        { "title": "Rasyonel Sayılar", "summary": "Kesirlerde dört işlem, sıralama ve ondalık gösterim dönüşümleri." },
+        { "title": "Üslü ve Köklü İfadeler", "summary": "Üs kuralları, köklü ifadelerde sadeleştirme ve paydayı rasyonelleştirme." },
+        { "title": "Oran ve Orantı", "summary": "Doğru ve ters orantı, orantı özellikleri ve karışım problemleri." },
+        { "title": "Problemler", "summary": "Yaş, işçi–havuz, yüzde, kâr–zarar ve hareket problemlerinin kurulumu." },
+        { "title": "Kümeler ve Mantık", "summary": "Küme işlemleri, Venn şemaları ve önerme–bileşik önerme doğruluk değerleri." }
+      ]
+    },
+    {
+      "id": "math-ayt",
+      "name": "Matematik (AYT)",
+      "icon": "calculator",
+      "description": "İleri düzey matematik konuları",
+      "topics": [
+        { "title": "Fonksiyonlar", "summary": "Tanım–değer kümesi, bileşke ve ters fonksiyon, tek–çift fonksiyonlar." },
+        { "title": "Polinomlar", "summary": "Polinomlarda işlemler, bölme, kalan ve çarpanlara ayırma." },
+        { "title": "Limit ve Süreklilik", "summary": "Bir noktada limit, soldan–sağdan limit ve süreklilik koşulları." },
+        { "title": "Türev", "summary": "Fonksiyonun anlık değişim oranı, temel türev kuralları, zincir kuralı ve ekstremum." },
+        { "title": "İntegral", "summary": "Belirsiz–belirli integral, alan hesabı ve temel integral kuralları." },
+        { "title": "Trigonometri", "summary": "Birim çember, trigonometrik oranlar, toplam–fark ve dönüşüm formülleri." },
+        { "title": "Logaritma", "summary": "Logaritmanın tanımı, özellikleri ve logaritmik denklemler." }
+      ]
+    },
+    {
+      "id": "physics",
+      "name": "Fizik",
+      "icon": "atom",
+      "description": "Fizik konuları (TYT–AYT)",
+      "topics": [
+        { "title": "Kuvvet ve Hareket", "summary": "Newton yasaları, ivme, sürtünme ve serbest cisim diyagramları." },
+        { "title": "Enerji ve İş", "summary": "İş–enerji teoremi, kinetik ve potansiyel enerji, enerjinin korunumu." },
+        { "title": "Elektrik ve Manyetizma", "summary": "Elektrik yükü, akım, Ohm yasası ve manyetik alanın etkileri." },
+        { "title": "Dalgalar ve Optik", "summary": "Dalga özellikleri, ışığın yansıma–kırılması ve mercekler." },
+        { "title": "Isı ve Sıcaklık", "summary": "Isı alışverişi, hâl değişimi ve genleşme." },
+        { "title": "Basınç ve Kaldırma", "summary": "Katı–sıvı–gaz basıncı ve Arşimet ilkesi." }
+      ]
+    },
+    {
+      "id": "chemistry",
+      "name": "Kimya",
+      "icon": "flask",
+      "description": "Kimya konuları (TYT–AYT)",
+      "topics": [
+        { "title": "Atom ve Periyodik Sistem", "summary": "Atomun yapısı, elektron dizilimi ve periyodik özellikler." },
+        { "title": "Kimyasal Türler Arası Etkileşim", "summary": "İyonik, kovalent bağlar ve moleküller arası kuvvetler." },
+        { "title": "Maddenin Halleri", "summary": "Katı, sıvı, gaz özellikleri ve gaz yasaları." },
+        { "title": "Asitler, Bazlar ve Tuzlar", "summary": "pH kavramı, nötrleşme ve tuz oluşumu." },
+        { "title": "Kimyasal Tepkimeler", "summary": "Tepkime denkleştirme, mol kavramı ve stokiyometri." },
+        { "title": "Karışımlar", "summary": "Homojen–heterojen karışımlar ve ayırma yöntemleri." }
+      ]
+    },
+    {
+      "id": "biology",
+      "name": "Biyoloji",
+      "icon": "dna",
+      "description": "Biyoloji konuları (TYT–AYT)",
+      "topics": [
+        { "title": "Hücre", "summary": "Hücre organelleri, prokaryot–ökaryot farkları ve zardan madde geçişi." },
+        { "title": "Canlıların Sınıflandırılması", "summary": "Âlemler ve canlıların ortak özellikleri." },
+        { "title": "Kalıtım", "summary": "Mendel yasaları, çaprazlama ve kan grupları." },
+        { "title": "Ekosistem", "summary": "Besin zinciri, madde döngüleri ve enerji akışı." },
+        { "title": "Sistemler", "summary": "Sindirim, dolaşım, solunum ve boşaltım sistemlerinin işleyişi." },
+        { "title": "Fotosentez ve Solunum", "summary": "Fotosentez ve hücresel solunumun temel aşamaları." }
+      ]
+    },
+    {
+      "id": "turkish",
+      "name": "Türkçe",
+      "icon": "book",
+      "description": "Dil ve anlam bilgisi",
+      "topics": [
+        { "title": "Sözcükte Anlam", "summary": "Gerçek, mecaz ve terim anlam; deyim ve atasözleri." },
+        { "title": "Cümlede Anlam", "summary": "Neden–sonuç, amaç–sonuç ve koşul ilişkileri." },
+        { "title": "Paragraf", "summary": "Ana düşünce, yardımcı düşünce ve paragraf yapısı." },
+        { "title": "Ses Bilgisi", "summary": "Ünlü–ünsüz uyumları ve ses olayları." },
+        { "title": "Yazım ve Noktalama", "summary": "Yazım kuralları ve noktalama işaretlerinin kullanımı." },
+        { "title": "Cümlenin Ögeleri", "summary": "Özne, yüklem, nesne ve tümleçlerin belirlenmesi." }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "Tarih",
+      "icon": "landmark",
+      "description": "Tarih konuları",
+      "topics": [
+        { "title": "İlk Uygarlıklar", "summary": "Mezopotamya, Anadolu ve İlk Çağ uygarlıkları." },
+        { "title": "İslam Tarihi", "summary": "İslamiyet'in doğuşu ve ilk İslam devletleri." },
+        { "title": "Türk–İslam Devletleri", "summary": "Karahanlı, Gazneli ve Selçuklu dönemleri." },
+        { "title": "Osmanlı Kuruluş ve Yükselme", "summary": "Beylikten devlete geçiş ve fetih politikaları." },
+        { "title": "İnkılap Tarihi", "summary": "Kurtuluş Savaşı ve Atatürk ilke ve inkılapları." }
+      ]
+    },
+    {
+      "id": "geography",
+      "name": "Coğrafya",
+      "icon": "globe",
+      "description": "Coğrafya konuları",
+      "topics": [
+        { "title": "Harita Bilgisi", "summary": "Ölçek, izohips ve koordinat sistemi." },
+        { "title": "İklim", "summary": "İklim elemanları ve Türkiye'nin iklim tipleri." },
+        { "title": "Yer Şekilleri", "summary": "İç ve dış kuvvetlerin oluşturduğu yer şekilleri." },
+        { "title": "Nüfus ve Yerleşme", "summary": "Nüfus dağılışı, göçler ve yerleşme türleri." },
+        { "title": "Ekonomik Faaliyetler", "summary": "Tarım, sanayi ve ulaşımın coğrafi dağılışı." }
+      ]
+    },
+    {
+      "id": "philosophy",
+      "name": "Felsefe",
+      "icon": "brain",
+      "description": "Felsefe konuları",
+      "topics": [
+        { "title": "Felsefeye Giriş", "summary": "Felsefenin konusu, alanı ve diğer bilgi türleriyle ilişkisi." },
+        { "title": "Bilgi Felsefesi", "summary": "Doğruluk, gerçeklik ve bilginin kaynağı tartışmaları." },
+        { "title": "Bilim Felsefesi", "summary": "Bilimsel yöntem ve bilime yaklaşımlar." },
+        { "title": "Ahlak Felsefesi", "summary": "İyi, kötü ve özgürlük kavramları." },
+        { "title": "Sanat ve Din Felsefesi", "summary": "Güzellik anlayışı ve din felsefesinin temel soruları." }
+      ]
+    },
+    {
+      "id": "religion",
+      "name": "Din Kültürü",
+      "icon": "book-marked",
+      "description": "Din kültürü ve ahlak bilgisi",
+      "topics": [
+        { "title": "İnanç", "summary": "İman esasları ve tevhit anlayışı." },
+        { "title": "İbadet", "summary": "Temel ibadetler ve amaçları." },
+        { "title": "Ahlak", "summary": "Ahlaki değerler ve erdemler." },
+        { "title": "Din ve Hayat", "summary": "Dinin bireysel ve toplumsal yaşamdaki yeri." },
+        { "title": "İslam Düşüncesi", "summary": "İslam düşüncesinde yorumlar ve oluşumlar." }
+      ]
+    },
+    {
+      "id": "english",
+      "name": "İngilizce",
+      "icon": "languages",
+      "description": "Yabancı dil (İngilizce)",
+      "topics": [
+        { "title": "Tenses", "summary": "Geniş, şimdiki, geçmiş ve gelecek zamanların kullanımı." },
+        { "title": "Vocabulary", "summary": "Sık kullanılan sözcükler ve eş–zıt anlamlılar." },
+        { "title": "Reading", "summary": "Paragraf anlama ve çıkarım yapma." },
+        { "title": "Grammar in Context", "summary": "Bağlaçlar, edatlar ve cümle yapısı." },
+        { "title": "Dialogue Completion", "summary": "Diyalogda uygun yanıtı seçme." }
+      ]
+    }
+  ]
+}

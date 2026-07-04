@@ -1,6 +1,7 @@
 {
   "nav": {
     "features": "Özellikler",
+    "curriculum": "Müfredat",
     "security": "Güvenlik",
     "how": "Nasıl çalışır",
     "levels": "Seviyeler",
@@ -131,6 +132,17 @@
     "appStore": "App Store",
     "googlePlay": "Google Play",
     "windows": "Windows"
+  },
+  "curriculum": {
+    "title": "Müfredat Merkezi",
+    "subtitle": "Büyük sınav sistemleri için ücretsiz konu özetleri — GradeAI ile daha akıllı çalışın.",
+    "intro": "Her sınav sistemi için dersleri ve konu konu özetleri inceleyin. GradeAI, öğrenci cevaplarını bu müfredatlara göre otomatik notlandırır.",
+    "subjects": "ders",
+    "topics": "konu",
+    "advertisement": "Reklam",
+    "adPlaceholder": "Reklam alanı",
+    "home": "Ana sayfa",
+    "cta": "Bu dersleri yapay zekâ ile notla"
   },
   "footer": {
     "tagline": "Öğretmenler için yapay zekâ sınav notlandırma.",

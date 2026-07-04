@@ -1,6 +1,7 @@
 {
   "nav": {
     "features": "Funciones",
+    "curriculum": "Currículo",
     "security": "Seguridad",
     "how": "Cómo funciona",
     "levels": "Niveles",
@@ -131,6 +132,17 @@
     "appStore": "App Store",
     "googlePlay": "Google Play",
     "windows": "Windows"
+  },
+  "curriculum": {
+    "title": "Centro de Currículo",
+    "subtitle": "Resúmenes de temas gratuitos para los principales exámenes — estudia mejor con GradeAI.",
+    "intro": "Explora asignaturas y resúmenes tema por tema de cada sistema de examen. GradeAI califica las respuestas según estos currículos automáticamente.",
+    "subjects": "asignaturas",
+    "topics": "temas",
+    "advertisement": "Publicidad",
+    "adPlaceholder": "Espacio publicitario",
+    "home": "Inicio",
+    "cta": "Califica estas asignaturas con IA"
   },
   "footer": {
     "tagline": "Calificación de exámenes con IA para docentes.",
