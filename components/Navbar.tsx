@@ -22,13 +22,6 @@ export default function Navbar() {
   ];
 
   function renderLink(l: (typeof links)[number], onClick?: () => void, className?: string) {
-    if (l.route) {
-      return (
-        <Link key={l.href} href={l.href} onClick={onClick} className={className}>
-          {l.label}
-        </Link>
-      );
-    }
     return (
       <a key={l.href} href={l.href} onClick={onClick} className={className}>
         {l.label}
