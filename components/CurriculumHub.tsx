@@ -1,7 +1,10 @@
 'use client';
 
+'use client';
+
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 import {
   Calculator,
   Atom,
@@ -113,12 +116,12 @@ export default function CurriculumHub({ systems }: { systems: CurriculumData[] }
 
       {/* CTA */}
       <div className="mt-14 text-center">
-        <a
+        <Link
           href="/#download"
           className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-aurora-primary to-aurora-secondary px-7 py-4 font-semibold text-white shadow-glow transition hover:opacity-95"
         >
           {t('cta')} <ArrowRight className="h-5 w-5" />
-        </a>
+        </Link>
       </div>
 
       <div className="mt-14">
@@ -130,10 +133,18 @@ export default function CurriculumHub({ systems }: { systems: CurriculumData[] }
 
 function SubjectCard({ subject, topicsLabel }: { subject: Subject; topicsLabel: string }) {
   const Icon = ICONS[subject.icon] ?? BookOpen;
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <details className="group overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] transition open:border-aurora-primary/30 open:bg-white/[0.05]">
-      <summary className="flex cursor-pointer list-none items-center gap-4 p-5">
+    <div
+      className={`overflow-hidden rounded-2xl border border-white/10 bg-white/[0.03] transition ${
+        isOpen ? 'border-aurora-primary/30 bg-white/[0.05]' : ''
+      }`}
+    >
+      <button
+        onClick={() => setIsOpen(!isOpen)}
+        className="flex w-full cursor-pointer items-center gap-4 p-5 text-left"
+      >
         <span className="grid h-11 w-11 flex-none place-items-center rounded-xl bg-white/5">
           <Icon className="h-5 w-5 text-aurora-secondary" />
         </span>
@@ -144,17 +155,21 @@ function SubjectCard({ subject, topicsLabel }: { subject: Subject; topicsLabel: 
         <span className="hidden flex-none text-xs text-slate-500 sm:block">
           {subject.topics.length} {topicsLabel}
         </span>
-        <ChevronDown className="h-5 w-5 flex-none text-slate-400 transition group-open:rotate-180" />
-      </summary>
+        <ChevronDown
+          className={`h-5 w-5 flex-none text-slate-400 transition ${isOpen ? 'rotate-180' : ''}`}
+        />
+      </button>
 
-      <ul className="grid gap-3 border-t border-white/5 p-5 sm:grid-cols-2">
-        {subject.topics.map((topic) => (
-          <li key={topic.title} className="rounded-lg border border-white/5 bg-black/20 p-3">
-            <p className="text-sm font-semibold text-white">{topic.title}</p>
-            <p className="mt-1 text-sm text-slate-400">{topic.summary}</p>
-          </li>
-        ))}
-      </ul>
-    </details>
+      {isOpen && (
+        <ul className="grid gap-3 border-t border-white/5 p-5 sm:grid-cols-2">
+          {subject.topics.map((topic) => (
+            <li key={topic.title} className="rounded-lg border border-white/5 bg-black/20 p-3">
+              <p className="text-sm font-semibold text-white">{topic.title}</p>
+              <p className="mt-1 text-sm text-slate-400">{topic.summary}</p>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
   );
 }
