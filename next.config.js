@@ -10,6 +10,10 @@ const nextConfig = {
   // Node.js server build for Railway (nixpacks runs `next start`).
   output: 'standalone',
   reactStrictMode: true,
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = withNextIntl(nextConfig);
