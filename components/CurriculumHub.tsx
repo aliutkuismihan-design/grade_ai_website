@@ -63,7 +63,7 @@ export default function CurriculumHub({ systems }: { systems: CurriculumData[] }
   const [active, setActive] = useState(0);
 
   return (
-    <section className="mx-auto max-w-5xl px-5 pb-24 pt-32">
+    <section id="curriculum" className="mx-auto max-w-5xl px-5 pb-24 pt-32">
       <div className="mx-auto max-w-2xl text-center">
         <h1 className="text-4xl font-black text-white sm:text-5xl">{t('title')}</h1>
         <p className="mt-4 text-lg text-slate-300">{t('subtitle')}</p>

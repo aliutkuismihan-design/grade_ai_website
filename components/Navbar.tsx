@@ -13,6 +13,14 @@ export default function Navbar() {
   // `route: true` → a locale-aware page link; otherwise an in-page anchor.
   const links = [
     { href: '#features', label: t('features') },
+    { href: '#curriculum', label: t('curriculum') },
+    { href: '#security', label: t('security') },
+    { href: '#how', label: t('how') },
+    { href: '#levels', label: t('levels') },
+    { href: '#pricing', label: t('pricing') },
+    { href: '#download', label: t('download') },
+  ];
+    { href: '#features', label: t('features') },
     { href: '/curriculum', label: t('curriculum'), route: true },
     { href: '#security', label: t('security') },
     { href: '#how', label: t('how') },
