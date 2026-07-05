@@ -1,0 +1,1727 @@
+{
+  "examSystem": "MEB (EÖS)",
+  "subjects": [
+    {
+      "subjectId": "matematik",
+      "subjectName": "Matematik",
+      "questions": [
+        {
+          "id": "matematik-q1",
+          "question": "36 ve 48 sayılarının EBOB'u kaçtır?",
+          "options": [
+            "6",
+            "12",
+            "18",
+            "24"
+          ],
+          "correct": 1,
+          "explanation": "36 = 2² × 3², 48 = 2⁴ × 3. EBOB = 2² × 3 = 12."
+        },
+        {
+          "id": "matematik-q2",
+          "question": "-5 ve 3 arasındaki tam sayılar kaç tanedir?",
+          "options": [
+            "7",
+            "8",
+            "9",
+            "6"
+          ],
+          "correct": 0,
+          "explanation": "-5 ile 3 arasındaki tam sayılar: -4, -3, -2, -1, 0, 1, 2 olmak üzere 7 tanedir. Uç noktalar (-5 ve 3) dahil değildir."
+        },
+        {
+          "id": "matematik-q3",
+          "question": "3x + 5 = 20 denkleminin çözümü nedir?",
+          "options": [
+            "x = 5",
+            "x = 6",
+            "x = 15",
+            "x = 25"
+          ],
+          "correct": 0,
+          "explanation": "3x + 5 = 20 → 3x = 15 → x = 5."
+        },
+        {
+          "id": "matematik-q4",
+          "question": "Bir araba 4 saatte 240 km yol alıyor. Hızı sabitse, 7 saatte kaç km gider?",
+          "options": [
+            "360 km",
+            "420 km",
+            "480 km",
+            "400 km"
+          ],
+          "correct": 1,
+          "explanation": "Hız = 240/4 = 60 km/s. 7 saatte 60 × 7 = 420 km."
+        },
+        {
+          "id": "matematik-q5",
+          "question": "Kürenin hacim formülü nedir?",
+          "options": [
+            "4/3 πr³",
+            "2πr",
+            "πr²",
+            "4πr²"
+          ],
+          "correct": 0,
+          "explanation": "Kürenin hacmi 4/3 πr³ formülü ile bulunur."
+        },
+        {
+          "id": "matematik-q6",
+          "question": "Bir veri setinin modu nedir?",
+          "options": [
+            "En büyük değer",
+            "En çok tekrar eden değer",
+            "Ortadaki değer",
+            "Tüm değerlerin ortalaması"
+          ],
+          "correct": 1,
+          "explanation": "Mod, bir veri setinde en çok tekrar eden değerdir."
+        },
+        {
+          "id": "matematik-q7",
+          "question": "Bir dikdörtgen prizmanın hacmi nasıl hesaplanır?",
+          "options": [
+            "Taban alanı + yükseklik",
+            "Taban alanı × yükseklik",
+            "2 × (Taban alanı + yan alan)",
+            "Taban alanı ÷ yükseklik"
+          ],
+          "correct": 1,
+          "explanation": "Dikdörtgen prizmanın hacmi = Taban alanı × yükseklik."
+        },
+        {
+          "id": "matematik-q8",
+          "question": "12, 15 ve 18 sayılarının EKOK'u kaçtır?",
+          "options": [
+            "90",
+            "180",
+            "60",
+            "360"
+          ],
+          "correct": 1,
+          "explanation": "12 = 2² × 3, 15 = 3 × 5, 18 = 2 × 3². EKOK = 2² × 3² × 5 = 180."
+        }
+      ]
+    },
+    {
+      "subjectId": "fen",
+      "subjectName": "Fen Bilimleri",
+      "questions": [
+        {
+          "id": "fen-q1",
+          "question": "Bir cisim sağa doğru hareket ederken üzerine sola doğru bir kuvvet uygulanırsa ne olur?",
+          "options": [
+            "Hızı artar",
+            "Hızı azalır ya da yön değiştirir",
+            "Durur",
+            "Ağırlığı artar"
+          ],
+          "correct": 1,
+          "explanation": "Hareket yönüne ters yönde kuvvet uygulandığında cisim yavaşlar ya da yön değiştirir."
+        },
+        {
+          "id": "fen-q2",
+          "question": "Bir madde ısıtılıp eriyorsa, sıcaklık değişimi ne olur?",
+          "options": [
+            "Sıcaklık sabit kalır",
+            "Sıcaklık artar",
+            "Sıcaklık düşer",
+            "Sıcaklık hemen düşer"
+          ],
+          "correct": 0,
+          "explanation": "Erime sırasında alınan ısı potansiyel enerjiye dönüşür, sıcaklık sabit kalır."
+        },
+        {
+          "id": "fen-q3",
+          "question": "Işık, havadan cam tabağına geçerken nasıl davranır?",
+          "options": [
+            "Hızı artar",
+            "Hızı azalır ve kırılır",
+            "Doğru geçer",
+            "Yansır"
+          ],
+          "correct": 1,
+          "explanation": "Işık daha yoğun ortama (cam) girerken hızı azalır ve kırılır."
+        },
+        {
+          "id": "fen-q4",
+          "question": "Canlıların temel yapı birimi nedir?",
+          "options": [
+            "Doku",
+            "Organ",
+            "Hücre",
+            "Sistem"
+          ],
+          "correct": 2,
+          "explanation": "Tüm canlıların temel yapı birimi hücredir."
+        },
+        {
+          "id": "fen-q5",
+          "question": "Bir elektrik devresinde ampulün yanması için hangi malzeme gereklidir?",
+          "options": [
+            "İletken tel",
+            "Yalıtkan plastik",
+            "Cam",
+            "Tahta"
+          ],
+          "correct": 0,
+          "explanation": "Ampul, elektrik akımını iletebilen iletken tel ile çalışır."
+        },
+        {
+          "id": "fen-q6",
+          "question": "Dünya'nın uydusu olan Ay'ın evreleri kaç günde bir tamamlanır?",
+          "options": [
+            "7 gün",
+            "14 gün",
+            "29-30 gün",
+            "365 gün"
+          ],
+          "correct": 2,
+          "explanation": "Ay'ın evreleri yaklaşık 29-30 günde (bir ayda) bir tamamlanır."
+        },
+        {
+          "id": "fen-q7",
+          "question": "Ses havadaki hızı sıcaklık arttıkça nasıl değişir?",
+          "options": [
+            "Azalır",
+            "Değişmez",
+            "Artar",
+            "Sıfır olur"
+          ],
+          "correct": 2,
+          "explanation": "Sıcaklık arttıkça hava molekülleri daha hızlı hareket eder, ses hızı artar."
+        },
+        {
+          "id": "fen-q8",
+          "question": "Bir canlı çevresine uyum sağlayarak hayatta kalma çabasına ne denir?",
+          "options": [
+            "Kalıtım",
+            "Adaptasyon",
+            "Evrim",
+            "Biyoteknoloji"
+          ],
+          "correct": 1,
+          "explanation": "Canlıların çevresine uyum sağlaması 'adaptasyon' olarak adlandırılır."
+        }
+      ]
+    },
+    {
+      "subjectId": "sosyal",
+      "subjectName": "Sosyal Bilgiler",
+      "questions": [
+        {
+          "id": "sosyal-q1",
+          "question": "Bir demokraside vatandaşların en önemli görevlerinden biri nedir?",
+          "options": [
+            "Sadece vergi ödemek",
+            "Yasalara uymak ve oy kullanmak",
+            "Sadece televizyon izlemek",
+            "Okuldan kaçmak"
+          ],
+          "correct": 1,
+          "explanation": "Demokratik bir ülkede vatandaşlar yasalara uyar ve seçimlerde oy kullanarak söz sahibi olur."
+        },
+        {
+          "id": "sosyal-q2",
+          "question": "UNESCO Dünya Miras Listesi'ne alınan somut olmayan kültürel miraslara örnek olarak hangisi gösterilebilir?",
+          "options": [
+            "Anıtkabir",
+            "Efes Antik Kenti",
+            "Ahi Evran geleneği",
+            "Ayasofya Camii"
+          ],
+          "correct": 2,
+          "explanation": "Ahi Evran geleneği gibi toplumsal uygulamalar somut olmayan (manevi) kültürel miraslardandır."
+        },
+        {
+          "id": "sosyal-q3",
+          "question": "Haritada bir yerin deniz seviyesinden yüksekliğine ne denir?",
+          "options": [
+            "Boylam",
+            "Enlem",
+            "Rakım",
+            "Koordinat"
+          ],
+          "correct": 2,
+          "explanation": "Rakım, bir yerin deniz seviyesinden yüksekliğini gösterir."
+        },
+        {
+          "id": "sosyal-q4",
+          "question": "Buluşların topluma olan en önemli etkisi genellikle nedir?",
+          "options": [
+            "Yaşamı zorlaştırmak",
+            "Yaşamı kolaylaştırmak ve zaman kazandırmak",
+            "Sadece eğlence sağlamak",
+            "Tarihi eserleri yok etmek"
+          ],
+          "correct": 1,
+          "explanation": "Buluşlar insanların yaşamını kolaylaştırır, işler daha hızlı ve verimli yapılır."
+        },
+        {
+          "id": "sosyal-q5",
+          "question": "Bütçe hazırlarken gelirlerimizden fazla harcama yaparsak ne olur?",
+          "options": [
+            "Bütçe fazlası",
+            "Bütçe açığı",
+            "Bütçe dengesi",
+            "Enflasyon düşer"
+          ],
+          "correct": 1,
+          "explanation": "Gelirden fazla harcama yapıldığında 'bütçe açığı' oluşur."
+        },
+        {
+          "id": "sosyal-q6",
+          "question": "Türkiye'de iklimin en fazla çeşitlilik gösterdiği bölge hangisidir?",
+          "options": [
+            "İç Anadolu",
+            "Karadeniz",
+            "Akdeniz",
+            "Marmara"
+          ],
+          "correct": 2,
+          "explanation": "Akdeniz Bölgesi, farklı yükseklikler ve coğrafi konum nedeniyle en çeşitli iklimi barındırır."
+        },
+        {
+          "id": "sosyal-q7",
+          "question": "Vatandaşlık bilinci, bireyin kendini nasıl hissetmesiyle ilgilidir?",
+          "options": [
+            "Sadece seyirci",
+            "Toplumun bir parçası ve sorumlu üye",
+            "Başka ülke vatandaşı",
+            "Yalnız birey"
+          ],
+          "correct": 1,
+          "explanation": "Vatandaşlık bilinci, bireyin toplumun bir parçası olduğunu ve sorumlulukları olduğunu bilmesidir."
+        }
+      ]
+    },
+    {
+      "subjectId": "turkce",
+      "subjectName": "Türkçe",
+      "questions": [
+        {
+          "id": "turkce-q1",
+          "question": "Bir paragrafta yazarın asıl anlatmak istediği düşünceye ne denir?",
+          "options": [
+            "Yardımcı fikir",
+            "Ana fikir",
+            "Konu",
+            "Tema"
+          ],
+          "correct": 1,
+          "explanation": "Ana fikir, paragrafın bütününde yazarın asıl anlatmak istediği düşüncedir."
+        },
+        {
+          "id": "turkce-q2",
+          "question": "'Güneş doğuyor' cümlesindeki 'güneş' sözcüğü gerçek anlamda mı mecaz anlamda mı kullanılmıştır?",
+          "options": [
+            "Gerçek anlam",
+            "Mecaz anlam",
+            "Terim anlam",
+            "Cinsi anlam"
+          ],
+          "correct": 0,
+          "explanation": "'Güneş' burada gökteki ışık ve ısı kaynağı anlamıyla gerçek anlamda kullanılmıştır."
+        },
+        {
+          "id": "turkce-q3",
+          "question": "Aşağıdakilerden hangisi birleşik cümle örneğidir?",
+          "options": [
+            "Kitabı okudum.",
+            "Kitabı okudum ve çok beğendim.",
+            "Okuduğum kitabı beğendim.",
+            "Kitap okumayı seviyorum."
+          ],
+          "correct": 1,
+          "explanation": "İki yüklem bulunan 'Kitabı okudum ve çok beğendim.' cümlesi birleşik cümledir."
+        },
+        {
+          "id": "turkce-q4",
+          "question": "Bir cümlede eylemi yapan kişi veya varlığa ne denir?",
+          "options": [
+            "Nesne",
+            "Tümleç",
+            "Yüklem",
+            "Özne"
+          ],
+          "correct": 3,
+          "explanation": "Özne, cümlede eylemi yapan kişi veya varlıktır."
+        },
+        {
+          "id": "turkce-q5",
+          "question": "Aşağıdakilerden hangisi doğru yazılmıştır?",
+          "options": [
+            "İstanbul",
+            "İStanbul",
+            "istanbul",
+            "İSTANBUL"
+          ],
+          "correct": 0,
+          "explanation": "Özel isimlerin ilk harfi büyük yazılır, ikinci harf küçük: İstanbul."
+        },
+        {
+          "id": "turkce-q6",
+          "question": "'Bıldırcın' kelimesinin doğru yazılışı aşağıdakilerden hangisidir?",
+          "options": [
+            "Bıldırcın",
+            "Bıldırçın",
+            "Bıldırçın",
+            "Bıldırcın"
+          ],
+          "correct": 0,
+          "explanation": "'Bıldırcın' kelimesi doğru yazılışında 'c' harfi kullanılır, 'ç' değil."
+        },
+        {
+          "id": "turkce-q7",
+          "question": "Haber vermeyi amaçlayan metin türü hangisidir?",
+          "options": [
+            "Öykü",
+            "Şiir",
+            "Haber metni",
+            "Mektup"
+          ],
+          "correct": 2,
+          "explanation": "Haber metni, bir olay hakkında bilgi vermeyi amaçlayan metin türüdür."
+        },
+        {
+          "id": "turkce-q8",
+          "question": "Aşağıdakilerden hangisi atasözü örneğidir?",
+          "options": [
+            "Güneş doğuyor.",
+            "Damlaya damlaya göl olur.",
+            "Güzel bir gün.",
+            "Çok çalışmalıyız."
+          ],
+          "correct": 1,
+          "explanation": "'Damlaya damlaya göl olur.' toplumun ortak deneyiminden doğan bir atasözüdür."
+        }
+      ]
+    },
+    {
+      "subjectId": "ingilizce",
+      "subjectName": "İngilizce",
+      "questions": [
+        {
+          "id": "ingilizce-q1",
+          "question": "'I usually wake up at 7 o'clock every morning.' cümlesindeki vurgulu fiil hangisidir?",
+          "options": [
+            "usually",
+            "wake up",
+            "at 7 o'clock",
+            "every morning"
+          ],
+          "correct": 1,
+          "explanation": "'Wake up' cümledeki asıl eylem (fiil)dir."
+        },
+        {
+          "id": "ingilizce-q2",
+          "question": "'Comparative' (karşılaştırma) yapısında kısa sıfatlardan önce hangi ek kullanılır?",
+          "options": [
+            "-est",
+            "-er",
+            "-ly",
+            "-ing"
+          ],
+          "correct": 1,
+          "explanation": "Kısa sıfatlarda karşılaştırma yapısı için '-er' eki kullanılır (örn: taller, faster)."
+        },
+        {
+          "id": "ingilizce-q3",
+          "question": "'She ____ to the cinema last night.' boşluğa hangisi gelmelidir?",
+          "options": [
+            "goes",
+            "going",
+            "went",
+            "go"
+          ],
+          "correct": 2,
+          "explanation": "'Last night' geçmiş zamanı belirtir, bu yüzden 'went' (past simple) kullanılır."
+        },
+        {
+          "id": "ingilizce-q4",
+          "question": "'Can you play the guitar?' cümlesinde 'can' kelimesi ne anlama gelir?",
+          "options": [
+            "Yapıyorum",
+            "Yapabilir misin",
+            "Yapacaksın",
+            "Yapmalısın"
+          ],
+          "correct": 1,
+          "explanation": "'Can' yetenek veya izin bildiren bir modal fiildir; 'yapabilir misin' anlamına gelir."
+        },
+        {
+          "id": "ingilizce-q5",
+          "question": "Aşağıdakilerden hangisi 'future tense' (gelecek zaman) yapısıdır?",
+          "options": [
+            "I will go",
+            "I went",
+            "I am going",
+            "I go"
+          ],
+          "correct": 0,
+          "explanation": "'Will + fiil' gelecek zamanı ifade eder: 'I will go' = 'Gideceğim'."
+        },
+        {
+          "id": "ingilizce-q6",
+          "question": "Bir metinde 'main idea' (ana fikir) ne demektir?",
+          "options": [
+            "Her detay",
+            "Yazarın asıl söylemek istediği düşünce",
+            "Son cümle",
+            "İlk kelime"
+          ],
+          "correct": 1,
+          "explanation": "Main idea, metnin tamamında yazarın asıl anlatmak istediği merkezi düşüncedir."
+        },
+        {
+          "id": "ingilizce-q7",
+          "question": "'Listening' becerisi hangi anlama gelir?",
+          "options": [
+            "Okuma",
+            "Yazma",
+            "Dinleme",
+            "Konuşma"
+          ],
+          "correct": 2,
+          "explanation": "Listening, İngilizce'de 'dinleme' becerisini ifade eder."
+        },
+        {
+          "id": "ingilizce-q8",
+          "question": "'He is the ____ student in the class.' boşluğa hangisi gelmelidir?",
+          "options": [
+            "taller",
+            "tall",
+            "tallest",
+            "more tall"
+          ],
+          "correct": 2,
+          "explanation": "'In the class' grubu içinde üstünlük belirtir, bu yüzden superlative 'tallest' kullanılır."
+        }
+      ]
+    },
+    {
+      "subjectId": "din",
+      "subjectName": "Din Kültürü ve Ahlak Bilgisi",
+      "questions": [
+        {
+          "id": "din-q1",
+          "question": "İslam'ın beş temel şartından biri olan namaz günde kaç vakit kılınır?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correct": 2,
+          "explanation": "Namaz, günde sabah, öğle, ikindi, akşam ve yatsı olmak üzere 5 vakit kılınır."
+        },
+        {
+          "id": "din-q2",
+          "question": "Ramazan ayında yapılan ibadetin adı nedir?",
+          "options": [
+            "Hac",
+            "Zekât",
+            "Oruç",
+            "Namaz"
+          ],
+          "correct": 2,
+          "explanation": "Ramazan ayında oruç tutmak İslam'ın beş şartından biridir."
+        },
+        {
+          "id": "din-q3",
+          "question": "Ahlaki bir davranış olarak 'doğru söylemek' hangi erdemi ifade eder?",
+          "options": [
+            "Cesaret",
+            "Dürüstlük",
+            "Sabır",
+            "Merhamet"
+          ],
+          "correct": 1,
+          "explanation": "Dürüstlük, doğru söylemek ve güvenilir olmak demektir."
+        },
+        {
+          "id": "din-q4",
+          "question": "Kur'an-ı Kerim'in ilk vahyi hangi süre ile başlamıştır?",
+          "options": [
+            "Fatiha",
+            "Bakara",
+            "Alak",
+            "Kafirun"
+          ],
+          "correct": 2,
+          "explanation": "Hz. Muhammed'e gelen ilk vahiy, Alak Suresi'nin 'Oku!' ayeti ile başlamıştır."
+        },
+        {
+          "id": "din-q5",
+          "question": "Hz. Muhammed'in güvenilir kişi olarak bilinen lakabı nedir?",
+          "options": [
+            "El-Emin",
+            "El-Muteber",
+            "El-Mümin",
+            "El-Adil"
+          ],
+          "correct": 0,
+          "explanation": "Hz. Muhammed, Mekke'de 'El-Emin' (güvenilir) lakabıyla tanınırdı."
+        },
+        {
+          "id": "din-q6",
+          "question": "Farklı dinlere mensup insanların bir arada yaşamasına ne denir?",
+          "options": [
+            "Zorbalık",
+            "Hoşgörü ve birlikte yaşama",
+            "Yabancılık",
+            "Ayrımcılık"
+          ],
+          "correct": 1,
+          "explanation": "Hoşgörü ve birlikte yaşama, farklı din ve kültürlerin barış içinde bir arada yaşamasıdır."
+        },
+        {
+          "id": "din-q7",
+          "question": "İslam'da zenginlerin sahip oldukları servetin belli bir kısmını ihtiyaç sahiplerine vermesi hangi ibadettir?",
+          "options": [
+            "Oruç",
+            "Hac",
+            "Zekât",
+            "Kurban"
+          ],
+          "correct": 2,
+          "explanation": "Zekât, malın belli bir kısmının ihtiyaç sahiplerine verilmesidir."
+        },
+        {
+          "id": "din-q8",
+          "question": "Ahlaki gelişimde 'özfarkındalık' ne anlama gelir?",
+          "options": [
+            "Sadece başkalarını tanımak",
+            "Kendini tanımak, güçlü ve zayıf yönlerini bilmek",
+            "Başkalarını eleştirmek",
+            "Sadece hataları görmek"
+          ],
+          "correct": 1,
+          "explanation": "Özfarkındalık, bireyin kendini tanıması, güçlü ve zayıf yönlerini bilmesidir."
+        }
+      ]
+    },
+    {
+      "subjectId": "trafik",
+      "subjectName": "Trafik",
+      "questions": [
+        {
+          "id": "trafik-q1",
+          "question": "Kırmızı ışık yandığında sürücü ne yapmalıdır?",
+          "options": [
+            "Hızlanmak",
+            "Durmak",
+            "Kornaya basmak",
+            "Sağa dönmek"
+          ],
+          "correct": 1,
+          "explanation": "Kırmızı ışık 'dur' anlamına gelir, araç durmalıdır."
+        },
+        {
+          "id": "trafik-q2",
+          "question": "Yaya geçidinden karşıya geçerken önce ne yapmalıyız?",
+          "options": [
+            "Koşarak geçmek",
+            "Sağa-sola bakıp araçların durduğundan emin olmak",
+            "Telefonla konuşarak geçmek",
+            "Arkadaşları beklememek"
+          ],
+          "correct": 1,
+          "explanation": "Yaya geçidinde önce sağa-sola bakıp araçların durduğundan emin olmalıyız."
+        },
+        {
+          "id": "trafik-q3",
+          "question": "Üçgen şekilli, kırmızı kenarlı trafik işareti genellikle ne anlama gelir?",
+          "options": [
+            "Yasak",
+            "Bilgi",
+            "Uyarı",
+            "Yol sonu"
+          ],
+          "correct": 2,
+          "explanation": "Üçgen şekilli, kırmızı kenarlı işaretler uyarı işaretleridir."
+        },
+        {
+          "id": "trafik-q4",
+          "question": "Okul servisine binerken önce hangi güvenlik önlemi alınmalıdır?",
+          "options": [
+            "Arkadaşlarla koşmak",
+            "Emniyet kemeri takmak",
+            "Pencereden sarkmak",
+            "Sürücüyle konuşmamak"
+          ],
+          "correct": 1,
+          "explanation": "Servis araçlarında emniyet kemeri takmak güvenlik için çok önemlidir."
+        },
+        {
+          "id": "trafik-q5",
+          "question": "Bisiklet sürerken başımızda ne takmalıyız?",
+          "options": [
+            "Şapka",
+            "Kask",
+            "Güneş gözlüğü",
+            "Kulaklık"
+          ],
+          "correct": 1,
+          "explanation": "Bisiklet kaskı, düşme durumunda başımızı korumak için zorunludur."
+        },
+        {
+          "id": "trafik-q6",
+          "question": "Trafik kazası sonrasında ilk yapılması gereken şey nedir?",
+          "options": [
+            "Yerden kalkıp kaçmak",
+            "112 acil yardım hattını aramak",
+            "Aracı tamire götürmek",
+            "Kavgaya girmek"
+          ],
+          "correct": 1,
+          "explanation": "Kazada yaralanma varsa 112 acil yardım hattını aramak en önemli ilk adımdır."
+        },
+        {
+          "id": "trafik-q7",
+          "question": "Çevre dostu ulaşım araçlarından hangisi örnektir?",
+          "options": [
+            "Benzinli otomobil",
+            "Bisiklet",
+            "Dizel otobüs",
+            "Tekne"
+          ],
+          "correct": 1,
+          "explanation": "Bisiklet, hava kirliliği yapmayan çevre dostu bir ulaşım aracıdır."
+        },
+        {
+          "id": "trafik-q8",
+          "question": "Yolculuk sırasında emniyet kemeri takmak hangi amaçla zorunludur?",
+          "options": [
+            "Sadece ceza ödememek için",
+            "Kaza anında yaralanmayı azaltmak için",
+            "Sadece rahat uyumak için",
+            "Aracın hızını artırmak için"
+          ],
+          "correct": 1,
+          "explanation": "Emniyet kemeri, kaza anında cismi yerinde tutarak yaralanmayı azaltır."
+        }
+      ]
+    },
+    {
+      "subjectId": "muzik",
+      "subjectName": "Müzik",
+      "questions": [
+        {
+          "id": "muzik-q1",
+          "question": "Do, Re, Mi, Fa, Sol, La, Si dizisine ne ad verilir?",
+          "options": [
+            "Gam",
+            "Armoni",
+            "Ritim",
+            "Tempo"
+          ],
+          "correct": 0,
+          "explanation": "Do, Re, Mi, Fa, Sol, La, Si seslerinin düzenli dizilisi 'gam' olarak adlandırılır."
+        },
+        {
+          "id": "muzik-q2",
+          "question": "Müzikte vuruşların düzenli tekrarına ne denir?",
+          "options": [
+            "Melodi",
+            "Ritim",
+            "Tempo",
+            "Aralık"
+          ],
+          "correct": 1,
+          "explanation": "Ritim, müzikte vuruşların düzenli tekrarıdır."
+        },
+        {
+          "id": "muzik-q3",
+          "question": "Türk halk müziğinde kullanılan telli çalgılardan biri hangisidir?",
+          "options": [
+            "Keman",
+            "Piyano",
+            "Bağlama",
+            "Flüt"
+          ],
+          "correct": 2,
+          "explanation": "Bağlama, Türk halk müziğinin en önemli telli çalgılarındandır."
+        },
+        {
+          "id": "muzik-q4",
+          "question": "Piyano hangi çalgı ailesine aittir?",
+          "options": [
+            "Nefesli çalgılar",
+            "Telli çalgılar",
+            "Vurmalı çalgılar",
+            "Yaylı çalgılar"
+          ],
+          "correct": 1,
+          "explanation": "Piyano, tuşlara basıldığında tellerin ses çıkarmasıyla çalınan bir telli çalgıdır."
+        },
+        {
+          "id": "muzik-q5",
+          "question": "Müzik notalarında 'doğal' sesleri gösteren işaret hangisidir?",
+          "options": [
+            "# (diyez)",
+            "b (bemol)",
+            "Bez (doğal)",
+            "Piyano işareti"
+          ],
+          "correct": 2,
+          "explanation": "Bez (doğal) işareti, daha önce değiştirilmiş bir sesi doğal haline döndürür."
+        },
+        {
+          "id": "muzik-q6",
+          "question": "Bir şarkıyı doğru ve güzel söylemek için önce ne yapmalıyız?",
+          "options": [
+            "Sadece yüksek sesle bağırmak",
+            "Doğru nefes almak ve solfej yapmak",
+            "Hızlı konuşmak",
+            "Nota bilmemek"
+          ],
+          "correct": 1,
+          "explanation": "Doğru nefes tekniği ve solfej çalışması, şarkı söylemek için temel becerilerdir."
+        },
+        {
+          "id": "muzik-q7",
+          "question": "Batı klasik müziğinin ünlü bestecilerinden biri kimdir?",
+          "options": [
+            "Mozart",
+            "Barış Manço",
+            "Aşık Veysel",
+            "Zeki Müren"
+          ],
+          "correct": 0,
+          "explanation": "Mozart, dünyaca ünlü bir batı klasik müzik bestecisidir."
+        },
+        {
+          "id": "muzik-q8",
+          "question": "Müzikte iki ses arasındaki mesafeye ne denir?",
+          "options": [
+            "Tempo",
+            "Aralık",
+            "Dinamik",
+            "Ritim"
+          ],
+          "correct": 1,
+          "explanation": "Aralık, iki ses arasındaki mesafeyi gösterir."
+        }
+      ]
+    },
+    {
+      "subjectId": "gorsel-sanatlar",
+      "subjectName": "Görsel Sanatlar",
+      "questions": [
+        {
+          "id": "gorsel-sanatlar-q1",
+          "question": "Resimde renkleri karıştırarak elde edilen tonlara ne denir?",
+          "options": [
+            "Ana renk",
+            "Ara renk (ton)",
+            "Beyaz",
+            "Siyah"
+          ],
+          "correct": 1,
+          "explanation": "İki ana rengin karıştırılmasıyla ara renk veya ton elde edilir."
+        },
+        {
+          "id": "gorsel-sanatlar-q2",
+          "question": "Sulu boya tekniğinde temel malzeme nedir?",
+          "options": [
+            "Yağ",
+            "Su",
+            "Kum",
+            "Alkol"
+          ],
+          "correct": 1,
+          "explanation": "Sulu boya, su ile inceltilerek kullanılan bir boya tekniğidir."
+        },
+        {
+          "id": "gorsel-sanatlar-q3",
+          "question": "Üç boyutlu sanat eserleri yapmaya ne ad verilir?",
+          "options": [
+            "Resim",
+            "Heykel ve rölyef",
+            "Grafik tasarım",
+            "Fotoğrafçılık"
+          ],
+          "correct": 1,
+          "explanation": "Heykel ve rölyef, üç boyutlu sanat çalışmalarıdır."
+        },
+        {
+          "id": "gorsel-sanatlar-q4",
+          "question": "Rönesans döneminin ünlü ressamı olan 'Mona Lisa' tablosunun ressamı kimdir?",
+          "options": [
+            "Michelangelo",
+            "Leonardo da Vinci",
+            "Raphael",
+            "Donatello"
+          ],
+          "correct": 1,
+          "explanation": "Mona Lisa, Leonardo da Vinci tarafından yapılmıştır."
+        },
+        {
+          "id": "gorsel-sanatlar-q5",
+          "question": "Grafik tasarımda bir kitabın sayfa düzenine ne denir?",
+          "options": [
+            "Ekslibris",
+            "Mizanpaj",
+            "İllüstrasyon",
+            "Tipografi"
+          ],
+          "correct": 1,
+          "explanation": "Mizanpaj, kitap veya dergi sayfalarının düzenlenmesidir."
+        },
+        {
+          "id": "gorsel-sanatlar-q6",
+          "question": "Bir müzede gezerken yapılması gereken en önemli davranış hangisidir?",
+          "options": [
+            "Eserlere dokunmak",
+            "Sessiz olmak ve korunaklı mesafeden bakmak",
+            "Eserleri çizmek",
+            "Fotoğraf çekmek için flaş kullanmak"
+          ],
+          "correct": 1,
+          "explanation": "Müzede eserlere zarar vermemek için sessiz olunmalı ve korunaklı mesafeden bakılmalıdır."
+        },
+        {
+          "id": "gorsel-sanatlar-q7",
+          "question": "Resimde nesnelerin düzlem üzerindeki görünüşünü sağlayan temel öge nedir?",
+          "options": [
+            "Çizgi",
+            "Renk",
+            "Doku",
+            "Işık"
+          ],
+          "correct": 0,
+          "explanation": "Çizgi, resimde şekil ve biçim oluşturan temel görsel ögedir."
+        },
+        {
+          "id": "gorsel-sanatlar-q8",
+          "question": "Geri dönüşüm malzemeleriyle sanat eseri yapmak hangi kavramı destekler?",
+          "options": [
+            "İsraf",
+            "Çevre bilinci",
+            "Hızlı tüketim",
+            "Gürültü kirliliği"
+          ],
+          "correct": 1,
+          "explanation": "Geri dönüşüm malzemeleri kullanmak çevre bilinci ve sürdürülebilirliği destekler."
+        }
+      ]
+    },
+    {
+      "subjectId": "beden-egitimi",
+      "subjectName": "Beden Eğitimi ve Spor",
+      "questions": [
+        {
+          "id": "beden-egitimi-q1",
+          "question": "Atletizmde en kısa mesafeli koşu türü hangisidir?",
+          "options": [
+            "Orta mesafe",
+            "Maraton",
+            "Sprint",
+            "Engelli koşu"
+          ],
+          "correct": 2,
+          "explanation": "Sprint, atletizmde en kısa mesafeli ve en hızlı koşu türüdür."
+        },
+        {
+          "id": "beden-egitimi-q2",
+          "question": "Jimnastikte vücudun esnekliğini artıran egzersizlere ne denir?",
+          "options": [
+            "Sprint çalışması",
+            "Esneme ve germe hareketleri",
+            "Ağırlık kaldırma",
+            "Koşu bandı"
+          ],
+          "correct": 1,
+          "explanation": "Esneme ve germe hareketleri, vücudun esnekliğini artırır."
+        },
+        {
+          "id": "beden-egitimi-q3",
+          "question": "Futbol takımında sahada kaç oyuncu bulunur?",
+          "options": [
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "correct": 2,
+          "explanation": "Futbol takımında sahada 11 oyuncu bulunur."
+        },
+        {
+          "id": "beden-egitimi-q4",
+          "question": "Spor yapmadan önce yapılan ısınma hareketlerinin amacı nedir?",
+          "options": [
+            "Yorgunluk",
+            "Kasları hazırlamak ve sakatlanmayı önlemek",
+            "Hızı azaltmak",
+            "Susuz kalmak"
+          ],
+          "correct": 1,
+          "explanation": "Isınma hareketleri, kasları spor aktivitesine hazırlar ve sakatlanma riskini azaltır."
+        },
+        {
+          "id": "beden-egitimi-q5",
+          "question": "Sağlıklı yaşam için haftada en az kaç gün egzersiz yapılmalıdır?",
+          "options": [
+            "1 gün",
+            "2-3 gün",
+            "7 gün",
+            "Hiçbir gün"
+          ],
+          "correct": 1,
+          "explanation": "Sağlıklı yaşam için haftada en az 2-3 gün düzenli egzersiz önerilir."
+        },
+        {
+          "id": "beden-egitimi-q6",
+          "question": "Spor ahlakında rakibe saygılı davranma ilkesine ne ad verilir?",
+          "options": [
+            "Hile",
+            "Fair-play",
+            "Sabotaj",
+            "Rekabet"
+          ],
+          "correct": 1,
+          "explanation": "Fair-play, sporcu davranışlarında dürüstlük ve rakibe saygı demektir."
+        },
+        {
+          "id": "beden-egitimi-q7",
+          "question": "Yüzme sporunda en temel beceri nedir?",
+          "options": [
+            "Atlama",
+            "Nefes kontrolü ve su üzerinde kalmak",
+            "Koşu",
+            "Top kullanma"
+          ],
+          "correct": 1,
+          "explanation": "Yüzmede nefes kontrolü ve su üzerinde kalma temel becerilerdir."
+        },
+        {
+          "id": "beden-egitimi-q8",
+          "question": "Olimpik hareketin temel amacı nedir?",
+          "options": [
+            "Sadece madalya kazanmak",
+            "Barışçıl spor ve kardeşlik ruhunu yaymak",
+            "Savaşmak",
+            "Kavga etmek"
+          ],
+          "correct": 1,
+          "explanation": "Olimpik hareket, spor yoluyla barış ve kardeşlik ruhunu yaymayı amaçlar."
+        }
+      ]
+    },
+    {
+      "subjectId": "teknoloji-tasarim",
+      "subjectName": "Teknoloji ve Tasarım",
+      "questions": [
+        {
+          "id": "teknoloji-tasarim-q1",
+          "question": "Bir ürün tasarlamadan önce ilk yapılması gereken adım nedir?",
+          "options": [
+            "Ürünü satmak",
+            "Problemi tanımlamak",
+            "Renk seçmek",
+            "Paketlemek"
+          ],
+          "correct": 1,
+          "explanation": "Tasarım sürecinin ilk adımı, çözülecek problemi doğru tanımlamaktır."
+        },
+        {
+          "id": "teknoloji-tasarim-q2",
+          "question": "Ahşap, metal ve plastik gibi maddeler tasarımda ne olarak adlandırılır?",
+          "options": [
+            "Araçlar",
+            "Malzemeler",
+            "Renkler",
+            "Çizimler"
+          ],
+          "correct": 1,
+          "explanation": "Tasarımda ürünün yapımında kullanılan maddelere 'malzeme' denir."
+        },
+        {
+          "id": "teknoloji-tasarim-q3",
+          "question": "Kullanıcının rahat ve verimli çalışmasını sağlayan tasarım anlayışına ne denir?",
+          "options": [
+            "Mekanik",
+            "Ergonomi",
+            "Estetik",
+            "Dinamik"
+          ],
+          "correct": 1,
+          "explanation": "Ergonomi, insanın fiziksel özelliklerine uygun tasarım yapma bilimidir."
+        },
+        {
+          "id": "teknoloji-tasarim-q4",
+          "question": "mBot ve Micro:bit gibi araçlar hangi alanda kullanılır?",
+          "options": [
+            "Resim",
+            "Elektronik ve robotik",
+            "Müzik",
+            "Dans"
+          ],
+          "correct": 1,
+          "explanation": "mBot ve Micro:bit, elektronik devre ve robotik kodlama eğitiminde kullanılır."
+        },
+        {
+          "id": "teknoloji-tasarim-q5",
+          "question": "Doğadaki yapı ve sistemlerden esinlenerek tasarım yapma sürecine ne ad verilir?",
+          "options": [
+            "Biyomimikri",
+            "Mekanik",
+            "Ergonomi",
+            "Grafik tasarım"
+          ],
+          "correct": 0,
+          "explanation": "Biyomimikri, doğadaki çözümlerden esinlenerek insan yapımı tasarımlar geliştirme sürecidir."
+        },
+        {
+          "id": "teknoloji-tasarim-q6",
+          "question": "Bir ürünün güvenli kullanımı için öncelikle hangi konuya dikkat edilmelidir?",
+          "options": [
+            "Sadece rengi",
+            "Malzeme özellikleri ve güvenlik kuralları",
+            "Sadece fiyatı",
+            "Sadece ambalajı"
+          ],
+          "correct": 1,
+          "explanation": "Tasarımda malzeme özellikleri ve güvenlik kuralları, kullanıcı güvenliği için kritik öneme sahiptir."
+        },
+        {
+          "id": "teknoloji-tasarim-q7",
+          "question": "Grafik tasarımda bir afişte metin ve görsellerin düzenlenmesine ne denir?",
+          "options": [
+            "Mizanpaj",
+            "Ergonomi",
+            "Mekanik",
+            "Biyomimikri"
+          ],
+          "correct": 0,
+          "explanation": "Mizanpaj, grafik tasarımda metin ve görsellerin düzenlenmesidir."
+        },
+        {
+          "id": "teknoloji-tasarim-q8",
+          "question": "Çevre dostu ürünler tasarlarken hangi kavram önemlidir?",
+          "options": [
+            "Sürdürülebilirlik",
+            "Hızlı tüketim",
+            "İsraf",
+            "Kirlilik"
+          ],
+          "correct": 0,
+          "explanation": "Sürdürülebilirlik, çevreye zarar vermeden gelecek nesillerin de ihtiyaçlarını karşılama anlayışıdır."
+        }
+      ]
+    },
+    {
+      "subjectId": "bilisim",
+      "subjectName": "Bilişim Teknolojileri ve Yazılım",
+      "questions": [
+        {
+          "id": "bilisim-q1",
+          "question": "Bilgisayarın fiziksel parçalarına (ekran, klavye, işlemci) ne ad verilir?",
+          "options": [
+            "Yazılım",
+            "Donanım",
+            "İnternet",
+            "Uygulama"
+          ],
+          "correct": 1,
+          "explanation": "Donanım, bilgisayarın elle tutulabilen fiziksel parçalarıdır."
+        },
+        {
+          "id": "bilisim-q2",
+          "question": "İnternet ortamında kişisel bilgilerimizi korumak için yapılması gereken nedir?",
+          "options": [
+            "Şifreyi herkese söylemek",
+            "Güçlü şifre kullanmak ve kimlik bilgilerini paylaşmamak",
+            "Adresi sosyal medyada paylaşmak",
+            "Tüm bilgileri açık bırakmak"
+          ],
+          "correct": 1,
+          "explanation": "Güçlü şifreler ve kişisel bilgileri paylaşmamak dijital güvenliği sağlar."
+        },
+        {
+          "id": "bilisim-q3",
+          "question": "Scratch'te tekrar eden işlemler için hangi blok kullanılır?",
+          "options": [
+            "Koşul bloğu",
+            "Döngü bloğu",
+            "Değişken bloğu",
+            "Olay bloğu"
+          ],
+          "correct": 1,
+          "explanation": "Döngü (tekrar) blokları, aynı işlemi birden fazla kez yapmayı sağlar."
+        },
+        {
+          "id": "bilisim-q4",
+          "question": "Python programlama dilinde ekrana yazı yazdırmak için hangi komut kullanılır?",
+          "options": [
+            "input()",
+            "print()",
+            "write()",
+            "show()"
+          ],
+          "correct": 1,
+          "explanation": "Python'da 'print()' fonksiyonu ekrana çıktı vermek için kullanılır."
+        },
+        {
+          "id": "bilisim-q5",
+          "question": "Bir robotun çevresini algılamasını sağlayan parçaya ne denir?",
+          "options": [
+            "Motor",
+            "Sensör",
+            "Pil",
+            "Vida"
+          ],
+          "correct": 1,
+          "explanation": "Sensörler, robotun ışık, ses, mesafe gibi çevresel verileri algılamasını sağlar."
+        },
+        {
+          "id": "bilisim-q6",
+          "question": "Yapay zeka (AI) kavramının temel anlamı nedir?",
+          "options": [
+            "İnsan beyninin kopyası",
+            "Makinelerin insan gibi düşünme ve öğrenme yeteneği",
+            "Sadece hesap makinesi",
+            "Sadece oyun"
+          ],
+          "correct": 1,
+          "explanation": "Yapay zeka, makinelerin insan gibi öğrenme, karar verme ve problem çözme yeteneğidir."
+        },
+        {
+          "id": "bilisim-q7",
+          "question": "Siber zorbalıkla karşılaşıldığında doğru davranış nedir?",
+          "options": [
+            "Karşılık vermek",
+            "Yetişkin birine (öğretmen/veli) haber vermek",
+            "Sessiz kalmak",
+            "Daha fazla internet kullanmak"
+          ],
+          "correct": 1,
+          "explanation": "Siber zorbalık durumunda güvenilir bir yetişkine haber vermek en doğru davranıştır."
+        },
+        {
+          "id": "bilisim-q8",
+          "question": "Algoritma ne anlama gelir?",
+          "options": [
+            "Bilgisayar oyunu",
+            "Bir problemi çözmek için adım adım yazılmış plan",
+            "Sadece resim çizme",
+            "İnternet sitesi"
+          ],
+          "correct": 1,
+          "explanation": "Algoritma, bir problemi çözmek için adım adım yazılmış mantıksal işlemler dizisidir."
+        }
+      ]
+    },
+    {
+      "subjectId": "rehberlik",
+      "subjectName": "Rehberlik ve Psikolojik Danışma",
+      "questions": [
+        {
+          "id": "rehberlik-q1",
+          "question": "Ayşe, ders çalışırken telefonu sürekli kontrol ediyor ve verimli olamıyor. Bu durumda ilk yapması gereken nedir?",
+          "options": [
+            "Daha çok telefon kullanmak",
+            "Telefonu başka bir odaya koymak ve zaman planı yapmak",
+            "Dersi bırakmak",
+            "Arkadaşlarına şikayet etmek"
+          ],
+          "correct": 1,
+          "explanation": "Dikkat dağıtıcı unsurları uzaklaştırmak ve zaman planı yapmak verimli çalışmayı sağlar."
+        },
+        {
+          "id": "rehberlik-q2",
+          "question": "Mehmet, arkadaşıyla tartıştığında onun duygularını anlamaya çalışıyor. Bu davranışa ne ad verilir?",
+          "options": [
+            "Eleştiri",
+            "Empati",
+            "Kıskançlık",
+            "Yargılama"
+          ],
+          "correct": 1,
+          "explanation": "Empati, başka birinin duygularını ve bakış açısını anlamaya çalışmaktır."
+        },
+        {
+          "id": "rehberlik-q3",
+          "question": "LGS sınavına hazırlanan bir öğrenci, stresini azaltmak için hangi yöntemi kullanabilir?",
+          "options": [
+            "Gece uykusuz kalmak",
+            "Derin nefes egzersizi ve düzenli dinlenmek",
+            "Ders çalışmamak",
+            "Sadece oyun oynamak"
+          ],
+          "correct": 1,
+          "explanation": "Derin nefes egzersizleri ve düzenli dinlenme, stresi azaltmada etkili yöntemlerdir."
+        },
+        {
+          "id": "rehberlik-q4",
+          "question": "Zeynep, kendini tanımak için güçlü ve zayıf yönlerini listeledi. Bu çalışma hangi konuya yardımcı olur?",
+          "options": [
+            "Özfarkındalık",
+            "Kıskançlık",
+            "Rekabet",
+            "İhmal"
+          ],
+          "correct": 0,
+          "explanation": "Özfarkındalık, bireyin kendini, güçlü ve zayıf yönlerini tanımasıdır."
+        },
+        {
+          "id": "rehberlik-q5",
+          "question": "Ali, bir meslek hakkında bilgi edinmek için doğrudan o mesleği yapan biriyle konuşuyor. Bu yönteme ne denir?",
+          "options": [
+            "Rastgele seçim",
+            "Mesleki tanıma ve görüşme",
+            "Şans",
+            "Kopya"
+          ],
+          "correct": 1,
+          "explanation": "Mesleği yapan kişilerle görüşmek, kariyer farkındalığı için etkili bir yöntemdir."
+        },
+        {
+          "id": "rehberlik-q6",
+          "question": "Bir öğrenci, sınav kaygısı yaşadığında öğretmenine danışması neyi gösterir?",
+          "options": [
+            "Zayıflık",
+            "Doğru yardım arama davranışı",
+            "Korkaklık",
+            "Başarısızlık"
+          ],
+          "correct": 1,
+          "explanation": "Yardım aramak, duygusal zorluklarla başa çıkmada olumlu ve güçlü bir davranıştır."
+        },
+        {
+          "id": "rehberlik-q7",
+          "question": "Ayşe, haftalık ders çalışma programı hazırlıyor. Bu ona hangi konuda yardımcı olur?",
+          "options": [
+            "Zaman yönetimi",
+            "Yorgunluk",
+            "İsraf",
+            "Unutkanlık"
+          ],
+          "correct": 0,
+          "explanation": "Program hazırlamak, zamanı verimli kullanma ve zaman yönetimi becerisidir."
+        },
+        {
+          "id": "rehberlik-q8",
+          "question": "Toplumda hoşgörülü olmanın temelinde hangi değer yatar?",
+          "options": [
+            "Öfke",
+            "Saygı ve farklılıkları kabul etme",
+            "Yabancı düşmanlığı",
+            "Kibir"
+          ],
+          "correct": 1,
+          "explanation": "Hoşgörü, farklı düşünce, inanç ve kültürlere saygı duyup kabul etmeyi gerektirir."
+        }
+      ]
+    },
+    {
+      "subjectId": "hayat-bilgisi",
+      "subjectName": "Hayat Bilgisi",
+      "questions": [
+        {
+          "id": "hayat-bilgisi-q1",
+          "question": "Okulda kurallara uymak neden önemlidir?",
+          "options": [
+            "Sadece öğretmeni memnun etmek için",
+            "Herkesin güvenli ve huzurlu olmasını sağlamak için",
+            "Arkadaşlarla kavga etmek için",
+            "Ders çalışmamak için"
+          ],
+          "correct": 1,
+          "explanation": "Kurallar, okulda herkesin güvenli ve huzurlu ortamda olmasını sağlar."
+        },
+        {
+          "id": "hayat-bilgisi-q2",
+          "question": "Sağlıklı büyüme ve gelişme için en önemli besin grubu hangisidir?",
+          "options": [
+            "Sadece tatlılar",
+            "Dengeli beslenme (sebze, meyve, protein, tahıl)",
+            "Sadece cips",
+            "Sadece gazlı içecekler"
+          ],
+          "correct": 1,
+          "explanation": "Dengeli beslenme, vücudun sağlıklı büyümesi için tüm besin gruplarını içermelidir."
+        },
+        {
+          "id": "hayat-bilgisi-q3",
+          "question": "Bir acil durumda ilk yardım çağrısı için hangi telefon numarası aranmalıdır?",
+          "options": [
+            "155",
+            "112",
+            "182",
+            "174"
+          ],
+          "correct": 1,
+          "explanation": "Türkiye'de acil yardım (ambulans, itfaiye, polis) için 112 aranır."
+        },
+        {
+          "id": "hayat-bilgisi-q4",
+          "question": "Türkiye'nin en uzun nehri hangisidir?",
+          "options": [
+            "Sakarya Nehri",
+            "Kızılırmak",
+            "Fırat Nehri",
+            "Dicle Nehri"
+          ],
+          "correct": 1,
+          "explanation": "Kızılırmak, Türkiye'nin en uzun nehridir."
+        },
+        {
+          "id": "hayat-bilgisi-q5",
+          "question": "Geri dönüşüm yapmanın en önemli yararı nedir?",
+          "options": [
+            "Evde eşya biriktirmek",
+            "Doğal kaynakları korumak ve çevreyi temiz tutmak",
+            "Daha çok çöp üretmek",
+            "Ağaç kesmek"
+          ],
+          "correct": 1,
+          "explanation": "Geri dönüşüm, doğal kaynakları korur ve çevre kirliliğini azaltır."
+        },
+        {
+          "id": "hayat-bilgisi-q6",
+          "question": "Ailede herkesin birlikte sorumluluk alması neyi sağlar?",
+          "options": [
+            "Kavga",
+            "Dayanışma ve iş birliği",
+            "İhmal",
+            "Yalnızlık"
+          ],
+          "correct": 1,
+          "explanation": "Ailede sorumluluk paylaşımı, dayanışma ve iş birliğini güçlendirir."
+        },
+        {
+          "id": "hayat-bilgisi-q7",
+          "question": "Türkiye Cumhuriyeti'nin kurucusu kimdir?",
+          "options": [
+            "Sultan Mehmet",
+            "Mustafa Kemal Atatürk",
+            "Fatih Sultan Mehmet",
+            "İsmet İnönü"
+          ],
+          "correct": 1,
+          "explanation": "Mustafa Kemal Atatürk, Türkiye Cumhuriyeti'nin kurucusu ve ilk Cumhurbaşkanıdır."
+        },
+        {
+          "id": "hayat-bilgisi-q8",
+          "question": "Doğal afetlerden korunmak için okulda yapılması gereken nedir?",
+          "options": [
+            "Paniklemek",
+            "Tahliye tatbikatlarına katılmak",
+            "Kaçmak",
+            "Saklanmak ve hiç çıkmamak"
+          ],
+          "correct": 1,
+          "explanation": "Tahliye tatbikatları, doğal afetlerde doğru davranışları öğrenmek ve uygulamak için yapılır."
+        }
+      ]
+    },
+    {
+      "subjectId": "girisimcilik",
+      "subjectName": "Girişimcilik",
+      "questions": [
+        {
+          "id": "girisimcilik-q1",
+          "question": "Yeni bir iş kurmak isteyen kişiye ne ad verilir?",
+          "options": [
+            "İşçi",
+            "Girişimci",
+            "Müdür",
+            "Mühendis"
+          ],
+          "correct": 1,
+          "explanation": "Girişimci, yeni iş fikirleri geliştirip bunları hayata geçiren kişidir."
+        },
+        {
+          "id": "girisimcilik-q2",
+          "question": "Bir iş fikri geliştirirken önce ne yapılmalıdır?",
+          "options": [
+            "Hemen para harcamak",
+            "Problem tespiti ve ihtiyaç analizi yapmak",
+            "Hiç kimseye söylememek",
+            "Reklam yapmak"
+          ],
+          "correct": 1,
+          "explanation": "İyi bir iş fikri, bir problemi tespit edip insanların ihtiyaçlarını anlamakla başlar."
+        },
+        {
+          "id": "girisimcilik-q3",
+          "question": "Pazarlamada ürün, fiyat, yer ve tanıtım unsurlarına birlikte ne denir?",
+          "options": [
+            "3P",
+            "4P",
+            "5P",
+            "2P"
+          ],
+          "correct": 1,
+          "explanation": "Pazarlamada ürün (Product), fiyat (Price), yer (Place), tanıtım (Promotion) '4P' olarak adlandırılır."
+        },
+        {
+          "id": "girisimcilik-q4",
+          "question": "Bir işletmenin gelirlerinin giderlerinden fazla olması durumuna ne denir?",
+          "options": [
+            "Zarar",
+            "Kâr",
+            "Bütçe açığı",
+            "Borç"
+          ],
+          "correct": 1,
+          "explanation": "Gelirler giderlerden fazla olduğunda işletme 'kâr' etmiş olur."
+        },
+        {
+          "id": "girisimcilik-q5",
+          "question": "Yeni bir ürün denemek için yapılan ilk basit modele ne denir?",
+          "options": [
+            "Reklam",
+            "Prototip",
+            "Ambalaj",
+            "Logo"
+          ],
+          "correct": 1,
+          "explanation": "Prototip, bir ürünün test edilebilir ilk basit modelidir."
+        },
+        {
+          "id": "girisimcilik-q6",
+          "question": "Girişimcilikte 'yenilikçi düşünme' ne anlama gelir?",
+          "options": [
+            "Sadece eski yöntemleri kullanmak",
+            "Farklı ve yeni çözümler üretmek",
+            "Başkalarını kopyalamak",
+            "Hiçbir şey yapmamak"
+          ],
+          "correct": 1,
+          "explanation": "Yenilikçi düşünme, alışılmışın dışında farklı ve yeni çözümler üretmek demektir."
+        },
+        {
+          "id": "girisimcilik-q7",
+          "question": "Bir iş planında 'hedef kitle' ne anlama gelir?",
+          "options": [
+            "Sadece çalışanlar",
+            "Ürününü satın alması beklenen müşteri grubu",
+            "Sadece rakipler",
+            "Sadece aile bireyleri"
+          ],
+          "correct": 1,
+          "explanation": "Hedef kitle, ürününüzü veya hizmetinizi alması beklenen müşteri grubudur."
+        },
+        {
+          "id": "girisimcilik-q8",
+          "question": "Sürdürülebilir iş modelleri hangi amacı güder?",
+          "options": [
+            "Sadece bugünü düşünmek",
+            "Gelecek nesillerin ihtiyaçlarını da gözeterek üretim yapmak",
+            "Doğal kaynakları tüketmek",
+            "Kirlilik yaratmak"
+          ],
+          "correct": 1,
+          "explanation": "Sürdürülebilir iş modelleri, çevreyi koruyarak gelecek nesillerin ihtiyaçlarını da gözetir."
+        }
+      ]
+    },
+    {
+      "subjectId": "medya-okuryazarligi",
+      "subjectName": "Medya Okuryazarlığı",
+      "questions": [
+        {
+          "id": "medya-okuryazarligi-q1",
+          "question": "Bir haberi okurken kaynağını kontrol etmemek hangi hataya yol açabilir?",
+          "options": [
+            "Daha hızlı öğrenmek",
+            "Sahte habere (yalan haber) inanmak",
+            "Daha az okumak",
+            "Daha iyi anlamak"
+          ],
+          "correct": 1,
+          "explanation": "Kaynağı bilinmeyen haberler sahte olabilir, bu yüzden kaynak kontrolü önemlidir."
+        },
+        {
+          "id": "medya-okuryazarligi-q2",
+          "question": "Sosyal medyada paylaşılan bir videonun gerçek olup olmadığını anlamak için ne yapılmalıdır?",
+          "options": [
+            "Hemen paylaşmak",
+            "Başka güvenilir kaynaklarla doğrulamak",
+            "Sadece beğeni sayısına bakmak",
+            "Yorumlara inanmak"
+          ],
+          "correct": 1,
+          "explanation": "Güvenilir haber kaynakları ve doğrulama araçlarıyla kontrol etmek gerekir."
+        },
+        {
+          "id": "medya-okuryazarligi-q3",
+          "question": "İnternet ortamında başkalarına hakaret etmek ve zorbalık yapmak hangi kavramı oluşturur?",
+          "options": [
+            "Dijital vatandaşlık",
+            "Siber zorbalık",
+            "Eğlence",
+            "Etiğin üstünlüğü"
+          ],
+          "correct": 1,
+          "explanation": "İnternet üzerinden zorbalık 'siber zorbalık' olarak adlandırılır."
+        },
+        {
+          "id": "medya-okuryazarligi-q4",
+          "question": "Bir reklamın sizi ürün almaya ikna etmek için kullandığı en yaygın yöntem nedir?",
+          "options": [
+            "Sadece fiyatı yüksek göstermek",
+            "Ünlü kişileri kullanmak ve duygusal mesajlar vermek",
+            "Ürünü küçük göstermek",
+            "Yanlış bilgi vermek"
+          ],
+          "correct": 1,
+          "explanation": "Reklamlar genellikle ünlü kişiler ve duygusal mesajlarla tüketiciyi ikna etmeye çalışır."
+        },
+        {
+          "id": "medya-okuryazarligi-q5",
+          "question": "Dijital vatandaşlığın temelinde hangi davranış yatar?",
+          "options": [
+            "Başkalarının hesaplarını hacklemek",
+            "İnternet etiğine uymak ve sorumlu davranmak",
+            "Sahte hesap açmak",
+            "Kötü yorum yapmak"
+          ],
+          "correct": 1,
+          "explanation": "Dijital vatandaşlık, internet ortamında etik kurallara uymak ve sorumlu davranmaktır."
+        },
+        {
+          "id": "medya-okuryazarligi-q6",
+          "question": "Bir gazete haberinde 'gazetecinin kendi görüşünü yansıtması' hangi hatayı gösterir?",
+          "options": [
+            "Tarafsızlık",
+            "Önyargı (tarafgirlik)",
+            "Doğruluk",
+            "Denge"
+          ],
+          "correct": 1,
+          "explanation": "Haberlerin tarafsız olması gerekir; gazetecinin kendi görüşünü yansıtması önyargıdır."
+        },
+        {
+          "id": "medya-okuryazarligi-q7",
+          "question": "Sosyal medya algoritmaları bize sürekli benzer içerik gösterince oluşan etkiye ne denir?",
+          "options": [
+            "Özgürlük",
+            "Baloncuk etkisi",
+            "Şeffaflık",
+            "Dengeli beslenme"
+          ],
+          "correct": 1,
+          "explanation": "Baloncuk etkisi, algoritmaların sürekli benzer içerik göstererek farklı görüşlerden uzaklaştırmasıdır."
+        },
+        {
+          "id": "medya-okuryazarligi-q8",
+          "question": "Kendi blog yazısı veya video içeriği üretmek neyi geliştirir?",
+          "options": [
+            "Sadece tüketici olmayı",
+            "Yaratıcı üretim ve etik yayıncılık becerilerini",
+            "Siber zorbalığı",
+            "Reklam vermeyi"
+          ],
+          "correct": 1,
+          "explanation": "İçerik üretmek, yaratıcı düşünme ve etik yayıncılık becerilerini geliştirir."
+        }
+      ]
+    },
+    {
+      "subjectId": "degerler-egitimi",
+      "subjectName": "Değerler Eğitimi",
+      "questions": [
+        {
+          "id": "degerler-egitimi-q1",
+          "question": "Ayşe, sınıftaki arkadaşının farklı kökenden olmasına rağmen onunla arkadaşlık ediyor. Bu davranış hangi değeri gösterir?",
+          "options": [
+            "Hoşgörü",
+            "Kıskançlık",
+            "Yabancı düşmanlığı",
+            "Rekabet"
+          ],
+          "correct": 0,
+          "explanation": "Farklılıklara saygı duyup kabul etmek 'hoşgörü' değerinin göstergesidir."
+        },
+        {
+          "id": "degerler-egitimi-q2",
+          "question": "Mehmet, söz verdiği bir işi zamanında yapıyor. Bu davranış hangi değeri yansıtır?",
+          "options": [
+            "Sorumluluk ve dürüstlük",
+            "İhmal",
+            "Tembellik",
+            "Yalan"
+          ],
+          "correct": 0,
+          "explanation": "Sözünü yerine getirmek sorumluluk ve dürüstlük değerlerini gösterir."
+        },
+        {
+          "id": "degerler-egitimi-q3",
+          "question": "Bir öğrenci, öğretmenine ve arkadaşlarına saygılı davranıyor. Bu davranışın temelinde ne yatar?",
+          "options": [
+            "Korku",
+            "Saygı ve sevgi",
+            "Kibir",
+            "İlgisizlik"
+          ],
+          "correct": 1,
+          "explanation": "Saygılı davranmak, kendine ve başkalarına saygı ve sevgi duymakla ilgilidir."
+        },
+        {
+          "id": "degerler-egitimi-q4",
+          "question": "Zeynep, kantinde sıraya giriyor ve önünü kesen olmamasını sağlıyor. Bu durum hangi değerle ilgilidir?",
+          "options": [
+            "Adalet ve hakkaniyet",
+            "Haksızlık",
+            "Şans",
+            "İhmal"
+          ],
+          "correct": 0,
+          "explanation": "Sıraya girmek ve herkese eşit davranmak adalet ve hakkaniyet değeridir."
+        },
+        {
+          "id": "degerler-egitimi-q5",
+          "question": "Türk bayrağının rengi ve sembolleri bize hangi duyguyu hatırlatır?",
+          "options": [
+            "Korku",
+            "Vatan sevgisi ve bağımsızlık",
+            "Yabancılık",
+            "Üzüntü"
+          ],
+          "correct": 1,
+          "explanation": "Bayrak, vatan sevgisini, bağımsızlığı ve birliği sembolize eder."
+        },
+        {
+          "id": "degerler-egitimi-q6",
+          "question": "Bir öğrenci, zor bir sınavı geçebilmek için her gün azimle çalışıyor. Bu davranış hangi değeri gösterir?",
+          "options": [
+            "Sabır ve azim",
+            "Pes etmek",
+            "Tembellik",
+            "Kısa yoldan başarı"
+          ],
+          "correct": 0,
+          "explanation": "Zorluklar karşısında çalışmaya devam etmek sabır ve azim değerleridir."
+        },
+        {
+          "id": "degerler-egitimi-q7",
+          "question": "Ali, arkadaşının başarısını alkışlıyor ve onu tebrik ediyor. Bu davranış hangi değerle ilişkilidir?",
+          "options": [
+            "Empati ve paylaşma",
+            "Kıskançlık",
+            "Kötü niyet",
+            "Yabancılık"
+          ],
+          "correct": 0,
+          "explanation": "Başkalarının başarısını alkışlamak empati ve paylaşma duygusunu gösterir."
+        },
+        {
+          "id": "degerler-egitimi-q8",
+          "question": "Toplumda kurallara uymak ve herkese eşit davranmak hangi değerin bir parçasıdır?",
+          "options": [
+            "Adalet ve düzen",
+            "Kaos",
+            "Haksızlık",
+            "Ayrımcılık"
+          ],
+          "correct": 0,
+          "explanation": "Kurallara uymak ve eşit davranmak adalet ve toplumsal düzenin temelidir."
+        }
+      ]
+    }
+  ]
+}

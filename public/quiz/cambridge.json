@@ -1,0 +1,1871 @@
+{
+  "examSystem": "Cambridge IGCSE",
+  "subjects": [
+    {
+      "subjectId": "mathematics",
+      "subjectName": "Mathematics",
+      "questions": [
+        {
+          "id": "mathematics-q1",
+          "question": "What is the value of 2^(-3)?",
+          "options": [
+            "-8",
+            "1/8",
+            "-1/8",
+            "8"
+          ],
+          "correct": 1,
+          "explanation": "A negative exponent means taking the reciprocal. 2^(-3) = 1 / 2^3 = 1/8. Students often confuse negative exponents with multiplying by -1."
+        },
+        {
+          "id": "mathematics-q2",
+          "question": "Factorise completely: x^2 - 5x + 6",
+          "options": [
+            "(x-2)(x-3)",
+            "(x+2)(x+3)",
+            "(x-1)(x-6)",
+            "(x+1)(x-6)"
+          ],
+          "correct": 0,
+          "explanation": "We need two numbers that multiply to +6 and add to -5. Those numbers are -2 and -3. So x^2 - 5x + 6 = (x-2)(x-3). Common error: choosing signs that add to +5 instead of -5."
+        },
+        {
+          "id": "mathematics-q3",
+          "question": "A triangle has angles 40° and 65°. What is the third angle?",
+          "options": [
+            "55°",
+            "75°",
+            "85°",
+            "105°"
+          ],
+          "correct": 1,
+          "explanation": "The sum of angles in a triangle is 180°. Third angle = 180 - 40 - 65 = 75°. A common mistake is subtracting from 360° instead of 180°."
+        },
+        {
+          "id": "mathematics-q4",
+          "question": "If sin(30°) = 0.5, what is the length of the opposite side in a right-angled triangle with hypotenuse 12 cm?",
+          "options": [
+            "6 cm",
+            "10.4 cm",
+            "24 cm",
+            "0.5 cm"
+          ],
+          "correct": 0,
+          "explanation": "Using SOH CAH TOA: sin = opposite/hypotenuse. So opposite = 12 × sin(30°) = 12 × 0.5 = 6 cm. Common error: dividing by 0.5 instead of multiplying."
+        },
+        {
+          "id": "mathematics-q5",
+          "question": "What is the median of the data set: 3, 7, 8, 12, 15, 18, 22?",
+          "options": [
+            "8",
+            "12",
+            "15",
+            "18"
+          ],
+          "correct": 1,
+          "explanation": "The median is the middle value when data is ordered. With 7 values, the 4th value is 12. A common mistake is finding the mean instead of the median."
+        },
+        {
+          "id": "mathematics-q6",
+          "question": "The gradient of a line is 3 and it passes through (0, -2). What is its equation?",
+          "options": [
+            "y = 3x - 2",
+            "y = 3x + 2",
+            "y = -2x + 3",
+            "y = -3x - 2"
+          ],
+          "correct": 0,
+          "explanation": "Using y = mx + c where m is the gradient and c is the y-intercept. Gradient m = 3 and c = -2 (from point (0, -2)). So y = 3x - 2. Common error: confusing gradient and intercept."
+        },
+        {
+          "id": "mathematics-q7",
+          "question": "A map scale is 1:50,000. What real distance does 4 cm on the map represent?",
+          "options": [
+            "2 km",
+            "200 m",
+            "20 km",
+            "2000 km"
+          ],
+          "correct": 0,
+          "explanation": "4 cm × 50,000 = 200,000 cm = 2,000 m = 2 km. Common error: forgetting to convert cm to km properly (200,000 cm = 2 km, not 200 km or 20 km)."
+        },
+        {
+          "id": "mathematics-q8",
+          "question": "Solve for x: 3x + 7 = 2x - 5",
+          "options": [
+            "x = -12",
+            "x = 12",
+            "x = 2",
+            "x = -2"
+          ],
+          "correct": 0,
+          "explanation": "3x + 7 = 2x - 5. Subtract 2x from both sides: x + 7 = -5. Subtract 7 from both sides: x = -12. Common error: adding 7 instead of subtracting it in the final step."
+        }
+      ]
+    },
+    {
+      "subjectId": "physics",
+      "subjectName": "Physics",
+      "questions": [
+        {
+          "id": "physics-q1",
+          "question": "A car accelerates uniformly from rest to 20 m/s in 5 seconds. What is its acceleration?",
+          "options": [
+            "4 m/s²",
+            "100 m/s²",
+            "0.25 m/s²",
+            "25 m/s²"
+          ],
+          "correct": 0,
+          "explanation": "Using a = (v - u) / t = (20 - 0) / 5 = 4 m/s². Common error: multiplying instead of dividing (20 × 5 = 100)."
+        },
+        {
+          "id": "physics-q2",
+          "question": "Which form of energy does a wound-up clock spring store?",
+          "options": [
+            "Kinetic energy",
+            "Elastic potential energy",
+            "Gravitational potential energy",
+            "Thermal energy"
+          ],
+          "correct": 1,
+          "explanation": "A wound-up spring stores elastic potential energy due to being stretched or compressed. When released, this converts to kinetic energy. Common error: confusing gravitational potential energy with elastic potential energy."
+        },
+        {
+          "id": "physics-q3",
+          "question": "A light ray travels from air into glass. Which statement is correct?",
+          "options": [
+            "It speeds up and bends away from the normal",
+            "It slows down and bends towards the normal",
+            "It speeds up and bends towards the normal",
+            "It slows down and bends away from the normal"
+          ],
+          "correct": 1,
+          "explanation": "Light slows down in a denser medium (glass) and bends towards the normal due to refraction. Common error: confusing the direction of bending or thinking light speeds up in denser media."
+        },
+        {
+          "id": "physics-q4",
+          "question": "In a parallel circuit with two identical resistors, what happens to the total resistance compared to one resistor?",
+          "options": [
+            "It doubles",
+            "It halves",
+            "It stays the same",
+            "It quadruples"
+          ],
+          "correct": 1,
+          "explanation": "For two identical resistors in parallel, 1/R_total = 1/R + 1/R = 2/R, so R_total = R/2. The total resistance decreases. Common error: thinking resistance adds in parallel like in series."
+        },
+        {
+          "id": "physics-q5",
+          "question": "What is the half-life of a radioactive substance?",
+          "options": [
+            "The time for all atoms to decay",
+            "The time for half the atoms to decay",
+            "The time for radiation to halve in energy",
+            "The time for the substance to become stable"
+          ],
+          "correct": 1,
+          "explanation": "Half-life is the time taken for half the radioactive nuclei in a sample to decay. Common error: confusing half-life with total decay time or energy reduction."
+        },
+        {
+          "id": "physics-q6",
+          "question": "A transformer has 100 turns on the primary and 400 turns on the secondary. If the input voltage is 50 V, what is the output voltage?",
+          "options": [
+            "12.5 V",
+            "200 V",
+            "50 V",
+            "400 V"
+          ],
+          "correct": 1,
+          "explanation": "V_secondary / V_primary = N_secondary / N_primary. V_secondary = 50 × (400/100) = 200 V. This is a step-up transformer. Common error: inverting the ratio (getting 12.5 V)."
+        },
+        {
+          "id": "physics-q7",
+          "question": "Which electromagnetic wave has the highest frequency?",
+          "options": [
+            "Visible light",
+            "X-rays",
+            "Microwaves",
+            "Radio waves"
+          ],
+          "correct": 1,
+          "explanation": "In the electromagnetic spectrum, from lowest to highest frequency: radio, microwave, infrared, visible, ultraviolet, X-rays, gamma rays. X-rays have higher frequency than visible light. Common error: confusing wavelength and frequency order."
+        }
+      ]
+    },
+    {
+      "subjectId": "chemistry",
+      "subjectName": "Chemistry",
+      "questions": [
+        {
+          "id": "chemistry-q1",
+          "question": "Which element has the electron configuration 2,8,1?",
+          "options": [
+            "Sodium",
+            "Magnesium",
+            "Neon",
+            "Potassium"
+          ],
+          "correct": 0,
+          "explanation": "Sodium (Na) has atomic number 11, so it has 11 electrons arranged as 2,8,1. Common error: confusing sodium with potassium (2,8,8,1) or magnesium (2,8,2)."
+        },
+        {
+          "id": "chemistry-q2",
+          "question": "What is the relative formula mass of H₂SO₄? (H=1, S=32, O=16)",
+          "options": [
+            "49",
+            "64",
+            "98",
+            "112"
+          ],
+          "correct": 2,
+          "explanation": "H₂SO₄ = (2×1) + 32 + (4×16) = 2 + 32 + 64 = 98. Common error: forgetting the subscript 2 for hydrogen (getting 97) or miscounting oxygen atoms."
+        },
+        {
+          "id": "chemistry-q3",
+          "question": "Which ion is produced when an acid dissolves in water?",
+          "options": [
+            "OH⁻",
+            "H⁺",
+            "Cl⁻",
+            "Na⁺"
+          ],
+          "correct": 1,
+          "explanation": "All acids produce hydrogen ions (H⁺) when dissolved in water. This is the defining property of acids. Common error: confusing hydroxide ions (OH⁻) produced by bases with H⁺ ions."
+        },
+        {
+          "id": "chemistry-q4",
+          "question": "During the electrolysis of molten sodium chloride, what product forms at the cathode?",
+          "options": [
+            "Chlorine gas",
+            "Sodium metal",
+            "Hydrogen gas",
+            "Oxygen gas"
+          ],
+          "correct": 1,
+          "explanation": "At the cathode (negative electrode), positive ions are attracted. Na⁺ ions gain electrons to form sodium metal. At the anode, Cl⁻ ions lose electrons to form chlorine gas. Common error: confusing cathode and anode products."
+        },
+        {
+          "id": "chemistry-q5",
+          "question": "Which of the following is an alkene?",
+          "options": [
+            "CH₄",
+            "C₂H₆",
+            "C₂H₄",
+            "C₃H₈"
+          ],
+          "correct": 2,
+          "explanation": "Alkenes have the general formula CₙH₂ₙ. C₂H₄ (ethene) fits this formula. CH₄, C₂H₆, and C₃H₈ are alkanes (CₙH₂ₙ₊₂). Common error: confusing alkane and alkene general formulas."
+        },
+        {
+          "id": "chemistry-q6",
+          "question": "What happens to the rate of a reaction when temperature increases?",
+          "options": [
+            "It decreases because particles move slower",
+            "It increases because particles collide more frequently with more energy",
+            "It stays the same",
+            "It decreases because there are fewer successful collisions"
+          ],
+          "correct": 1,
+          "explanation": "Higher temperature increases both the frequency of collisions and the proportion of collisions with energy greater than the activation energy. Common error: thinking particles move slower at higher temperatures."
+        },
+        {
+          "id": "chemistry-q7",
+          "question": "In the Haber process, what conditions favour a high yield of ammonia?",
+          "options": [
+            "High temperature and low pressure",
+            "Low temperature and high pressure",
+            "High temperature and high pressure",
+            "Low temperature and low pressure"
+          ],
+          "correct": 1,
+          "explanation": "The forward reaction is exothermic and produces fewer gas molecules. Low temperature favours the exothermic direction; high pressure favours the side with fewer gas molecules. However, a compromise temperature of 450°C is used for rate. Common error: not remembering that low temperature gives better yield but is too slow."
+        },
+        {
+          "id": "chemistry-q8",
+          "question": "Which gas is produced when a metal carbonate reacts with an acid?",
+          "options": [
+            "Hydrogen",
+            "Carbon dioxide",
+            "Oxygen",
+            "Nitrogen"
+          ],
+          "correct": 1,
+          "explanation": "Metal carbonate + acid → salt + water + carbon dioxide. This is a standard test for carbonates (limewater turns milky). Common error: confusing carbonate reactions with metal + acid reactions that produce hydrogen."
+        }
+      ]
+    },
+    {
+      "subjectId": "biology",
+      "subjectName": "Biology",
+      "questions": [
+        {
+          "id": "biology-q1",
+          "question": "Which cell structure is responsible for controlling what enters and leaves the cell?",
+          "options": [
+            "Nucleus",
+            "Cell membrane",
+            "Cytoplasm",
+            "Mitochondria"
+          ],
+          "correct": 1,
+          "explanation": "The cell membrane (plasma membrane) controls the movement of substances into and out of the cell through selective permeability. Common error: confusing this with the nucleus which controls cell activities."
+        },
+        {
+          "id": "biology-q2",
+          "question": "During which phase of the cell cycle does DNA replication occur?",
+          "options": [
+            "Mitosis",
+            "Prophase",
+            "Interphase",
+            "Cytokinesis"
+          ],
+          "correct": 2,
+          "explanation": "DNA replication occurs during interphase, specifically the S phase (synthesis phase), before mitosis begins. Common error: thinking DNA replication occurs during mitosis itself."
+        },
+        {
+          "id": "biology-q3",
+          "question": "Where does most digestion and absorption of nutrients occur in the human body?",
+          "options": [
+            "Stomach",
+            "Large intestine",
+            "Small intestine",
+            "Oesophagus"
+          ],
+          "correct": 2,
+          "explanation": "The small intestine is adapted for digestion and absorption with villi that increase surface area. Most nutrients are absorbed here. Common error: confusing the roles of the small and large intestine."
+        },
+        {
+          "id": "biology-q4",
+          "question": "What is the correct equation for photosynthesis?",
+          "options": [
+            "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂",
+            "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O",
+            "6CO₂ + 6O₂ → C₆H₁₂O₆ + 6H₂O",
+            "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂"
+          ],
+          "correct": 0,
+          "explanation": "Photosynthesis converts carbon dioxide and water into glucose and oxygen using light energy. Common error: writing the equation for respiration, or getting the products and reactants mixed up."
+        },
+        {
+          "id": "biology-q5",
+          "question": "In a food chain, which organism is the producer?",
+          "options": [
+            "A rabbit",
+            "A fox",
+            "Grass",
+            "A decomposer fungus"
+          ],
+          "correct": 2,
+          "explanation": "Producers (autotrophs) like plants make their own food through photosynthesis. All other organisms depend on producers for energy. Common error: confusing consumers with producers."
+        },
+        {
+          "id": "biology-q6",
+          "question": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+          "options": [
+            "Aorta",
+            "Vena cava",
+            "Pulmonary artery",
+            "Pulmonary vein"
+          ],
+          "correct": 3,
+          "explanation": "The pulmonary vein carries oxygenated blood from the lungs to the left atrium. Veins usually carry deoxygenated blood, but pulmonary veins are the exception. Common error: confusing pulmonary artery and vein."
+        },
+        {
+          "id": "biology-q7",
+          "question": "What is the function of xylem in plants?",
+          "options": [
+            "To transport sugars from leaves to roots",
+            "To transport water and minerals from roots to leaves",
+            "To store food",
+            "To protect the plant from pathogens"
+          ],
+          "correct": 1,
+          "explanation": "Xylem transports water and dissolved minerals from roots to the rest of the plant. Phloem transports sugars (food). Common error: confusing xylem and phloem functions."
+        }
+      ]
+    },
+    {
+      "subjectId": "english",
+      "subjectName": "English",
+      "questions": [
+        {
+          "id": "english-q1",
+          "question": "Which literary device is used in the phrase 'the wind whispered through the trees'?",
+          "options": [
+            "Simile",
+            "Metaphor",
+            "Personification",
+            "Alliteration"
+          ],
+          "correct": 2,
+          "explanation": "Personification gives human qualities to non-human things. The wind is described as 'whispering' - a human action. Common error: confusing personification with metaphor or simile."
+        },
+        {
+          "id": "english-q2",
+          "question": "What is the primary purpose of a topic sentence in a paragraph?",
+          "options": [
+            "To conclude the paragraph",
+            "To introduce the main idea of the paragraph",
+            "To provide evidence",
+            "To transition to the next paragraph"
+          ],
+          "correct": 1,
+          "explanation": "A topic sentence introduces the main idea or focus of a paragraph, usually at the beginning. Common error: confusing topic sentences with concluding sentences or transitional phrases."
+        },
+        {
+          "id": "english-q3",
+          "question": "In the sentence 'The old house groaned in the storm,' what figure of speech is used?",
+          "options": [
+            "Onomatopoeia",
+            "Personification",
+            "Hyperbole",
+            "Oxymoron"
+          ],
+          "correct": 1,
+          "explanation": "The house is given the human ability to 'groan,' which is personification. Common error: confusing personification with onomatopoeia (sound words like 'bang')."
+        },
+        {
+          "id": "english-q4",
+          "question": "Which sentence is written in the active voice?",
+          "options": [
+            "The cake was eaten by the children.",
+            "The ball was thrown by the dog.",
+            "The teacher explained the lesson.",
+            "The letter was written by Sarah."
+          ],
+          "correct": 2,
+          "explanation": "Active voice has the subject performing the action: 'The teacher explained the lesson.' The other options are passive voice where the subject receives the action. Common error: not recognising that passive voice often uses 'was + past participle + by'."
+        },
+        {
+          "id": "english-q5",
+          "question": "What is the function of a semi-colon (;) in a sentence?",
+          "options": [
+            "To introduce a list",
+            "To join two closely related independent clauses",
+            "To indicate a direct quotation",
+            "To show possession"
+          ],
+          "correct": 1,
+          "explanation": "A semi-colon joins two independent clauses that are closely related in meaning. Common error: confusing semi-colons with colons (introducing lists) or commas."
+        },
+        {
+          "id": "english-q6",
+          "question": "Which tone would be most appropriate for a formal letter to a school principal?",
+          "options": [
+            "Casual and friendly",
+            "Sarcastic and humorous",
+            "Respectful and formal",
+            "Emotional and dramatic"
+          ],
+          "correct": 2,
+          "explanation": "Formal letters to authority figures require a respectful and formal tone with appropriate vocabulary and structure. Common error: using an overly casual tone in formal contexts."
+        },
+        {
+          "id": "english-q7",
+          "question": "What does the term 'omniscient narrator' mean?",
+          "options": [
+            "A narrator who is a character in the story",
+            "A narrator who knows everything about all characters and events",
+            "A narrator who only knows one character's thoughts",
+            "A narrator who tells the story through letters"
+          ],
+          "correct": 1,
+          "explanation": "An omniscient narrator knows all characters' thoughts, feelings, and events - like an all-knowing god. 'Omni' means all, 'scient' means knowing. Common error: confusing omniscient with first-person limited narration."
+        }
+      ]
+    },
+    {
+      "subjectId": "history",
+      "subjectName": "History",
+      "questions": [
+        {
+          "id": "history-q1",
+          "question": "Which treaty ended World War I in 1919?",
+          "options": [
+            "Treaty of Versailles",
+            "Treaty of Paris",
+            "Treaty of Brest-Litovsk",
+            "Treaty of Vienna"
+          ],
+          "correct": 0,
+          "explanation": "The Treaty of Versailles (1919) imposed harsh terms on Germany, including war guilt, reparations, and territorial losses. Common error: confusing it with earlier treaties like the Treaty of Paris (1783, 1856)."
+        },
+        {
+          "id": "history-q2",
+          "question": "What was the main purpose of the League of Nations?",
+          "options": [
+            "To promote world trade",
+            "To maintain international peace and security",
+            "To colonise Africa",
+            "To spread communism"
+          ],
+          "correct": 1,
+          "explanation": "The League of Nations was established after WWI to maintain peace through collective security, disarmament, and negotiation. Common error: confusing it with economic organisations or later UN agencies."
+        },
+        {
+          "id": "history-q3",
+          "question": "In what year did the Cuban Missile Crisis occur?",
+          "options": [
+            "1956",
+            "1962",
+            "1968",
+            "1975"
+          ],
+          "correct": 1,
+          "explanation": "The Cuban Missile Crisis occurred in October 1962 when Soviet missiles were discovered in Cuba, bringing the world close to nuclear war. Common error: confusing it with the 1956 Suez Crisis or 1968 Prague Spring."
+        },
+        {
+          "id": "history-q4",
+          "question": "Which source would a historian consider most reliable for understanding daily life in ancient Rome?",
+          "options": [
+            "A modern Hollywood film about Rome",
+            "A Roman diary written by a citizen at the time",
+            "A tourism website about Rome",
+            "A video game set in ancient Rome"
+          ],
+          "correct": 1,
+          "explanation": "Primary sources from the time period, like a contemporary diary, are generally most reliable for understanding daily life. Common error: not understanding the distinction between primary and secondary sources."
+        },
+        {
+          "id": "history-q5",
+          "question": "What was the significance of the Berlin Wall's fall in 1989?",
+          "options": [
+            "It started the Cold War",
+            "It marked the beginning of German reunification and the end of the Cold War",
+            "It divided Germany into two countries",
+            "It was built by NATO forces"
+          ],
+          "correct": 1,
+          "explanation": "The fall of the Berlin Wall in November 1989 symbolised the end of the Cold War and led to German reunification in 1990. Common error: confusing when it fell versus when it was built (1961)."
+        },
+        {
+          "id": "history-q6",
+          "question": "Which of the following was a major cause of World War II?",
+          "options": [
+            "The Treaty of Versailles and its harsh terms on Germany",
+            "The establishment of the United Nations",
+            "The end of colonialism in Africa",
+            "The invention of the telephone"
+          ],
+          "correct": 0,
+          "explanation": "The Treaty of Versailles (1919) created resentment in Germany, economic problems, and political instability, which contributed to Hitler's rise. The UN was established after WWII. Common error: confusing causes with consequences."
+        }
+      ]
+    },
+    {
+      "subjectId": "geography",
+      "subjectName": "Geography",
+      "questions": [
+        {
+          "id": "geography-q1",
+          "question": "Which country introduced the one-child policy to control population growth?",
+          "options": [
+            "India",
+            "China",
+            "Brazil",
+            "Nigeria"
+          ],
+          "correct": 1,
+          "explanation": "China introduced the one-child policy in 1979 to curb rapid population growth. It was relaxed in 2016. Common error: confusing China's policy with India's family planning efforts."
+        },
+        {
+          "id": "geography-q2",
+          "question": "What type of erosion occurs when river rocks collide and break apart?",
+          "options": [
+            "Hydraulic action",
+            "Abrasion",
+            "Attrition",
+            "Corrosion"
+          ],
+          "correct": 2,
+          "explanation": "Attrition is when load particles collide with each other, becoming smaller and rounder. Hydraulic action is the force of water; abrasion is scraping against the river bed. Common error: confusing attrition with abrasion."
+        },
+        {
+          "id": "geography-q3",
+          "question": "Which layer of the tropical rainforest receives the most sunlight?",
+          "options": [
+            "Forest floor",
+            "Understorey",
+            "Canopy",
+            "Emergent layer"
+          ],
+          "correct": 3,
+          "explanation": "The emergent layer consists of the tallest trees that rise above the canopy and receive the most direct sunlight. Common error: confusing the canopy (which also receives sunlight) with the emergent layer."
+        },
+        {
+          "id": "geography-q4",
+          "question": "What is the main cause of desertification in the Sahel region of Africa?",
+          "options": [
+            "Excessive rainfall",
+            "Overgrazing and deforestation",
+            "Volcanic eruptions",
+            "Industrial pollution"
+          ],
+          "correct": 1,
+          "explanation": "Desertification in the Sahel is primarily caused by human activities like overgrazing, deforestation, and poor farming practices combined with drought and climate change. Common error: not linking desertification to human land use."
+        },
+        {
+          "id": "geography-q5",
+          "question": "In a random sampling method for fieldwork, how are sample points chosen?",
+          "options": [
+            "Based on convenience",
+            "Using a random number generator or random grid",
+            "By selecting the most interesting areas",
+            "By asking local people for advice"
+          ],
+          "correct": 1,
+          "explanation": "Random sampling uses chance methods (like random numbers or grid coordinates) to eliminate bias. Common error: confusing random sampling with systematic or stratified sampling."
+        },
+        {
+          "id": "geography-q6",
+          "question": "Which type of tourism focuses on protecting the environment and supporting local communities?",
+          "options": [
+            "Mass tourism",
+            "Eco-tourism",
+            "Adventure tourism",
+            "Cultural tourism"
+          ],
+          "correct": 1,
+          "explanation": "Eco-tourism (sustainable tourism) aims to minimise environmental impact while benefiting local communities and conservation. Common error: confusing eco-tourism with adventure tourism which may not be sustainable."
+        },
+        {
+          "id": "geography-q7",
+          "question": "What does the demographic transition model show?",
+          "options": [
+            "Population migration patterns",
+            "Changes in birth and death rates over time as a country develops",
+            "Climate change patterns",
+            "Economic growth rates"
+          ],
+          "correct": 1,
+          "explanation": "The DTM shows how birth rates and death rates change as a country develops economically, leading to population changes through 5 stages. Common error: confusing it with migration models or economic indicators."
+        }
+      ]
+    },
+    {
+      "subjectId": "computer-science",
+      "subjectName": "Computer Science",
+      "questions": [
+        {
+          "id": "computer-science-q1",
+          "question": "What is the decimal equivalent of the binary number 10110?",
+          "options": [
+            "20",
+            "22",
+            "24",
+            "26"
+          ],
+          "correct": 1,
+          "explanation": "10110 in binary = (1×16) + (0×8) + (1×4) + (1×2) + (0×1) = 16 + 0 + 4 + 2 + 0 = 22. Common error: miscalculating place values or missing a bit."
+        },
+        {
+          "id": "computer-science-q2",
+          "question": "In the CPU fetch-decode-execute cycle, what is the role of the Program Counter?",
+          "options": [
+            "To store the current instruction being executed",
+            "To hold the address of the next instruction to be fetched",
+            "To decode instructions into operations",
+            "To perform arithmetic calculations"
+          ],
+          "correct": 1,
+          "explanation": "The Program Counter (PC) holds the memory address of the next instruction. It is incremented after each fetch. Common error: confusing PC with the Instruction Register or ALU."
+        },
+        {
+          "id": "computer-science-q3",
+          "question": "Which network topology has every device connected directly to every other device?",
+          "options": [
+            "Bus",
+            "Star",
+            "Ring",
+            "Mesh"
+          ],
+          "correct": 3,
+          "explanation": "In a mesh topology, every node is connected to every other node. This provides high redundancy but is expensive. Common error: confusing mesh with star (where all connect to a central hub)."
+        },
+        {
+          "id": "computer-science-q4",
+          "question": "What is the time complexity of binary search in the worst case?",
+          "options": [
+            "O(n)",
+            "O(n²)",
+            "O(log n)",
+            "O(1)"
+          ],
+          "correct": 2,
+          "explanation": "Binary search halves the search space each time, giving O(log n) worst-case time. Linear search is O(n). Common error: confusing binary search with linear search complexity."
+        },
+        {
+          "id": "computer-science-q5",
+          "question": "Which of the following is an example of a selection statement in programming?",
+          "options": [
+            "FOR loop",
+            "WHILE loop",
+            "IF statement",
+            "REPEAT UNTIL loop"
+          ],
+          "correct": 2,
+          "explanation": "An IF statement is a selection (branching) structure that chooses between paths based on a condition. Loops are iteration structures. Common error: confusing selection with iteration."
+        },
+        {
+          "id": "computer-science-q6",
+          "question": "What is the purpose of a firewall in network security?",
+          "options": [
+            "To detect and remove viruses",
+            "To block unauthorised network traffic",
+            "To encrypt data transmissions",
+            "To speed up internet connections"
+          ],
+          "correct": 1,
+          "explanation": "A firewall monitors and controls incoming and outgoing network traffic based on security rules. Common error: confusing firewalls with antivirus software or encryption tools."
+        }
+      ]
+    },
+    {
+      "subjectId": "french",
+      "subjectName": "French",
+      "questions": [
+        {
+          "id": "french-q1",
+          "question": "Which of the following is the correct French translation for 'I am going to the cinema'?",
+          "options": [
+            "Je vais au cinéma",
+            "Je vais à la cinéma",
+            "Je vais le cinéma",
+            "Je vais du cinéma"
+          ],
+          "correct": 0,
+          "explanation": "'Je vais au cinéma' uses 'au' (à + le) which is correct for masculine nouns. Common error: using 'à la' with masculine nouns like cinéma."
+        },
+        {
+          "id": "french-q2",
+          "question": "What is the correct past participle of the verb 'faire' in the passé composé?",
+          "options": [
+            "fais",
+            "fait",
+            "faite",
+            "fasons"
+          ],
+          "correct": 1,
+          "explanation": "The past participle of 'faire' is 'fait' (e.g., 'j'ai fait'). Common error: confusing the past participle with present tense forms."
+        },
+        {
+          "id": "french-q3",
+          "question": "Which tense would you use to describe a future plan in French?",
+          "options": [
+            "Passé composé",
+            "Imparfait",
+            "Futur simple",
+            "Présent"
+          ],
+          "correct": 2,
+          "explanation": "The futur simple (e.g., 'je ferai') is used for future plans. Common error: using the present tense for all future contexts in French."
+        },
+        {
+          "id": "french-q4",
+          "question": "Which of the following is a feminine noun in French?",
+          "options": [
+            "le livre",
+            "le stylo",
+            "la table",
+            "le bureau"
+          ],
+          "correct": 2,
+          "explanation": "'La table' is feminine (la). Le livre, le stylo, and le bureau are masculine. Common error: assuming nouns ending in -e are always feminine."
+        },
+        {
+          "id": "french-q5",
+          "question": "In French, which pronoun replaces 'à mon ami' in the sentence 'Je parle à mon ami'?",
+          "options": [
+            "le",
+            "la",
+            "lui",
+            "leur"
+          ],
+          "correct": 2,
+          "explanation": "'Lui' is the indirect object pronoun replacing 'à + person' (singular). Common error: using direct object pronouns 'le' or 'la' for indirect objects."
+        }
+      ]
+    },
+    {
+      "subjectId": "spanish",
+      "subjectName": "Spanish",
+      "questions": [
+        {
+          "id": "spanish-q1",
+          "question": "Which is the correct Spanish translation for 'I am 15 years old'?",
+          "options": [
+            "Yo soy 15 años",
+            "Yo tengo 15 años",
+            "Yo estoy 15 años",
+            "Yo hago 15 años"
+          ],
+          "correct": 1,
+          "explanation": "In Spanish, age is expressed with 'tener' (to have): 'Yo tengo 15 años.' Common error: using 'ser' or 'estar' instead of 'tener' for age."
+        },
+        {
+          "id": "spanish-q2",
+          "question": "Which of the following verbs is irregular in the preterite tense?",
+          "options": [
+            "hablar",
+            "comer",
+            "ir",
+            "vivir"
+          ],
+          "correct": 2,
+          "explanation": "'Ir' (to go) is highly irregular in the preterite: fui, fuiste, fue, fuimos, fuisteis, fueron. Regular -ar, -er, and -ir verbs follow standard patterns. Common error: treating 'ir' as regular."
+        },
+        {
+          "id": "spanish-q3",
+          "question": "When would you use 'estar' rather than 'ser'?",
+          "options": [
+            "To describe someone's personality",
+            "To describe someone's profession",
+            "To describe someone's location or temporary state",
+            "To describe someone's nationality"
+          ],
+          "correct": 2,
+          "explanation": "'Estar' is used for temporary states, locations, and conditions. 'Ser' is used for permanent characteristics. Common error: using 'ser' for location or temporary conditions."
+        },
+        {
+          "id": "spanish-q4",
+          "question": "Which article is correct for the noun 'agua' (water)?",
+          "options": [
+            "el agua",
+            "la agua",
+            "un agua",
+            "una agua"
+          ],
+          "correct": 0,
+          "explanation": "Although 'agua' is feminine, it takes 'el' for phonetic reasons (feminine nouns starting with stressed 'a-' use 'el'). Common error: assuming 'agua' is masculine because it uses 'el'."
+        },
+        {
+          "id": "spanish-q5",
+          "question": "Which of the following is the correct subjunctive form of 'tener' in the present tense for 'yo'?",
+          "options": [
+            "tengo",
+            "tenía",
+            "tenga",
+            "tendré"
+          ],
+          "correct": 2,
+          "explanation": "'Tenga' is the present subjunctive of 'tener' for 'yo'. The indicative is 'tengo.' Common error: confusing subjunctive with indicative or future forms."
+        }
+      ]
+    },
+    {
+      "subjectId": "additional-mathematics",
+      "subjectName": "Additional Mathematics",
+      "questions": [
+        {
+          "id": "additional-mathematics-q1",
+          "question": "If f(x) = 2x + 3 and g(x) = x², what is f(g(2))?",
+          "options": [
+            "7",
+            "11",
+            "14",
+            "49"
+          ],
+          "correct": 1,
+          "explanation": "First g(2) = 2² = 4. Then f(4) = 2(4) + 3 = 11. Common error: computing g(f(2)) instead, which gives (2(2)+3)² = 49."
+        },
+        {
+          "id": "additional-mathematics-q2",
+          "question": "What is the discriminant of the quadratic equation 2x² - 5x + 3 = 0?",
+          "options": [
+            "1",
+            "25",
+            "-1",
+            "49"
+          ],
+          "correct": 0,
+          "explanation": "Discriminant = b² - 4ac = (-5)² - 4(2)(3) = 25 - 24 = 1. A positive discriminant means two distinct real roots. Common error: forgetting to multiply 4×2×3 properly or using wrong signs."
+        },
+        {
+          "id": "additional-mathematics-q3",
+          "question": "Simplify log₂(32) - log₂(4).",
+          "options": [
+            "3",
+            "8",
+            "28",
+            "128"
+          ],
+          "correct": 0,
+          "explanation": "Using log laws: log₂(32) - log₂(4) = log₂(32/4) = log₂(8) = 3 (since 2³ = 8). Common error: subtracting the arguments instead of dividing (getting log₂(28))."
+        },
+        {
+          "id": "additional-mathematics-q4",
+          "question": "Find the derivative of f(x) = 3x³ + 2x² - 5x + 1.",
+          "options": [
+            "9x² + 4x - 5",
+            "x⁴ + x³ - 2.5x² + x",
+            "3x² + 2x - 5",
+            "6x² + 2x - 5"
+          ],
+          "correct": 0,
+          "explanation": "Using power rule: d/dx[3x³] = 9x², d/dx[2x²] = 4x, d/dx[-5x] = -5, d/dx[1] = 0. So f'(x) = 9x² + 4x - 5. Common error: not multiplying by the power (getting 3x² instead of 9x²)."
+        },
+        {
+          "id": "additional-mathematics-q5",
+          "question": "What is the amplitude of the function y = 3sin(2x) + 1?",
+          "options": [
+            "3",
+            "2",
+            "1",
+            "4"
+          ],
+          "correct": 0,
+          "explanation": "For y = a sin(bx) + c, the amplitude is |a|. Here a = 3, so amplitude is 3. The vertical shift is +1. Common error: confusing amplitude with the vertical shift or the coefficient of x."
+        },
+        {
+          "id": "additional-mathematics-q6",
+          "question": "How many ways can 4 different books be arranged on a shelf?",
+          "options": [
+            "16",
+            "24",
+            "64",
+            "256"
+          ],
+          "correct": 1,
+          "explanation": "This is 4! = 4 × 3 × 2 × 1 = 24 permutations. Common error: calculating 4⁴ (256) or 4² (16) instead of factorial."
+        }
+      ]
+    },
+    {
+      "subjectId": "combined-science",
+      "subjectName": "Combined Science",
+      "questions": [
+        {
+          "id": "combined-science-q1",
+          "question": "Which gas is required for aerobic respiration in cells?",
+          "options": [
+            "Carbon dioxide",
+            "Nitrogen",
+            "Oxygen",
+            "Hydrogen"
+          ],
+          "correct": 2,
+          "explanation": "Oxygen is required for aerobic respiration to break down glucose and release energy. Carbon dioxide is a waste product. Common error: confusing oxygen with carbon dioxide."
+        },
+        {
+          "id": "combined-science-q2",
+          "question": "What is the pH of a neutral solution at 25°C?",
+          "options": [
+            "0",
+            "7",
+            "14",
+            "1"
+          ],
+          "correct": 1,
+          "explanation": "A neutral solution has pH 7. Acids have pH < 7 and alkalis have pH > 7. Common error: confusing neutral with acidic or alkaline pH values."
+        },
+        {
+          "id": "combined-science-q3",
+          "question": "What is the formula for calculating speed?",
+          "options": [
+            "Speed = time ÷ distance",
+            "Speed = distance ÷ time",
+            "Speed = distance × time",
+            "Speed = mass × velocity"
+          ],
+          "correct": 1,
+          "explanation": "Speed = distance ÷ time. The unit is m/s. Common error: inverting the formula (time ÷ distance) or confusing it with other formulas like force or momentum."
+        },
+        {
+          "id": "combined-science-q4",
+          "question": "Which state of matter has particles with the most kinetic energy?",
+          "options": [
+            "Solid",
+            "Liquid",
+            "Gas",
+            "All have the same"
+          ],
+          "correct": 2,
+          "explanation": "Gas particles have the most kinetic energy and move freely at high speeds. Solid particles vibrate in fixed positions. Common error: thinking solids have more kinetic energy because they are denser."
+        },
+        {
+          "id": "combined-science-q5",
+          "question": "In a balanced ecosystem, what happens to the population of prey if the predator population decreases?",
+          "options": [
+            "It decreases immediately",
+            "It stays the same",
+            "It increases initially",
+            "It becomes extinct"
+          ],
+          "correct": 2,
+          "explanation": "With fewer predators, prey experience less predation pressure and their population initially increases. Eventually, food scarcity may limit further growth. Common error: assuming prey populations decrease when predators decrease."
+        },
+        {
+          "id": "combined-science-q6",
+          "question": "Which of the following is a renewable energy source?",
+          "options": [
+            "Coal",
+            "Natural gas",
+            "Solar power",
+            "Nuclear fission"
+          ],
+          "correct": 2,
+          "explanation": "Solar power is renewable because the Sun's energy is continuously available. Coal, natural gas, and nuclear fuel (uranium) are finite resources. Common error: confusing nuclear with renewable energy."
+        }
+      ]
+    },
+    {
+      "subjectId": "environmental-management",
+      "subjectName": "Environmental Management",
+      "questions": [
+        {
+          "id": "environmental-management-q1",
+          "question": "Which greenhouse gas is released in large quantities by the burning of fossil fuels?",
+          "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Argon"
+          ],
+          "correct": 2,
+          "explanation": "Burning fossil fuels releases CO₂, the main greenhouse gas contributing to global warming. Common error: confusing CO₂ with other atmospheric gases like oxygen or nitrogen."
+        },
+        {
+          "id": "environmental-management-q2",
+          "question": "What is the main cause of eutrophication in water bodies?",
+          "options": [
+            "Oil spills",
+            "Excess nutrients from fertilisers and sewage",
+            "Plastic pollution",
+            "Thermal pollution"
+          ],
+          "correct": 1,
+          "explanation": "Eutrophication is caused by excess nutrients (nitrogen and phosphorus) from fertilisers and sewage, leading to algal blooms and oxygen depletion. Common error: confusing it with oil spills or plastic pollution."
+        },
+        {
+          "id": "environmental-management-q3",
+          "question": "Which international agreement aims to protect the ozone layer?",
+          "options": [
+            "Kyoto Protocol",
+            "Montreal Protocol",
+            "Paris Agreement",
+            "Rio Earth Summit"
+          ],
+          "correct": 1,
+          "explanation": "The Montreal Protocol (1987) phased out the production of ozone-depleting substances like CFCs. Common error: confusing it with the Kyoto Protocol (greenhouse gases) or Paris Agreement (climate change)."
+        },
+        {
+          "id": "environmental-management-q4",
+          "question": "What is the primary purpose of a marine protected area (MPA)?",
+          "options": [
+            "To increase commercial fishing",
+            "To conserve marine biodiversity and ecosystems",
+            "To develop oil extraction",
+            "To promote coastal tourism"
+          ],
+          "correct": 1,
+          "explanation": "MPAs protect marine ecosystems, habitats, and species from destructive activities. Common error: confusing MPAs with commercial fishing zones or tourist areas."
+        },
+        {
+          "id": "environmental-management-q5",
+          "question": "Which farming practice helps prevent soil erosion on sloped land?",
+          "options": [
+            "Monoculture",
+            "Contour ploughing",
+            "Overgrazing",
+            "Deforestation"
+          ],
+          "correct": 1,
+          "explanation": "Contour ploughing follows the land's contours, reducing water runoff and soil erosion. Monoculture and overgrazing increase erosion risk. Common error: confusing contour ploughing with terracing or not understanding its purpose."
+        }
+      ]
+    },
+    {
+      "subjectId": "business-studies",
+      "subjectName": "Business Studies",
+      "questions": [
+        {
+          "id": "business-studies-q1",
+          "question": "Which of the following is an example of a tertiary sector business?",
+          "options": [
+            "A coal mine",
+            "A car factory",
+            "A bank",
+            "A farm"
+          ],
+          "correct": 2,
+          "explanation": "Banks provide services, which is the tertiary sector. Coal mines (primary) and car factories (secondary) extract or manufacture goods. Common error: confusing tertiary with secondary sector."
+        },
+        {
+          "id": "business-studies-q2",
+          "question": "What is 'opportunity cost' in business decision-making?",
+          "options": [
+            "The total cost of all resources used",
+            "The benefit of the next best alternative foregone",
+            "The fixed cost of production",
+            "The cost of advertising"
+          ],
+          "correct": 1,
+          "explanation": "Opportunity cost is the value of the next best alternative given up when making a choice. Common error: confusing it with accounting costs or total costs."
+        },
+        {
+          "id": "business-studies-q3",
+          "question": "In the marketing mix, what does 'Place' refer to?",
+          "options": [
+            "The location of the business headquarters",
+            "The distribution channels used to get the product to customers",
+            "The advertising strategy",
+            "The price of the product"
+          ],
+          "correct": 1,
+          "explanation": "Place in the 4Ps refers to distribution channels and how products reach customers (retail, online, wholesale). Common error: confusing Place with physical location or promotion."
+        },
+        {
+          "id": "business-studies-q4",
+          "question": "What is the formula for calculating gross profit?",
+          "options": [
+            "Revenue - Cost of goods sold",
+            "Revenue - Total costs",
+            "Revenue ÷ Cost of goods sold",
+            "Cost of goods sold - Revenue"
+          ],
+          "correct": 0,
+          "explanation": "Gross profit = Revenue - Cost of goods sold. Net profit = Revenue - Total costs. Common error: confusing gross profit with net profit."
+        },
+        {
+          "id": "business-studies-q5",
+          "question": "Which organisational structure has a wide span of control and few management layers?",
+          "options": [
+            "Tall structure",
+            "Flat structure",
+            "Matrix structure",
+            "Hierarchical structure"
+          ],
+          "correct": 1,
+          "explanation": "A flat structure has few layers of management and a wide span of control, enabling faster communication. Common error: confusing flat with tall structures."
+        }
+      ]
+    },
+    {
+      "subjectId": "economics",
+      "subjectName": "Economics",
+      "questions": [
+        {
+          "id": "economics-q1",
+          "question": "What is the 'basic economic problem'?",
+          "options": [
+            "Unemployment",
+            "Scarcity of resources relative to unlimited wants",
+            "Inflation",
+            "Balance of payments deficit"
+          ],
+          "correct": 1,
+          "explanation": "The basic economic problem is scarcity - limited resources cannot satisfy unlimited human wants, forcing choices. Common error: confusing it with specific macroeconomic problems like inflation."
+        },
+        {
+          "id": "economics-q2",
+          "question": "If demand for a product is price elastic, what happens to total revenue when price increases?",
+          "options": [
+            "Total revenue increases",
+            "Total revenue decreases",
+            "Total revenue stays the same",
+            "Total revenue doubles"
+          ],
+          "correct": 1,
+          "explanation": "With elastic demand, the percentage fall in quantity demanded exceeds the percentage rise in price, so total revenue decreases. Common error: assuming revenue always rises with price increases."
+        },
+        {
+          "id": "economics-q3",
+          "question": "Which policy tool would a government use to reduce inflation?",
+          "options": [
+            "Increase government spending",
+            "Decrease interest rates",
+            "Increase interest rates",
+            "Increase the money supply"
+          ],
+          "correct": 2,
+          "explanation": "Higher interest rates reduce borrowing and spending, cooling demand and lowering inflation. Common error: confusing expansionary policies (lowering rates) with contractionary policies."
+        },
+        {
+          "id": "economics-q4",
+          "question": "What is a progressive tax system?",
+          "options": [
+            "Everyone pays the same percentage of income",
+            "Higher income earners pay a higher percentage of income in tax",
+            "Lower income earners pay a higher percentage",
+            "Only the wealthy pay tax"
+          ],
+          "correct": 1,
+          "explanation": "In a progressive tax system, the tax rate increases as income increases. Common error: confusing progressive with proportional (flat) or regressive taxation."
+        },
+        {
+          "id": "economics-q5",
+          "question": "Which of the following is a supply-side policy?",
+          "options": [
+            "Increasing interest rates",
+            "Reducing income tax to incentivise work",
+            "Increasing government spending on welfare",
+            "Devaluing the currency"
+          ],
+          "correct": 1,
+          "explanation": "Supply-side policies aim to increase productive capacity by improving incentives and efficiency. Tax cuts can encourage work and investment. Common error: confusing demand-side fiscal policies with supply-side policies."
+        }
+      ]
+    },
+    {
+      "subjectId": "global-perspectives",
+      "subjectName": "Global Perspectives",
+      "questions": [
+        {
+          "id": "global-perspectives-q1",
+          "question": "Which of the following best describes a primary source in research?",
+          "options": [
+            "A textbook summarising historical events",
+            "A newspaper article from the time the event occurred",
+            "A modern documentary about the event",
+            "A Wikipedia article"
+          ],
+          "correct": 1,
+          "explanation": "A primary source is created at the time of the event, such as a contemporary newspaper article. Textbooks and documentaries are secondary sources. Common error: confusing primary with secondary sources."
+        },
+        {
+          "id": "global-perspectives-q2",
+          "question": "What is the main purpose of identifying bias in a source?",
+          "options": [
+            "To reject the source completely",
+            "To understand how perspective may affect the reliability of information",
+            "To prove the source is wrong",
+            "To make the research shorter"
+          ],
+          "correct": 1,
+          "explanation": "Identifying bias helps researchers evaluate how an author's perspective might influence the information presented, allowing for more balanced analysis. Common error: thinking bias means a source is completely unreliable."
+        },
+        {
+          "id": "global-perspectives-q3",
+          "question": "Which of the following is an example of a global issue?",
+          "options": [
+            "A local school's exam results",
+            "A village's parking problems",
+            "Climate change affecting multiple countries",
+            "A town's new library opening"
+          ],
+          "correct": 2,
+          "explanation": "Climate change affects multiple countries and regions, making it a global issue. Local issues are confined to specific communities. Common error: confusing local community issues with global issues."
+        },
+        {
+          "id": "global-perspectives-q4",
+          "question": "In a collaborative project, what is the most effective way to resolve a conflict between team members?",
+          "options": [
+            "Ignore the conflict and continue working",
+            "Ask the teacher to remove one member",
+            "Discuss perspectives openly and find a compromise",
+            "Let the loudest member decide"
+          ],
+          "correct": 2,
+          "explanation": "Open communication and compromise are key to effective conflict resolution in teams. Common error: avoiding conflict or imposing unilateral decisions."
+        },
+        {
+          "id": "global-perspectives-q5",
+          "question": "Which skill is most important when evaluating arguments from different cultural perspectives?",
+          "options": [
+            "Memorising facts",
+            "Empathy and open-mindedness",
+            "Speed reading",
+            "Avoiding all sources that disagree with your view"
+          ],
+          "correct": 1,
+          "explanation": "Evaluating arguments from different cultural perspectives requires empathy and open-mindedness to understand viewpoints that may differ from your own. Common error: thinking memorisation or dismissing opposing views is sufficient."
+        }
+      ]
+    },
+    {
+      "subjectId": "art-and-design",
+      "subjectName": "Art & Design",
+      "questions": [
+        {
+          "id": "art-and-design-q1",
+          "question": "Which colour model is used for digital screen design?",
+          "options": [
+            "CMYK",
+            "RYB",
+            "RGB",
+            "Pantone"
+          ],
+          "correct": 2,
+          "explanation": "RGB (Red, Green, Blue) is the additive colour model used for screens and digital displays. CMYK is for print. Common error: confusing RGB with CMYK."
+        },
+        {
+          "id": "art-and-design-q2",
+          "question": "What is the primary purpose of a thumbnail sketch in the design process?",
+          "options": [
+            "To create the final polished artwork",
+            "To quickly explore multiple layout ideas",
+            "To frame the finished piece",
+            "To display the artwork in a gallery"
+          ],
+          "correct": 1,
+          "explanation": "Thumbnail sketches are small, quick drawings used to explore and compare multiple layout ideas before developing a final design. Common error: thinking thumbnails are final pieces."
+        },
+        {
+          "id": "art-and-design-q3",
+          "question": "Which principle of design creates a sense of stability in an artwork?",
+          "options": [
+            "Contrast",
+            "Balance",
+            "Emphasis",
+            "Movement"
+          ],
+          "correct": 1,
+          "explanation": "Balance creates visual stability by distributing elements evenly or asymmetrically. Common error: confusing balance with contrast or emphasis."
+        },
+        {
+          "id": "art-and-design-q4",
+          "question": "In typography, what is the term for the space between letters?",
+          "options": [
+            "Leading",
+            "Kerning",
+            "Tracking",
+            "Line height"
+          ],
+          "correct": 1,
+          "explanation": "Kerning refers to adjusting the space between individual letter pairs. Tracking adjusts spacing across a range of characters. Leading is line spacing. Common error: confusing kerning with tracking or leading."
+        },
+        {
+          "id": "art-and-design-q5",
+          "question": "Which colour is produced by mixing equal amounts of cyan and magenta in the CMYK model?",
+          "options": [
+            "Green",
+            "Red",
+            "Blue",
+            "Yellow"
+          ],
+          "correct": 2,
+          "explanation": "In CMYK subtractive mixing, cyan + magenta = blue (or a blue-violet). Cyan + yellow = green; magenta + yellow = red. Common error: confusing additive RGB mixing with subtractive CMYK mixing."
+        }
+      ]
+    },
+    {
+      "subjectId": "music",
+      "subjectName": "Music",
+      "questions": [
+        {
+          "id": "music-q1",
+          "question": "Which time signature has four crotchet beats per bar?",
+          "options": [
+            "3/4",
+            "4/4",
+            "2/4",
+            "6/8"
+          ],
+          "correct": 1,
+          "explanation": "4/4 time (common time) has four crotchet beats in each bar. 3/4 has three beats; 2/4 has two; 6/8 has six quaver beats. Common error: confusing the top and bottom numbers."
+        },
+        {
+          "id": "music-q2",
+          "question": "In the Baroque period, which composer is known for the 'Brandenburg Concertos'?",
+          "options": [
+            "Wolfgang Amadeus Mozart",
+            "Johann Sebastian Bach",
+            "Ludwig van Beethoven",
+            "Franz Schubert"
+          ],
+          "correct": 1,
+          "explanation": "J.S. Bach composed the Brandenburg Concertos around 1721. Common error: confusing Bach with Mozart or Beethoven from later periods."
+        },
+        {
+          "id": "music-q3",
+          "question": "What is the interval between C and G?",
+          "options": [
+            "A third",
+            "A fourth",
+            "A fifth",
+            "A sixth"
+          ],
+          "correct": 2,
+          "explanation": "C to G is a perfect fifth (C-D-E-F-G = 5 notes). Common error: counting the starting note as 0 instead of 1, or confusing with a fourth."
+        },
+        {
+          "id": "music-q4",
+          "question": "Which dynamic marking means 'very loud'?",
+          "options": [
+            "piano",
+            "mezzo-forte",
+            "fortissimo",
+            "forte"
+          ],
+          "correct": 2,
+          "explanation": "Fortissimo (ff) means very loud. Piano (p) is soft; mezzo-forte (mf) is moderately loud; forte (f) is loud. Common error: confusing fortissimo with forte."
+        },
+        {
+          "id": "music-q5",
+          "question": "Which family of instruments does the cello belong to?",
+          "options": [
+            "Woodwind",
+            "Brass",
+            "String",
+            "Percussion"
+          ],
+          "correct": 2,
+          "explanation": "The cello is a bowed string instrument in the same family as violin and viola. Common error: confusing string instruments with woodwind or brass."
+        }
+      ]
+    },
+    {
+      "subjectId": "drama",
+      "subjectName": "Drama",
+      "questions": [
+        {
+          "id": "drama-q1",
+          "question": "What is the term for the area of a stage closest to the audience?",
+          "options": [
+            "Upstage",
+            "Downstage",
+            "Stage left",
+            "Stage right"
+          ],
+          "correct": 1,
+          "explanation": "Downstage is closest to the audience. Upstage is furthest away. This originates from raked stages where 'up' was literally higher/away. Common error: confusing upstage and downstage."
+        },
+        {
+          "id": "drama-q2",
+          "question": "Which stage type has the audience on three sides of the acting area?",
+          "options": [
+            "Proscenium arch",
+            "Thrust stage",
+            "Theatre in the round",
+            "End-on staging"
+          ],
+          "correct": 1,
+          "explanation": "A thrust stage extends into the audience with seating on three sides. Proscenium arch has audience on one side; theatre in the round has audience on all four sides. Common error: confusing thrust with theatre in the round."
+        },
+        {
+          "id": "drama-q3",
+          "question": "What is the dramatic term for the moment of highest tension in a play?",
+          "options": [
+            "Exposition",
+            "Climax",
+            "Resolution",
+            "Denouement"
+          ],
+          "correct": 1,
+          "explanation": "The climax is the turning point with maximum tension. Exposition introduces background; resolution/denouement follows the climax. Common error: confusing climax with resolution."
+        },
+        {
+          "id": "drama-q4",
+          "question": "In Stanislavski's system, what does 'given circumstances' refer to?",
+          "options": [
+            "The director's personal notes",
+            "The actor's real-life experiences",
+            "The facts about the character's situation provided in the text",
+            "The audience's expectations"
+          ],
+          "correct": 2,
+          "explanation": "Given circumstances are the who, what, where, when, and why of a character's situation as described in the script. Common error: confusing given circumstances with emotional memory or the actor's own life."
+        },
+        {
+          "id": "drama-q5",
+          "question": "What is the purpose of blocking in a theatrical production?",
+          "options": [
+            "To build the stage set",
+            "To plan actors' movements and positions on stage",
+            "To write the script",
+            "To manage ticket sales"
+          ],
+          "correct": 1,
+          "explanation": "Blocking is the planning and working out of actors' movements and positions on stage. It ensures effective use of space and visibility. Common error: confusing blocking with set construction or scriptwriting."
+        }
+      ]
+    },
+    {
+      "subjectId": "physical-education",
+      "subjectName": "Physical Education",
+      "questions": [
+        {
+          "id": "physical-education-q1",
+          "question": "Which type of muscle contraction occurs when the muscle lengthens under tension?",
+          "options": [
+            "Isometric",
+            "Concentric",
+            "Eccentric",
+            "Isotonic"
+          ],
+          "correct": 2,
+          "explanation": "Eccentric contraction occurs when a muscle lengthens while under tension (e.g., lowering a weight). Concentric is shortening. Common error: confusing eccentric with concentric or isometric."
+        },
+        {
+          "id": "physical-education-q2",
+          "question": "What is the target heart rate zone for aerobic exercise typically expressed as?",
+          "options": [
+            "40-50% of maximum heart rate",
+            "60-80% of maximum heart rate",
+            "90-100% of maximum heart rate",
+            "20-30% of maximum heart rate"
+          ],
+          "correct": 1,
+          "explanation": "Aerobic training typically occurs at 60-80% of maximum heart rate (roughly 220 - age). Common error: confusing aerobic zones with anaerobic (higher) or resting (lower) zones."
+        },
+        {
+          "id": "physical-education-q3",
+          "question": "Which fitness component is measured by the sit-and-reach test?",
+          "options": [
+            "Muscular strength",
+            "Cardiovascular endurance",
+            "Flexibility",
+            "Agility"
+          ],
+          "correct": 2,
+          "explanation": "The sit-and-reach test measures hamstring and lower back flexibility. Common error: confusing it with tests for strength or cardiovascular endurance."
+        },
+        {
+          "id": "physical-education-q4",
+          "question": "In the stages of learning model, which stage comes after the cognitive stage?",
+          "options": [
+            "Autonomous stage",
+            "Associative stage",
+            "Reflexive stage",
+            "Expert stage"
+          ],
+          "correct": 1,
+          "explanation": "Fitts and Posner's stages are: Cognitive (understanding), Associative (practicing and refining), Autonomous (automatic execution). Common error: confusing the order of stages."
+        },
+        {
+          "id": "physical-education-q5",
+          "question": "Which principle of training states that training must gradually increase in intensity to continue improving?",
+          "options": [
+            "Specificity",
+            "Progressive overload",
+            "Reversibility",
+            "Individual differences"
+          ],
+          "correct": 1,
+          "explanation": "Progressive overload means gradually increasing the stress placed on the body during training to continue making gains. Common error: confusing it with specificity (training must match the activity)."
+        }
+      ]
+    },
+    {
+      "subjectId": "religious-studies",
+      "subjectName": "Religious Studies",
+      "questions": [
+        {
+          "id": "religious-studies-q1",
+          "question": "In Christianity, what is the central belief about Jesus' resurrection?",
+          "options": [
+            "Jesus' body remained in the tomb",
+            "Jesus rose from the dead on the third day",
+            "Jesus' spirit went to heaven but his body decayed",
+            "The resurrection is a metaphor for spiritual renewal"
+          ],
+          "correct": 1,
+          "explanation": "Christian doctrine teaches that Jesus physically rose from the dead on the third day after crucifixion, which is central to the faith. Common error: confusing physical resurrection with purely spiritual interpretations."
+        },
+        {
+          "id": "religious-studies-q2",
+          "question": "What is the Islamic term for the obligatory charitable giving (2.5% of wealth)?",
+          "options": [
+            "Zakat",
+            "Sawm",
+            "Hajj",
+            "Salah"
+          ],
+          "correct": 0,
+          "explanation": "Zakat is one of the Five Pillars of Islam requiring Muslims to give 2.5% of their wealth to charity. Sawm is fasting; Hajj is pilgrimage; Salah is prayer. Common error: confusing the Five Pillars."
+        },
+        {
+          "id": "religious-studies-q3",
+          "question": "Which festival marks the end of Ramadan in Islam?",
+          "options": [
+            "Eid al-Adha",
+            "Eid al-Fitr",
+            "Mawlid",
+            "Ashura"
+          ],
+          "correct": 1,
+          "explanation": "Eid al-Fitr celebrates the end of Ramadan fasting. Eid al-Adha commemorates Ibrahim's sacrifice. Common error: confusing the two Eid festivals."
+        },
+        {
+          "id": "religious-studies-q4",
+          "question": "In Christian ethics, what is the 'Golden Rule'?",
+          "options": [
+            "Love God with all your heart",
+            "Do to others as you would have them do to you",
+            "Turn the other cheek when attacked",
+            "Give all your money to the poor"
+          ],
+          "correct": 1,
+          "explanation": "The Golden Rule (Matthew 7:12) states: 'Do to others what you would have them do to you.' Common error: confusing it with the greatest commandment (love God) or other teachings."
+        },
+        {
+          "id": "religious-studies-q5",
+          "question": "In Islam, what is the significance of the Night of Power (Laylat al-Qadr)?",
+          "options": [
+            "It marks the end of the Hajj pilgrimage",
+            "It is believed to be the night when the Qur'an was first revealed to Muhammad",
+            "It celebrates the birth of Muhammad",
+            "It is a night of fasting"
+          ],
+          "correct": 1,
+          "explanation": "Laylat al-Qadr is believed to be the night when the first verses of the Qur'an were revealed to Muhammad. It is considered better than a thousand months. Common error: confusing it with Eid or other Islamic observances."
+        }
+      ]
+    },
+    {
+      "subjectId": "travel-and-tourism",
+      "subjectName": "Travel & Tourism",
+      "questions": [
+        {
+          "id": "travel-and-tourism-q1",
+          "question": "What is the difference between a tourist and an excursionist?",
+          "options": [
+            "An excursionist travels for more than 24 hours",
+            "An excursionist travels for less than 24 hours and does not stay overnight",
+            "An excursionist only travels for business",
+            "An excursionist must travel with a tour group"
+          ],
+          "correct": 1,
+          "explanation": "An excursionist is a day visitor who does not stay overnight, while a tourist stays at least one night. Common error: confusing the duration requirements."
+        },
+        {
+          "id": "travel-and-tourism-q2",
+          "question": "Which organisation is responsible for promoting tourism at a national level in most countries?",
+          "options": [
+            "A local hotel chain",
+            "A national tourism organisation (NTO)",
+            "An international airline",
+            "A travel agency"
+          ],
+          "correct": 1,
+          "explanation": "National Tourism Organisations (NTOs) like VisitBritain or Tourism Australia promote their country's tourism internationally. Common error: confusing NTOs with private companies like airlines or hotels."
+        },
+        {
+          "id": "travel-and-tourism-q3",
+          "question": "What is 'carrying capacity' in tourism management?",
+          "options": [
+            "The maximum number of hotel rooms in a destination",
+            "The maximum number of visitors a destination can sustain without causing environmental or social damage",
+            "The weight limit for tourist luggage",
+            "The number of tour guides needed"
+          ],
+          "correct": 1,
+          "explanation": "Carrying capacity is the maximum number of visitors a destination can handle without causing negative impacts. Common error: confusing it with infrastructure capacity like hotel rooms."
+        },
+        {
+          "id": "travel-and-tourism-q4",
+          "question": "Which of the following is a push factor in tourism?",
+          "options": [
+            "Beautiful beaches at a destination",
+            "A desire to escape from a stressful job",
+            "Famous landmarks at a destination",
+            "Good weather at a destination"
+          ],
+          "correct": 1,
+          "explanation": "Push factors motivate people to leave their home area (e.g., stress, desire for change). Pull factors attract them to a destination (e.g., beaches, landmarks). Common error: confusing push and pull factors."
+        },
+        {
+          "id": "travel-and-tourism-q5",
+          "question": "Which component of the tourism product is described as 'intangible' because it cannot be physically owned before purchase?",
+          "options": [
+            "Souvenirs",
+            "Airline tickets",
+            "The service experience",
+            "Hotel rooms"
+          ],
+          "correct": 2,
+          "explanation": "Tourism services are intangible - you cannot touch or own the experience before purchasing it. This is a key characteristic of service products. Common error: confusing tangible products like tickets and souvenirs with the intangible service experience."
+        }
+      ]
+    },
+    {
+      "subjectId": "ict",
+      "subjectName": "Information & Communication Technology",
+      "questions": [
+        {
+          "id": "ict-q1",
+          "question": "Which of the following is an input device?",
+          "options": [
+            "Monitor",
+            "Printer",
+            "Keyboard",
+            "Speaker"
+          ],
+          "correct": 2,
+          "explanation": "A keyboard sends data into the computer, making it an input device. Monitors, printers, and speakers are output devices. Common error: confusing input and output devices."
+        },
+        {
+          "id": "ict-q2",
+          "question": "What is the main function of a router in a network?",
+          "options": [
+            "To store files for all users",
+            "To direct data packets between different networks",
+            "To provide electrical power to devices",
+            "To print documents from any computer"
+          ],
+          "correct": 1,
+          "explanation": "Routers forward data packets between computer networks based on IP addresses. Common error: confusing routers with switches, servers, or modems."
+        },
+        {
+          "id": "ict-q3",
+          "question": "Which of the following is NOT a method of data validation?",
+          "options": [
+            "Range check",
+            "Type check",
+            "Format check",
+            "Parity check"
+          ],
+          "correct": 3,
+          "explanation": "Parity check is a method of data verification (detecting transmission errors), not validation. Range, type, and format checks are validation techniques. Common error: confusing validation with verification."
+        },
+        {
+          "id": "ict-q4",
+          "question": "In a spreadsheet, which function would you use to find the highest value in a range A1:A10?",
+          "options": [
+            "MIN(A1:A10)",
+            "MAX(A1:A10)",
+            "SUM(A1:A10)",
+            "AVERAGE(A1:A10)"
+          ],
+          "correct": 1,
+          "explanation": "MAX returns the highest value. MIN returns the lowest; SUM adds values; AVERAGE calculates the mean. Common error: confusing MIN and MAX."
+        },
+        {
+          "id": "ict-q5",
+          "question": "What is the purpose of data validation?",
+          "options": [
+            "To encrypt data for security",
+            "To ensure data entered is reasonable and meets certain rules",
+            "To back up data to the cloud",
+            "To compress files for storage"
+          ],
+          "correct": 1,
+          "explanation": "Data validation checks that data entered is reasonable and meets predetermined rules (e.g., range check, type check). It does not guarantee correctness. Common error: confusing validation with verification or encryption."
+        }
+      ]
+    },
+    {
+      "subjectId": "design-and-technology",
+      "subjectName": "Design & Technology",
+      "questions": [
+        {
+          "id": "design-and-technology-q1",
+          "question": "Which material is an example of a thermosetting plastic?",
+          "options": [
+            "Polythene",
+            "PVC",
+            "Bakelite",
+            "Acrylic"
+          ],
+          "correct": 2,
+          "explanation": "Bakelite is a thermosetting plastic that cannot be remelted once set. Polythene, PVC, and acrylic are thermoplastics that can be reheated and reshaped. Common error: confusing thermosetting and thermoplastic properties."
+        },
+        {
+          "id": "design-and-technology-q2",
+          "question": "In the design process, what is the purpose of a specification?",
+          "options": [
+            "To manufacture the final product",
+            "To list the requirements and constraints the design must meet",
+            "To market the product to customers",
+            "To calculate the cost of materials"
+          ],
+          "correct": 1,
+          "explanation": "A design specification lists criteria and constraints (size, function, materials, user needs) that the final product must satisfy. Common error: confusing specifications with manufacturing or marketing plans."
+        },
+        {
+          "id": "design-and-technology-q3",
+          "question": "Which of the following is an example of CAD (Computer-Aided Design)?",
+          "options": [
+            "Using a 3D printer to create a prototype",
+            "Using software to create a 3D model of a product",
+            "Using a laser cutter to cut materials",
+            "Using a CNC milling machine"
+          ],
+          "correct": 1,
+          "explanation": "CAD involves using software to design and model products. 3D printing, laser cutting, and CNC milling are CAM (Computer-Aided Manufacture). Common error: confusing CAD with CAM."
+        },
+        {
+          "id": "design-and-technology-q4",
+          "question": "Which joining method is most suitable for permanently joining two metal plates?",
+          "options": [
+            "Adhesive tape",
+            "Velcro",
+            "Welding",
+            "Bolting without nuts"
+          ],
+          "correct": 2,
+          "explanation": "Welding creates a permanent, strong joint between metal pieces by melting and fusing them. Adhesive tape and Velcro are weak; bolting without nuts won't work. Common error: confusing permanent and temporary joining methods."
+        },
+        {
+          "id": "design-and-technology-q5",
+          "question": "Which manufacturing process is most suitable for producing thousands of identical plastic bottles?",
+          "options": [
+            "3D printing",
+            "Blow moulding",
+            "Laser cutting",
+            "Hand forging"
+          ],
+          "correct": 1,
+          "explanation": "Blow moulding is a mass-production process used to create hollow plastic objects like bottles. 3D printing is better for prototypes. Common error: confusing prototyping processes with mass-production methods."
+        }
+      ]
+    },
+    {
+      "subjectId": "accounting",
+      "subjectName": "Accounting",
+      "questions": [
+        {
+          "id": "accounting-q1",
+          "question": "What is the accounting equation?",
+          "options": [
+            "Assets = Liabilities + Capital",
+            "Assets = Liabilities - Capital",
+            "Profit = Revenue - Expenses",
+            "Capital = Revenue - Expenses"
+          ],
+          "correct": 0,
+          "explanation": "The fundamental accounting equation is Assets = Liabilities + Capital (or Equity). It must always balance. Common error: subtracting capital or confusing it with the profit equation."
+        },
+        {
+          "id": "accounting-q2",
+          "question": "Which book of prime entry is used to record cash and bank transactions?",
+          "options": [
+            "Sales journal",
+            "Purchases journal",
+            "Cash book",
+            "General journal"
+          ],
+          "correct": 2,
+          "explanation": "The cash book records all cash and bank receipts and payments. Sales and purchases journals record credit transactions. Common error: confusing cash transactions with credit transactions."
+        },
+        {
+          "id": "accounting-q3",
+          "question": "What is the purpose of a bank reconciliation statement?",
+          "options": [
+            "To calculate the business's profit",
+            "To explain the difference between the cash book balance and the bank statement balance",
+            "To record daily sales",
+            "To prepare a budget for the next year"
+          ],
+          "correct": 1,
+          "explanation": "A bank reconciliation identifies differences between the business's cash book and the bank statement (e.g., unpresented cheques, bank charges). Common error: confusing it with profit calculation or budgeting."
+        },
+        {
+          "id": "accounting-q4",
+          "question": "Which accounting concept requires that revenue is recorded when it is earned, not when cash is received?",
+          "options": [
+            "Prudence concept",
+            "Money measurement concept",
+            "Accruals (matching) concept",
+            "Consistency concept"
+          ],
+          "correct": 2,
+          "explanation": "The accruals concept matches revenue with the period it is earned and expenses with the period they are incurred, regardless of cash flow. Common error: confusing accruals with prudence or consistency."
+        },
+        {
+          "id": "accounting-q5",
+          "question": "Which account would be debited when a business purchases office equipment on credit?",
+          "options": [
+            "Cash account",
+            "Office equipment account",
+            "Purchases account",
+            "Sales account"
+          ],
+          "correct": 1,
+          "explanation": "When buying an asset like office equipment on credit, the asset account (office equipment) is debited and the creditor/accounts payable is credited. Common error: debiting cash or purchases instead of the correct asset account."
+        }
+      ]
+    }
+  ]
+}

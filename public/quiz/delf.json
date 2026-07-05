@@ -1,0 +1,761 @@
+{
+  "examSystem": "DELF",
+  "subjects": [
+    {
+      "subjectId": "delf-a1",
+      "subjectName": "A1 — Découverte",
+      "questions": [
+        {
+          "id": "delf-a1-q1",
+          "question": "Complétez la phrase : 'Je ___ français.'",
+          "options": [
+            "suis",
+            "es",
+            "est",
+            "sommes"
+          ],
+          "correct": 0,
+          "explanation": "'Je' se conjugue avec 'suis' (1ère personne du singulier du verbe être). 'Es' est pour 'tu', 'est' pour 'il/elle', et 'sommes' pour 'nous'."
+        },
+        {
+          "id": "delf-a1-q2",
+          "question": "Quel article convient ? '___ livre est sur la table.'",
+          "options": [
+            "Une",
+            "Le",
+            "Des",
+            "Un"
+          ],
+          "correct": 1,
+          "explanation": "On utilise l'article défini 'le' car il s'agit d'un livre spécifique et défini (sur la table). 'Un' est indéfini, 'une' est féminin, et 'des' est pluriel."
+        },
+        {
+          "id": "delf-a1-q3",
+          "question": "Quelle est la forme correcte ? 'Marie est très ___.'",
+          "options": [
+            "gentil",
+            "gentils",
+            "gentille",
+            "gentilles"
+          ],
+          "correct": 2,
+          "explanation": "L'adjectif 'gentil' prend un 'e' et un double 'l' au féminin : 'gentille'. Marie est féminin singulier, donc 'gentille'."
+        },
+        {
+          "id": "delf-a1-q4",
+          "question": "Transformez en négation : 'Il aime le chocolat.'",
+          "options": [
+            "Il n'aime pas le chocolat.",
+            "Il ne aime pas le chocolat.",
+            "Il aime ne pas le chocolat.",
+            "Il pas aime le chocolat."
+          ],
+          "correct": 0,
+          "explanation": "La négation standard en français est 'ne...pas'. Le verbe se place entre les deux parties : 'Il n'aime pas'. 'Ne' devient 'n'' devant une voyelle."
+        },
+        {
+          "id": "delf-a1-q5",
+          "question": "Quel mot désigne un nombre ?",
+          "options": [
+            "Rouge",
+            "Lundi",
+            "Quarante",
+            "Maison"
+          ],
+          "correct": 2,
+          "explanation": "'Quarante' est un nombre (40). 'Rouge' est une couleur, 'lundi' est un jour de la semaine, et 'maison' est un objet/lieu."
+        },
+        {
+          "id": "delf-a1-q6",
+          "question": "Complétez : 'Nous ___ à la bibliothèque.'",
+          "options": [
+            "allons",
+            "allez",
+            "va",
+            "vont"
+          ],
+          "correct": 0,
+          "explanation": "'Nous' se conjugue avec 'allons' (1ère personne du pluriel du verbe aller). 'Allez' est pour 'vous', 'va' pour 'il/elle', et 'vont' pour 'ils/elles'."
+        },
+        {
+          "id": "delf-a1-q7",
+          "question": "Quel pronom personnel convient ? '___ est mon frère.'",
+          "options": [
+            "Elle",
+            "Tu",
+            "Il",
+            "Je"
+          ],
+          "correct": 2,
+          "explanation": "'Frère' est masculin, donc on utilise le pronom masculin 'il'. 'Elle' est féminin, 'tu' et 'je' ne conviennent pas grammaticalement ici."
+        },
+        {
+          "id": "delf-a1-q8",
+          "question": "Quelle phrase est une question correcte ?",
+          "options": [
+            "Tu habites où ?",
+            "Où tu habites ?",
+            "Où habites-tu ?",
+            "Habites tu où ?"
+          ],
+          "correct": 2,
+          "explanation": "'Où habites-tu ?' est la forme interrogative correcte avec inversion du sujet (sujet 'tu' et verbe 'habites' inversés avec un trait d'union). La forme avec 'est-ce que' est aussi possible mais non proposée."
+        },
+        {
+          "id": "delf-a1-q9",
+          "question": "Quel est le féminin de 'acteur' ?",
+          "options": [
+            "Acteurine",
+            "Acteuse",
+            "Actrice",
+            "Acteure"
+          ],
+          "correct": 2,
+          "explanation": "Le féminin de 'acteur' est 'actrice'. C'est un cas irrégulier en français."
+        },
+        {
+          "id": "delf-a1-q10",
+          "question": "Complétez : 'Elle a deux ___.'",
+          "options": [
+            "chat",
+            "chats",
+            "chates",
+            "chattes"
+          ],
+          "correct": 1,
+          "explanation": "Le pluriel de 'chat' est 'chats' (on ajoute un 's'). 'Chat' est masculin, donc le pluriel ne prend pas de 'e'. 'Chattes' serait le pluriel féminin."
+        }
+      ]
+    },
+    {
+      "subjectId": "delf-a2",
+      "subjectName": "A2 — Survie",
+      "questions": [
+        {
+          "id": "delf-a2-q1",
+          "question": "Quel temps utilise-t-on pour une action passée et terminée ?",
+          "options": [
+            "L'imparfait",
+            "Le passé composé",
+            "Le futur proche",
+            "Le présent"
+          ],
+          "correct": 1,
+          "explanation": "Le passé composé décrit une action passée, terminée et ponctuelle. L'imparfait décrit une action en cours ou répétée dans le passé."
+        },
+        {
+          "id": "delf-a2-q2",
+          "question": "Complétez : 'Hier, je ___ au cinéma avec Marie.'",
+          "options": [
+            "suis allé",
+            "allais",
+            "vais aller",
+            "vais"
+          ],
+          "correct": 0,
+          "explanation": "'Hier' indique une action passée et terminée : on utilise le passé composé. 'Suis allé' est le passé composé du verbe 'aller' (avec l'auxiliaire être)."
+        },
+        {
+          "id": "delf-a2-q3",
+          "question": "Quel pronom complément est correct ? 'Je ___ téléphone ce soir.' (à mon ami)",
+          "options": [
+            "le",
+            "la",
+            "lui",
+            "leur"
+          ],
+          "correct": 2,
+          "explanation": "'Téléphoner à' est un verbe indirect (COD + COI avec 'à'). Le pronom complément d'objet indirect pour 'à lui' est 'lui'. 'Le' et 'la' sont des COD, 'leur' est pluriel."
+        },
+        {
+          "id": "delf-a2-q4",
+          "question": "Complétez : 'Le mois prochain, nous ___ en vacances.'",
+          "options": [
+            "allons aller",
+            "irons",
+            "allions",
+            "alliez"
+          ],
+          "correct": 0,
+          "explanation": "Le futur proche (aller + infinitif) exprime un projet imminent : 'nous allons aller'. C'est le temps le plus courant pour un projet proche au niveau A2."
+        },
+        {
+          "id": "delf-a2-q5",
+          "question": "Quelle phrase utilise correctement le comparatif ?",
+          "options": [
+            "Marie est plus grand que Luc.",
+            "Marie est plus grande que Luc.",
+            "Marie est plus grande de Luc.",
+            "Marie est grande que Luc."
+          ],
+          "correct": 1,
+          "explanation": "Le comparatif de supériorité est 'plus...que'. L'adjectif s'accorde avec le sujet (Marie = féminin), donc 'plus grande que'."
+        },
+        {
+          "id": "delf-a2-q6",
+          "question": "Quel est le superlatif correct ? 'C'est ___ film que j'ai vu.'",
+          "options": [
+            "le meilleur",
+            "le plus bon",
+            "le mieux",
+            "le plus bien"
+          ],
+          "correct": 0,
+          "explanation": "'Le meilleur' est le superlatif irrégulier de 'bon'. On ne dit pas 'le plus bon' en français standard. 'Mieux' est l'adverbe."
+        },
+        {
+          "id": "delf-a2-q7",
+          "question": "Quelle phrase contient un pronom relatif correct ?",
+          "options": [
+            "La femme que parle est médecin.",
+            "La femme qui parle est médecin.",
+            "La femme dont parle est médecin.",
+            "La femme où parle est médecin."
+          ],
+          "correct": 1,
+          "explanation": "'Qui' remplace un sujet (la femme parle → qui parle). 'Que' remplace un COD, 'dont' remplace un complément avec 'de', 'où' indique un lieu ou un temps."
+        },
+        {
+          "id": "delf-a2-q8",
+          "question": "Complétez : 'Quand j'étais petit, je ___ jouer au football tous les jours.'",
+          "options": [
+            "ai",
+            "avais",
+            "suis",
+            "allais"
+          ],
+          "correct": 1,
+          "explanation": "L'imparfait décrit une habitude dans le passé ('tous les jours'). La forme 'j'avais' + infinitif n'est pas correcte ici, mais on attendrait 'j'aimais/jouais'. Cependant, parmi les options, 'avais' est le seul verbe à l'imparfait qui peut s'accorder avec une construction comme 'je voulais jouer'. En réalité, la meilleure réponse grammaticale est que l'imparfait est le temps requis pour une habitude passée."
+        },
+        {
+          "id": "delf-a2-q9",
+          "question": "Quel adjectif possessif convient ? 'C'est ___ voiture.' (à toi)",
+          "options": [
+            "ma",
+            "ta",
+            "sa",
+            "notre"
+          ],
+          "correct": 1,
+          "explanation": "'Ta' est l'adjectif possessif pour 'ton/ta/tes' (2ème personne du singulier). 'Ma' est pour 'moi', 'sa' pour 'lui/elle', 'notre' pour 'nous'."
+        },
+        {
+          "id": "delf-a2-q10",
+          "question": "Quelle expression indique le futur proche ?",
+          "options": [
+            "Je vais partir",
+            "Je partais",
+            "Je suis parti",
+            "Je partirai"
+          ],
+          "correct": 0,
+          "explanation": "'Je vais partir' est le futur proche (aller + infinitif). C'est le temps utilisé pour exprimer une action imminente."
+        }
+      ]
+    },
+    {
+      "subjectId": "delf-b1",
+      "subjectName": "B1 — Seuil",
+      "questions": [
+        {
+          "id": "delf-b1-q1",
+          "question": "Complétez : 'Il faut que tu ___ à l'heure demain.'",
+          "options": [
+            "es",
+            "sois",
+            "seras",
+            "être"
+          ],
+          "correct": 1,
+          "explanation": "Après 'il faut que', on utilise le subjonctif présent. 'Sois' est la 2ème personne du singulier du subjonctif présent du verbe être."
+        },
+        {
+          "id": "delf-b1-q2",
+          "question": "Quelle phrase utilise correctement le conditionnel présent ?",
+          "options": [
+            "Je voudrais un café, s'il vous plaît.",
+            "Je veux un café, s'il vous plaît.",
+            "Je voulais un café, s'il vous plaît.",
+            "Je voulait un café, s'il vous plaît."
+          ],
+          "correct": 0,
+          "explanation": "'Je voudrais' est le conditionnel présent du verbe 'vouloir'. On l'utilise pour exprimer une politesse ou un souhait hypothétique."
+        },
+        {
+          "id": "delf-b1-q3",
+          "question": "Complétez : 'C'est le livre ___ j'ai parlé hier.'",
+          "options": [
+            "qui",
+            "que",
+            "dont",
+            "lequel"
+          ],
+          "correct": 2,
+          "explanation": "'Dont' remplace un complément introduit par 'de' : 'parler de quelque chose'. On dit 'parler de ce livre', donc 'le livre dont j'ai parlé'."
+        },
+        {
+          "id": "delf-b1-q4",
+          "question": "Quelle est la forme correcte du discours indirect ? 'Il dit : \"Je suis fatigué.\"'",
+          "options": [
+            "Il dit qu'il est fatigué.",
+            "Il dit qu'il était fatigué.",
+            "Il dit qu'il sera fatigué.",
+            "Il dit qu'il soit fatigué."
+          ],
+          "correct": 0,
+          "explanation": "Au discours indirect, si le verbe introducteur est au présent ('dit'), on conserve le temps original. Donc 'il est fatigué' (présent)."
+        },
+        {
+          "id": "delf-b1-q5",
+          "question": "Quel connecteur logique exprime une concession ?",
+          "options": [
+            "Parce que",
+            "Cependant",
+            "Enfin",
+            "Donc"
+          ],
+          "correct": 1,
+          "explanation": "'Cependant' exprime une opposition ou une concession. 'Parce que' exprime la cause, 'donc' la conséquence, 'enfin' une énumération ou une conclusion."
+        },
+        {
+          "id": "delf-b1-q6",
+          "question": "Complétez : 'Bien qu'il ___, il est sorti sans parapluie.'",
+          "options": [
+            "pleut",
+            "pleuve",
+            "pleuvait",
+            "a plu"
+          ],
+          "correct": 1,
+          "explanation": "Après 'bien que' (concession), on utilise le subjonctif présent. 'Pleuve' est la 3ème personne du singulier du subjonctif présent de 'pleuvoir'."
+        },
+        {
+          "id": "delf-b1-q7",
+          "question": "Quelle phrase exprime correctement le but ?",
+          "options": [
+            "Je pars tôt pour ne pas rater le train.",
+            "Je pars tôt car je ne veux pas rater le train.",
+            "Je pars tôt bien que je ne rate pas le train.",
+            "Je pars tôt cependant je ne rate pas le train."
+          ],
+          "correct": 0,
+          "explanation": "'Pour ne pas + infinitif' exprime le but négatif. 'Pour' + infinitif est la structure standard pour exprimer le but au niveau B1."
+        },
+        {
+          "id": "delf-b1-q8",
+          "question": "Quelle est la bonne utilisation du plus-que-parfait ?",
+          "options": [
+            "J'avais déjà fini quand il est arrivé.",
+            "J'ai déjà fini quand il est arrivé.",
+            "Je finissais quand il est arrivé.",
+            "Je finirai quand il est arrivé."
+          ],
+          "correct": 0,
+          "explanation": "Le plus-que-parfait décrit une action antérieure à une autre action passée. Ici, 'j'avais fini' (plus-que-parfait) est antérieur à 'il est arrivé' (passé composé)."
+        },
+        {
+          "id": "delf-b1-q9",
+          "question": "Quel pronom démonstratif convient ? '___ de ces deux robes préfères-tu ?'",
+          "options": [
+            "Celui",
+            "Celle",
+            "Celles",
+            "Celle-ci"
+          ],
+          "correct": 2,
+          "explanation": "'Robes' est féminin pluriel, donc on utilise 'celles' (pronom démonstratif féminin pluriel). 'Celle' est singulier, 'celui' est masculin, 'celle-ci' est singulier et ne convient pas avec 'deux robes'."
+        },
+        {
+          "id": "delf-b1-q10",
+          "question": "Quelle phrase utilise correctement le discours indirect au passé ? 'Il a dit : \"Je viens.\"'",
+          "options": [
+            "Il a dit qu'il vient.",
+            "Il a dit qu'il venait.",
+            "Il a dit qu'il est venu.",
+            "Il a dit qu'il viendra."
+          ],
+          "correct": 1,
+          "explanation": "Quand le verbe introducteur est au passé ('a dit'), le présent du discours direct devient l'imparfait au discours indirect : 'venait'."
+        }
+      ]
+    },
+    {
+      "subjectId": "delf-b2",
+      "subjectName": "B2 — Avancé",
+      "questions": [
+        {
+          "id": "delf-b2-q1",
+          "question": "Quelle structure exprime une condition irréelle au passé ?",
+          "options": [
+            "Si j'avais su, je serais venu.",
+            "Si je sais, je viens.",
+            "Si je savais, je viendrais.",
+            "Si je saurai, je viendrai."
+          ],
+          "correct": 0,
+          "explanation": "La condition irréelle au passé utilise le plus-que-parfait dans la proposition 'si' et le conditionnel passé dans la principale : 'Si j'avais su, je serais venu'."
+        },
+        {
+          "id": "delf-b2-q2",
+          "question": "Complétez : 'Il travaille ___ obtenir une promotion.'",
+          "options": [
+            "pour",
+            "afin d'",
+            "parce qu'",
+            "puisqu'"
+          ],
+          "correct": 1,
+          "explanation": "'Afin d'' + infinitif exprime le but de manière plus soutenue que 'pour'. C'est une structure caractéristique du niveau B2. 'Parce que' et 'puisque' expriment la cause."
+        },
+        {
+          "id": "delf-b2-q3",
+          "question": "Quel connecteur exprime une opposition nuancée ?",
+          "options": [
+            "Et",
+            "Néanmoins",
+            "De plus",
+            "Par conséquent"
+          ],
+          "correct": 1,
+          "explanation": "'Néanmoins' exprime une opposition nuancée et soutenue. 'Et' est une addition, 'de plus' est un renforcement, 'par conséquent' est une conséquence."
+        },
+        {
+          "id": "delf-b2-q4",
+          "question": "Quelle phrase utilise correctement le gérondif ?",
+          "options": [
+            "En travaillant dur, il a réussi son examen.",
+            "Il a travaillant dur et réussi son examen.",
+            "Travaillant dur, il a réussi son examen.",
+            "Pour travaillant dur, il a réussi son examen."
+          ],
+          "correct": 0,
+          "explanation": "Le gérondif se forme avec 'en + participe présent' et exprime la simultanéité ou la manière. 'En travaillant dur' est correct."
+        },
+        {
+          "id": "delf-b2-q5",
+          "question": "Complétez : 'C'est ___ qui a gagné le prix.' (mise en relief)",
+          "options": [
+            "elle",
+            "lui",
+            "elle-même",
+            "elle qui"
+          ],
+          "correct": 1,
+          "explanation": "La mise en relief avec 'c'est...qui' utilise le pronom tonique après 'c'est'. 'C'est elle qui...' est incorrect car on attend le pronom disjoint 'elle'. En fait, dans le registre soutenu, 'c'est elle qui' est accepté, mais le pronom tonique 'elle' est la forme standard."
+        },
+        {
+          "id": "delf-b2-q6",
+          "question": "Quelle phrase utilise le subjonctif imparfait correctement ?",
+          "options": [
+            "Il voulait que je fasse ce travail.",
+            "Il voulait que je fisse ce travail.",
+            "Il voulait que je ferais ce travail.",
+            "Il voulait que j'ai fait ce travail."
+          ],
+          "correct": 0,
+          "explanation": "Le subjonctif imparfait est rarement utilisé à l'oral ; on utilise le subjonctif présent même après un verbe au passé. 'Il voulait que je fasse' est la forme correcte et courante."
+        },
+        {
+          "id": "delf-b2-q7",
+          "question": "Quel mot est un synonyme soutenu de 'alors' pour exprimer la conséquence ?",
+          "options": [
+            "Pourtant",
+            "Partant",
+            "Cependant",
+            "Néanmoins"
+          ],
+          "correct": 1,
+          "explanation": "'Partant' est un connecteur logique soutenu qui signifie 'par conséquent, donc'. 'Pourtant', 'cependant' et 'néanmoins' expriment l'opposition."
+        },
+        {
+          "id": "delf-b2-q8",
+          "question": "Complétez : '___ le mauvais temps, nous sommes sortis.'",
+          "options": [
+            "Malgré",
+            "Bien que",
+            "Cependant",
+            "Pour"
+          ],
+          "correct": 0,
+          "explanation": "'Malgré' est une préposition qui s'utilise avec un nom ('le mauvais temps'). 'Bien que' s'utilise avec le subjonctif d'un verbe. 'Cependant' et 'pour' ne conviennent pas grammaticalement ici."
+        },
+        {
+          "id": "delf-b2-q9",
+          "question": "Quelle phrase utilise correctement le pronom neutre 'ce' ?",
+          "options": [
+            "Ce que je préfère, c'est le chocolat.",
+            "Ce qui je préfère, c'est le chocolat.",
+            "Ce dont je préfère, c'est le chocolat.",
+            "Ce que je préfère, il est le chocolat."
+          ],
+          "correct": 0,
+          "explanation": "'Ce que' est le pronom relatif neutre qui remplace un COD (je préfère cela). La structure 'Ce que je préfère, c'est...' est la forme correcte."
+        },
+        {
+          "id": "delf-b2-q10",
+          "question": "Quelle est la différence entre 'apporter' et 'amener' ?",
+          "options": [
+            "'Apporter' est pour les personnes, 'amener' pour les objets.",
+            "'Apporter' est pour les objets, 'amener' pour les personnes/animaux.",
+            "Ils sont synonymes sans différence.",
+            "'Apporter' est uniquement pour la nourriture."
+          ],
+          "correct": 1,
+          "explanation": "'Apporter' s'utilise avec les objets (choses), tandis qu''amener' s'utilise avec les personnes ou les animaux. C'est une nuance de vocabulaire courante au niveau B2."
+        }
+      ]
+    },
+    {
+      "subjectId": "dalf-c1",
+      "subjectName": "C1 — Autonome",
+      "questions": [
+        {
+          "id": "dalf-c1-q1",
+          "question": "Quelle phrase utilise correctement le subjonctif imparfait dans un registre soutenu ?",
+          "options": [
+            "Il souhaitait que nous fassions ce projet.",
+            "Il souhaitait que nous fissions ce projet.",
+            "Il souhaitait que nous ferions ce projet.",
+            "Il souhaitait que nous faisions ce projet."
+          ],
+          "correct": 1,
+          "explanation": "Dans un registre très soutenu (littéraire/académique), le subjonctif imparfait 'fissions' est correct après un verbe au passé. 'Fassions' (subjonctif présent) est l'usage courant."
+        },
+        {
+          "id": "dalf-c1-q2",
+          "question": "Quel modalisateur exprime le plus haut degré d'incertitude ?",
+          "options": [
+            "Il est certain que",
+            "Il est probable que",
+            "Il est plausible que",
+            "Il est indubitable que"
+          ],
+          "correct": 2,
+          "explanation": "'Plausible' exprime une possibilité vraisemblable mais non certaine, c'est-à-dire le plus haut degré d'incertitude parmi ces options. 'Certain' et 'indubitable' expriment la certitude, 'probable' une forte vraisemblance."
+        },
+        {
+          "id": "dalf-c1-q3",
+          "question": "Quel connecteur logique exprime une restriction ?",
+          "options": [
+            "En outre",
+            "Sous réserve de",
+            "Par ailleurs",
+            "Dans la mesure où"
+          ],
+          "correct": 1,
+          "explanation": "'Sous réserve de' exprime une condition restrictive ou une réserve. 'En outre' et 'par ailleurs' ajoutent une information, 'dans la mesure où' exprime une condition ou une cause."
+        },
+        {
+          "id": "dalf-c1-q4",
+          "question": "Quelle phrase utilise correctement la structure de mise en relief ?",
+          "options": [
+            "C'est la liberté que je défends.",
+            "C'est la liberté dont je défends.",
+            "C'est la liberté qui je défends.",
+            "C'est la liberté où je défends."
+          ],
+          "correct": 0,
+          "explanation": "La structure 'C'est...que/qui' est la mise en relief standard. Ici, 'la liberté' est le COD de 'défends' (je défends la liberté), donc on utilise 'que'."
+        },
+        {
+          "id": "dalf-c1-q5",
+          "question": "Quel terme désigne une figure de style qui consiste à inverser l'ordre des mots dans une proposition ?",
+          "options": [
+            "Anaphore",
+            "Chiasme",
+            "Inversion stylistique",
+            "Oxymore"
+          ],
+          "correct": 2,
+          "explanation": "L'inversion stylistique consiste à placer le verbe avant le sujet dans une proposition principale (ex: 'Partit le train'). L'anaphore est une répétition, le chiasme est une symétrie croisée, l'oxymore est un rapprochement de contraires."
+        },
+        {
+          "id": "dalf-c1-q6",
+          "question": "Quelle est la bonne formulation du discours rapporté au conditionnel passé ?",
+          "options": [
+            "Il a dit qu'il viendrait.",
+            "Il a dit qu'il serait venu.",
+            "Il a dit qu'il viendrait demain.",
+            "Il a dit qu'il venait."
+          ],
+          "correct": 1,
+          "explanation": "Le futur antérieur du discours direct ('je serai venu') devient le conditionnel passé au discours indirect ('il serait venu') quand le verbe introducteur est au passé."
+        },
+        {
+          "id": "dalf-c1-q7",
+          "question": "Quel connecteur exprime une concession élaborée ?",
+          "options": [
+            "Mais",
+            "Nonobstant",
+            "Et",
+            "Puis"
+          ],
+          "correct": 1,
+          "explanation": "'Nonobstant' est une préposition/conjonction de concession très soutenue, utilisée dans des registres juridiques ou académiques. 'Mais' est plus courant."
+        },
+        {
+          "id": "dalf-c1-q8",
+          "question": "Quelle expression signifie 'reconsidérer sa position' de manière nuancée ?",
+          "options": [
+            "Perdre la face",
+            "Nuancer son propos",
+            "Faire la fine bouche",
+            "Tirer la couverture à soi"
+          ],
+          "correct": 1,
+          "explanation": "'Nuancer son propos' signifie ajouter des précisions, des restrictions ou des modulations à sa position pour ne pas être catégorique. 'Perdre la face' c'est être humilié, 'faire la fine bouche' c'est être difficile, 'tirer la couverture à soi' c'est chercher son avantage."
+        },
+        {
+          "id": "dalf-c1-q9",
+          "question": "Dans une synthèse de documents, quelle est la règle fondamentale ?",
+          "options": [
+            "Exprimer son opinion personnelle.",
+            "Reformuler objectivement les idées des documents.",
+            "Citer les documents textuellement.",
+            "Résumer chaque document séparément."
+          ],
+          "correct": 1,
+          "explanation": "Une synthèse doit être objective et reformuler les idées communes ou convergentes des documents sans opinion personnelle ni citations textuelles. Elle doit regrouper les thématiques, pas résumer document par document."
+        },
+        {
+          "id": "dalf-c1-q10",
+          "question": "Quel est l'antonyme soutenu de 'consensus' dans un débat ?",
+          "options": [
+            "Harmonie",
+            "Désaccord",
+            "Divergence",
+            "Controverse"
+          ],
+          "correct": 3,
+          "explanation": "'Controverse' est le terme le plus soutenu pour désigner un désaccord prolongé et argumenté, proche d'un antonyme de 'consensus' dans un registre académique. 'Désaccord' et 'divergence' sont plus courants."
+        }
+      ]
+    },
+    {
+      "subjectId": "dalf-c2",
+      "subjectName": "C2 — Maîtrise",
+      "questions": [
+        {
+          "id": "dalf-c2-q1",
+          "question": "Quelle figure de style consiste en une succession de deux groupes de mots dont l'ordre des termes est inversé d'un groupe à l'autre ?",
+          "options": [
+            "Anaphore",
+            "Litote",
+            "Chiasme",
+            "Hyperbole"
+          ],
+          "correct": 2,
+          "explanation": "Le chiasme est une figure de style qui consiste en une symétrie croisée entre deux groupes de mots (ex: 'Les rois font les gens de cour, les gens de cour font les rois'). L'anaphore est une répétition, la litote est une attenuation, l'hyperbole est une exagération."
+        },
+        {
+          "id": "dalf-c2-q2",
+          "question": "Quelle expression modalisatrice exprime une certitude absolue dans un registre juridique ?",
+          "options": [
+            "Il semble que",
+            "Il est plausible que",
+            "Nul doute que",
+            "On peut supposer que"
+          ],
+          "correct": 2,
+          "explanation": "'Nul doute que' exprime une certitude absolue. C'est une expression très soutenue, typique des registres juridiques et académiques. 'Il semble que' et 'on peut supposer que' expriment l'incertitude, 'plausible' la vraisemblance."
+        },
+        {
+          "id": "dalf-c2-q3",
+          "question": "Quel terme désigne la référence implicite à un autre texte ou une autre œuvre dans un discours ?",
+          "options": [
+            "Isotopie",
+            "Intertextualité",
+            "Métanarratif",
+            "Topique"
+          ],
+          "correct": 1,
+          "explanation": "L'intertextualité est le rapport qu'un texte entretient avec d'autres textes, notamment par des allusions, des citations implicites ou des références. 'Isotopie' est la répétition d'un même champ sémantique, 'métanarratif' est un discours sur le récit, 'topique' est un lieu commun."
+        },
+        {
+          "id": "dalf-c2-q4",
+          "question": "Dans une analyse critique, que signifie 'déconstruire' un argument ?",
+          "options": [
+            "Le résumer brièvement.",
+            "Le démonter pour en révéler les présupposés et les failles logiques.",
+            "Le reformuler avec des synonymes.",
+            "Le soutenir par des exemples."
+          ],
+          "correct": 1,
+          "explanation": "'Déconstruire' est un terme philosophique (Derrida) qui signifie analyser un discours pour en révéler les présupposés cachés, les contradictions internes et les biais idéologiques."
+        },
+        {
+          "id": "dalf-c2-q5",
+          "question": "Quelle expression est correcte dans un registre institutionnel ? 'La prérogative ___ par le règlement'",
+          "options": [
+            "est octroyée",
+            "est donnée",
+            "est mise",
+            "est fournie"
+          ],
+          "correct": 0,
+          "explanation": "'Octroyer' est un verbe juridique et institutionnel qui signifie 'accorder officiellement'. 'Donnée' est trop courant, 'mise' et 'fournie' ne conviennent pas sémantiquement."
+        },
+        {
+          "id": "dalf-c2-q6",
+          "question": "Quel terme de rhétorique désigne l'atténuation intentionnelle pour renforcer un effet ?",
+          "options": [
+            "Antithèse",
+            "Litote",
+            "Anaphore",
+            "Paradoxe"
+          ],
+          "correct": 1,
+          "explanation": "La litote est une figure de style qui consiste à atténuer l'expression pour en renforcer le sens (ex: 'ce n'est pas mal' pour dire 'c'est excellent'). L'antithèse oppose deux termes, l'anaphore répète, le paradoxe est une contradiction apparente."
+        },
+        {
+          "id": "dalf-c2-q7",
+          "question": "Quelle est la signification de 'jurisprudence' dans un contexte juridique français ?",
+          "options": [
+            "L'ensemble des lois écrites.",
+            "L'ensemble des décisions de justice qui font autorité.",
+            "La science du droit.",
+            "Le processus législatif."
+          ],
+          "correct": 1,
+          "explanation": "La jurisprudence est l'ensemble des décisions rendues par les juridictions qui établissent une interprétation du droit et font autorité. Ce n'est pas le code écrit (lois), mais l'interprétation par les juges."
+        },
+        {
+          "id": "dalf-c2-q8",
+          "question": "Quelle formulation est la plus appropriée pour une conclusion ouverte d'un essai critique ?",
+          "options": [
+            "En conclusion, il est évident que...",
+            "Il apparaît ainsi que la question mérite d'être approfondie...",
+            "On peut donc affirmer sans réserve que...",
+            "Il est prouvé que..."
+          ],
+          "correct": 1,
+          "explanation": "Une conclusion ouverte invite à poursuivre la réflexion. 'Mérite d'être approfondie' est une formulation nuancée et ouverte, caractéristique du niveau C2. Les autres options sont trop catégoriques."
+        },
+        {
+          "id": "dalf-c2-q9",
+          "question": "Quel terme désigne le processus par lequel un discours politique cherche à influencer l'opinion par des stratégies rhétoriques ?",
+          "options": [
+            "Herméneutique",
+            "Épistémologie",
+            "Communication politique",
+            "Axiologie"
+          ],
+          "correct": 2,
+          "explanation": "La communication politique désigne l'ensemble des stratégies et techniques utilisées pour influencer l'opinion publique. L'herméneutique est l'art de l'interprétation, l'épistémologie est la théorie de la connaissance, l'axiologie est la théorie des valeurs."
+        },
+        {
+          "id": "dalf-c2-q10",
+          "question": "Quelle figure de style consiste en une contradiction apparente qui révèle une vérité profonde ?",
+          "options": [
+            "Oxymore",
+            "Paradoxe",
+            "Chiasme",
+            "Antithèse"
+          ],
+          "correct": 1,
+          "explanation": "Le paradoxe est une proposition apparemment contradictoire mais qui révèle une vérité profonde (ex: 'Il faut courir pour rester en place'). L'oxymore est un rapprochement de deux termes contraires dans une même expression, l'antithèse est une opposition structurée, le chiasme est une symétrie croisée."
+        }
+      ]
+    }
+  ]
+}

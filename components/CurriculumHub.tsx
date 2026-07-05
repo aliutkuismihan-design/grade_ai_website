@@ -27,6 +27,7 @@ import {
   FileText,
   Clock,
   Star,
+  ClipboardList,
   type LucideIcon,
 } from 'lucide-react';
 import AdSlot from './AdSlot';
@@ -149,7 +150,13 @@ export default function CurriculumHub({ systems }: { systems: CurriculumData[] }
           <div className="flex flex-col gap-4">
             {sys.subjects.map((subject, si) => (
               <div key={subject.id}>
-                <SubjectCard subject={subject} topicsLabel={t('topics')} resourcesLabel={t('resources')} />
+                <SubjectCard
+                  subject={subject}
+                  examSystem={sys.examSystem}
+                  topicsLabel={t('topics')}
+                  resourcesLabel={t('resources')}
+                  quizLabel={t('quiz') || 'Test Et'}
+                />
                 {/* inline ad after every 3rd subject */}
                 {(si + 1) % 3 === 0 && si + 1 < sys.subjects.length && (
                   <div className="my-6">
@@ -181,12 +188,16 @@ export default function CurriculumHub({ systems }: { systems: CurriculumData[] }
 
 function SubjectCard({
   subject,
+  examSystem,
   topicsLabel,
   resourcesLabel,
+  quizLabel,
 }: {
   subject: Subject;
+  examSystem: string;
   topicsLabel: string;
   resourcesLabel: string;
+  quizLabel: string;
 }) {
   const Icon = ICONS[subject.icon] ?? BookOpen;
   const [isOpen, setIsOpen] = useState(false);
@@ -230,6 +241,14 @@ function SubjectCard({
             )}
           </span>
         </span>
+        <Link
+          href={`/quiz?subject=${encodeURIComponent(subject.id)}&system=${encodeURIComponent(examSystem)}`}
+          onClick={(e) => e.stopPropagation()}
+          className="mr-2 hidden flex-none items-center gap-1.5 rounded-lg border border-aurora-primary/30 bg-aurora-primary/10 px-3 py-1.5 text-xs font-semibold text-aurora-primary transition hover:bg-aurora-primary/20 sm:inline-flex"
+        >
+          <ClipboardList className="h-3.5 w-3.5" />
+          {quizLabel}
+        </Link>
         <span className="hidden flex-none text-xs text-slate-500 sm:block">
           {subject.topics.length} {topicsLabel}
         </span>
@@ -237,6 +256,17 @@ function SubjectCard({
           className={`h-5 w-5 flex-none text-slate-400 transition ${isOpen ? 'rotate-180' : ''}`}
         />
       </button>
+
+      {/* Mobile quiz button */}
+      <div className="px-5 pb-3 sm:hidden">
+        <Link
+          href={`/quiz?subject=${encodeURIComponent(subject.id)}&system=${encodeURIComponent(examSystem)}`}
+          className="flex items-center justify-center gap-2 rounded-lg border border-aurora-primary/30 bg-aurora-primary/10 px-4 py-2 text-xs font-semibold text-aurora-primary transition hover:bg-aurora-primary/20"
+        >
+          <ClipboardList className="h-3.5 w-3.5" />
+          {quizLabel}
+        </Link>
+      </div>
 
       {isOpen && (
         <div className="border-t border-white/5">

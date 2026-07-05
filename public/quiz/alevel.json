@@ -1,0 +1,1859 @@
+{
+  "examSystem": "A-Level",
+  "subjects": [
+    {
+      "subjectId": "mathematics",
+      "subjectName": "Mathematics",
+      "questions": [
+        {
+          "id": "mathematics-q1",
+          "question": "Which of the following is the derivative of f(x) = ln(3x² + 1)?",
+          "options": [
+            "6x / (3x² + 1)",
+            "1 / (3x² + 1)",
+            "6x / (3x² + 1)²",
+            "6x / ln(3x² + 1)"
+          ],
+          "correct": 0,
+          "explanation": "Using the chain rule, d/dx[ln(u)] = u'/u. Here u = 3x² + 1, so u' = 6x. Therefore f'(x) = 6x / (3x² + 1)."
+        },
+        {
+          "id": "mathematics-q2",
+          "question": "What is the value of ∫ from 0 to 1 of e^(2x) dx?",
+          "options": [
+            "(e² - 1)/2",
+            "e² - 1",
+            "2(e² - 1)",
+            "e²/2"
+          ],
+          "correct": 0,
+          "explanation": "∫ e^(2x) dx = ½ e^(2x). Evaluated from 0 to 1 gives ½(e² - e⁰) = ½(e² - 1)."
+        },
+        {
+          "id": "mathematics-q3",
+          "question": "When solving |2x - 3| = 5, what is the sum of all solutions?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correct": 0,
+          "explanation": "|2x - 3| = 5 gives 2x - 3 = 5 → x = 4, or 2x - 3 = -5 → x = -1. Sum = 4 + (-1) = 3."
+        },
+        {
+          "id": "mathematics-q4",
+          "question": "In a binomial expansion, the coefficient of x³ in (1 + 2x)⁵ is:",
+          "options": [
+            "80",
+            "40",
+            "32",
+            "10"
+          ],
+          "correct": 0,
+          "explanation": "Using the binomial theorem: C(5,3) × (2x)³ = 10 × 8x³ = 80x³, so the coefficient is 80."
+        },
+        {
+          "id": "mathematics-q5",
+          "question": "A particle moves with velocity v = 3t² - 4t. What is its acceleration at t = 2?",
+          "options": [
+            "8",
+            "4",
+            "6",
+            "12"
+          ],
+          "correct": 0,
+          "explanation": "Acceleration a = dv/dt = 6t - 4. At t = 2: a = 12 - 4 = 8."
+        },
+        {
+          "id": "mathematics-q6",
+          "question": "If X ~ N(50, 16), what is P(X < 58)?",
+          "options": [
+            "0.9772",
+            "0.5",
+            "0.8413",
+            "0.9987"
+          ],
+          "correct": 0,
+          "explanation": "Z = (58 - 50) / 4 = 2. From standard normal tables, P(Z < 2) ≈ 0.9772."
+        },
+        {
+          "id": "mathematics-q7",
+          "question": "Which trigonometric identity is equivalent to cos(2A)?",
+          "options": [
+            "cos²A - sin²A",
+            "2sin²A - 1",
+            "1 + 2sin²A",
+            "1 - cos²A"
+          ],
+          "correct": 0,
+          "explanation": "The double-angle identity states cos(2A) = cos²A - sin²A = 2cos²A - 1 = 1 - 2sin²A."
+        },
+        {
+          "id": "mathematics-q8",
+          "question": "Using the Newton-Raphson method to find a root of f(x) = x³ - 2x - 5, starting with x₀ = 2, what is x₁?",
+          "options": [
+            "2.1",
+            "2.05",
+            "2.2",
+            "2.0"
+          ],
+          "correct": 0,
+          "explanation": "f(2) = -1, f'(x) = 3x² - 2, so f'(2) = 10. x₁ = 2 - (-1)/10 = 2.1."
+        }
+      ]
+    },
+    {
+      "subjectId": "physics",
+      "subjectName": "Physics",
+      "questions": [
+        {
+          "id": "physics-q1",
+          "question": "A car of mass 1200 kg accelerates uniformly from rest to 20 m/s in 10 s. What is the resultant force acting on the car?",
+          "options": [
+            "2400 N",
+            "1200 N",
+            "600 N",
+            "240 N"
+          ],
+          "correct": 0,
+          "explanation": "F = ma. a = Δv/Δt = 20/10 = 2 m/s². F = 1200 × 2 = 2400 N."
+        },
+        {
+          "id": "physics-q2",
+          "question": "In a circuit with a 12 V battery and internal resistance 0.5 Ω connected to a 5.5 Ω resistor, what is the terminal potential difference?",
+          "options": [
+            "11 V",
+            "12 V",
+            "10 V",
+            "6 V"
+          ],
+          "correct": 0,
+          "explanation": "Total resistance = 5.5 + 0.5 = 6 Ω. Current I = 12/6 = 2 A. Terminal pd = 12 - (2 × 0.5) = 11 V, or I × R = 2 × 5.5 = 11 V."
+        },
+        {
+          "id": "physics-q3",
+          "question": "What is the de Broglie wavelength of an electron moving at 2 × 10⁶ m/s? (Planck constant h = 6.63 × 10⁻³⁴ J·s, mₑ = 9.11 × 10⁻³¹ kg)",
+          "options": [
+            "3.6 × 10⁻¹⁰ m",
+            "6.6 × 10⁻³⁴ m",
+            "1.8 × 10⁻¹⁰ m",
+            "7.3 × 10⁻¹¹ m"
+          ],
+          "correct": 0,
+          "explanation": "λ = h / (mv) = 6.63 × 10⁻³⁴ / (9.11 × 10⁻³¹ × 2 × 10⁶) ≈ 3.64 × 10⁻¹⁰ m."
+        },
+        {
+          "id": "physics-q4",
+          "question": "The gravitational field strength at the surface of a planet of radius R and mass M is g. At a distance 2R from the centre, the field strength is:",
+          "options": [
+            "g/4",
+            "g/2",
+            "g/√2",
+            "2g"
+          ],
+          "correct": 0,
+          "explanation": "g = GM/R². At distance 2R: g' = GM/(2R)² = GM/(4R²) = g/4."
+        },
+        {
+          "id": "physics-q5",
+          "question": "A sample of radioactive material has a half-life of 10 days. After 30 days, what fraction remains undecayed?",
+          "options": [
+            "1/8",
+            "1/4",
+            "1/16",
+            "1/2"
+          ],
+          "correct": 0,
+          "explanation": "30 days = 3 half-lives. Fraction remaining = (1/2)³ = 1/8."
+        },
+        {
+          "id": "physics-q6",
+          "question": "For an ideal gas, if the temperature is doubled and the volume is halved, what happens to the pressure?",
+          "options": [
+            "It quadruples",
+            "It doubles",
+            "It stays the same",
+            "It halves"
+          ],
+          "correct": 0,
+          "explanation": "From pV/T = constant: p₂ = p₁ × (V₁/V₂) × (T₂/T₁) = p₁ × 2 × 2 = 4p₁."
+        },
+        {
+          "id": "physics-q7",
+          "question": "In simple harmonic motion, the maximum acceleration occurs when the displacement is:",
+          "options": [
+            "maximum",
+            "zero",
+            "half the amplitude",
+            "equal to the period"
+          ],
+          "correct": 0,
+          "explanation": "a = -ω²x. Maximum acceleration occurs at maximum displacement (x = ±A), where a = -ω²A."
+        }
+      ]
+    },
+    {
+      "subjectId": "chemistry",
+      "subjectName": "Chemistry",
+      "questions": [
+        {
+          "id": "chemistry-q1",
+          "question": "What is the electron configuration of a copper atom in its ground state?",
+          "options": [
+            "[Ar] 3d¹⁰ 4s¹",
+            "[Ar] 3d⁹ 4s²",
+            "[Ar] 3d⁸ 4s²",
+            "[Ar] 3d⁹ 4s¹"
+          ],
+          "correct": 0,
+          "explanation": "Copper has the anomalous configuration [Ar] 3d¹⁰ 4s¹ due to the extra stability of a fully filled d-subshell."
+        },
+        {
+          "id": "chemistry-q2",
+          "question": "Which intermolecular force is responsible for the relatively high boiling point of water?",
+          "options": [
+            "Hydrogen bonding",
+            "Permanent dipole-dipole",
+            "London dispersion forces",
+            "Ionic bonding"
+          ],
+          "correct": 0,
+          "explanation": "Water molecules form extensive hydrogen bonds due to the highly electronegative oxygen and O-H bonds, raising its boiling point."
+        },
+        {
+          "id": "chemistry-q3",
+          "question": "For the reaction N₂(g) + 3H₂(g) ⇌ 2NH₃(g), what is the expression for Kp?",
+          "options": [
+            "(pNH₃)² / (pN₂ × pH₂³)",
+            "(pNH₃) / (pN₂ × pH₂)",
+            "(pNH₃)² / (pN₂ + pH₂)",
+            "2pNH₃ / (pN₂ + 3pH₂)"
+          ],
+          "correct": 0,
+          "explanation": "Kp is the ratio of partial pressure products raised to stoichiometric coefficients: Kp = (pNH₃)² / (pN₂ × pH₂³)."
+        },
+        {
+          "id": "chemistry-q4",
+          "question": "In an SN2 reaction mechanism, what happens to the rate if the concentration of the nucleophile is doubled?",
+          "options": [
+            "It doubles",
+            "It quadruples",
+            "It stays the same",
+            "It halves"
+          ],
+          "correct": 0,
+          "explanation": "SN2 is second order overall (first order in both substrate and nucleophile). Doubling nucleophile concentration doubles the rate."
+        },
+        {
+          "id": "chemistry-q5",
+          "question": "Which of the following compounds would show a peak at approximately 1700 cm⁻¹ in its infrared spectrum?",
+          "options": [
+            "Ethanal",
+            "Ethane",
+            "Ethanol",
+            "Ethene"
+          ],
+          "correct": 0,
+          "explanation": "The C=O (carbonyl) stretch in aldehydes appears around 1700-1740 cm⁻¹. Ethanal contains a C=O group."
+        },
+        {
+          "id": "chemistry-q6",
+          "question": "In a Born-Haber cycle for NaCl, which step is exothermic?",
+          "options": [
+            "Lattice formation",
+            "Ionisation of Na",
+            "Atomisation of Cl",
+            "Sublimation of Na"
+          ],
+          "correct": 0,
+          "explanation": "Lattice formation (Na⁺ + Cl⁻ → NaCl(s)) releases energy and is exothermic. The other listed steps are endothermic."
+        },
+        {
+          "id": "chemistry-q7",
+          "question": "A first-order reaction has a half-life of 30 minutes. How long does it take for the concentration to fall to 12.5% of its initial value?",
+          "options": [
+            "90 minutes",
+            "60 minutes",
+            "120 minutes",
+            "30 minutes"
+          ],
+          "correct": 0,
+          "explanation": "12.5% = 1/8 = (1/2)³, so 3 half-lives are required. 3 × 30 = 90 minutes."
+        }
+      ]
+    },
+    {
+      "subjectId": "biology",
+      "subjectName": "Biology",
+      "questions": [
+        {
+          "id": "biology-q1",
+          "question": "Which molecule is the primary energy store in plant cells?",
+          "options": [
+            "Starch",
+            "Glycogen",
+            "Cellulose",
+            "Sucrose"
+          ],
+          "correct": 0,
+          "explanation": "Starch is the primary energy storage polysaccharide in plants. Glycogen is the equivalent in animals."
+        },
+        {
+          "id": "biology-q2",
+          "question": "During which phase of the cell cycle does DNA replication occur?",
+          "options": [
+            "S phase",
+            "G1 phase",
+            "G2 phase",
+            "M phase"
+          ],
+          "correct": 0,
+          "explanation": "DNA replication occurs during the S (synthesis) phase of interphase, between G1 and G2."
+        },
+        {
+          "id": "biology-q3",
+          "question": "Which enzyme is responsible for unwinding the DNA double helix during replication?",
+          "options": [
+            "DNA helicase",
+            "DNA polymerase",
+            "DNA ligase",
+            "RNA primase"
+          ],
+          "correct": 0,
+          "explanation": "DNA helicase breaks the hydrogen bonds between base pairs, unwinding the double helix to form replication forks."
+        },
+        {
+          "id": "biology-q4",
+          "question": "In the xylem, what is the main mechanism driving the upward movement of water?",
+          "options": [
+            "Transpiration pull",
+            "Root pressure",
+            "Capillary action",
+            "Osmosis"
+          ],
+          "correct": 0,
+          "explanation": "Transpiration pull (cohesion-tension) is the primary mechanism, generated by evaporation from leaf surfaces creating tension in the water column."
+        },
+        {
+          "id": "biology-q5",
+          "question": "Which process contributes most to genetic variation during meiosis?",
+          "options": [
+            "Crossing over",
+            "DNA replication",
+            "Cytokinesis",
+            "Spindle formation"
+          ],
+          "correct": 0,
+          "explanation": "Crossing over (recombination) between homologous chromosomes during prophase I creates new allele combinations, increasing genetic variation."
+        },
+        {
+          "id": "biology-q6",
+          "question": "In negative feedback regulation of blood glucose, which hormone is released by beta cells of the pancreas when glucose is high?",
+          "options": [
+            "Insulin",
+            "Glucagon",
+            "Adrenaline",
+            "Thyroxine"
+          ],
+          "correct": 0,
+          "explanation": "Beta cells of the islets of Langerhans secrete insulin when blood glucose rises, promoting glucose uptake and storage."
+        },
+        {
+          "id": "biology-q7",
+          "question": "In a population showing logistic growth, what factor causes the growth rate to slow as the population increases?",
+          "options": [
+            "Limited resources",
+            "Random mutation",
+            "Increased birth rate",
+            "Decreased predation"
+          ],
+          "correct": 0,
+          "explanation": "Logistic growth is characterised by a carrying capacity (K); as the population approaches K, limited resources cause the growth rate to slow."
+        }
+      ]
+    },
+    {
+      "subjectId": "english-literature",
+      "subjectName": "English Literature",
+      "questions": [
+        {
+          "id": "english-literature-q1",
+          "question": "In Shakespeare's 'Macbeth', which literary device is most prominent in the line 'Fair is foul, and foul is fair'?",
+          "options": [
+            "Chiasmus",
+            "Simile",
+            "Hyperbole",
+            "Alliteration"
+          ],
+          "correct": 0,
+          "explanation": "Chiasmus (a criss-cross structure) is used here, reversing the order of words in parallel clauses to create paradox and thematic contrast."
+        },
+        {
+          "id": "english-literature-q2",
+          "question": "Which of the following is a key feature of dramatic tragedy according to Aristotle?",
+          "options": [
+            "Catharsis",
+            "Happy ending",
+            "Deus ex machina",
+            "Comic relief"
+          ],
+          "correct": 0,
+          "explanation": "Aristotle identified catharsis (emotional purgation through pity and fear) as the essential effect of tragedy on the audience."
+        },
+        {
+          "id": "english-literature-q3",
+          "question": "A feminist reading of a text would most likely focus on:",
+          "options": [
+            "Gender power structures and patriarchal norms",
+            "Class conflict and economic inequality",
+            "Colonialist attitudes and imperialism",
+            "Structural patterns in language"
+          ],
+          "correct": 0,
+          "explanation": "Feminist criticism examines representations of women, gender roles, and the patriarchal structures within literary texts."
+        },
+        {
+          "id": "english-literature-q4",
+          "question": "In a poem written in iambic pentameter, how many metrical feet are there per line?",
+          "options": [
+            "Five",
+            "Four",
+            "Six",
+            "Ten"
+          ],
+          "correct": 0,
+          "explanation": "Iambic pentameter consists of five metrical feet (penta = five), each foot being an unstressed-stressed pair (iamb)."
+        },
+        {
+          "id": "english-literature-q5",
+          "question": "Which narrative perspective is used when the narrator refers to a character as 'she' and knows the thoughts of all characters?",
+          "options": [
+            "Third-person omniscient",
+            "First-person",
+            "Second-person",
+            "Third-person limited"
+          ],
+          "correct": 0,
+          "explanation": "Third-person omniscient narration uses 'he/she' and grants the narrator complete knowledge of all characters' thoughts and actions."
+        },
+        {
+          "id": "english-literature-q6",
+          "question": "What is the primary purpose of a dramatic soliloquy?",
+          "options": [
+            "To reveal a character's inner thoughts to the audience",
+            "To advance the plot through dialogue",
+            "To provide comic relief",
+            "To introduce a new character"
+          ],
+          "correct": 0,
+          "explanation": "A soliloquy is a speech delivered by a character alone on stage, designed to expose their private thoughts, motivations, and conflicts."
+        }
+      ]
+    },
+    {
+      "subjectId": "history",
+      "subjectName": "History",
+      "questions": [
+        {
+          "id": "history-q1",
+          "question": "Which of the following was the PRIMARY cause of the First World War?",
+          "options": [
+            "The system of alliances and militarism",
+            "The assassination of Franz Ferdinand alone",
+            "British naval expansion",
+            "The Russian Revolution"
+          ],
+          "correct": 0,
+          "explanation": "While the assassination was the trigger, historians widely agree that the alliance system, militarism, imperialism, and nationalism created the conditions for war."
+        },
+        {
+          "id": "history-q2",
+          "question": "Under Henry VIII, what was the main purpose of the Act of Supremacy (1534)?",
+          "options": [
+            "To make the King head of the Church of England",
+            "To abolish the monarchy",
+            "To establish parliamentary democracy",
+            "To legalise Catholicism"
+          ],
+          "correct": 0,
+          "explanation": "The Act of Supremacy declared Henry VIII the Supreme Head of the Church of England, breaking from papal authority."
+        },
+        {
+          "id": "history-q3",
+          "question": "Which historiographical approach emphasises the role of economic forces and class struggle in shaping history?",
+          "options": [
+            "Marxist history",
+            "Empiricist history",
+            "Postmodern history",
+            "Diplomatic history"
+          ],
+          "correct": 0,
+          "explanation": "Marxist historiography, rooted in the work of Karl Marx, interprets history through the lens of material conditions, production, and class conflict."
+        },
+        {
+          "id": "history-q4",
+          "question": "When evaluating the utility of a primary source, which factor is most important?",
+          "options": [
+            "Its purpose and context at the time of creation",
+            "Its age alone",
+            "Whether it agrees with modern textbooks",
+            "The length of the document"
+          ],
+          "correct": 0,
+          "explanation": "Utility depends on understanding why the source was created, by whom, and for what audience (provenance and purpose), not merely its age."
+        },
+        {
+          "id": "history-q5",
+          "question": "The Marshall Plan (1948) was primarily intended to:",
+          "options": [
+            "Rebuild Western European economies and contain communism",
+            "Punish Germany for WWII",
+            "Establish NATO military bases",
+            "Fund the United Nations"
+          ],
+          "correct": 0,
+          "explanation": "The Marshall Plan provided US aid to rebuild Western Europe's economies, strengthening capitalist democracies against Soviet expansion."
+        },
+        {
+          "id": "history-q6",
+          "question": "Which event marked the beginning of the Cold War for most historians?",
+          "options": [
+            "The Truman Doctrine (1947)",
+            "The Yalta Conference (1945)",
+            "The Cuban Missile Crisis (1962)",
+            "The fall of the Berlin Wall (1989)"
+          ],
+          "correct": 0,
+          "explanation": "The Truman Doctrine (1947) is often cited as the formal declaration of the US policy of containment, marking the start of the Cold War."
+        }
+      ]
+    },
+    {
+      "subjectId": "geography",
+      "subjectName": "Geography",
+      "questions": [
+        {
+          "id": "geography-q1",
+          "question": "In the water cycle, which store holds the largest volume of freshwater?",
+          "options": [
+            "Ice caps and glaciers",
+            "Groundwater",
+            "Lakes and rivers",
+            "Atmosphere"
+          ],
+          "correct": 0,
+          "explanation": "Ice caps and glaciers store approximately 68.7% of all freshwater on Earth, making them the largest freshwater store."
+        },
+        {
+          "id": "geography-q2",
+          "question": "Which coastal process is primarily responsible for the formation of a spit?",
+          "options": [
+            "Longshore drift",
+            "Hydraulic action",
+            "Abrasion",
+            "Solution"
+          ],
+          "correct": 0,
+          "explanation": "Spits form when longshore drift transports sediment along a coastline and deposits it where the coastline changes direction."
+        },
+        {
+          "id": "geography-q3",
+          "question": "What is the primary factor that determines the vulnerability of a population to tectonic hazards?",
+          "options": [
+            "Level of development and preparedness",
+            "Distance from the equator",
+            "Population density alone",
+            "Average annual rainfall"
+          ],
+          "correct": 0,
+          "explanation": "While population density matters, the level of development, building standards, early warning systems, and emergency response determine vulnerability."
+        },
+        {
+          "id": "geography-q4",
+          "question": "Which of the following is a key characteristic of a 'smart city'?",
+          "options": [
+            "Integration of ICT and data to manage urban services",
+            "Complete absence of motor vehicles",
+            "Exclusively high-rise buildings",
+            "Population under 100,000"
+          ],
+          "correct": 0,
+          "explanation": "Smart cities use digital technology, sensors, and data analytics to optimise services like transport, energy, and waste management."
+        },
+        {
+          "id": "geography-q5",
+          "question": "In a fieldwork investigation of river channel characteristics, which is the most appropriate sampling method?",
+          "options": [
+            "Systematic sampling at regular intervals",
+            "Random sampling using a random number table",
+            "Opportunistic sampling",
+            "Stratified sampling by land use"
+          ],
+          "correct": 0,
+          "explanation": "Systematic sampling (e.g., every 10 metres) is appropriate for river studies as it ensures even coverage along the channel and reduces bias."
+        },
+        {
+          "id": "geography-q6",
+          "question": "Which process is most responsible for the enhanced greenhouse effect?",
+          "options": [
+            "Burning fossil fuels releasing CO₂",
+            "Volcanic eruptions releasing ash",
+            "Ocean currents absorbing heat",
+            "Deforestation reducing transpiration"
+          ],
+          "correct": 0,
+          "explanation": "The enhanced greenhouse effect is primarily driven by anthropogenic CO₂ emissions from fossil fuel combustion, which trap outgoing longwave radiation."
+        }
+      ]
+    },
+    {
+      "subjectId": "economics",
+      "subjectName": "Economics",
+      "questions": [
+        {
+          "id": "economics-q1",
+          "question": "If the price elasticity of demand for a product is -0.5, a 10% increase in price will cause quantity demanded to:",
+          "options": [
+            "Fall by 5%",
+            "Fall by 10%",
+            "Fall by 50%",
+            "Rise by 5%"
+          ],
+          "correct": 0,
+          "explanation": "PED = % change in QD / % change in P. -0.5 = %QD / 10%, so %QD = -5%. Quantity demanded falls by 5%."
+        },
+        {
+          "id": "economics-q2",
+          "question": "Which of the following is a public good?",
+          "options": [
+            "Street lighting",
+            "Education",
+            "Healthcare",
+            "Public transport"
+          ],
+          "correct": 0,
+          "explanation": "Street lighting is non-excludable and non-rivalrous, meeting the criteria of a pure public good. The others are quasi-public or merit goods."
+        },
+        {
+          "id": "economics-q3",
+          "question": "According to Keynesian theory, what should the government do during a recession?",
+          "options": [
+            "Increase government spending to boost aggregate demand",
+            "Balance the budget immediately",
+            "Increase taxes to reduce inflation",
+            "Remove all regulations"
+          ],
+          "correct": 0,
+          "explanation": "Keynes advocated expansionary fiscal policy (increased G or decreased T) during recessions to stimulate aggregate demand and close the output gap."
+        },
+        {
+          "id": "economics-q4",
+          "question": "If a country can produce a good at a lower opportunity cost than another country, it has:",
+          "options": [
+            "Comparative advantage",
+            "Absolute advantage",
+            "Terms of trade advantage",
+            "Exchange rate advantage"
+          ],
+          "correct": 0,
+          "explanation": "Comparative advantage is defined by lower opportunity cost, which forms the basis for mutually beneficial trade according to Ricardo."
+        },
+        {
+          "id": "economics-q5",
+          "question": "The Phillips Curve suggests a short-run trade-off between:",
+          "options": [
+            "Inflation and unemployment",
+            "GDP and interest rates",
+            "Imports and exports",
+            "Tax revenue and government spending"
+          ],
+          "correct": 0,
+          "explanation": "The short-run Phillips Curve illustrates an inverse relationship: lower unemployment is associated with higher inflation, and vice versa."
+        },
+        {
+          "id": "economics-q6",
+          "question": "Quantitative easing involves:",
+          "options": [
+            "The central bank purchasing government bonds to increase money supply",
+            "Raising the central bank interest rate",
+            "Increasing government taxation",
+            "Reducing commercial bank reserve requirements"
+          ],
+          "correct": 0,
+          "explanation": "Quantitative easing is an unconventional monetary policy where the central bank buys financial assets (usually bonds) to inject liquidity into the economy."
+        }
+      ]
+    },
+    {
+      "subjectId": "computer-science",
+      "subjectName": "Computer Science",
+      "questions": [
+        {
+          "id": "computer-science-q1",
+          "question": "What is the time complexity of binary search on a sorted array of n elements?",
+          "options": [
+            "O(log n)",
+            "O(n)",
+            "O(n log n)",
+            "O(1)"
+          ],
+          "correct": 0,
+          "explanation": "Binary search repeatedly halves the search space, giving logarithmic time complexity O(log n)."
+        },
+        {
+          "id": "computer-science-q2",
+          "question": "In a stack data structure, which operation removes the most recently added element?",
+          "options": [
+            "Pop",
+            "Push",
+            "Peek",
+            "Enqueue"
+          ],
+          "correct": 0,
+          "explanation": "Pop removes the top element from a stack. Push adds an element, Peek returns the top without removing it, and Enqueue is a queue operation."
+        },
+        {
+          "id": "computer-science-q3",
+          "question": "Which sorting algorithm has the worst-case time complexity of O(n²) but average case O(n log n)?",
+          "options": [
+            "Quicksort",
+            "Merge sort",
+            "Heap sort",
+            "Counting sort"
+          ],
+          "correct": 0,
+          "explanation": "Quicksort has O(n²) worst-case when pivots are poorly chosen, but O(n log n) average case. Merge sort and heap sort are guaranteed O(n log n)."
+        },
+        {
+          "id": "computer-science-q4",
+          "question": "What is the primary purpose of the TCP three-way handshake?",
+          "options": [
+            "To establish a reliable connection between client and server",
+            "To encrypt data transmission",
+            "To route packets across networks",
+            "To compress data for faster transfer"
+          ],
+          "correct": 0,
+          "explanation": "The TCP three-way handshake (SYN, SYN-ACK, ACK) establishes a reliable, ordered, and error-checked connection before data transfer."
+        },
+        {
+          "id": "computer-science-q5",
+          "question": "In database normalisation, which normal form requires that every non-key attribute is fully functionally dependent on the primary key?",
+          "options": [
+            "Second Normal Form (2NF)",
+            "First Normal Form (1NF)",
+            "Third Normal Form (3NF)",
+            "Boyce-Codd Normal Form (BCNF)"
+          ],
+          "correct": 0,
+          "explanation": "2NF eliminates partial dependencies: all non-key attributes must depend on the entire primary key, not just a part of it."
+        },
+        {
+          "id": "computer-science-q6",
+          "question": "Which logic gate produces an output of 1 only when both inputs are 1?",
+          "options": [
+            "AND gate",
+            "OR gate",
+            "XOR gate",
+            "NAND gate"
+          ],
+          "correct": 0,
+          "explanation": "The AND gate outputs 1 only when both inputs are 1. OR outputs 1 if either is 1, XOR when inputs differ, and NAND is the inverse of AND."
+        }
+      ]
+    },
+    {
+      "subjectId": "french",
+      "subjectName": "French",
+      "questions": [
+        {
+          "id": "french-q1",
+          "question": "Which tense is used in the sentence: 'Il faudrait que tu viennes demain'?",
+          "options": [
+            "Subjunctive",
+            "Conditional",
+            "Future",
+            "Imperfect"
+          ],
+          "correct": 0,
+          "explanation": "'Il faudrait que' triggers the subjunctive mood. 'Tu viennes' is the present subjunctive of venir."
+        },
+        {
+          "id": "french-q2",
+          "question": "In French, the pronoun 'en' replaces:",
+          "options": [
+            "A phrase introduced by 'de'",
+            "A direct object",
+            "An indirect object referring to a person",
+            "A place"
+          ],
+          "correct": 0,
+          "explanation": "'En' replaces a noun phrase introduced by 'de' or a partitive construction (e.g., 'du pain' → 'j'en veux')."
+        },
+        {
+          "id": "french-q3",
+          "question": "Which of the following is an example of the passive voice in French?",
+          "options": [
+            "La lettre a été envoyée par Marie",
+            "Marie envoie la lettre",
+            "Marie a envoyé la lettre",
+            "Marie va envoyer la lettre"
+          ],
+          "correct": 0,
+          "explanation": "'La lettre a été envoyée' uses être + past participle (agreeing with the subject), which is the passive voice construction."
+        },
+        {
+          "id": "french-q4",
+          "question": "In a relative clause, 'dont' replaces:",
+          "options": [
+            "de + noun (indicating possession or origin)",
+            "à + noun",
+            "pour + noun",
+            "sans + noun"
+          ],
+          "correct": 0,
+          "explanation": "'Dont' replaces a phrase beginning with 'de' indicating possession, origin, or part of a whole (e.g., 'le livre dont je parle')."
+        },
+        {
+          "id": "french-q5",
+          "question": "Which word is a synonym for 'pourtant' in French?",
+          "options": [
+            "Cependant",
+            "Donc",
+            "Aussi",
+            "Parce que"
+          ],
+          "correct": 0,
+          "explanation": "'Cependant' means 'however' or 'nevertheless', synonymous with 'pourtant'. 'Donc' means 'therefore', 'aussi' means 'also', and 'parce que' means 'because'."
+        },
+        {
+          "id": "french-q6",
+          "question": "The past participle in compound tenses agrees with the preceding direct object when:",
+          "options": [
+            "The object is placed before the auxiliary verb",
+            "The object is placed after the verb",
+            "The auxiliary is 'avoir' and the object follows",
+            "The auxiliary is always 'être'"
+          ],
+          "correct": 0,
+          "explanation": "In compound tenses with avoir, the past participle agrees in gender and number with a direct object that precedes the verb (e.g., 'La lettre que j'ai écrite')."
+        }
+      ]
+    },
+    {
+      "subjectId": "further-mathematics",
+      "subjectName": "Further Mathematics",
+      "questions": [
+        {
+          "id": "further-mathematics-q1",
+          "question": "If z = 1 + i, what is z² in the form a + bi?",
+          "options": [
+            "2i",
+            "2 + 2i",
+            "1 + 2i",
+            "0"
+          ],
+          "correct": 0,
+          "explanation": "(1 + i)² = 1 + 2i + i² = 1 + 2i - 1 = 2i."
+        },
+        {
+          "id": "further-mathematics-q2",
+          "question": "What is the determinant of the matrix [[2, 3], [1, 4]]?",
+          "options": [
+            "5",
+            "8",
+            "7",
+            "11"
+          ],
+          "correct": 0,
+          "explanation": "det = (2 × 4) - (3 × 1) = 8 - 3 = 5."
+        },
+        {
+          "id": "further-mathematics-q3",
+          "question": "The general solution to the differential equation dy/dx = 2x is:",
+          "options": [
+            "y = x² + C",
+            "y = 2x + C",
+            "y = x²/2 + C",
+            "y = 2x² + C"
+          ],
+          "correct": 0,
+          "explanation": "Integrating both sides: ∫ dy = ∫ 2x dx → y = x² + C."
+        },
+        {
+          "id": "further-mathematics-q4",
+          "question": "What is the modulus of the complex number 3 - 4i?",
+          "options": [
+            "5",
+            "7",
+            "1",
+            "25"
+          ],
+          "correct": 0,
+          "explanation": "|z| = √(3² + (-4)²) = √(9 + 16) = √25 = 5."
+        },
+        {
+          "id": "further-mathematics-q5",
+          "question": "The area enclosed by the polar curve r = 2 from θ = 0 to θ = π/2 is:",
+          "options": [
+            "π",
+            "2π",
+            "π/2",
+            "4π"
+          ],
+          "correct": 0,
+          "explanation": "Area = ½ ∫ r² dθ = ½ ∫₀^(π/2) 4 dθ = ½ × 4 × (π/2) = π."
+        },
+        {
+          "id": "further-mathematics-q6",
+          "question": "What is the inverse hyperbolic sine, arsinh(0)?",
+          "options": [
+            "0",
+            "1",
+            "undefined",
+            "π/2"
+          ],
+          "correct": 0,
+          "explanation": "arsinh(x) = ln(x + √(x² + 1)). arsinh(0) = ln(0 + 1) = ln(1) = 0."
+        }
+      ]
+    },
+    {
+      "subjectId": "psychology",
+      "subjectName": "Psychology",
+      "questions": [
+        {
+          "id": "psychology-q1",
+          "question": "Which model of memory proposes separate stores for sensory, short-term, and long-term memory?",
+          "options": [
+            "The multi-store model (Atkinson-Shiffrin)",
+            "The working memory model (Baddeley)",
+            "Levels of processing (Craik & Lockhart)",
+            "Tulving's model of LTM"
+          ],
+          "correct": 0,
+          "explanation": "The Atkinson-Shiffrin multi-store model describes a linear flow of information through sensory, short-term, and long-term memory stores."
+        },
+        {
+          "id": "psychology-q2",
+          "question": "In Milgram's obedience study, what was the highest voltage level on the shock generator?",
+          "options": [
+            "450 V",
+            "300 V",
+            "150 V",
+            "600 V"
+          ],
+          "correct": 0,
+          "explanation": "The shock generator was labelled up to 450 V (with two additional switches labelled XXX), which participants believed they could administer."
+        },
+        {
+          "id": "psychology-q3",
+          "question": "Which neurotransmitter is most commonly associated with schizophrenia according to the dopamine hypothesis?",
+          "options": [
+            "Dopamine",
+            "Serotonin",
+            "GABA",
+            "Acetylcholine"
+          ],
+          "correct": 0,
+          "explanation": "The dopamine hypothesis suggests that hyperactivity of dopamine receptors (especially D2) in the mesolimbic pathway is linked to positive symptoms of schizophrenia."
+        },
+        {
+          "id": "psychology-q4",
+          "question": "What is the independent variable in an experiment?",
+          "options": [
+            "The factor manipulated by the researcher",
+            "The outcome measured by the researcher",
+            "A variable kept constant",
+            "A confounding variable"
+          ],
+          "correct": 0,
+          "explanation": "The independent variable (IV) is the factor deliberately changed or manipulated by the experimenter to observe its effect."
+        },
+        {
+          "id": "psychology-q5",
+          "question": "According to Bowlby's attachment theory, what is the 'critical period' for attachment formation?",
+          "options": [
+            "The first 2.5 years of life",
+            "The first 6 months",
+            "From birth to adolescence",
+            "From 3 to 5 years"
+          ],
+          "correct": 0,
+          "explanation": "Bowlby proposed a critical period during the first 2.5 years (or a sensitive period up to 5 years) during which attachment must form for normal development."
+        },
+        {
+          "id": "psychology-q6",
+          "question": "Which statistical test is most appropriate for comparing the means of two independent groups?",
+          "options": [
+            "Independent samples t-test",
+            "Paired samples t-test",
+            "One-way ANOVA",
+            "Chi-squared test"
+          ],
+          "correct": 0,
+          "explanation": "An independent t-test (unrelated) compares the means of two separate groups. A paired t-test is for related samples, ANOVA for 3+ groups, and chi-squared for categorical data."
+        }
+      ]
+    },
+    {
+      "subjectId": "sociology",
+      "subjectName": "Sociology",
+      "questions": [
+        {
+          "id": "sociology-q1",
+          "question": "Which sociological perspective views society as a stable system of interconnected parts that work together?",
+          "options": [
+            "Functionalism",
+            "Marxism",
+            "Feminism",
+            "Symbolic interactionism"
+          ],
+          "correct": 0,
+          "explanation": "Functionalism (Durkheim, Parsons) sees society as an organic whole where institutions perform functions to maintain social order and stability."
+        },
+        {
+          "id": "sociology-q2",
+          "question": "According to Bowles and Gintis, what is the primary function of education in capitalist society?",
+          "options": [
+            "To reproduce the workforce and legitimise inequality",
+            "To promote social mobility for all",
+            "To develop critical thinking skills",
+            "To eliminate social class differences"
+          ],
+          "correct": 0,
+          "explanation": "Bowles and Gintis (correspondence principle) argue that education mirrors the workplace, preparing students to accept hierarchy and reproducing class inequality."
+        },
+        {
+          "id": "sociology-q3",
+          "question": "Which research method is most likely to produce rich, qualitative data about people's subjective experiences?",
+          "options": [
+            "Unstructured interviews",
+            "Structured questionnaires",
+            "Official statistics",
+            "Experiments"
+          ],
+          "correct": 0,
+          "explanation": "Unstructured interviews allow open-ended exploration of participants' meanings and experiences, producing in-depth qualitative data."
+        },
+        {
+          "id": "sociology-q4",
+          "question": "What does the term 'cultural capital' refer to in Bourdieu's theory?",
+          "options": [
+            "Non-economic assets such as education, knowledge, and taste that confer social advantage",
+            "Financial wealth inherited from parents",
+            "The total value of a country's cultural exports",
+            "Capital invested in arts and media industries"
+          ],
+          "correct": 0,
+          "explanation": "Bourdieu's cultural capital includes knowledge, skills, tastes, and credentials that the dominant class possess and that schools reward, reproducing inequality."
+        },
+        {
+          "id": "sociology-q5",
+          "question": "Which of the following is a strength of using questionnaires in sociological research?",
+          "options": [
+            "They can be easily distributed to large samples",
+            "They produce rich, in-depth data",
+            "They allow observation of natural behaviour",
+            "They have a very high response rate"
+          ],
+          "correct": 0,
+          "explanation": "Questionnaires are practical for large-scale surveys and can reach many respondents quickly, though they may lack depth and suffer from low response rates."
+        },
+        {
+          "id": "sociology-q6",
+          "question": "In media studies, the 'hypodermic syringe model' suggests that audiences:",
+          "options": [
+            "Passively accept media messages directly injected into them",
+            "Actively negotiate the meaning of media content",
+            "Reject all media representations",
+            "Use media only for entertainment"
+          ],
+          "correct": 0,
+          "explanation": "The hypodermic model (early media effects theory) portrays audiences as passive and uniformly influenced by media messages, like receiving an injection."
+        }
+      ]
+    },
+    {
+      "subjectId": "business-studies",
+      "subjectName": "Business Studies",
+      "questions": [
+        {
+          "id": "business-studies-q1",
+          "question": "Which Ansoff matrix strategy involves launching a new product into a new market?",
+          "options": [
+            "Diversification",
+            "Market penetration",
+            "Product development",
+            "Market development"
+          ],
+          "correct": 0,
+          "explanation": "Diversification involves both a new product and a new market, representing the highest risk strategy in the Ansoff matrix."
+        },
+        {
+          "id": "business-studies-q2",
+          "question": "What is the formula for calculating break-even point in units?",
+          "options": [
+            "Fixed costs / (Selling price per unit - Variable cost per unit)",
+            "Fixed costs / Variable cost per unit",
+            "Total costs / Selling price per unit",
+            "Contribution / Fixed costs"
+          ],
+          "correct": 0,
+          "explanation": "Break-even (units) = Fixed costs / Contribution per unit, where Contribution = Selling price - Variable cost per unit."
+        },
+        {
+          "id": "business-studies-q3",
+          "question": "Which of the following is a liquidity ratio?",
+          "options": [
+            "Current ratio",
+            "Gross profit margin",
+            "Return on capital employed",
+            "Asset turnover"
+          ],
+          "correct": 0,
+          "explanation": "The current ratio (current assets / current liabilities) measures liquidity. The others are profitability or efficiency ratios."
+        },
+        {
+          "id": "business-studies-q4",
+          "question": "According to Herzberg's two-factor theory, which of these is a 'motivator'?",
+          "options": [
+            "Recognition and achievement",
+            "Salary and job security",
+            "Company policy",
+            "Working conditions"
+          ],
+          "correct": 0,
+          "explanation": "Herzberg classified recognition, achievement, responsibility, and advancement as motivators. Salary, security, and conditions are hygiene factors."
+        },
+        {
+          "id": "business-studies-q5",
+          "question": "In Porter's generic strategies, which strategy focuses on offering the lowest price in the industry?",
+          "options": [
+            "Cost leadership",
+            "Differentiation",
+            "Focus (cost)",
+            "Focus (differentiation)"
+          ],
+          "correct": 0,
+          "explanation": "Cost leadership aims to be the lowest-cost producer in the industry, allowing the firm to offer the lowest prices or earn the highest margins."
+        },
+        {
+          "id": "business-studies-q6",
+          "question": "What does 'corporate social responsibility' (CSR) primarily refer to?",
+          "options": [
+            "A business's commitment to operating ethically and contributing to society",
+            "The legal requirement to maximise shareholder profit",
+            "The process of merging with other corporations",
+            "Government regulation of corporate taxes"
+          ],
+          "correct": 0,
+          "explanation": "CSR encompasses voluntary ethical, social, and environmental responsibilities beyond legal compliance, including stakeholder welfare and sustainability."
+        }
+      ]
+    },
+    {
+      "subjectId": "art-design",
+      "subjectName": "Art & Design",
+      "questions": [
+        {
+          "id": "art-design-q1",
+          "question": "Which art movement is characterised by fragmented objects, multiple viewpoints, and geometric forms?",
+          "options": [
+            "Cubism",
+            "Impressionism",
+            "Surrealism",
+            "Romanticism"
+          ],
+          "correct": 0,
+          "explanation": "Cubism, pioneered by Picasso and Braque, breaks objects into geometric facets and depicts them from multiple angles simultaneously."
+        },
+        {
+          "id": "art-design-q2",
+          "question": "In photography, which camera setting primarily controls the depth of field?",
+          "options": [
+            "Aperture",
+            "Shutter speed",
+            "ISO",
+            "White balance"
+          ],
+          "correct": 0,
+          "explanation": "Aperture (f-stop) controls the size of the lens opening. A wider aperture (lower f-number) creates a shallower depth of field."
+        },
+        {
+          "id": "art-design-q3",
+          "question": "Which element of art refers to the surface quality or feel of an object, whether real or implied?",
+          "options": [
+            "Texture",
+            "Form",
+            "Space",
+            "Value"
+          ],
+          "correct": 0,
+          "explanation": "Texture describes the tactile or visual surface quality of an artwork, ranging from smooth and glossy to rough and matte."
+        },
+        {
+          "id": "art-design-q4",
+          "question": "In graphic design, the rule of thirds is used to:",
+          "options": [
+            "Create visual balance and interest by dividing the composition into a 3×3 grid",
+            "Ensure all text is in three different fonts",
+            "Limit the colour palette to three colours",
+            "Divide the design into three equal vertical sections only"
+          ],
+          "correct": 0,
+          "explanation": "The rule of thirds divides the frame into a 3×3 grid, placing key elements along the lines or intersections for balanced, dynamic compositions."
+        },
+        {
+          "id": "art-design-q5",
+          "question": "Which artist is most closely associated with the Pop Art movement?",
+          "options": [
+            "Andy Warhol",
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Claude Monet"
+          ],
+          "correct": 0,
+          "explanation": "Andy Warhol is a central figure in Pop Art, known for works like Campbell's Soup Cans and Marilyn Diptych that elevate consumer culture to fine art."
+        },
+        {
+          "id": "art-design-q6",
+          "question": "In textile design, which technique involves applying dye to fabric using wax as a resist?",
+          "options": [
+            "Batik",
+            "Tie-dye",
+            "Screen printing",
+            "Embroidery"
+          ],
+          "correct": 0,
+          "explanation": "Batik is a traditional resist-dyeing technique where wax is applied to fabric to block dye from certain areas, creating intricate patterns."
+        }
+      ]
+    },
+    {
+      "subjectId": "politics",
+      "subjectName": "Politics",
+      "questions": [
+        {
+          "id": "politics-q1",
+          "question": "Which electoral system is used for UK general elections?",
+          "options": [
+            "First Past the Post (FPTP)",
+            "Single Transferable Vote (STV)",
+            "Additional Member System (AMS)",
+            "Party-list proportional representation"
+          ],
+          "correct": 0,
+          "explanation": "The UK uses FPTP for Westminster elections, where the candidate with the most votes in each constituency wins the seat."
+        },
+        {
+          "id": "politics-q2",
+          "question": "Under the UK constitution, which doctrine asserts that Parliament can make or unmake any law?",
+          "options": [
+            "Parliamentary sovereignty",
+            "Separation of powers",
+            "Judicial review",
+            "Royal prerogative"
+          ],
+          "correct": 0,
+          "explanation": "Parliamentary sovereignty, a cornerstone of the UK constitution (Dicey), holds that Parliament has supreme legislative authority and no body can override its laws."
+        },
+        {
+          "id": "politics-q3",
+          "question": "In the US system, what is the term for the Supreme Court's power to declare laws unconstitutional?",
+          "options": [
+            "Judicial review",
+            "Judicial activism",
+            "Judicial restraint",
+            "Original jurisdiction"
+          ],
+          "correct": 0,
+          "explanation": "Judicial review, established in Marbury v. Madison (1803), allows the Supreme Court to invalidate federal or state laws that violate the Constitution."
+        },
+        {
+          "id": "politics-q4",
+          "question": "Which political ideology places the highest value on individual freedom and minimal state intervention?",
+          "options": [
+            "Liberalism (classical)",
+            "Socialism",
+            "Conservatism",
+            "Fascism"
+          ],
+          "correct": 0,
+          "explanation": "Classical liberalism emphasises individual liberty, free markets, and limited government, viewing the state as a necessary evil to protect rights."
+        },
+        {
+          "id": "politics-q5",
+          "question": "Which of the following is a permanent member of the UN Security Council?",
+          "options": [
+            "France",
+            "Germany",
+            "India",
+            "Brazil"
+          ],
+          "correct": 0,
+          "explanation": "The five permanent members (P5) with veto power are the USA, UK, Russia, China, and France. Germany, India, and Brazil are not permanent members."
+        },
+        {
+          "id": "politics-q6",
+          "question": "In comparative politics, the term ' Westminster model' is most closely associated with which feature?",
+          "options": [
+            "A fusion of executive and legislative power",
+            "Strict separation of powers",
+            "Federalism",
+            "Presidentialism"
+          ],
+          "correct": 0,
+          "explanation": "The Westminster model features a fusion of powers where the executive (Prime Minister and Cabinet) emerges from and sits within the legislature."
+        }
+      ]
+    },
+    {
+      "subjectId": "law",
+      "subjectName": "Law",
+      "questions": [
+        {
+          "id": "law-q1",
+          "question": "In criminal law, what are the two elements that must be proven for most offences?",
+          "options": [
+            "Actus reus and mens rea",
+            "Motive and intention",
+            "Precedent and ratio decidendi",
+            "Liability and damages"
+          ],
+          "correct": 0,
+          "explanation": "Most criminal offences require actus reus (the guilty act) and mens rea (the guilty mind) to be proven beyond reasonable doubt."
+        },
+        {
+          "id": "law-q2",
+          "question": "What is the highest appellate court in the UK for civil cases?",
+          "options": [
+            "The Supreme Court of the United Kingdom",
+            "The Court of Appeal (Civil Division)",
+            "The High Court",
+            "The Judicial Committee of the Privy Council"
+          ],
+          "correct": 0,
+          "explanation": "The Supreme Court (established 2009) is the final court of appeal for civil cases in the UK, replacing the Appellate Committee of the House of Lords."
+        },
+        {
+          "id": "law-q3",
+          "question": "In negligence, which case established the 'neighbour principle' for establishing a duty of care?",
+          "options": [
+            "Donoghue v Stevenson [1932]",
+            "Caparo v Dickman [1990]",
+            "Bolam v Friern Hospital [1957]",
+            "R v Brown [1993]"
+          ],
+          "correct": 0,
+          "explanation": "Lord Atkin's 'neighbour principle' in Donoghue v Stevenson established that you must take reasonable care to avoid acts or omissions likely to injure your neighbour."
+        },
+        {
+          "id": "law-q4",
+          "question": "Which of the following is NOT a vitiating factor in contract law?",
+          "options": [
+            "Consideration",
+            "Misrepresentation",
+            "Duress",
+            "Undue influence"
+          ],
+          "correct": 0,
+          "explanation": "Consideration is an essential element for forming a valid contract, not a vitiating factor. Misrepresentation, duress, and undue influence can invalidate contracts."
+        },
+        {
+          "id": "law-q5",
+          "question": "Under the Human Rights Act 1998, which court has the power to declare legislation incompatible with the ECHR?",
+          "options": [
+            "The High Court and above",
+            "Only the European Court of Human Rights",
+            "Magistrates' courts",
+            "County courts"
+          ],
+          "correct": 0,
+          "explanation": "Under s.4 HRA 1998, the High Court, Court of Appeal, and Supreme Court can issue a declaration of incompatibility; it does not invalidate the law but prompts Parliament to amend it."
+        },
+        {
+          "id": "law-q6",
+          "question": "In criminal law, what is the mens rea for murder?",
+          "options": [
+            "Intention to kill or cause grievous bodily harm",
+            "Recklessness as to causing death",
+            "Negligence leading to death",
+            "Dishonest intention"
+          ],
+          "correct": 0,
+          "explanation": "Murder requires malice aforethought, which in modern law means intention to kill or intention to cause grievous bodily harm (R v Cunningham [1982])."
+        }
+      ]
+    },
+    {
+      "subjectId": "music",
+      "subjectName": "Music",
+      "questions": [
+        {
+          "id": "music-q1",
+          "question": "How many semitones are in a perfect fifth interval?",
+          "options": [
+            "7",
+            "5",
+            "6",
+            "8"
+          ],
+          "correct": 0,
+          "explanation": "A perfect fifth spans 7 semitones (e.g., C to G). A perfect fourth spans 5 semitones, a tritone spans 6, and a major sixth spans 9."
+        },
+        {
+          "id": "music-q2",
+          "question": "Which of the following is a characteristic of the Baroque period (c. 1600–1750)?",
+          "options": [
+            "Use of basso continuo and ornamentation",
+            "Use of serialism and atonality",
+            "Emphasis on programme music and nationalism",
+            "Minimalist textures and repetitive motifs"
+          ],
+          "correct": 0,
+          "explanation": "Baroque music is characterised by basso continuo (figured bass), elaborate ornamentation, contrapuntal textures, and major-minor tonality."
+        },
+        {
+          "id": "music-q3",
+          "question": "In 4/4 time, how many crotchet beats are in a bar?",
+          "options": [
+            "4",
+            "2",
+            "3",
+            "6"
+          ],
+          "correct": 0,
+          "explanation": "4/4 time (common time) has four crotchet (quarter note) beats per bar. The top number indicates beats per bar; the bottom indicates the beat unit."
+        },
+        {
+          "id": "music-q4",
+          "question": "Which chord is built on the dominant (5th) degree of a major scale?",
+          "options": [
+            "V chord (dominant triad)",
+            "I chord (tonic)",
+            "IV chord (subdominant)",
+            "vi chord (submediant)"
+          ],
+          "correct": 0,
+          "explanation": "The dominant chord (V) is built on the 5th scale degree. The tonic is I, subdominant is IV, and submediant is vi."
+        },
+        {
+          "id": "music-q5",
+          "question": "Which compositional technique involves a theme being repeated and transformed throughout a piece?",
+          "options": [
+            "Thematic transformation / Development",
+            "Minimalism",
+            "Tonal planing",
+            "Ostinato"
+          ],
+          "correct": 0,
+          "explanation": "Thematic transformation (common in Romantic and symphonic music) involves developing a musical idea through variation, fragmentation, and changes in harmony, rhythm, or orchestration."
+        },
+        {
+          "id": "music-q6",
+          "question": "In jazz harmony, what is a 'ii-V-I' progression?",
+          "options": [
+            "A common cadence moving from supertonic to dominant to tonic",
+            "A chromatic descending bass line",
+            "A modal interchange technique",
+            "A rhythmic pattern in swing"
+          ],
+          "correct": 0,
+          "explanation": "The ii-V-I is the most common chord progression in jazz, moving from the supertonic (ii) to the dominant (V) to the tonic (I), creating strong harmonic resolution."
+        }
+      ]
+    },
+    {
+      "subjectId": "drama-theatre",
+      "subjectName": "Drama & Theatre",
+      "questions": [
+        {
+          "id": "drama-theatre-q1",
+          "question": "Which practitioner developed the 'system' of acting based on emotional memory and given circumstances?",
+          "options": [
+            "Konstantin Stanislavski",
+            "Bertolt Brecht",
+            "Antonin Artaud",
+            "Augusto Boal"
+          ],
+          "correct": 0,
+          "explanation": "Stanislavski developed a naturalistic acting system involving given circumstances, objectives, super-objectives, and emotional memory to create truthful performances."
+        },
+        {
+          "id": "drama-theatre-q2",
+          "question": "Which theatrical technique is most associated with Bertolt Brecht's 'epic theatre'?",
+          "options": [
+            "Verfremdungseffekt (alienation effect)",
+            "Method acting",
+            "Theatre of Cruelty",
+            "Forum theatre"
+          ],
+          "correct": 0,
+          "explanation": "Brecht's Verfremdungseffekt (alienation/distancing effect) breaks the fourth wall, uses narration, and prevents emotional catharsis to encourage critical thought."
+        },
+        {
+          "id": "drama-theatre-q3",
+          "question": "In theatre lighting, which colour temperature is warmer?",
+          "options": [
+            "2700 K",
+            "5600 K",
+            "6500 K",
+            "10000 K"
+          ],
+          "correct": 0,
+          "explanation": "Lower Kelvin values (2700 K) produce warmer, yellower light. Higher values (5600 K+) are cooler, bluer, resembling daylight."
+        },
+        {
+          "id": "drama-theatre-q4",
+          "question": "What is the primary function of a 'director's concept' in contemporary theatre production?",
+          "options": [
+            "To provide a unifying vision that informs all creative decisions",
+            "To write the script for the actors",
+            "To manage the box office and ticket sales",
+            "To design the costumes personally"
+          ],
+          "correct": 0,
+          "explanation": "The director's concept is a coherent interpretive vision that unifies acting, design, and staging choices, ensuring the production communicates a clear meaning to the audience."
+        },
+        {
+          "id": "drama-theatre-q5",
+          "question": "Which Greek term describes the moment of emotional purgation or release experienced by the audience in tragedy?",
+          "options": [
+            "Catharsis",
+            "Hamartia",
+            "Hubris",
+            "Anagnorisis"
+          ],
+          "correct": 0,
+          "explanation": "Catharsis (Aristotle's Poetics) is the emotional cleansing or purgation of pity and fear that the audience experiences through witnessing tragic events."
+        },
+        {
+          "id": "drama-theatre-q6",
+          "question": "In theatre design, which term describes the arrangement of actors on stage at a given moment?",
+          "options": [
+            "Blocking / Stage picture",
+            "Plot",
+            "Cue",
+            "Prompt"
+          ],
+          "correct": 0,
+          "explanation": "Blocking (or stage picture) refers to the precise placement and movement of actors on stage, planned by the director to create visual composition and focus."
+        }
+      ]
+    },
+    {
+      "subjectId": "physical-education",
+      "subjectName": "Physical Education",
+      "questions": [
+        {
+          "id": "physical-education-q1",
+          "question": "Which energy system provides ATP for high-intensity exercise lasting up to approximately 10 seconds?",
+          "options": [
+            "ATP-PC (phosphocreatine) system",
+            "Aerobic system",
+            "Lactic acid system",
+            "Oxidative system"
+          ],
+          "correct": 0,
+          "explanation": "The ATP-PC system provides immediate energy for short bursts of maximal effort (up to ~10 seconds) without oxygen or lactate production."
+        },
+        {
+          "id": "physical-education-q2",
+          "question": "Which muscle fibre type is most suited to endurance activities?",
+          "options": [
+            "Type I (slow-twitch)",
+            "Type IIb (fast-twitch glycolytic)",
+            "Type IIx (fast-twitch intermediate)",
+            "Type IIa (fast-twitch oxidative)"
+          ],
+          "correct": 0,
+          "explanation": "Type I (slow-twitch) fibres have high mitochondrial density, rich capillary supply, and fatigue resistance, making them ideal for endurance."
+        },
+        {
+          "id": "physical-education-q3",
+          "question": "In projectile motion, what is the optimal angle of release for maximum horizontal distance when landing at the same height as projection?",
+          "options": [
+            "45°",
+            "30°",
+            "60°",
+            "90°"
+          ],
+          "correct": 0,
+          "explanation": "Neglecting air resistance, the optimal angle for maximum range when landing at the same height is 45°, balancing horizontal and vertical components."
+        },
+        {
+          "id": "physical-education-q4",
+          "question": "Which psychological theory proposes that anxiety has both cognitive (worry) and somatic (physiological) components?",
+          "options": [
+            "Multidimensional anxiety theory (Martens)",
+            "Drive theory",
+            "Inverted-U hypothesis",
+            "Social learning theory"
+          ],
+          "correct": 0,
+          "explanation": "Martens' multidimensional anxiety theory distinguishes cognitive state anxiety (mental worry) from somatic state anxiety (physiological arousal)."
+        },
+        {
+          "id": "physical-education-q5",
+          "question": "In skill acquisition, which term describes the early stage where movements are consciously controlled and inconsistent?",
+          "options": [
+            "Cognitive stage (Fitts & Posner)",
+            "Associative stage",
+            "Autonomous stage",
+            "Motor stage"
+          ],
+          "correct": 0,
+          "explanation": "Fitts and Posner's cognitive stage is the initial learning phase where performers rely on verbal instruction, make many errors, and require conscious control."
+        },
+        {
+          "id": "physical-education-q6",
+          "question": "Which type of feedback is provided by the performer themselves through proprioception and kinaesthetic awareness?",
+          "options": [
+            "Intrinsic feedback",
+            "Extrinsic feedback",
+            "Knowledge of results",
+            "Knowledge of performance"
+          ],
+          "correct": 0,
+          "explanation": "Intrinsic feedback comes from the body's sensory systems (proprioceptors, vestibular system). Extrinsic feedback comes from external sources like coaches."
+        }
+      ]
+    },
+    {
+      "subjectId": "spanish",
+      "subjectName": "Spanish",
+      "questions": [
+        {
+          "id": "spanish-q1",
+          "question": "Which tense is used in the sentence: 'Espero que vengas pronto'?",
+          "options": [
+            "Present subjunctive",
+            "Present indicative",
+            "Conditional",
+            "Future"
+          ],
+          "correct": 0,
+          "explanation": "'Espero que' expresses hope/wish and triggers the subjunctive mood. 'Vengas' is the present subjunctive of venir."
+        },
+        {
+          "id": "spanish-q2",
+          "question": "In Spanish, which pronoun would replace 'a mi hermana' when it is the indirect object?",
+          "options": [
+            "Le",
+            "La",
+            "Lo",
+            "Les"
+          ],
+          "correct": 0,
+          "explanation": "'Le' is the indirect object pronoun for singular third persons (him/her/you formal). 'La/lo' are direct object pronouns, and 'les' is plural indirect."
+        },
+        {
+          "id": "spanish-q3",
+          "question": "Which of the following is the correct form of the past participle used with 'haber' in the perfect tense?",
+          "options": [
+            "Ha cantado",
+            "Ha cantada",
+            "Ha cantando",
+            "Ha cantar"
+          ],
+          "correct": 0,
+          "explanation": "With the auxiliary 'haber', past participles are invariable (do not agree with gender/number). 'Ha cantado' is correct."
+        },
+        {
+          "id": "spanish-q4",
+          "question": "The word 'mientras' is most commonly used to express:",
+          "options": [
+            "While / whilst (simultaneity or contrast)",
+            "Because",
+            "Therefore",
+            "However"
+          ],
+          "correct": 0,
+          "explanation": "'Mientras' means 'while' or 'whilst', indicating simultaneous actions or contrast. 'Because' = porque, 'therefore' = por lo tanto, 'however' = sin embargo."
+        },
+        {
+          "id": "spanish-q5",
+          "question": "In Spanish, which sentence correctly uses the passive voice with 'ser'?",
+          "options": [
+            "La carta fue escrita por Juan",
+            "Juan escribió la carta",
+            "Juan ha escrito la carta",
+            "Juan va a escribir la carta"
+          ],
+          "correct": 0,
+          "explanation": "'La carta fue escrita por Juan' uses ser + past participle (agreeing with the subject) + por + agent, which is the true passive voice construction."
+        },
+        {
+          "id": "spanish-q6",
+          "question": "Which of the following is a characteristic of the subjunctive mood?",
+          "options": [
+            "It expresses doubt, possibility, or unreality",
+            "It states facts and certainties",
+            "It describes past habitual actions",
+            "It narrates completed events in the past"
+          ],
+          "correct": 0,
+          "explanation": "The subjunctive mood is used for doubt, emotion, possibility, necessity, and hypothetical situations, contrasting with the indicative which states facts."
+        }
+      ]
+    },
+    {
+      "subjectId": "german",
+      "subjectName": "German",
+      "questions": [
+        {
+          "id": "german-q1",
+          "question": "Which case is used for the direct object in German?",
+          "options": [
+            "Accusative",
+            "Nominative",
+            "Dative",
+            "Genitive"
+          ],
+          "correct": 0,
+          "explanation": "The accusative case marks the direct object of a sentence. The nominative is for subjects, dative for indirect objects, and genitive for possession."
+        },
+        {
+          "id": "german-q2",
+          "question": "In the sentence 'Ich habe das Buch gelesen', what grammatical function does 'das Buch' have?",
+          "options": [
+            "Accusative direct object",
+            "Nominative subject",
+            "Dative indirect object",
+            "Genitive object"
+          ],
+          "correct": 0,
+          "explanation": "'Lesen' takes a direct object in the accusative case. 'Das Buch' is the thing being read, so it is the accusative direct object."
+        },
+        {
+          "id": "german-q3",
+          "question": "Which word order rule applies to German subordinate clauses?",
+          "options": [
+            "The verb moves to the end of the clause",
+            "The verb stays in second position",
+            "The subject comes after the verb",
+            "The verb is omitted entirely"
+          ],
+          "correct": 0,
+          "explanation": "In German subordinate clauses, the conjugated verb is placed at the end (Verb-end), while in main clauses it occupies the second position (V2)."
+        },
+        {
+          "id": "german-q4",
+          "question": "Which conjunction is a 'subordinating conjunction' in German?",
+          "options": [
+            "Weil",
+            "Und",
+            "Aber",
+            "Oder"
+          ],
+          "correct": 0,
+          "explanation": "'Weil' (because) is a subordinating conjunction that sends the verb to the end. 'Und', 'aber', and 'oder' are coordinating conjunctions that do not change word order."
+        },
+        {
+          "id": "german-q5",
+          "question": "Which adjective ending would correctly complete: 'Das ist ein ___ Buch'?",
+          "options": [
+            "gutes",
+            "gute",
+            "gut",
+            "gutem"
+          ],
+          "correct": 0,
+          "explanation": "After the indefinite article 'ein' with a neuter noun (das Buch), the adjective ending is -es: 'ein gutes Buch'."
+        },
+        {
+          "id": "german-q6",
+          "question": "The Konjunktiv II form of 'sein' for 'ich' is:",
+          "options": [
+            "wäre",
+            "wäre (correct: wäre)",
+            "war",
+            "bin"
+          ],
+          "correct": 0,
+          "explanation": "The Konjunktiv II (subjunctive) of 'sein' for 'ich' is 'wäre'. 'War' is the simple past indicative, and 'bin' is the present indicative."
+        }
+      ]
+    },
+    {
+      "subjectId": "religious-studies",
+      "subjectName": "Religious Studies",
+      "questions": [
+        {
+          "id": "religious-studies-q1",
+          "question": "Which argument for God's existence is based on the observation that the universe appears to be designed for a purpose?",
+          "options": [
+            "The teleological argument",
+            "The ontological argument",
+            "The cosmological argument",
+            "The moral argument"
+          ],
+          "correct": 0,
+          "explanation": "The teleological (design) argument, famously articulated by William Paley, infers a designer from the apparent order, complexity, and purpose in the natural world."
+        },
+        {
+          "id": "religious-studies-q2",
+          "question": "According to Kantian ethics, what determines whether an action is morally right?",
+          "options": [
+            "Whether it can be universalised as a categorical imperative",
+            "Whether it produces the greatest happiness",
+            "Whether it follows natural law",
+            "Whether it is commanded by a religious authority"
+          ],
+          "correct": 0,
+          "explanation": "Kant's categorical imperative requires acting only according to maxims you can will as universal law. Rightness depends on duty and universalisability, not consequences."
+        },
+        {
+          "id": "religious-studies-q3",
+          "question": "Which philosopher argued that religious language is meaningless because it cannot be empirically verified?",
+          "options": [
+            "A.J. Ayer (logical positivism)",
+            "Thomas Aquinas",
+            "Karl Barth",
+            "Søren Kierkegaard"
+          ],
+          "correct": 0,
+          "explanation": "A.J. Ayer, in Language, Truth and Logic (1936), argued that statements must be empirically verifiable or tautological to be cognitively meaningful."
+        },
+        {
+          "id": "religious-studies-q4",
+          "question": "In Christian theology, what is the doctrine of 'original sin' most closely associated with?",
+          "options": [
+            "Augustine of Hippo",
+            "Thomas Aquinas",
+            "Martin Luther",
+            "John Wesley"
+          ],
+          "correct": 0,
+          "explanation": "Augustine of Hippo developed the doctrine of original sin, teaching that all humans inherit Adam's guilt and sinful nature, requiring divine grace for salvation."
+        },
+        {
+          "id": "religious-studies-q5",
+          "question": "Which ethical theory evaluates actions based on the consequences they produce, specifically seeking the greatest good for the greatest number?",
+          "options": [
+            "Utilitarianism",
+            "Virtue ethics",
+            "Natural law",
+            "Divine command theory"
+          ],
+          "correct": 0,
+          "explanation": "Utilitarianism (Bentham, Mill) is a consequentialist theory that judges actions by their outcomes, aiming to maximise aggregate happiness or well-being."
+        },
+        {
+          "id": "religious-studies-q6",
+          "question": "The 'via negativa' (apophatic way) is a method of describing God by:",
+          "options": [
+            "Stating what God is not",
+            "Affirming positive attributes of God",
+            "Using analogies from nature",
+            "Describing God's physical appearance"
+          ],
+          "correct": 0,
+          "explanation": "The via negativa (e.g., Pseudo-Dionysius, Maimonides) argues that God is beyond human comprehension, so we can only say what God is not (e.g., God is not limited, not temporal)."
+        }
+      ]
+    }
+  ]
+}

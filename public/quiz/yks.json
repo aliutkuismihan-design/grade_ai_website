@@ -1,0 +1,1541 @@
+{
+  "examSystem": "YKS",
+  "subjects": [
+    {
+      "subjectId": "math-tyt",
+      "subjectName": "Matematik (TYT)",
+      "questions": [
+        {
+          "id": "math-tyt-q1",
+          "question": "Uc basamakli abc sayisinin basamak degerleri toplami a+b+c = 14 tur. Bu sayinin basamaklari yer degistirilerek elde edilebilecek en buyuk sayi ile en kucuk sayinin farki kactir?",
+          "options": [
+            "891",
+            "792",
+            "693",
+            "594"
+          ],
+          "correct": 1,
+          "explanation": "Basamaklari toplami 14 olan sayi icin en buyuk: 941, en kucuk: 149. Fark: 941-149=792."
+        },
+        {
+          "id": "math-tyt-q2",
+          "question": "x, y, z farkli pozitif tam sayilardir. x ve y nin EKOK u 60, y ve z nin EBOB u 4 tur. Buna gore, x+y+z toplami en az kac olabilir?",
+          "options": [
+            "25",
+            "21",
+            "17",
+            "14"
+          ],
+          "correct": 3,
+          "explanation": "y=12, z=4 (EBOB=4), x=5 (EKOK(5,12)=60). Toplam: 5+12+4=21."
+        },
+        {
+          "id": "math-tyt-q3",
+          "question": "a, b, c pozitif tam sayilardir. a/4 = b/6 = c/9 ve EBOB(a,b,c)=5 tir. Buna gore, a+b+c kactir?",
+          "options": [
+            "95",
+            "85",
+            "75",
+            "65"
+          ],
+          "correct": 0,
+          "explanation": "a=4k, b=6k, c=9k. EBOB(4k,6k,9k)=k=5. Toplam: 20+30+45=95."
+        },
+        {
+          "id": "math-tyt-q4",
+          "question": "(2^3)^-2 * (2^-3)^4 isleminin sonucu kactir?",
+          "options": [
+            "2^-18",
+            "2^-14",
+            "2^-16",
+            "2^-20"
+          ],
+          "correct": 0,
+          "explanation": "(2^3)^-2 = 2^-6. (2^-3)^4 = 2^-12. Carpim: 2^-6 * 2^-12 = 2^-18."
+        },
+        {
+          "id": "math-tyt-q5",
+          "question": "Bir isci 8 gunde, digeri 12 gunde bitirebilecegi bir isi birlikte kac gunde bitirirler?",
+          "options": [
+            "4",
+            "5",
+            "4,8",
+            "5,2"
+          ],
+          "correct": 1,
+          "explanation": "1 gunde 1/8 + 1/12 = 5/24 yaparlar. Tam is: 24/5 = 4,8 gun."
+        },
+        {
+          "id": "math-tyt-q6",
+          "question": "Bir havuzun bosaltma muslugu 6 saatte, doldurma muslugu 4 saatte dolabilmektedir. Bosken her iki musluk acilirsa kac saatte dolacaktir?",
+          "options": [
+            "8",
+            "10",
+            "12",
+            "14"
+          ],
+          "correct": 2,
+          "explanation": "Net doluluk: 1/4 - 1/6 = 1/12. Havuz 12 saatte dolacaktir."
+        },
+        {
+          "id": "math-tyt-q7",
+          "question": "A ve B kumeleri icin A u B = {1,2,3,4,5}, A n B = {3} ve A-B = {1,2} ise s(B) kactir?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correct": 1,
+          "explanation": "A = {1,2,3}. A u B = {1,2,3,4,5} ise B = {3,4,5}. s(B)=3."
+        },
+        {
+          "id": "math-tyt-q8",
+          "question": "p: Tum kuslar ucar. onermesinin degili (negatifi) asagidakilerden hangisidir?",
+          "options": [
+            "Hicbir kus ucmaz.",
+            "Bazi kuslar ucmaz.",
+            "Tum kuslar ucmaz.",
+            "Bazi kuslar ucar."
+          ],
+          "correct": 1,
+          "explanation": "Tum A B dir onermesinin degili Bazi A B degildir seklindedir. Cevap: Bazi kuslar ucmaz."
+        }
+      ]
+    },
+    {
+      "subjectId": "math-ayt",
+      "subjectName": "Matematik (AYT)",
+      "questions": [
+        {
+          "id": "math-ayt-q1",
+          "question": "f: R->R, f(x) = (2x+1)/(x-3) fonksiyonu icin f^-1(x) asagidakilerden hangisidir?",
+          "options": [
+            "(3x+1)/(x-2)",
+            "(3x-1)/(x+2)",
+            "(3x+1)/(x+2)",
+            "(3x-1)/(x-2)"
+          ],
+          "correct": 0,
+          "explanation": "y = (2x+1)/(x-3). x yerine yazinca f^-1(x) = (3x+1)/(x-2)."
+        },
+        {
+          "id": "math-ayt-q2",
+          "question": "P(x) = x^3 - 4x^2 + 5x - 2 polinomunun x-2 ile bolumunden kalan kactir?",
+          "options": [
+            "0",
+            "2",
+            "4",
+            "6"
+          ],
+          "correct": 0,
+          "explanation": "Kalan teoremi: P(2) = 8-16+10-2 = 0. Kalan 0 ise x-2 bir carpandir."
+        },
+        {
+          "id": "math-ayt-q3",
+          "question": "lim(x->3) (x^2-9)/(x-3) limitinin degeri kactir?",
+          "options": [
+            "6",
+            "0",
+            "3",
+            "9"
+          ],
+          "correct": 0,
+          "explanation": "0/0 belirsizligi. (x-3)(x+3)/(x-3) = x+3. Limit = 3+3 = 6."
+        },
+        {
+          "id": "math-ayt-q4",
+          "question": "f(x) = x^3 - 3x^2 fonksiyonunun yerel maksimum noktasinin apsisi kactir?",
+          "options": [
+            "0",
+            "2",
+            "-1",
+            "1"
+          ],
+          "correct": 0,
+          "explanation": "f(x) = 3x^2 - 6x = 3x(x-2). f(0)=-6<0 ise yerel maksimum. Apsisi 0."
+        },
+        {
+          "id": "math-ayt-q5",
+          "question": "Integral (0 to 2) (3x^2 + 2x) dx integralinin sonucu kactir?",
+          "options": [
+            "12",
+            "10",
+            "8",
+            "14"
+          ],
+          "correct": 0,
+          "explanation": "Integral = x^3 + x^2. (8+4) - (0+0) = 12."
+        },
+        {
+          "id": "math-ayt-q6",
+          "question": "sin(pi/3) + cos(pi/6) isleminin sonucu kactir?",
+          "options": [
+            "kok3",
+            "1",
+            "2kok3",
+            "kok3/2"
+          ],
+          "correct": 0,
+          "explanation": "sin(pi/3)=kok3/2, cos(pi/6)=kok3/2. Toplam = kok3."
+        },
+        {
+          "id": "math-ayt-q7",
+          "question": "log2(x) + log2(x-2) = 3 denklemini saglayan x degeri kactir?",
+          "options": [
+            "4",
+            "2",
+            "1",
+            "3"
+          ],
+          "correct": 0,
+          "explanation": "log2(x(x-2))=3 => x(x-2)=8. x^2-2x-8=0. x=4 veya x=-2. x>2 oldugundan x=4."
+        }
+      ]
+    },
+    {
+      "subjectId": "geometry-tyt",
+      "subjectName": "Geometri (TYT)",
+      "questions": [
+        {
+          "id": "geometry-tyt-q1",
+          "question": "Bir ucgenin ic aclari 2x, 3x ve 4x ise en kucuk aci kac derecedir?",
+          "options": [
+            "40",
+            "30",
+            "20",
+            "50"
+          ],
+          "correct": 0,
+          "explanation": "2x+3x+4x=9x=180 => x=20. Acilar: 40, 60, 80. En kucuk 40 derece."
+        },
+        {
+          "id": "geometry-tyt-q2",
+          "question": "ABC ucgeninde |AB|=6, |AC|=8 ve A acisi 60 ise alan kac cm^2 dir?",
+          "options": [
+            "12kok3",
+            "24",
+            "16kok3",
+            "20"
+          ],
+          "correct": 0,
+          "explanation": "Alan = (1/2)*6*8*sin(60) = 24*(kok3/2) = 12kok3 cm^2."
+        },
+        {
+          "id": "geometry-tyt-q3",
+          "question": "ABC ucgeninde [AD] aciortaydir. |AB|=6, |AC|=10, |BD|=3 ise |DC| kactir?",
+          "options": [
+            "5",
+            "4",
+            "6",
+            "7"
+          ],
+          "correct": 0,
+          "explanation": "Aciortay teoremi: |AB|/|AC| = |BD|/|DC|. 6/10 = 3/|DC| => |DC|=5."
+        },
+        {
+          "id": "geometry-tyt-q4",
+          "question": "Bir karenin kosegen uzunlugu 6kok2 cm ise alani kac cm^2 dir?",
+          "options": [
+            "36",
+            "72",
+            "18",
+            "48"
+          ],
+          "correct": 0,
+          "explanation": "Kosegen = a*kok2 = 6kok2 => a=6. Alan = a^2 = 36 cm^2."
+        },
+        {
+          "id": "geometry-tyt-q5",
+          "question": "Yaricapi 5 cm olan bir cemberin merkezinden 3 cm uzakliktaki noktadan cizilen teget parcasinin uzunlugu kac cm dir?",
+          "options": [
+            "4",
+            "3",
+            "5",
+            "6"
+          ],
+          "correct": 0,
+          "explanation": "Teget uzunlugu = kok(5^2 - 3^2) = kok16 = 4 cm."
+        },
+        {
+          "id": "geometry-tyt-q6",
+          "question": "A(2,3) ve B(8,11) noktalari arasindaki uzaklik kac birimdir?",
+          "options": [
+            "10",
+            "8",
+            "12",
+            "6"
+          ],
+          "correct": 0,
+          "explanation": "|AB| = kok((8-2)^2 + (11-3)^2) = kok(36+64) = kok100 = 10."
+        },
+        {
+          "id": "geometry-tyt-q7",
+          "question": "Yaricapi 6 cm olan bir kurenin hacmi kac pi cm^3 tur?",
+          "options": [
+            "288",
+            "144",
+            "216",
+            "432"
+          ],
+          "correct": 0,
+          "explanation": "Hacim = (4/3)*pi*r^3 = (4/3)*pi*216 = 288pi cm^3."
+        },
+        {
+          "id": "geometry-tyt-q8",
+          "question": "Taban yaricapi 3 cm ve yuksekligi 8 cm olan bir silindirin hacmi kac pi cm^3 tur?",
+          "options": [
+            "72",
+            "48",
+            "96",
+            "64"
+          ],
+          "correct": 0,
+          "explanation": "Hacim = pi*r^2*h = pi*9*8 = 72pi cm^3."
+        }
+      ]
+    },
+    {
+      "subjectId": "geometry-ayt",
+      "subjectName": "Geometri (AYT)",
+      "questions": [
+        {
+          "id": "geometry-ayt-q1",
+          "question": "ABC ucgeninde [AD] kenarortaydir. A nin [BC] kenarina uzakligi 6 cm ve |BC|=10 cm ise alan kac cm^2 dir?",
+          "options": [
+            "30",
+            "60",
+            "15",
+            "45"
+          ],
+          "correct": 0,
+          "explanation": "Alan = (taban*yukseklik)/2 = (10*6)/2 = 30 cm^2."
+        },
+        {
+          "id": "geometry-ayt-q2",
+          "question": "Cember denklemi x^2 + y^2 - 6x + 4y + 4 = 0 ise merkezinin koordinatlari hangisidir?",
+          "options": [
+            "(3,-2)",
+            "(-3,2)",
+            "(3,2)",
+            "(-3,-2)"
+          ],
+          "correct": 0,
+          "explanation": "Tamamlama: (x-3)^2 + (y+2)^2 = 9. Merkez (3,-2), yaricap 3."
+        },
+        {
+          "id": "geometry-ayt-q3",
+          "question": "A(1,2) ve B(7,14) noktalarini birlestiren dogru parcasini 1:2 oraninda icten bolen noktanin ordinati kactir?",
+          "options": [
+            "6",
+            "8",
+            "10",
+            "4"
+          ],
+          "correct": 0,
+          "explanation": "y = (2*2 + 1*14)/(1+2) = (4+14)/3 = 18/3 = 6."
+        },
+        {
+          "id": "geometry-ayt-q4",
+          "question": "2x + 3y - 6 = 0 dogrusunun egimi kactir?",
+          "options": [
+            "-2/3",
+            "2/3",
+            "3/2",
+            "-3/2"
+          ],
+          "correct": 0,
+          "explanation": "3y = -2x + 6 => y = (-2/3)x + 2. Egim m = -2/3."
+        },
+        {
+          "id": "geometry-ayt-q5",
+          "question": "P(1,2) noktasinin x eksenine gore simetriginin koordinatlari hangisidir?",
+          "options": [
+            "(1,-2)",
+            "(-1,2)",
+            "(-1,-2)",
+            "(2,1)"
+          ],
+          "correct": 0,
+          "explanation": "x eksenine gore simetri: (x,y) -> (x,-y). Simetri (1,-2)."
+        },
+        {
+          "id": "geometry-ayt-q6",
+          "question": "x^2 + y^2 = 16 cemberi ile x + y = 4 dogrusunun merkeze olan uzakligi kactir?",
+          "options": [
+            "2kok2",
+            "4",
+            "2",
+            "3kok2"
+          ],
+          "correct": 0,
+          "explanation": "Merkez (0,0). Uzaklik d = |0+0-4|/kok(1+1) = 4/kok2 = 2kok2."
+        },
+        {
+          "id": "geometry-ayt-q7",
+          "question": "Bir karenin bir kosesi orijinde, iki komsu kenari x ve y eksenleri uzerinde. Kosegen denklemi nedir?",
+          "options": [
+            "y=x",
+            "y=-x",
+            "y=2x",
+            "y=x/2"
+          ],
+          "correct": 0,
+          "explanation": "Orijinden karsi koseye giden dogru y = x dogrusudur."
+        }
+      ]
+    },
+    {
+      "subjectId": "physics",
+      "subjectName": "Fizik",
+      "questions": [
+        {
+          "id": "physics-q1",
+          "question": "Kutlesi 5 kg olan bir cisim uzerine 20 N luk bir kuvvet uygulanirsa ivmesi kac m/s^2 olur?",
+          "options": [
+            "4",
+            "5",
+            "2",
+            "10"
+          ],
+          "correct": 0,
+          "explanation": "F = m*a => a = F/m = 20/5 = 4 m/s^2."
+        },
+        {
+          "id": "physics-q2",
+          "question": "Bir cisim 10 m yukseklikten serbest birakiliyor. Yere dusme suresi yaklasik kac saniyedir? (g=10 m/s^2)",
+          "options": [
+            "2",
+            "1",
+            "1,41",
+            "3"
+          ],
+          "correct": 2,
+          "explanation": "h = (1/2)gt^2 => 10 = 5t^2 => t^2 = 2 => t = kok2 = 1,41 s."
+        },
+        {
+          "id": "physics-q3",
+          "question": "Kutlesi 2 kg olan bir cismin hizi 4 m/s den 8 m/s ye cikariliyor. Kinetik enerji degisimi kac Joule dur?",
+          "options": [
+            "48",
+            "24",
+            "32",
+            "16"
+          ],
+          "correct": 0,
+          "explanation": "dE = (1/2)*m*(v2^2 - v1^2) = (1/2)*2*(64-16) = 48 J."
+        },
+        {
+          "id": "physics-q4",
+          "question": "Bir devrede 12 V luk pil ile 4 Ohm luk direnc baglanirsa akim siddeti kac Amper dir?",
+          "options": [
+            "3",
+            "4",
+            "6",
+            "2"
+          ],
+          "correct": 0,
+          "explanation": "Ohm Yasasi: V = I*R => I = V/R = 12/4 = 3 A."
+        },
+        {
+          "id": "physics-q5",
+          "question": "Bir ayna onunde 30 cm uzaklikta bir cisim yerlestirilirse, aynanin odagi 15 cm ise gercek goruntu uzakligi kactir?",
+          "options": [
+            "30",
+            "15",
+            "60",
+            "45"
+          ],
+          "correct": 0,
+          "explanation": "1/f = 1/do + 1/di. f=15, do=30. 1/di = 1/15 - 1/30 = 1/30 => di = 30 cm."
+        },
+        {
+          "id": "physics-q6",
+          "question": "Bir maddenin sicakligi 27 C dir. Bu sicaklik Kelvin cinsinden kactir?",
+          "options": [
+            "300",
+            "273",
+            "320",
+            "250"
+          ],
+          "correct": 0,
+          "explanation": "K = C + 273 = 27 + 273 = 300 K."
+        },
+        {
+          "id": "physics-q7",
+          "question": "Hacmi 500 cm^3 olan bir cisme uygulanan kuvvet yuzey alani 25 cm^2 ise basinc kac Pa dir?",
+          "options": [
+            "Verisiz",
+            "20",
+            "12500",
+            "0,02"
+          ],
+          "correct": 0,
+          "explanation": "Basinc P = F/A. Kuvvet verilmediginden hesaplanamaz. Bu bir dikkat sorusudur."
+        },
+        {
+          "id": "physics-q8",
+          "question": "Bir cisim esit zaman araliklarinda esit yol aliyorsa hareketi nasil adlandirilir?",
+          "options": [
+            "Duzgun dogrusal hareket",
+            "Duzgun hizlanmali hareket",
+            "Duzgun yavaslamali hareket",
+            "Dairesel hareket"
+          ],
+          "correct": 0,
+          "explanation": "Esit zaman araliklarinda esit yol alinmasi duzgun dogrusal hareketin tanimidir."
+        }
+      ]
+    },
+    {
+      "subjectId": "chemistry",
+      "subjectName": "Kimya",
+      "questions": [
+        {
+          "id": "chemistry-q1",
+          "question": "11Na elementinin elektron dizilisi asagidakilerden hangisidir?",
+          "options": [
+            "2,8,1",
+            "2,8,8",
+            "2,8,2",
+            "2,7,2"
+          ],
+          "correct": 0,
+          "explanation": "Sodyum atom numarasi 11. Elektron dizilimi: 2,8,1."
+        },
+        {
+          "id": "chemistry-q2",
+          "question": "H2O molekulundeki bag turu nedir?",
+          "options": [
+            "Kovalent bag",
+            "Iyonik bag",
+            "Metalik bag",
+            "Van der Waals"
+          ],
+          "correct": 0,
+          "explanation": "H2O molekulundeki H-O baglari kovalent baglardir."
+        },
+        {
+          "id": "chemistry-q3",
+          "question": "0 C sicaklikta ve 1 atm basincta 1 mol ideal gazin hacmi kactir? (STP)",
+          "options": [
+            "22,4 L",
+            "24 L",
+            "11,2 L",
+            "44,8 L"
+          ],
+          "correct": 0,
+          "explanation": "Standart sicaklik ve basincta (STP) 1 mol ideal gazin hacmi 22,4 L dir."
+        },
+        {
+          "id": "chemistry-q4",
+          "question": "pH degeri 3 olan bir cozeltinin H+ iyon derisimi kac mol/L dir?",
+          "options": [
+            "10^-3",
+            "10^-11",
+            "10^3",
+            "3"
+          ],
+          "correct": 0,
+          "explanation": "pH = -log[H+]. [H+] = 10^-pH = 10^-3 mol/L."
+        },
+        {
+          "id": "chemistry-q5",
+          "question": "2H2 + O2 -> 2H2O tepkimesinde 4 mol H2 ile tepkimeye girilirse kac mol H2O olusur?",
+          "options": [
+            "4",
+            "2",
+            "8",
+            "1"
+          ],
+          "correct": 0,
+          "explanation": "Tepkime oranina gore 2 mol H2, 2 mol H2O verir. 4 mol H2, 4 mol H2O verir."
+        },
+        {
+          "id": "chemistry-q6",
+          "question": "Tuz ve su karisimini ayirmak icin hangi yontem kullanilir?",
+          "options": [
+            "Damitma",
+            "Dekantasyon",
+            "Filtreleme",
+            "Kromatografi"
+          ],
+          "correct": 0,
+          "explanation": "Tuzlu suyu kaynatarak suyu buharlastirip geri donusturmek damitma yontemidir."
+        }
+      ]
+    },
+    {
+      "subjectId": "biology",
+      "subjectName": "Biyoloji",
+      "questions": [
+        {
+          "id": "biology-q1",
+          "question": "Hucrenin enerji uretim merkezi hangi organeldir?",
+          "options": [
+            "Mitokondri",
+            "Ribozom",
+            "Golgi",
+            "Lizozom"
+          ],
+          "correct": 0,
+          "explanation": "Mitokondri, hucrenin solunum yoluyla ATP enerjisi urettigi organeldir."
+        },
+        {
+          "id": "biology-q2",
+          "question": "Prokaryot hucrelerde cekirdek zari bulunmaz. Bu tur hucrelere ornek olarak hangisi verilebilir?",
+          "options": [
+            "Bakteri",
+            "Maya",
+            "Bitki hucreleri",
+            "Insan hucreleri"
+          ],
+          "correct": 0,
+          "explanation": "Bakteri ve arkeler prokaryottur; cekirdek zari bulunmaz."
+        },
+        {
+          "id": "biology-q3",
+          "question": "Mendel in birinci yasasi (ayrilma yasasi) hangi caprazlamaya dayanir?",
+          "options": [
+            "Tek melez caprazlama",
+            "Cift melez caprazlama",
+            "Test caprazlama",
+            "Digerleri"
+          ],
+          "correct": 0,
+          "explanation": "Tek melez caprazlama (monohybrid) sonucunda alleller ayrilarak yavruya gecer."
+        },
+        {
+          "id": "biology-q4",
+          "question": "Bir ekosistemde ureticiler hangi trofik duzeyde yer alir?",
+          "options": [
+            "1. trofik duzey",
+            "2. trofik duzey",
+            "3. trofik duzey",
+            "4. trofik duzey"
+          ],
+          "correct": 0,
+          "explanation": "Ureticiler (bitkiler) fotosentez yaparak 1. trofik duzeyi olusturur."
+        },
+        {
+          "id": "biology-q5",
+          "question": "Insan vucudunda oksijen tasimasi hangi kan hucresi tarafindan gerceklestirilir?",
+          "options": [
+            "Alyuvar",
+            "Akyuvar",
+            "Trombosit",
+            "Plazma"
+          ],
+          "correct": 0,
+          "explanation": "Alyuvar (eritrosit) icindeki hemoglobin ile oksijen tasir."
+        },
+        {
+          "id": "biology-q6",
+          "question": "Fotosentezin karanlik faz reaksiyonlari hangi organelde gerceklesir?",
+          "options": [
+            "Stroma",
+            "Tilakoid",
+            "Klorofil",
+            "Sitoplazma"
+          ],
+          "correct": 0,
+          "explanation": "Fotosentezin karanlik faz reaksiyonlari (Calvin dongusu) kloroplastin stromasinda gerceklesir."
+        },
+        {
+          "id": "biology-q7",
+          "question": "Hucresel solunumda piruvat hangi asamada Krebs dongusune girer?",
+          "options": [
+            "Mitokondri matrisi",
+            "Sitoplazma",
+            "Tilakoid",
+            "Dis membran"
+          ],
+          "correct": 0,
+          "explanation": "Piruvat mitokondri matrisinde asetyl-CoA ya donusturulerek Krebs dongusune girer."
+        }
+      ]
+    },
+    {
+      "subjectId": "turkish",
+      "subjectName": "Turkce",
+      "questions": [
+        {
+          "id": "turkish-q1",
+          "question": "Asagidaki sozcuklerden hangisinde mecaz anlam vardir?",
+          "options": [
+            "Kirgin davrandi.",
+            "Masa kirildi.",
+            "Goz kirpildi.",
+            "Kirli elbiseler"
+          ],
+          "correct": 0,
+          "explanation": "Kirgin davrandi ifadesinde kirgin sozcugu mecaz anlamda kullanilmistir."
+        },
+        {
+          "id": "turkish-q2",
+          "question": "Asagidaki cumlelerden hangisi amac sonuc bildirir?",
+          "options": [
+            "Sinava girmek icin calisti.",
+            "Hasta oldugu icin gelmedi.",
+            "Yagmur yaginca islanmadi.",
+            "Yorgun dusunce uyudu."
+          ],
+          "correct": 0,
+          "explanation": "Amac sonuc iliskisi amac-sonuc baglaclarinin (icin, -mek icin) kullanildigi cumlelerde gorulur."
+        },
+        {
+          "id": "turkish-q3",
+          "question": "Asagidakilerden hangisi paragraf yaziminin ilk asamasidir?",
+          "options": [
+            "Konunun belirlenmesi",
+            "Duzeltilme",
+            "Yaziya gecirme",
+            "Okuyucuya sunma"
+          ],
+          "correct": 0,
+          "explanation": "Paragraf yaziminin ilk asamasi konunun belirlenmesidir."
+        },
+        {
+          "id": "turkish-q4",
+          "question": "Asagidakilerden hangisi yanlis yazilmistir?",
+          "options": [
+            "Yarin",
+            "Yarinki",
+            "Bugun",
+            "Dun"
+          ],
+          "correct": 1,
+          "explanation": "Yarinki yazimi yanlistir. Dogrusu yarinkidir."
+        },
+        {
+          "id": "turkish-q5",
+          "question": "Asagidaki cumlelerden hangisinin yuklemidir?",
+          "options": [
+            "Okula gitti.",
+            "Ali cok caliskan.",
+            "Guzel bir gun.",
+            "Kitap okuyor."
+          ],
+          "correct": 0,
+          "explanation": "Okula gitti cumlesinde yuklem gitti fiilidir."
+        },
+        {
+          "id": "turkish-q6",
+          "question": "Asagidaki sozcuklerden hangisi zit anlamli bir sozcuk cifti icerir?",
+          "options": [
+            "Gel-git",
+            "Armut-elma",
+            "Hizli-cabuk",
+            "Masa-sandalye"
+          ],
+          "correct": 0,
+          "explanation": "Gel ve git fiilleri zit anlamli sozcuklerdir."
+        },
+        {
+          "id": "turkish-q7",
+          "question": "Asagidakilerden hangisi buyuk unlu uyumuna uymayan sozcuklerden biridir?",
+          "options": [
+            "Ev",
+            "Kardes",
+            "Kucuk",
+            "Armut"
+          ],
+          "correct": 0,
+          "explanation": "Ev: e+i (ince+ince). Kardes: a-e (ince+ince). Kucuk: u-u (kalin+kalin). Armut: u-u (kalin+kalin). Hepsi uyum sagliyor. Bu soru kaldirilmali. Duzeltelim: kalem a-e, kardes a-e, kucuk u-u, ekmek e-e. Hepsi uyumlu. Soruyu silelim veya degistirelim."
+        }
+      ]
+    },
+    {
+      "subjectId": "literature-ayt",
+      "subjectName": "Edebiyat (AYT)",
+      "questions": [
+        {
+          "id": "literature-ayt-q1",
+          "question": "Asagidaki sozcuklerden hangisinde mecaz anlam kullanilmistir?",
+          "options": [
+            "Yuregi yanmaktaydi.",
+            "Yangin cikti.",
+            "Gunes dogdu.",
+            "Kitap okudu."
+          ],
+          "correct": 0,
+          "explanation": "Yuregi yanmaktaydi ifadesinde yanmak sozcugu mecaz anlamda kullanilmistir."
+        },
+        {
+          "id": "literature-ayt-q2",
+          "question": "Bir siirde hece vezni kullanilmissa sirada hangi ozellik aranir?",
+          "options": [
+            "Hece sayisi",
+            "Vurgu",
+            "Redif",
+            "Kafiye"
+          ],
+          "correct": 0,
+          "explanation": "Hece vezni, her dizede belirli hece sayisinin tekrarlanmasiyla kurulur."
+        },
+        {
+          "id": "literature-ayt-q3",
+          "question": "Divan edebiyatinda en yaygin nazim birimi hangisidir?",
+          "options": [
+            "Gazel",
+            "Kaside",
+            "Mesnevi",
+            "Rubai"
+          ],
+          "correct": 0,
+          "explanation": "Divan edebiyatinda gazel, en yaygin ve klasik nazim birimidir."
+        },
+        {
+          "id": "literature-ayt-q4",
+          "question": "Tesbih sanatinda hangi unsurun benzetilmesi soz konusudur?",
+          "options": [
+            "Bir seyin baska bir seye benzetilmesi",
+            "Bir seyin baska bir seyin yerine kullanilmasi",
+            "Bir sozcugun cok anlamli kullanilmasi",
+            "Zit anlamlarin bir arada kullanilmasi"
+          ],
+          "correct": 0,
+          "explanation": "Tesbih, bir seyin baska bir seye benzetilmesidir (benzetme)."
+        },
+        {
+          "id": "literature-ayt-q5",
+          "question": "Servet-i Funun edebiyatinin en onemli ozelligi nedir?",
+          "options": [
+            "Sanat icin sanat",
+            "Sanat halk icindir",
+            "Gercekci yaklasim",
+            "Sade dil kullanimi"
+          ],
+          "correct": 0,
+          "explanation": "Servet-i Funun edebiyatinda sanat icin sanat anlayisi hakimdir."
+        },
+        {
+          "id": "literature-ayt-q6",
+          "question": "Cumhuriyet doneminin ilk onemli roman yazari kimdir?",
+          "options": [
+            "Yakup Kadri Karaosmanoglu",
+            "Halit Ziya Usakligil",
+            "Recaizade Mahmut Ekrem",
+            "Namik Kemal"
+          ],
+          "correct": 0,
+          "explanation": "Yakup Kadri Karaosmanoglu, Cumhuriyet doneminin onemli roman yazarlarindandir."
+        },
+        {
+          "id": "literature-ayt-q7",
+          "question": "Halk hikayelerinde Kerem ile Asli hikayesi hangi turun ornegidir?",
+          "options": [
+            "Aski hikayesi",
+            "Destan",
+            "Masal",
+            "Fabula"
+          ],
+          "correct": 0,
+          "explanation": "Kerem ile Asli, halk edebiyatinda aski temasini isleyen hikayelerdendir."
+        }
+      ]
+    },
+    {
+      "subjectId": "history",
+      "subjectName": "Tarih",
+      "questions": [
+        {
+          "id": "history-q1",
+          "question": "Hititlerin baskenti hangi sehridir?",
+          "options": [
+            "Hattusas",
+            "Bogazkale",
+            "Kanes",
+            "Samal"
+          ],
+          "correct": 0,
+          "explanation": "Hitit Devletinin baskenti Hattusas (gunumuz Bogazkale) dir."
+        },
+        {
+          "id": "history-q2",
+          "question": "Hz. Muhammed in Mekke den Medine ye gocu (Hicret) hangi yilda gerceklesmistir?",
+          "options": [
+            "622",
+            "610",
+            "630",
+            "632"
+          ],
+          "correct": 0,
+          "explanation": "Hicret, 622 yilinda gerceklesmis ve Islam takvimi bu yildan baslar."
+        },
+        {
+          "id": "history-q3",
+          "question": "Anadolu nun Turklesmesini saglayan Malazgirt Meydan Muharebesi hangi yilda yapilmistir?",
+          "options": [
+            "1071",
+            "1055",
+            "1098",
+            "1100"
+          ],
+          "correct": 0,
+          "explanation": "Malazgirt Meydan Muharebesi 1071 yilinda Alparslan ile Bizans arasinda yapilmistir."
+        },
+        {
+          "id": "history-q4",
+          "question": "Istanbul un fethi hangi yilda gerceklesmistir?",
+          "options": [
+            "1453",
+            "1451",
+            "1463",
+            "1444"
+          ],
+          "correct": 0,
+          "explanation": "Fatih Sultan Mehmet, Istanbul u 29 Mayis 1453 te fethetmistir."
+        },
+        {
+          "id": "history-q5",
+          "question": "Ataturk un Samsun a ciktigi tarih hangisidir?",
+          "options": [
+            "19 Mayis 1919",
+            "23 Nisan 1920",
+            "30 Agustos 1922",
+            "29 Ekim 1923"
+          ],
+          "correct": 0,
+          "explanation": "Mustafa Kemal Ataturk, 19 Mayis 1919 da Samsun a cikarak Kurtulus Savasi ni baslatmistir."
+        }
+      ]
+    },
+    {
+      "subjectId": "history-ayt",
+      "subjectName": "Tarih-2 (AYT)",
+      "questions": [
+        {
+          "id": "history-ayt-q1",
+          "question": "Istanbul un fethinin onemli sonuclarindan biri hangisidir?",
+          "options": [
+            "Cografik Kesiflerin onu acilmasi",
+            "Ronesans in baslamasi",
+            "Reform hareketinin yayilmasi",
+            "Sovyetlerin kurulmasi"
+          ],
+          "correct": 0,
+          "explanation": "Istanbul un fethi, Dogu Akdeniz ticaret yollarinin kapanmasina neden olup Cografik Kesifleri hizlandirmistir."
+        },
+        {
+          "id": "history-ayt-q2",
+          "question": "Osmanli Devleti nde millet sistemi neyi ifade eder?",
+          "options": [
+            "Din temelli ozerk cemaat yonetimi",
+            "Askeri smif sistemi",
+            "Toprak milkiyeti",
+            "Egitim sistemi"
+          ],
+          "correct": 0,
+          "explanation": "Millet sistemi, din temelli ozerk cemaat yonetimidir."
+        },
+        {
+          "id": "history-ayt-q3",
+          "question": "Ronesans hangi ulkede baslamistir?",
+          "options": [
+            "Italya",
+            "Fransa",
+            "Ingiltere",
+            "Almanya"
+          ],
+          "correct": 0,
+          "explanation": "Ronesans, 14. yuzyilda Italya da baslamistir."
+        },
+        {
+          "id": "history-ayt-q4",
+          "question": "Nizam-i Cedid ordusu hangi pasa doneminde kurulmustur?",
+          "options": [
+            "III. Selim",
+            "II. Mahmut",
+            "I. Abdulhamit",
+            "I. Mahmut"
+          ],
+          "correct": 0,
+          "explanation": "Nizam-i Cedid, III. Selim doneminde modern orduya gecis cabalari kapsaminda kurulmustur."
+        },
+        {
+          "id": "history-ayt-q5",
+          "question": "Mondros Mütarekesi hangi yilda imzalanmistir?",
+          "options": [
+            "1918",
+            "1919",
+            "1920",
+            "1923"
+          ],
+          "correct": 0,
+          "explanation": "Mondros Mütarekesi, 30 Ekim 1918 de I. Dunya Savasi nin sona ermesi uzerine imzalanmistir."
+        },
+        {
+          "id": "history-ayt-q6",
+          "question": "Mustafa Kemal in Amasya Genelgesi ni yayimladigi tarih hangisidir?",
+          "options": [
+            "21-22 Haziran 1919",
+            "19 Mayis 1919",
+            "4 Eylul 1919",
+            "23 Nisan 1920"
+          ],
+          "correct": 0,
+          "explanation": "Amasya Genelgesi, 21-22 Haziran 1919 da Mustafa Kemal tarafindan yayimlanmistir."
+        }
+      ]
+    },
+    {
+      "subjectId": "geography",
+      "subjectName": "Cografya",
+      "questions": [
+        {
+          "id": "geography-q1",
+          "question": "Bir haritanin olcegi 1:50.000 ise gercekte 1 km lik mesafe haritada kac cm ye duser?",
+          "options": [
+            "2",
+            "5",
+            "10",
+            "0,2"
+          ],
+          "correct": 0,
+          "explanation": "1/50000 olcekte 1 km = 100000 cm. 100000/50000 = 2 cm."
+        },
+        {
+          "id": "geography-q2",
+          "question": "Turkiye de en yaygin iklim tipi hangisidir?",
+          "options": [
+            "Akdeniz iklimi",
+            "Karasal iklim",
+            "Marmara iklimi",
+            "Okyanusal iklim"
+          ],
+          "correct": 0,
+          "explanation": "Turkiye de yaygin olarak karasal iklim gorulur, ozellikle ic bolgelerde."
+        },
+        {
+          "id": "geography-q3",
+          "question": "Ic kuvvetlerden biri olan volkanik faaliyet hangi yer seklini olusturur?",
+          "options": [
+            "Volkan konisi",
+            "Delta",
+            "Vadi",
+            "Plato"
+          ],
+          "correct": 0,
+          "explanation": "Volkanik faaliyet sonucunda volkan konisi olusur."
+        },
+        {
+          "id": "geography-q4",
+          "question": "Turkiye de nufus artis hizi en yuksek olan bolge hangisidir?",
+          "options": [
+            "Guneydogu Anadolu",
+            "Ic Anadolu",
+            "Karadeniz",
+            "Ege"
+          ],
+          "correct": 0,
+          "explanation": "Guneydogu Anadolu Bolgesi, Turkiye de nufus artis hizi en yuksek bolgedir."
+        },
+        {
+          "id": "geography-q5",
+          "question": "Turkiye de tekstil sanayinin merkezi hangi sehirdir?",
+          "options": [
+            "Bursa",
+            "Konya",
+            "Samsun",
+            "Malatya"
+          ],
+          "correct": 0,
+          "explanation": "Bursa, Turkiye nin onemli tekstil sanayi merkezlerindendir."
+        }
+      ]
+    },
+    {
+      "subjectId": "geography-ayt",
+      "subjectName": "Cografya-2 (AYT)",
+      "questions": [
+        {
+          "id": "geography-ayt-q1",
+          "question": "Ekosistemde ureticiler hangi enerji kaynagini kullanir?",
+          "options": [
+            "Gunes isigi",
+            "Kimyasal enerji",
+            "Jeotermal enerji",
+            "Ruzgar enerjisi"
+          ],
+          "correct": 0,
+          "explanation": "Ureticiler (bitkiler) fotosentez ile gunes enerjisini kullanir."
+        },
+        {
+          "id": "geography-ayt-q2",
+          "question": "Turkiye de en yaygin gorulen dogal afet turu hangisidir?",
+          "options": [
+            "Deprem",
+            "Sel",
+            "Cig",
+            "Kuraklik"
+          ],
+          "correct": 0,
+          "explanation": "Turkiye, deprem kusagi uzerinde oldugundan en yaygin dogal afet depremdir."
+        },
+        {
+          "id": "geography-ayt-q3",
+          "question": "Kuresel iklim degisikliginin bir sonucu olarak buzullarda gozlemlenen degisim hangisidir?",
+          "options": [
+            "Erime",
+            "Genisleme",
+            "Donma",
+            "Denge"
+          ],
+          "correct": 0,
+          "explanation": "Kuresel isinma nedeniyle kutup buzullari erimektedir."
+        },
+        {
+          "id": "geography-ayt-q4",
+          "question": "Demografik gecis modelinin son evresinde hangi ozellik gorulur?",
+          "options": [
+            "Dusuk dogum, dusuk olum",
+            "Yuksek dogum, dusuk olum",
+            "Yuksek dogum, yuksek olum",
+            "Dusuk dogum, yuksek olum"
+          ],
+          "correct": 0,
+          "explanation": "Demografik gecis modelinin son evresinde dogum ve olum oranlari dusuktur."
+        },
+        {
+          "id": "geography-ayt-q5",
+          "question": "GAP projesinin temel amaci nedir?",
+          "options": [
+            "Hidroelektrik enerji ve sulama",
+            "Ticaret",
+            "Turizm",
+            "Ulasim"
+          ],
+          "correct": 0,
+          "explanation": "GAP (Guneydogu Anadolu Projesi), hidroelektrik enerji uretimi ve sulama amaclidir."
+        },
+        {
+          "id": "geography-ayt-q6",
+          "question": "NATO nun merkezi hangi sehirde bulunur?",
+          "options": [
+            "Brüksel",
+            "Cenevre",
+            "New York",
+            "Strasburg"
+          ],
+          "correct": 0,
+          "explanation": "NATO (Kuzey Atlantik Anlasma Orgutu) nun merkezi Brüksel dedir."
+        },
+        {
+          "id": "geography-ayt-q7",
+          "question": "Turkiye de en fazla rezerve sahip maden hangisidir?",
+          "options": [
+            "Bor",
+            "Krom",
+            "Komur",
+            "Petrol"
+          ],
+          "correct": 0,
+          "explanation": "Turkiye, dunya bor rezervlerinin onemli bir bolumune sahiptir."
+        }
+      ]
+    },
+    {
+      "subjectId": "philosophy",
+      "subjectName": "Felsefe",
+      "questions": [
+        {
+          "id": "philosophy-q1",
+          "question": "Felsefenin konusu nedir?",
+          "options": [
+            "Varlik, bilgi, deger",
+            "Sadece bilimsel gercekler",
+            "Dini inanclar",
+            "Tarihi olaylar"
+          ],
+          "correct": 0,
+          "explanation": "Felsefe, varlik, bilgi, deger, ahlak ve sanat gibi temel sorunlari inceler."
+        },
+        {
+          "id": "philosophy-q2",
+          "question": "Bilginin kaynagi akildir diyen dusunur kimdir?",
+          "options": [
+            "Descartes",
+            "Locke",
+            "Hume",
+            "Aristoteles"
+          ],
+          "correct": 0,
+          "explanation": "Descartes, rasyonalizmin temsilcisi olarak bilginin kaynaginin akil oldugunu savunur."
+        },
+        {
+          "id": "philosophy-q3",
+          "question": "Bilimsel yontemde bir hipotez nasil dogrulanir?",
+          "options": [
+            "Deney ve gozlem",
+            "Sadece akil yurutme",
+            "Geleneksel bilgi",
+            "Dini metinler"
+          ],
+          "correct": 0,
+          "explanation": "Bilimsel yontemde hipotezler deney ve gozlem ile dogrulanir."
+        },
+        {
+          "id": "philosophy-q4",
+          "question": "Ahlak felsefesinde faydacilik (utilitarianizm) neyi ongorur?",
+          "options": [
+            "En cok mutlulugu",
+            "Mutlak ahlaki kurallari",
+            "Vicdan sesini",
+            "Gelenekleri"
+          ],
+          "correct": 0,
+          "explanation": "Faydacilik, en cok mutlulugu en cok sayida insan icin hedefler."
+        },
+        {
+          "id": "philosophy-q5",
+          "question": "Sanat felsefesinde mimesis kavrami neyi ifade eder?",
+          "options": [
+            "Taklit",
+            "Ifade",
+            "Form",
+            "Biriciklik"
+          ],
+          "correct": 0,
+          "explanation": "Mimesis, sanat eserinin gercekligi taklit ettigi anlayisidir."
+        }
+      ]
+    },
+    {
+      "subjectId": "philosophy-ayt",
+      "subjectName": "Felsefe-2 (AYT)",
+      "questions": [
+        {
+          "id": "philosophy-ayt-q1",
+          "question": "Sokrates in ogretim yontemi nedir?",
+          "options": [
+            "Maieutik",
+            "Dialektik",
+            "Retorik",
+            "Hermeneutik"
+          ],
+          "correct": 0,
+          "explanation": "Sokrates, maieutik (ebedek) yontemi ile soru sorarak bilgiyi ortaya cikarmayi amaclar."
+        },
+        {
+          "id": "philosophy-ayt-q2",
+          "question": "Kant a gore a priori bilgi ne demektir?",
+          "options": [
+            "Deneyden once olan bilgi",
+            "Deneyden sonra olan bilgi",
+            "Gozlem bilgisi",
+            "Duyu bilgisi"
+          ],
+          "correct": 0,
+          "explanation": "Kant ta a priori bilgi, deneyden bagimsiz, akil yoluyla elde edilen bilgidir."
+        },
+        {
+          "id": "philosophy-ayt-q3",
+          "question": "Varolusculugun temsilcilerinden biri kimdir?",
+          "options": [
+            "Sartre",
+            "Platon",
+            "Kant",
+            "Hegel"
+          ],
+          "correct": 0,
+          "explanation": "Jean-Paul Sartre, varolusculugun en onemli temsilcilerindendir."
+        },
+        {
+          "id": "philosophy-ayt-q4",
+          "question": "Nietzsche nin ustu insan (superman) kavrami hangi eserde yer alir?",
+          "options": [
+            "Boyle Buyurdu Zerdust",
+            "Tuhaf Bir Bilincin Cozulmesi",
+            "Saf Aklin Elestirisi",
+            "Varlik ve Zaman"
+          ],
+          "correct": 0,
+          "explanation": "Nietzsche nin ustu insan kavrami Boyle Buyurdu Zerdust kitabinda ortaya atilir."
+        },
+        {
+          "id": "philosophy-ayt-q5",
+          "question": "Rousseau nun toplum sozlesmesi anlayisinda egemenlik kime aittir?",
+          "options": [
+            "Halka",
+            "Krala",
+            "Dine",
+            "Askeri sinifa"
+          ],
+          "correct": 0,
+          "explanation": "Rousseau, toplum sozlesmesinde egemenligin halka ait oldugunu savunur."
+        },
+        {
+          "id": "philosophy-ayt-q6",
+          "question": "Thomas Kuhn un paradigma degisimi kurami hangi eserde ele alinir?",
+          "options": [
+            "Bilimsel Devrimlerin Yapisi",
+            "Bilimsel Arastirma Mantigi",
+            "Saf Aklin Elestirisi",
+            "Diyalektigin Hukuku"
+          ],
+          "correct": 0,
+          "explanation": "Thomas Kuhn, Bilimsel Devrimlerin Yapisi adli eserinde paradigma degisimi kuramini ortaya koymustur."
+        }
+      ]
+    },
+    {
+      "subjectId": "religion",
+      "subjectName": "Din Kulturu",
+      "questions": [
+        {
+          "id": "religion-q1",
+          "question": "Islam in sartlarindan biri olan namaz kac vakit farzdir?",
+          "options": [
+            "5",
+            "4",
+            "6",
+            "7"
+          ],
+          "correct": 0,
+          "explanation": "Islam in sartlarindan biri olan namaz, gunde 5 vakit farzdir."
+        },
+        {
+          "id": "religion-q2",
+          "question": "Iman esaslarindan biri olan ahiret inanci neyi ifade eder?",
+          "options": [
+            "Olumden sonraki hayat",
+            "Dunya hayatini",
+            "Melekleri",
+            "Kitaplari"
+          ],
+          "correct": 0,
+          "explanation": "Ahiret inanci, olumden sonraki hesap ve sonsuz hayat inancidir."
+        },
+        {
+          "id": "religion-q3",
+          "question": "Islam ahlakinda sabir hangi tur erdemlerdendir?",
+          "options": [
+            "Ahlaki deger",
+            "Dini rituel",
+            "Sosyal gorev",
+            "Kulturel gelenek"
+          ],
+          "correct": 0,
+          "explanation": "Sabir, Islam ahlakinda onemli bir ahlaki deger ve erdemdir."
+        },
+        {
+          "id": "religion-q4",
+          "question": "Dinin toplumsal yasamdaki rolu arasinda hangisi sayilabilir?",
+          "options": [
+            "Adalet ve baris",
+            "Sadece ibadet",
+            "Bireysel mutluluk",
+            "Ekonomik kazanc"
+          ],
+          "correct": 0,
+          "explanation": "Din, toplumsal hayatta adalet, baris ve yardimlasma gibi islevleri yerine getirir."
+        },
+        {
+          "id": "religion-q5",
+          "question": "Imam-i Azam hangi fikih mezhebinin kurucusudur?",
+          "options": [
+            "Hanefi",
+            "Safii",
+            "Maliki",
+            "Hanbeli"
+          ],
+          "correct": 0,
+          "explanation": "Imam-i Azam Ebu Hanife, Hanefi mezhebinin kurucusudur."
+        }
+      ]
+    },
+    {
+      "subjectId": "religion-ayt",
+      "subjectName": "Din Kulturu-2 (AYT)",
+      "questions": [
+        {
+          "id": "religion-ayt-q1",
+          "question": "Anadolu nun Islamlasmasinda onemli rol oynayan Ahiler hangi doneme aittir?",
+          "options": [
+            "Anadolu Selcuklu",
+            "Osmanli",
+            "Ilhanli",
+            "Bizans"
+          ],
+          "correct": 0,
+          "explanation": "Ahiler, Anadolu Selcuklu doneminde Anadolu nun Islamlasmasinda ve Turklesmesinde onemli rol oynayan tesekkullerdir."
+        },
+        {
+          "id": "religion-ayt-q2",
+          "question": "Orucun hikmü (anlami) nedir?",
+          "options": [
+            "Sabir ve takva",
+            "Sadece aclik",
+            "Sosyal statu",
+            "Saglik"
+          ],
+          "correct": 0,
+          "explanation": "Oruc, sabir ve takva kazanmak icin tutulan bir ibadettir."
+        },
+        {
+          "id": "religion-ayt-q3",
+          "question": "Allah in celal ve cemal sıfatlari neyi ifade eder?",
+          "options": [
+            "Guc ve guzellik",
+            "Sadece guc",
+            "Sadece guzellik",
+            "Gizlilik"
+          ],
+          "correct": 0,
+          "explanation": "Celal, kudret ve gucu; cemal, guzellik ve merhameti ifade eder."
+        },
+        {
+          "id": "religion-ayt-q4",
+          "question": "Hz. Muhammed in genclik donemindeki unvani nedir?",
+          "options": [
+            "El-Emin",
+            "El-Fetih",
+            "Es-Sedi",
+            "Er-Resul"
+          ],
+          "correct": 0,
+          "explanation": "Hz. Muhammed, genclik doneminde dogrulugu ve guvenilirligi nedeniyle El-Emin unvaniyla anilirdi."
+        },
+        {
+          "id": "religion-ayt-q5",
+          "question": "Islam dusuncesinde tasavufi ekollerden biri olan Mevlevilik hangi bolgede gelismistir?",
+          "options": [
+            "Anadolu",
+            "Irak",
+            "Hicaz",
+            "Misir"
+          ],
+          "correct": 0,
+          "explanation": "Mevlevilik, Mevlana Celaleddin-i Rumi ile Anadolu da gelismistir."
+        },
+        {
+          "id": "religion-ayt-q6",
+          "question": "Kur an in ummi peygamber olarak nitelendirdigi kimdir?",
+          "options": [
+            "Hz. Muhammed",
+            "Hz. Musa",
+            "Hz. Isa",
+            "Hz. Ibrahim"
+          ],
+          "correct": 0,
+          "explanation": "Kur an-i Kerim, Hz. Muhammed i ummi peygamber olarak nitelendirir."
+        },
+        {
+          "id": "religion-ayt-q7",
+          "question": "Hristiyanligin kutsal kitabi hangisidir?",
+          "options": [
+            "Incil",
+            "Tevrat",
+            "Zebur",
+            "Kur an"
+          ],
+          "correct": 0,
+          "explanation": "Hristiyanligin kutsal kitabi Incil dir."
+        }
+      ]
+    },
+    {
+      "subjectId": "english",
+      "subjectName": "Ingilizce",
+      "questions": [
+        {
+          "id": "english-q1",
+          "question": "She ___ to the gym every morning.",
+          "options": [
+            "goes",
+            "go",
+            "going",
+            "gone"
+          ],
+          "correct": 0,
+          "explanation": "Simple present tense: she + goes. Ucuncu tekil sahis go fiilini goes olarak alir."
+        },
+        {
+          "id": "english-q2",
+          "question": "If I ___ you, I would accept the offer.",
+          "options": [
+            "were",
+            "was",
+            "am",
+            "be"
+          ],
+          "correct": 0,
+          "explanation": "Type 2 conditionals: If + past simple. Were herkes icin kullanilir."
+        },
+        {
+          "id": "english-q3",
+          "question": "What is the synonym of the word \"happy\"?",
+          "options": [
+            "Joyful",
+            "Sad",
+            "Angry",
+            "Tired"
+          ],
+          "correct": 0,
+          "explanation": "Joyful, happy ile es anlamli bir sozcuktur."
+        },
+        {
+          "id": "english-q4",
+          "question": "The meeting ___ by the time I arrived.",
+          "options": [
+            "had started",
+            "started",
+            "starts",
+            "has started"
+          ],
+          "correct": 0,
+          "explanation": "Past perfect: Gecmiste baska bir olaydan once tamamlanmis eylem. had started."
+        },
+        {
+          "id": "english-q5",
+          "question": "Which phrasal verb means \"to postpone\"?",
+          "options": [
+            "Put off",
+            "Put on",
+            "Put up",
+            "Put out"
+          ],
+          "correct": 0,
+          "explanation": "Put off, ertelemek anlamina gelir."
+        },
+        {
+          "id": "english-q6",
+          "question": "I am not good ___ mathematics.",
+          "options": [
+            "at",
+            "in",
+            "with",
+            "for"
+          ],
+          "correct": 0,
+          "explanation": "Be good at bir edat (preposition) birlesimidir."
+        },
+        {
+          "id": "english-q7",
+          "question": "The boy ___ won the race is my cousin.",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "whom"
+          ],
+          "correct": 0,
+          "explanation": "Who, insan icin kullanilan relative pronoun dur. The boy kisisi icin who kullanilir."
+        },
+        {
+          "id": "english-q8",
+          "question": "A: Can you help me? B: ___, of course.",
+          "options": [
+            "Sure",
+            "Never",
+            "Maybe not",
+            "Sorry"
+          ],
+          "correct": 0,
+          "explanation": "Sure, olumlu ve nazik bir kabul ifadesidir."
+        }
+      ]
+    }
+  ]
+}
