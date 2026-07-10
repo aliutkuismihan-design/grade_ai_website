@@ -1,5 +1,4 @@
 import { setRequestLocale } from 'next-intl/server';
-import dynamic from 'next/dynamic';
 import Navbar from '@/components/Navbar';
 import ScrollVideoBackground from '@/components/ScrollVideoBackground';
 import Hero from '@/components/Hero';
@@ -18,13 +17,12 @@ import cambridge from '@/data/curriculum/cambridge.json';
 import eos from '@/data/curriculum/eos.json';
 
 // Lazy-load heavy sections for better mobile performance
-const InteractiveDemo = dynamic(() => import('@/components/InteractiveDemo'), { ssr: false });
-const GradeLevels = dynamic(() => import('@/components/GradeLevels'), { ssr: false });
-const CurriculumHub = dynamic(() => import('@/components/CurriculumHub'), { ssr: false });
+import { InteractiveDemo, GradeLevels, CurriculumHub } from '@/components/LazySections';
 
 const systems = [yks, alevel, delf, cambridge, eos] as unknown as CurriculumData[];
 
-export default function Home({ params: { locale } }: { params: { locale: string } }) {
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
   setRequestLocale(locale);
 
   return (

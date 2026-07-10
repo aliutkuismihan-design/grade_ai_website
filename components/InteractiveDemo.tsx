@@ -10,7 +10,7 @@ type Phase = 'idle' | 'processing' | 'done';
 export default function InteractiveDemo() {
   const t = useTranslations('demo');
   const [phase, setPhase] = useState<Phase>('idle');
-  const timer = useRef<ReturnType<typeof setTimeout>>();
+  const timer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
 
   useEffect(() => () => clearTimeout(timer.current), []);
 
