@@ -1,6 +1,7 @@
 import { setRequestLocale } from 'next-intl/server';
 import dynamic from 'next/dynamic';
 import Navbar from '@/components/Navbar';
+import ScrollVideoBackground from '@/components/ScrollVideoBackground';
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
 import Security from '@/components/Security';
@@ -28,6 +29,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
 
   return (
     <>
+      <ScrollVideoBackground />
       <Navbar />
       <main>
         <Hero />
