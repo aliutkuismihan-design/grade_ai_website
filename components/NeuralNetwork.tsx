@@ -26,9 +26,8 @@ export default function NeuralNetwork({ className = '' }: { className?: string }
     window.addEventListener('resize', check);
     return () => window.removeEventListener('resize', check);
   }, []);
-  if (isMobile) return null;
-
   useEffect(() => {
+    if (isMobile) return;
     const canvas = canvasRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
@@ -150,7 +149,9 @@ export default function NeuralNetwork({ className = '' }: { className?: string }
       window.removeEventListener('mouseout', onLeave);
       window.removeEventListener('resize', resize);
     };
-  }, []);
+  }, [isMobile]);
+
+  if (isMobile) return null;
 
   return (
     <canvas
