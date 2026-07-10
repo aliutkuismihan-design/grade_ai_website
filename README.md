@@ -4,7 +4,11 @@ Animated landing page for the **GradeAI** app. Standalone from the Flutter app.
 
 - **Framework:** Next.js 14 (App Router) + TypeScript
 - **Styling:** Tailwind CSS — "Aurora Academia" dark theme
-- **Animation:** Framer Motion + CSS keyframes
+- **Signature visual:** "Quantum Grade Field" — a live Higgs-field particle
+  animation (`components/HiggsField.tsx`, canvas) layered over a Higgsfield-AI
+  generated hero loop. Knowledge particles drift and link; periodic amber
+  "condensation" flares represent work crystallizing into a grade.
+- **Animation:** Framer Motion + CSS keyframes + canvas particle field
 - **i18n:** next-intl with URL locale prefixes (`/en`, `/fr`, `/tr`, `/es`), default English
 - **Icons:** lucide-react
 - **Hosting:** **Railway** — Node.js server build (`output: 'standalone'`)

@@ -7,17 +7,38 @@ import MagneticButton from './MagneticButton';
 import DownloadButtons from './DownloadButtons';
 import HeroScene from './HeroScene';
 import TypingText from './TypingText';
-import NeuralNetwork from './NeuralNetwork';
+import HiggsField from './HiggsField';
+
+// "Quantum Grade Field" hero visuals generated with Higgsfield AI.
+//  - HIGGS_ART:   still hero art (nano_banana_pro) — used as the video poster.
+//  - HIGGS_LOOP:  seamless animated loop (kling3_0_turbo) animating that art.
+const HIGGS_ART =
+  'https://d8j0ntlcm91z4.cloudfront.net/user_3FImhQ6WllJadHNcJJBy5dO7E68/hf_20260710_011153_e73c7d66-7126-4ae0-a4ce-4902d82b7139.png';
+const HIGGS_LOOP =
+  'https://d8j0ntlcm91z4.cloudfront.net/user_3FImhQ6WllJadHNcJJBy5dO7E68/hf_20260710_011659_8d46b21e-9321-4c75-b0c2-5cca6f608996.mp4';
 
 export default function Hero() {
   const t = useTranslations('hero');
 
   return (
     <section className="aurora-mesh relative overflow-hidden">
-      <div className="absolute inset-0 bg-aurora-bg/40" />
+      {/* Higgsfield AI animated backdrop — the generated Higgs-field loop, with the
+          still art as its poster; sits behind the live interactive particle field. */}
+      <video
+        className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-40 mix-blend-screen"
+        autoPlay
+        muted
+        loop
+        playsInline
+        poster={HIGGS_ART}
+        aria-hidden
+      >
+        <source src={HIGGS_LOOP} type="video/mp4" />
+      </video>
+      <div className="absolute inset-0 bg-gradient-to-b from-aurora-bg/50 via-aurora-bg/40 to-aurora-bg/80" />
 
-      {/* Higgs Field AI neural-network layer (reacts to the mouse) */}
-      <NeuralNetwork className="absolute inset-0 z-[1]" />
+      {/* Live "Quantum Grade Field" — Higgs-field particle animation (mouse-reactive) */}
+      <HiggsField className="absolute inset-0 z-[1]" />
 
       <div className="relative z-10 mx-auto flex min-h-screen max-w-6xl flex-col items-center gap-12 px-5 pb-16 pt-32 md:flex-row md:pt-28">
         {/* Copy */}
